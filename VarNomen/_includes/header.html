@@ -14,8 +14,8 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
             
             <ul class="nav navbar-nav nav-tabs ">
-                <li><a href="#">Recommendations</a></li>
-                <li><a href="#">Background</a></li>
+                <li><a href="{{ site.baseurl }}/recommendations">Recommendations</a></li>
+                <li><a href="{{ site.baseurl }}/bg-material">Background Material</a></li>
                 <li><a href="#">Recent Additions</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
@@ -51,16 +51,6 @@
             </div>
     
         </div>
-    </nav>
-
-    <nav class="site-nav">
-        <div class="trigger">
-            {% for my_page in site.pages %}
-                {% if my_page.title %}
-                    <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                {% endif %}
-            {% endfor %}
-         </div>
     </nav>
 
 </header>
