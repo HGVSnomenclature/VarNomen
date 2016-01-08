@@ -17,11 +17,15 @@ layout: default
 <hr>
 
 <div class="container-fluid">
-    {% for cat in site.recommendations %}
+    <h2>Current Recommendations</h2>
+    {% assign sorted_recs = site.recommendations | sort: "order" %}
+    {% for cat in sorted_recs %}
     <!-- create a panel for every category in recommendations -->
-        <div class="panel panel-default">
-            {{ page.title }}
+        {% if (cat.title != "Recommendations") and cat.title %}
+        <div class="panel panel-default col-md-offset-1 col-md-3 text-center">
+            <h3><a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title}}</a></h3>
         </div>
+        {% endif %}
     {% endfor %}
 </div>
 

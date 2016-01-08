@@ -15,12 +15,16 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 collections:
     recommendations:
         output: true
+        permalink: /recommendations/:path/
     bg-material:
         output: true
+        permalink: /bg-material/:path/
     recent:
         output: true
+        permalink: /recent/:path/
     contact:
         output: true
+        permalink: /contact/:path/
 
 # Build settings
 markdown: kramdown
