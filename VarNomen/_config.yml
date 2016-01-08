@@ -12,6 +12,12 @@ description: > # this means to ignore newlines until "baseurl:"
     HGVS / HVP / HUGO Sequent Variant Nomenclature
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+collections:
+- recommendations:
+    path: "" # i.e. all files in /recommendations
+    type: recommendations
+    values:
+        layout: rec 
 
 # Build settings
 markdown: kramdown
