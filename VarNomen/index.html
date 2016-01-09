@@ -23,7 +23,7 @@ layout: default
     <!-- create a panel for every category in recommendations -->
         {% if (cat.title != "Recommendations") and cat.title %}
         <div class="panel panel-default col-md-offset-1 col-md-3 text-center">
-            <h3><a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title}}</a></h3>
+            <h3><a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a></h3>
         </div>
         {% endif %}
     {% endfor %}

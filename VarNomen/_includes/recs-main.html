@@ -1,0 +1,56 @@
+<div class="col-sm-10 recs-main">
+    <div class="recs-title">
+        <h1>{{ page.title }} <small>{{ sorted[0].title }}</small></h1>
+    </div>
+
+    <hr>
+    
+    <div class="recs-body">
+        <div class="variant">
+            <h2>Variants</h2>
+        </div>
+        
+        {% if page.variant %}
+            {% for var in page.variant %}
+        <div class="substitution panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{ var[0] | capitalize }}</h3>
+            </div>
+            <div class="panel-body">
+                {{ var[1] }}
+            </div>
+        </div>
+            {% endfor %}
+        {% endif %}
+
+        <div class="definition">
+            <h2>Definitions</h2>
+        </div>
+
+        <div class="definition panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Definition</h3>
+            </div>
+            <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quo corrupti esse, aut exercitationem provident aspernatur saepe ad! Quidem voluptatum esse eos possimus aliquam nihil tenetur. Ipsum tempore commodi neque animi eligendi veniam nemo impedit in illum asperiores dignissimos quia, explicabo fuga et, consectetur suscipit iure eveniet esse nihil possimus accusamus quae? Dolor, consectetur dolorum, reprehenderit necessitatibus quibusdam molestias modi officiis alias, facere quae mollitia unde. Iste facilis molestias fugit, natus placeat, quidem, ipsam deleniti veritatis quo magni quisquam, tempora consectetur provident quam veniam soluta tenetur sequi dolor. Quibusdam at enim laboriosam, voluptas pariatur debitis unde vero odio inventore eius.
+            </div>
+        </div>
+
+        {% if page.discussion %}
+            <div class="discussion">
+                <h2>Discussion</h2>
+            </div>
+            {% for qa in page.discussion %}
+                <!-- assigns id according to number question in forloop (0 indexed) -->
+                <div class="panel panel-default" id="question{{ forloop.index0 }}">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{ qa[0] | capitalize }}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {{ qa[1] }}
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>

@@ -2,38 +2,20 @@
 layout: default
 title: DNA
 order: 2
+permalink: /recommendations/DNA/
+
+discussion: 
+    Question 1: Answer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptatum repellendus cumque aliquid deserunt distinctio ipsum praesentium accusamus, possimus sed. Dignissimos delectus nobis neque explicabo, fugit nulla et hic minima repellendus illum aliquid magni temporibus nisi voluptate eius, accusamus commodi ipsum libero expedita ab molestiae totam? Veniam fugiat inventore, nemo, perspiciatis facere ab fugit incidunt beatae quo delectus in odio expedita praesentium. Ratione ex a quas recusandae expedita omnis quam id cum, laboriosam sunt amet nostrum odit dolorum officia fugiat cupiditate quia laudantium repudiandae earum minima porro autem libero nemo accusantium. Amet cupiditate voluptatibus neque reprehenderit. Repellendus molestias impedit, quasi!
+
+    Question 2: Answer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, at. Autem dolorum dolor, dolorem molestiae fugit rerum sapiente magnam ullam similique temporibus fugiat vero exercitationem. Exercitationem non soluta tempore praesentium doloremque debitis omnis molestiae atque voluptate perspiciatis possimus rem, odio voluptatem dolorum delectus earum magnam dolorem. Quaerat, eum nihil voluptatibus!
 ---
 
 <div class="container-fluid">
-    <div class="col-sm-2 well" id="sidemenu">
-        <h4>Links</h4>
-        <ul>
-            {% assign sorted_recs = site.recommendations | sort: "order" %}
-            {% for cat in sorted_recs %}
-            <!-- create a list item for every category in recommendations -->
-                {% if (cat.title != "Recommendations") and cat.title %}
-                <!-- TODO differentiate link that is to current page -->
-                    <li>
-                        <a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-
-    <div class="col-sm-10 main">
-        <div class="title">
-            <h1>{{ page.title }}</h1>
-        </div>
-        
-        <div class="body">
-            <div class="variant">
-                <h2>Variant</h2>
-            </div>
-
-        </div>
-    </div>
-
-        
     
-</div>
+{% assign sorted = site.recommendations | sort: "order" %}
+
+{% include sidemenu.html category=sorted %}
+
+{% include recs-main.html %}
+
+</div> <!-- container-fluid -->

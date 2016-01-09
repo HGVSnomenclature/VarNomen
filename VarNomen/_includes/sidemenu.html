@@ -1,0 +1,15 @@
+<div class="col-sm-2 well" id="sidemenu">
+    <h4>Links</h4>
+    <ul>
+        {% for cat in include.category %}
+        <!-- create a list item for every category in recommendations -->
+            {% if (cat.title != "Recommendations") and cat.title %}
+            <!-- TODO differentiate link that is to current page -->
+            <!-- TODO change "Recommendations" above -->
+                <li>
+                    <a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
