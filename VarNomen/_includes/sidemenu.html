@@ -1,9 +1,9 @@
 <div class="col-sm-2 well" id="sidemenu">
     <h4>Links</h4>
     <ul>
-        {% for cat in include.category %}
         <!-- create a list item for every category in recommendations -->
-            {% if (cat.title != "Recommendations") and cat.title %}
+        {% for cat in include.category %}
+            {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
             <!-- TODO differentiate link that is to current page -->
             <!-- TODO change "Recommendations" above -->
                 <li>

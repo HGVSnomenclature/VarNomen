@@ -8,10 +8,10 @@
 # Site settings
 title: Sequence Variant Nomenclature
 email: VarNomen @ HGVS.org
-description: > # this means to ignore newlines until "baseurl:"
+description: >  # this means to ignore newlines until "baseurl:"
     HGVS / HVP / HUGO Sequent Variant Nomenclature
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com"  # the base hostname & protocol for your site
 collections:
     recommendations:
         output: true
@@ -25,6 +25,13 @@ collections:
     contact:
         output: true
         permalink: /contact/:path/
+variant-priority:   # used when generating order of variants in site structure and display
+    - substitution
+    - deletion
+    - inversion
+    - duplication
+    - conversion
+    - insertion
 
 # Build settings
 markdown: kramdown
