@@ -1,14 +1,41 @@
-<div class="col-sm-2 well" id="sidemenu">
+<div class="col-md-2 well" id="sidemenu">
     <h4>Links</h4>
-    <ul>
+    <ul class="list-unstyled">
         <!-- create a list item for every category in recommendations -->
         {% for cat in include.category %}
-            {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
+            {% if (cat.title != "Recommendations") and cat.title %}
             <!-- TODO differentiate link that is to current page -->
             <!-- TODO change "Recommendations" above -->
-                <li>
-                    <a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
-                </li>
+                {% unless cat.parent %}
+                    <li>
+                        <a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
+                    </li>
+
+                    <!-- Variant links -->
+                    {% for var in site.variant-priority %}
+                        {% for cat2 in include.category %}
+                            {% if var == cat2.title and cat2.parent == cat.title %}
+                            <ul>
+                                <li id="{{ cat2.parent }}">
+                                    <a href="#{{ cat2.title }}">{{ cat2.title | capitalize }}</a>
+                                </li>
+                            </ul>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+
+                    <!-- Definition link -->
+                    {% if cat.definition %}
+                        <ul><li><a href="#definition">Definitions</a></li></ul>
+                    {% endif %}
+
+                    <!-- Discussion link -->
+                    {% if cat.discussion %}
+                        <ul><li><a href="#discussion">Discussion</a></li></ul>
+                    {% endif %}
+
+
+                {% endunless %}
             {% endif %}
         {% endfor %}
     </ul>
