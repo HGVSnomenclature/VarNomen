@@ -17,14 +17,32 @@ layout: default
 <hr>
 
 <div class="container-fluid">
-    <h2>Current Recommendations</h2>
-    {% assign sorted_recs = site.recommendations | sort: "order" %}
-    {% for cat in sorted_recs %}
-    <!-- create a panel for every category in recommendations -->
-        {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
-        <div class="panel panel-default col-md-offset-1 col-md-3 text-center">
-            <h3><a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a></h3>
-        </div>
-        {% endif %}
-    {% endfor %}
+    <div class="row">
+        <h2>Current Recommendations</h2>
+        {% assign sorted_recs = site.recommendations | sort: "order" %}
+        {% for cat in sorted_recs %}
+        <!-- create a panel for every category in recommendations -->
+            {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-sm-offset-1 col-sm-3 text-center btn btn-default btn-lg hidden-sm hidden-xs"><h3>{{ cat.title }}</h3></a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-xs-offset-1 col-xs-5 text-center btn btn-default btn-sm hidden-md hidden-lg">{{ cat.title }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <hr>
+    
+    <div class="row">
+        <h2>Background Material</h2>
+        {% assign sorted_bg = site.bg-material | sort:order %}
+        {% for cat in sorted_bg %}
+        <!-- create a panel for every category in bg-material -->
+            {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-sm-offset-1 col-sm-3 text-center btn btn-default btn-lg hidden-sm hidden-xs"><h3>{{ cat.title }}</h3></a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-xs-offset-1 col-xs-5 text-center btn btn-default btn-sm hidden-md hidden-lg">{{ cat.title }}</a>
+            {% endif %}
+        {% endfor %}
+
+        
+    </div>
+
 </div>

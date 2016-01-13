@@ -4,8 +4,6 @@
         <!-- create a list item for every category in recommendations -->
         {% for cat in include.category %}
             {% if (cat.title != "Recommendations") and cat.title %}
-            <!-- TODO differentiate link that is to current page -->
-            <!-- TODO change "Recommendations" above -->
                 {% unless cat.parent %}
                     <li>
                         <a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
