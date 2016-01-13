@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
-    <script src="{{ "/js/jquery-1.12.0.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    {% if page.main %}
+    <link rel="stylesheet" href="{{ "/css/slick.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/slick-theme.css" | prepend: site.baseurl }}">
+    {% endif %}
+
+    <script type="text/javascript" src="{{ "/js/jquery-1.12.0.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+    {% if page.main %}
+    <script type="text/javascript" src="{{ "/js/slick.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/js/carousel.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     
 </head>

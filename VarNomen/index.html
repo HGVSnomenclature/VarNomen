@@ -1,16 +1,24 @@
 ---
 layout: default
+main: true
 ---
 
 <div class="container">
     <div class="jumbotron">
         <h1>Sequence Variant Nomenclature</h1>
-        <div class="well">
-            Placeholder for carousel
-            <br>
-            <br>
-            <br>
-        </div>
+        
+            <div class="carousel">
+                <div>
+                    <div class="well">Page 1</div>
+                </div>
+                <div>
+                    <div class="well">Page 2</div>
+                </div>
+                <div>
+                    <div class="well">Page 3</div>
+                </div>
+            </div>
+
     </div>
 </div>
 
@@ -33,7 +41,7 @@ layout: default
     
     <div class="row">
         <h2>Background Material</h2>
-        {% assign sorted_bg = site.bg-material | sort:order %}
+        {% assign sorted_bg = site.bg-material | sort: "order" %}
         {% for cat in sorted_bg %}
         <!-- create a panel for every category in bg-material -->
             {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
@@ -42,7 +50,6 @@ layout: default
             {% endif %}
         {% endfor %}
 
-        
     </div>
 
 </div>
