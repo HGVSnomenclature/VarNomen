@@ -2,7 +2,7 @@
 
 1. Install [jekyll](http://jekyllrb.com/docs/installation/)
 2. Start cmd with Ruby and navigate to folder dir
-3. Run command "jekyll serve --baseurl '' --watch"
+3. Run command `jekyll serve --baseurl "" --watch`
 4. Browser URL: localhost:4000
 
 ##Recommendation pages:
