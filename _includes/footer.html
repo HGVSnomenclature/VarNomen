@@ -2,7 +2,7 @@
     <hr>
     <div class="container-fluid">
         <div class="col-md-offset-1 col-md-3 well" id="ext-links">
-            External Links:
+            <h4>External Links</h4>
             <ul class="list-unstyled">
                 <li><a href="http://www.hgvs.org/">Human Genome Variation Society</a></li>
                 <li><a href="http://www.humanvariomeproject.org/">Human Variome Project</a></li>
@@ -11,7 +11,7 @@
         </div>
 
         <div class="col-md-offset-1 col-md-2 well" id="history">
-            History:
+            <h4>History</h4>
             <ul class="list-unstyled">
                 <li><a href="{{ site.baseurl }}/history">History</a></li>
                 <li><a href="{{ site.baseurl }}/versioning">Versioning</a></li>
@@ -19,9 +19,9 @@
         </div>
 
         <div class="col-md-offset-1 col-md-3 well" id="contact">
-            Contact Us <br>
-            <ul>
-                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <h4>Contact Us</h4>
+            <ul class="list-unstyled">
+                {% include contact.html %}
             </ul>
         </div>
     </div> <!-- container-fluid -->

@@ -19,11 +19,20 @@
                         {% if var == passage.title and passage.parent %}
                             <div class="panel panel-default" id="{{ passage.title | downcase }}">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">{{ passage.title | capitalize }}</h3>
+                                    <h3>{{ passage.title | capitalize }}</h3>
                                 </div>
                                 <div class="panel-body">
                                     {{ passage.content }}
                                 </div>
+                                
+                                {% for example in include.category %}
+                                    {% if example.parent == passage.title %}
+                                <div class="panel-footer">
+                                    <h4>Examples</h4>
+                                    {{ example.content }}
+                                </div>
+                                    {% endif %}
+                                {% endfor %}
                             </div>
                         {% endif %}
                     {% endfor %}
