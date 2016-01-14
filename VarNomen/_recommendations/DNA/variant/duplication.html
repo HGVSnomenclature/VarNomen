@@ -1,0 +1,82 @@
+---
+parent: DNA
+title: duplication
+---
+
+<p>Duplications are designated by <i><b>"dup"</b></i> after an indication
+      of the first and last nucleotide(s) duplicated. It should be noted that
+      the description<strong> <em>"dup"</em></strong> (<em><a href="standards.html#define">see
+          Standards</a></em>) may <strong><em>by definition</em></strong> only
+      be used when the sequence copy is directly 3'-flanking the original
+      copy.&nbsp; For all descriptions the <em><b>most 3' position</b></em>
+      possible is arbitrarily assigned to have been changed. For the addition of
+      more then 1 copy (3, 4, 5, etc.) <i><a href="#var">see Repeated sequences</a></i>
+      and<em> <a href="disc.html#tri">see Discussion</a>.</em><br>
+      <i><b>NOTE: </b>to discriminate known variable sequences from other
+        changes it is recommended to describe individual alleles differing from
+        the reference sequence like g.210T[5] (preferred over g.215_216del) or
+        g.210T[9] (preferred over g.215_216dup) </i>(<i><a href="#var">see
+          Repeated sequences</a></i>).&nbsp; </p>
+    <ul>
+      <li>duplicating insertions should be described as duplications (<a href="disc.html#dupins"><i>see
+            Discussion</i></a>)
+        <ul>
+          <li>g.5dupT (or g.5dup, <em>not g.5_6insT</em>) denotes a duplication
+            (<i>"insertion"</i>) of the T nucleotide at position 5 in the
+            genomic reference sequence changing ACTCTGTGCC to ACTCT<u><strong>T</strong></u>GTGCC</li>
+          <li>g.7dupT (or g.7dup, <em>not g.5dupT, not g.7_8insT</em>) denotes
+            a duplication (<i>"insertion"</i>) of the T nucleotide at position 7
+            in the genomic reference sequence changing AGACTTTGTGCC to AGACTTT<u><strong>T</strong></u>GTGCC</li>
+          <li>g.7_8dup (or g.7_8dupTG, <em>not g.5_6dup, not g.8_9insTG</em>)
+            denotes a TG duplication in the TG-tandem repeat sequence changing
+            ACTTTGTGCC to ACTTTGTG<strong><u>TG</u></strong>CC</li>
+          <li>g.7_8[4] (or g.5_6[4], or g.5TG[4], <em>not g.7_10dup</em>) is
+            the preferred description of&nbsp; the addition of two extra TG's to
+            the variable TG repeated sequence changing ACTTTGTGCC to ACTTTGTG<strong><u>TGTG</u></strong>CC
+            (<i><a href="#var">see Repeated sequences</a></i>)</li>
+        </ul>
+      </li>
+      <li>c.77_79dup (or c.77_79dupCTG) denotes that the three nucleotides 77 to
+        79 are duplicated (present twice)</li>
+      <li>duplications with <em><strong>uncharacterised breakpoints</strong></em>
+        (<i><a href="file:///Users/Boomheide/Files/WWW/HGVS/uncertain.html">see
+            Uncertainties</a></i>) </li>
+      <ul>
+        <li>c.(87+1_88-1)_(301+1_302-1)dup denotes a duplication of exons 3 to 4
+          starting at an unknown position in intron 2 (between coding DNA
+          nucleotides 87+1 and 88-1) and ending at an unknown position in intron
+          5 (between coding DNA nucleotides 301+1 and 302-1). The description
+          indicates that exons 2 and 5 have been tested and shown not to be
+          duplicated<br>
+          <span style="font-weight: bold; font-style: italic;">NOTE:</span> the
+          description c.88-?_301+?dup does not specify start/end of the
+          duplication and is not correct when flanking sequences have been
+          tested <em><strong></strong></em> (<i><a href="http://www.hgvs.org/mutnomen/uncertain.html#exondel">see
+              Uncertainties</a></i>)<br>
+          <em><strong>NOTE:</strong> the description<strong> "dup"</strong> (<a
+              href="standards.html#define">see
+              Standards</a>) may <strong>by definition</strong> only be used
+            when the additional copy is directly 3'-flanking of the original
+            copy (tandem duplication). In many cases there will be <strong>no
+              experimental proof</strong>, the additional copy may be anywhere
+            in the genome (i.e. inserted / transposed). It has been suggested
+            that, unless there is experimental evidence, exonic duplications
+            should be described using the format, i.e. c.88-?_301+?<b>(2)</b> (<a
+              href="recs-DNA.html#var">see
+              Recommendations</a>).</em></li>
+        <li><a name="tri"></a><i><img src="new.gif" border="0" height="12" width="31"></i>c.(1031+1_1032-1)_(1357+1_1358+1)(3)&nbsp;
+          denotes the presence of two additional copies of an exon, starting at
+          an unknown position in the flanking upstream intron (upstream of
+          coding DNA nucleotide 1032) and ending at an unknown position in the
+          flanking downstram intron (downstream of coding DNA nucleotide 1357).
+          The description, using "(3)" indicates there is no proof that the
+          three copies are in tandem<i> (<a href="#var">see Repeated sequences</a>,
+          </i><em><a href="uncertain.html">see Uncertainties</a></em>)</li>
+        <li><i><img src="new.gif" border="0" height="12" width="31"></i>c.(1031+1_1032-1)_(1357+1_1358+1)[3]&nbsp;
+          denotes a <b>direct triplication</b> of an exon, starting at an
+          unknown position in the flanking upstream intron (upstream of coding
+          DNA nucleotide 1032) and ending at an unknown position in the flanking
+          downstram intron (downstream of coding DNA nucleotide 1357)<i> (<a href="#var">see
+              Repeated sequences</a>)</i></li>
+      </ul>
+    </ul>

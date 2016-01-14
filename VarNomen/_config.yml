@@ -1,0 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Sequence Variant Nomenclature
+email: VarNomen @ HGVS.org
+description: >  # this means to ignore newlines until "baseurl:"
+    HGVS / HVP / HUGO Sequent Variant Nomenclature
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com"  # the base hostname & protocol for your site
+collections:
+    recommendations:
+        output: true
+        permalink: /recommendations/:path/
+    bg-material:
+        output: true
+        permalink: /bg-material/:path/
+    recent:
+        output: true
+        permalink: /recent/:path/
+    contact:
+        output: true
+        permalink: /contact/:path/
+variant-priority:   # used when generating order of variants in site structure and display
+    - substitution
+    - deletion
+    - inversion
+    - duplication
+    - conversion
+    - insertion
+    - deletion/ insertion (indel)  # check 
+    - translocation               # check
+    - more changes in one chromosome
+    - repeated sequences
+    - complex
+
+# Build settings
+markdown: kramdown

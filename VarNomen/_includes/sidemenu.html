@@ -1,0 +1,46 @@
+<div class="col-md-2 well" id="sidemenu">
+    <h4>Links</h4>
+        <!-- create a list item for every category in recommendations -->
+        {% for cat in include.category %}
+            {% if (cat.title != "Recommendations") and cat.title %}
+                {% unless cat.parent %}
+                    <li>
+                        <a href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
+                    </li>
+
+                    <!-- Variant links -->
+                    {% for var in site.variant-priority %}
+                        {% for cat2 in include.category %}
+                            {% if var == cat2.title and cat2.parent == cat.title %}
+                                {% unless nestedVariantLabel %}
+                                <ul><li>Variants
+                                {% assign nestedVariantLabel = true %}
+                                {% endunless %}
+                                    <ul>
+                                        <li id="{{ cat2.parent }}">
+                                            <a href="#{{ cat2.title }}">{{ cat2.title | capitalize }}</a>
+                                        </li>
+                                    </ul>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    {% if nestedVariantLabel %}
+                                </li></ul>
+                    {% endif %}
+
+                    <!-- Definition link -->
+                    {% if cat.definition %}
+                        <ul><li><a href="#definition">Definitions</a></li></ul>
+                    {% endif %}
+
+                    <!-- Discussion link -->
+                    {% if cat.discussion %}
+                        <ul><li><a href="#discussion">Discussion</a></li></ul>
+                    {% endif %}
+
+
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
+
+</div>
