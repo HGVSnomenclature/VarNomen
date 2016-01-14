@@ -1,30 +1,39 @@
     <div class="col-md-10 recs-main">
         <div class="recs-title">
-            <h1>{{ page.title }} <small>{{ sorted[0].title }}</small></h1>
+            <h1>{{ page.title }} <small>Recommendations</small></h1>
         </div>
 
         <hr>
         
         <div class="recs-body">
-            <div class="variant">
-                <h2>Variants</h2>
-            </div>
-            
-            {% for var in site.variant-priority %}
-                {% for passage in include.category %}
-                    {% if var == passage.title and passage.parent %}
-                        <div class="panel panel-default" id="{{ passage.title | downcase }}">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">{{ passage.title | capitalize }}</h3>
-                            </div>
-                            <div class="panel-body">
-                                {{ passage.content }}
-                            </div>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
+                <h2>Variants
 
+                <button type="button" id="collapse" class="btn btn-link pull-right" data-toggle="collapse" data-target=".variant" >
+                    <span id="collapseIcon" class="glyphicon glyphicon-chevron-up"></span>
+                </button>
+                </h2>
+            
+            <div class="variant collapse in">
+                {% for var in site.variant-priority %}
+                    {% for passage in include.category %}
+                        {% if var == passage.title and passage.parent %}
+                            <div class="panel panel-default" id="{{ passage.title | downcase }}">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">{{ passage.title | capitalize }}</h3>
+                                </div>
+                                <div class="panel-body">
+                                    {{ passage.content }}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </div>
+
+            <!-- 
+            Shows page definitions in alphabetical order if there are definitions
+            Definitions are defined as YAML in the respective pages
+             -->
             {% if page.definition %}
                 <div id="definition">
                     <h2>Definitions</h2>
@@ -35,7 +44,8 @@
                         
                         <dl class="dl-horizontal">
                     
-                        {% for def in page.definition %}
+                        {% assign sorted_def = page.definition | sort %}
+                        {% for def in sorted_def %}
                             <dt>{{ def[0] | capitalize }}</dt>
                             <dd>{{ def[1] }}</dd>
                         {% endfor %}
@@ -63,3 +73,11 @@
             {% endif %}
         </div>
     </div>
+
+    <!-- removes outline when clicking on collapse button -->
+    <style>
+        button#collapse, a:focus
+            {
+               outline: none !important;
+            }
+    </style>

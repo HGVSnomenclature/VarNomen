@@ -32,6 +32,11 @@ variant-priority:   # used when generating order of variants in site structure a
     - duplication
     - conversion
     - insertion
+    - deletion/ insertion (indel)  # check 
+    - translocation               # check
+    - more changes in one chromosome
+    - repeated sequences
+    - complex
 
 # Build settings
 markdown: kramdown

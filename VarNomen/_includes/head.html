@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/bootstrap-theme.min.css" | prepend: site.baseurl }}">
 
     {% if page.main %}
     <link rel="stylesheet" href="{{ "/css/slick.css" | prepend: site.baseurl }}">
@@ -20,6 +21,10 @@
     {% if page.main %}
     <script type="text/javascript" src="{{ "/js/slick.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/js/carousel.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
+    {% if page.title == "DNA" %}
+    <script type="text/javascript" src="{{ "/js/collapse.js" | prepend: site.baseurl }}"></script>
     {% endif %}
     
 </head>

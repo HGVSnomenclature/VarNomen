@@ -1,6 +1,5 @@
 <div class="col-md-2 well" id="sidemenu">
     <h4>Links</h4>
-    <ul class="list-unstyled">
         <!-- create a list item for every category in recommendations -->
         {% for cat in include.category %}
             {% if (cat.title != "Recommendations") and cat.title %}
@@ -13,14 +12,21 @@
                     {% for var in site.variant-priority %}
                         {% for cat2 in include.category %}
                             {% if var == cat2.title and cat2.parent == cat.title %}
-                            <ul>
-                                <li id="{{ cat2.parent }}">
-                                    <a href="#{{ cat2.title }}">{{ cat2.title | capitalize }}</a>
-                                </li>
-                            </ul>
+                                {% unless nestedVariantLabel %}
+                                <ul><li>Variants
+                                {% assign nestedVariantLabel = true %}
+                                {% endunless %}
+                                    <ul>
+                                        <li id="{{ cat2.parent }}">
+                                            <a href="#{{ cat2.title }}">{{ cat2.title | capitalize }}</a>
+                                        </li>
+                                    </ul>
                             {% endif %}
                         {% endfor %}
                     {% endfor %}
+                    {% if nestedVariantLabel %}
+                                </li></ul>
+                    {% endif %}
 
                     <!-- Definition link -->
                     {% if cat.definition %}
@@ -36,5 +42,5 @@
                 {% endunless %}
             {% endif %}
         {% endfor %}
-    </ul>
+
 </div>
