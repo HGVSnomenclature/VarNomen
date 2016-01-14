@@ -1,3 +1,6 @@
+##URL
+http://hgvsnomenclature.github.io/VarNomen/
+
 ##To run:
 
 1. Install [jekyll](http://jekyllrb.com/docs/installation/)
