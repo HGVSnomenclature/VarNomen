@@ -19,7 +19,7 @@ main: true
                 </div>
                 <div>
                     <h2>Contact Us</h2>
-                    {% include contact.html %}
+                    <p>{% include contact.html %}</p>
                 </div>
             </div>
 
@@ -35,8 +35,8 @@ main: true
         {% for cat in sorted_recs %}
         <!-- create a panel for every category in recommendations -->
             {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-sm-offset-1 col-sm-3 text-center btn btn-default btn-lg hidden-sm hidden-xs"><h3>{{ cat.title }}</h3></a>
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-xs-offset-1 col-xs-5 text-center btn btn-default btn-sm hidden-md hidden-lg">{{ cat.title }}</a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
             {% endif %}
         {% endfor %}
     </div>
@@ -49,8 +49,8 @@ main: true
         {% assign sorted_bg = site.bg-material | sort: "order" %}
         {% for cat in sorted_bg %}
             {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-sm-offset-1 col-sm-3 text-center btn btn-default btn-lg hidden-sm hidden-xs"><h3>{{ cat.title }}</h3></a>
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-xs-offset-1 col-xs-5 text-center btn btn-default btn-sm hidden-md hidden-lg">{{ cat.title }}</a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
             {% endif %}
         {% endfor %}
 
