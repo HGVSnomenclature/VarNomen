@@ -11,10 +11,14 @@ http://hgvsnomenclature.github.io/VarNomen/
 ##Recommendation pages:
 ###Hierarchy:
 Root: /_recommendations/
-|Sequence (DNA/RNA/protein) |Maintained in `root/sequence/index.html` <br> Pages must have `layout: recommendation`, `parent: "sequence"` and `title: "variant"` (in lowercose).
+
+|Category                   |Notes
 |---                        |---
+|Sequence (DNA/RNA/protein) |Maintained in `root/sequence/index.html` <br> Pages must have `layout: recommendation`, `parent: "sequence"` and `title: "variant"` (in lowercose).
 |Definition                 |Maintained in `root/sequence/variant/sequence.md` as YAML.
 |Description                |Maintained in `root/sequence/variant/description/variant-desc.md` <br> Pages must have `parent: "sequence"`, `title: "variant"` (in lowercose) and `category: "description"`YAML attributes.
 |Examples                   |Maintained in `root/sequence/variant/example/variant-eg.md` <br> Pages must have `parent: "sequence"`, `title: "variant"` (in lowercose) and `category: "example"`YAML attributes.
 |Discussion                 |Maintained in `root/sequence/variant/sequence.md` as YAML.
 |Educational Materials      |
+
+>NOTE: variant YAML attributes must be listed in _config.yml under the "variant-priority" list (case-sensitive).
