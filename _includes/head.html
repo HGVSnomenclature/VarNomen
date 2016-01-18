@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -17,14 +17,16 @@
 
     <script type="text/javascript" src="{{ "/js/jquery-1.12.0.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/js/animate.js" | prepend: site.baseurl }}"></script>
 
     {% if page.main %}
     <script type="text/javascript" src="{{ "/js/slick.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/js/carousel.js" | prepend: site.baseurl }}"></script>
     {% endif %}
 
-    {% if page.title == "DNA" %}
+    {% if page.parent == "DNA" %}
     <script type="text/javascript" src="{{ "/js/collapse.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/js/affix.js" | prepend: site.baseurl }}"></script>
     {% endif %}
     
 </head>

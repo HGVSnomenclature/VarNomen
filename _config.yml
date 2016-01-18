@@ -22,9 +22,6 @@ collections:
     recent:
         output: true
         permalink: /recent/:path/
-    contact:
-        output: true
-        permalink: /contact/:path/
 variant-priority:   # used when generating order of variants in site structure and display
     - substitution
     - deletion
@@ -39,4 +36,4 @@ variant-priority:   # used when generating order of variants in site structure a
     - complex
 
 # Build settings
-markdown: kramdown
+markdown: kramdown  # DOCS: http://kramdown.gettalong.org/syntax.html

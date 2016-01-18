@@ -3,36 +3,36 @@ layout: default
 main: true
 ---
 
-<div class="container">
-    <div class="jumbotron">
+<div class="jumbotron">
+    <div class="container">
         <h1>Sequence Variant Nomenclature</h1>
-        
-            <div class="carousel">
-                <div>
-                    <div class="well">Page 1</div>
-                </div>
-                <div>
-                    <div class="well">Page 2</div>
-                </div>
-                <div>
-                    <div class="well">Page 3</div>
-                </div>
+        <div class="carousel">
+            <div>
+                <h2>What is the sequence variant nomenclature?</h2>
+                <p>
+                    The consistent and unambiguous description of sequence variants is essential to report and exchange information on the analysis of a genome. In particular, DNA diagnostics critically depends on accurate and standardised description and sharing of the variants detected. The sequence variant nomenclature system proposed in 2000 by the Human Genome Variation Society has been widely adopted and has developed into an internationally accepted standard.
+                </p>
             </div>
-
+            <div>
+                Page 2
+            </div>
+            <div>
+                <h2>Contact Us</h2>
+                <p>{% include contact.html %}</p>
+            </div>
+        </div>
     </div>
 </div>
 
-<hr>
-
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <h2>Current Recommendations</h2>
         {% assign sorted_recs = site.recommendations | sort: "order" %}
         {% for cat in sorted_recs %}
-        <!-- create a panel for every category in recommendations -->
+            <!-- create a link for every category in recommendations -->
             {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-sm-offset-1 col-sm-3 text-center btn btn-default btn-lg hidden-sm hidden-xs"><h3>{{ cat.title }}</h3></a>
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-xs-offset-1 col-xs-5 text-center btn btn-default btn-sm hidden-md hidden-lg">{{ cat.title }}</a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
             {% endif %}
         {% endfor %}
     </div>
@@ -41,12 +41,12 @@ main: true
     
     <div class="row">
         <h2>Background Material</h2>
+        {% comment %} create a panel for every category in bg-material {% endcomment %}
         {% assign sorted_bg = site.bg-material | sort: "order" %}
         {% for cat in sorted_bg %}
-        <!-- create a panel for every category in bg-material -->
             {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-sm-offset-1 col-sm-3 text-center btn btn-default btn-lg hidden-sm hidden-xs"><h3>{{ cat.title }}</h3></a>
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="panel panel-default col-xs-offset-1 col-xs-5 text-center btn btn-default btn-sm hidden-md hidden-lg">{{ cat.title }}</a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
             {% endif %}
         {% endfor %}
 

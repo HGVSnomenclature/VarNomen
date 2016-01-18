@@ -1,0 +1,86 @@
+    <div class="col-md-10 recs-main">
+        <div class="recs-title">
+            <h1>{{ page.parent }} <small>Recommendations</small></h1>
+            <h1>{{ page.title | capitalize }} <small>Variant</small></h1>
+        <hr>
+        </div>
+
+        
+        <div class="recs-body">
+{% if page.definition %}
+            <!-- toggle show/hide recommendation definition -->
+            <button type="button" id="collapse" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-definition" >
+                <span id="collapseIcon" class="glyphicon glyphicon-chevron-up"></span>
+            </button>
+
+            <h2>Definitions</h2>
+            <div class="recs-definition collapse in">
+                <dl class="dl-horizontal">
+                {% comment %} Prints out definitions in alphabetical order {% endcomment %}
+                {% assign sorted_def = page.definition | sort %}
+                {% for def in sorted_def %}
+                    <dt id="{{ def[0] | downcase }}">{{ def[0] | capitalize }}</dt>
+                    <dd>{{ def[1] }}</dd>
+                {% endfor %}
+                </dl>
+            </div>
+
+            <hr>
+{% endif %}
+                
+            <!-- toggle show/hide recommendation description -->
+            <button type="button" id="collapse" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-description" >
+                <span id="collapseIcon" class="glyphicon glyphicon-chevron-up"></span>
+            </button>
+
+            <h2>Description</h2>
+            <div class="recs-description collapse in">
+{% for rec in site.recommendations %}
+    {% if rec.category == "description" and rec.title == page.title and rec.parent == page.parent %}
+        {{ rec.content | markdownify }}
+    {% endif %}
+{% endfor %}
+                </div> <!-- recs-description -->
+
+            <hr>
+            
+            <!-- toggle show/hide recommendation example -->
+            <button type="button" id="collapse" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-example" >
+                <span id="collapseIcon" class="glyphicon glyphicon-chevron-up"></span>
+            </button>
+
+            <h2>Examples</h2>
+            <div class="recs-example collapse in">
+{% for rec in site.recommendations %}
+    {% if rec.category == "example" and rec.title == page.title and rec.parent == page.parent %}
+        {{ rec.content | markdownify }}
+    {% endif %}
+{% endfor %}
+            </div> <!-- recs-example -->
+
+{% if page.discussion %}
+            <hr>
+
+            <!-- toggle show/hide recommendation discussion -->
+            <button type="button" id="collapse" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-discussion" >
+                <span id="collapseIcon" class="glyphicon glyphicon-chevron-up"></span>
+            </button>
+
+            <h2>Discussions</h2>
+            <div class="recs-discussion collapse in">
+    {% for qa in page.discussion %}
+        {% comment %} assigns id according to number question in forloop (0 indexed) {% endcomment %}
+                <div class="panel panel-default" id="question{{ forloop.index0 }}">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{ qa[0] | capitalize }}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {{ qa[1] }}
+                    </div>
+                </div>
+    {% endfor %}
+            </div> <!-- recs-discussion -->
+{% endif %}
+
+        </div> <!-- recs-body -->
+    </div> <!-- recs-main -->
