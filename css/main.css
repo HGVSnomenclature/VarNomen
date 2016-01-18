@@ -1,7 +1,36 @@
 body {
-    padding-top:110;
+    padding-top: 110px;
 }
 
 #menuPanels {
     margin-bottom: 1em;
+}
+
+.modal .modal-dialog {
+    width: 800px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* removes outline of search button when modal is closed */
+.modal-open .modal, a:focus {
+    outline: none !important;
+}
+
+/* removes outline of the collapse button */
+button#collapse, a:focus {
+   outline: none !important;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+}
+
+.btn {
+    white-space:normal !important;
+}
+
+.credits {
+    background-color: #FF8001;
 }

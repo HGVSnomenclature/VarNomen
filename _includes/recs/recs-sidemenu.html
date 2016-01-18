@@ -1,4 +1,4 @@
-
+{% assign category = site.recommendations | sort: "order" %}
 
 <!-- TODO make more efficient -->
 {% for i in (0..1) %}
@@ -9,21 +9,20 @@
     {% else %}
         <div class="col-md-2 hidden-md hidden-lg well" id="sidemenu">
     {% endif %}
-    <h4>Links</h4> 
     <!-- create a list item for every category in recommendations -->
-    {% for cat in include.category %}
+    {% for cat in category %}
         {% unless cat.parent %}
             {% comment %} Variant Links {% endcomment %}
             {% for var in site.variant-priority %}
-                {% for cat2 in include.category %}
-                    {% if var == cat2.title and cat2.parent == cat.title %}
+                {% for cat2 in category %}
+                    {% if var == cat2.title and cat2.parent == cat.title and cat2.category == nil %}
                         {% unless nestedVariantLabel %}
-                        <ul><li>Variants
+                        <ul class="list-unstyled"><li><h4>{{ page.parent }}</h4>
                         {% assign nestedVariantLabel = true %}
                         {% endunless %}
                             <ul>
                                 <li id="{{ cat2.parent }}">
-                                    <a href="#{{ cat2.title }}">{{ cat2.title | capitalize }}</a>
+                                    <a href="{{ cat2.url }}">{{ cat2.title | capitalize }}</a>
                                 </li>
                             </ul>
                     {% endif %}
@@ -32,18 +31,6 @@
             {% if nestedVariantLabel %}
                         </li></ul>
             {% endif %}
-
-            <!-- Definition link -->
-            {% if cat.definition %}
-                <ul><li><a href="#definition">Definitions</a></li></ul>
-            {% endif %}
-
-            <!-- Discussion link -->
-            {% if cat.discussion %}
-                <ul><li><a href="#discussion">Discussion</a></li></ul>
-            {% endif %}
-
-
         {% endunless %}
     {% endfor %}
         </div>

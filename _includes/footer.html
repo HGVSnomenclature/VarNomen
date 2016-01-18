@@ -1,28 +1,35 @@
 <footer>
     <hr>
     <div class="container-fluid">
-        <div class="col-md-offset-1 col-md-3" id="ext-links">
-            <h4>External Links</h4>
-            <ul class="list-unstyled">
-                <li><a href="http://www.hgvs.org/">Human Genome Variation Society</a></li>
-                <li><a href="http://www.humanvariomeproject.org/">Human Variome Project</a></li>
-                <li><a href="http://www.hugo-international.org/">Human Genome Organisation</a></li>
-            </ul>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-3" id="ext-links">
+                <h4>External Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="http://www.hgvs.org/">Human Genome Variation Society</a></li>
+                    <li><a href="http://www.humanvariomeproject.org/">Human Variome Project</a></li>
+                    <li><a href="http://www.hugo-international.org/">Human Genome Organisation</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-offset-1 col-md-2" id="history">
+                <h4>History</h4>
+                <ul class="list-unstyled">
+                    <li><a href="{{ site.baseurl }}/history">History</a></li>
+                    <li><a href="{{ site.baseurl }}/versioning">Versioning</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-offset-1 col-md-3" id="contact">
+                <h4>Contact Us</h4>
+                <ul class="list-unstyled">
+                    {% include contact.html %}
+                </ul>
+            </div>
         </div>
 
-        <div class="col-md-offset-1 col-md-2" id="history">
-            <h4>History</h4>
-            <ul class="list-unstyled">
-                <li><a href="{{ site.baseurl }}/history">History</a></li>
-                <li><a href="{{ site.baseurl }}/versioning">Versioning</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-offset-1 col-md-3" id="contact">
-            <h4>Contact Us</h4>
-            <ul class="list-unstyled">
-                {% include contact.html %}
-            </ul>
+        <div class="credits text-center row">
+            Website created by <span>William Hong</span> <br> 
+            Nomenclature by J.T. Den Dunnen
         </div>
     </div> <!-- container-fluid -->
 </footer>
