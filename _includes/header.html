@@ -1,7 +1,7 @@
 <header class="header">
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-inverse navbar-default">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             
             <div class="navbar-header">
@@ -16,8 +16,41 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
             
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="{{ site.baseurl }}/recommendations">Recommendations</a></li>
-                    <li><a href="{{ site.baseurl }}/bg-material">Background Material</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recommendations <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% comment %} Loops through recommendations to populate the "Recommendations" dropdown {% endcomment %}
+                            {% assign sorted_recs = site.recommendations | sort:"order" %}
+                            {% for rec in sorted_recs %}
+                                {% if (rec.title != "Recommendations") and rec.title %}
+                                    {% unless rec.parent %}
+                                        <li>
+                                            <a href="{{ rec.url | prepend: site.baseurl }}">{{ rec.title }}</a>
+                                        </li>
+                                        {% if rec.title == "Introduction" or rec.title == "Protein" %}
+                                            {% comment %} Adds separator after "Introduction" and "Protein" {% endcomment %}
+                                            <li role="separator" class="divider"></li>
+                                        {% endif %}
+                                    {% endunless %}
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li>
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Background Materials <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        {% comment %} Loops through bg-material to populate the "Background Materials" dropdown {% endcomment %}
+                        {% assign sorted_bg = site.bg-material | sort: "order" %}
+                            {% for bg in sorted_bg %}
+                                {% if (bg.title != "Background Material") and bg.title and bg.parent == nil %}
+                                    <li>
+                                        <a href="{{ bg.url | prepend: site.baseurl }}">{{ bg.title }}</a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
                     <li><a href="{{ site.baseurl }}/recent">Recent Additions</a></li>
                     <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
                 </ul>
@@ -63,26 +96,10 @@
                     <gcse:search></gcse:search>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-
-        <style>
-            .modal .modal-dialog
-            {
-                width: 800px;
-                max-width: 95%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            /*Prevents outline of search button when modal is closed*/
-            .modal-open .modal, a:focus
-            {
-               outline: none !important;
-            }
-        </style>
     </div>
 
 </header>

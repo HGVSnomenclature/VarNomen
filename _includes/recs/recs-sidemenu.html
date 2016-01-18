@@ -1,0 +1,42 @@
+{% assign category = site.recommendations | sort: "order" %}
+
+<!-- TODO make more efficient -->
+{% for i in (0..1) %}
+    {% if i == 0 %}
+    <div class="col-md-2" role="stylePlaceholder"></div>
+    <div data-spy="affix">
+        <div class="col-md-2 hidden-sm hidden-xs" id="sidemenu">
+    {% else %}
+        <div class="col-md-2 hidden-md hidden-lg well" id="sidemenu">
+    {% endif %}
+    <!-- create a list item for every category in recommendations -->
+    {% for cat in category %}
+        {% unless cat.parent %}
+            {% comment %} Variant Links {% endcomment %}
+            {% for var in site.variant-priority %}
+                {% for cat2 in category %}
+                    {% if var == cat2.title and cat2.parent == cat.title and cat2.category == nil %}
+                        {% unless nestedVariantLabel %}
+                        <ul class="list-unstyled"><li><h4>{{ page.parent }}</h4>
+                        {% assign nestedVariantLabel = true %}
+                        {% endunless %}
+                            <ul>
+                                <li id="{{ cat2.parent }}">
+                                    <a href="{{ cat2.url }}">{{ cat2.title | capitalize }}</a>
+                                </li>
+                            </ul>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% if nestedVariantLabel %}
+                        </li></ul>
+            {% endif %}
+        {% endunless %}
+    {% endfor %}
+        </div>
+    {% if i == 0 %}
+    </div>
+    {% assign nestedVariantLabel = false %}
+    {% endif %}
+{% endfor %}
+

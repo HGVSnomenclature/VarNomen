@@ -14,19 +14,19 @@ definition:  # format is Word: definition
     Substitution: a sequence change where one nucleotide is replaced by one other nucleotide <br> <b><i>NOTE</i></b>&#58; A sequence change where one nucleotide is replaced by more than one other nucleotide is a deletion-insertion (indel) <br> <b><i>NOTE</i></b>&#58; A sequence change where more than one nucleotide is replaced by one or more other nucleotide is a deletion-insertion (indel)
     Translocation: a sequence change where the sequence of one chromosome at the so called break point (or junction) changes to that of another chromosome <br> <b><i>NOTE</i></b>&#58; a translocation occurs when 2 chromosomes break and the fragments rejoin to the another chromosome. A full description of a (reciprocal) translocation consists of 2 parts, one describing the first junction, the second describing the other junction (e.g. the chromosome 4;X junction as well as the chromosome X;4 junction)
     Transposition: a sequence change where a range of nucleotides moves from one position to another position, i.e. a deletion at one positions combined with the insertion of the deleted sequence at another position
-
-discussion:  # format is Question: Answer
-    Question 1: Answer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptatum repellendus cumque aliquid deserunt distinctio ipsum praesentium accusamus, possimus sed. Dignissimos delectus nobis neque explicabo, fugit nulla et hic minima repellendus illum aliquid magni temporibus nisi voluptate eius, accusamus commodi ipsum libero expedita ab molestiae totam? Veniam fugiat inventore, nemo, perspiciatis facere ab fugit incidunt beatae quo delectus in odio expedita praesentium. Ratione ex a quas recusandae expedita omnis quam id cum, laboriosam sunt amet nostrum odit dolorum officia fugiat cupiditate quia laudantium repudiandae earum minima porro autem libero nemo accusantium. Amet cupiditate voluptatibus neque reprehenderit. Repellendus molestias impedit, quasi!
-
-    Question 2: Answer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, at. Autem dolorum dolor, dolorem molestiae fugit rerum sapiente magnam ullam similique temporibus fugiat vero exercitationem. Exercitationem non soluta tempore praesentium doloremque debitis omnis molestiae atque voluptate perspiciatis possimus rem, odio voluptatem dolorum delectus earum magnam dolorem. Quaerat, eum nihil voluptatibus!
 ---
 
-<div class="container-fluid">
-    
-{% assign sorted = site.recommendations | sort: "order" %}
-
-{% include sidemenu.html category=sorted %}
-
-{% include recs-main.html category=sorted %}
-
-</div> <!-- container-fluid -->
+<div class="container">
+    <div class="row">
+        <h2>Variants</h2>
+        {% for var in site.variant-priority %}
+            {% for rec in site.recommendations %}
+                <!-- create a link for every category in DNA -->
+                {% if var == rec.title and rec.parent == "DNA" and rec.category == nil %}
+                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ rec.title | capitalize }}</h3></a>
+                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ rec.title | capitalize }}</a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
