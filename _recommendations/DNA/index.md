@@ -16,17 +16,4 @@ definition:  # format is Word: definition
     Transposition: a sequence change where a range of nucleotides moves from one position to another position, i.e. a deletion at one positions combined with the insertion of the deleted sequence at another position
 ---
 
-<div class="container">
-    <div class="row">
-        <h2>Variants</h2>
-        {% for var in site.variant-priority %}
-            {% for rec in site.recommendations %}
-                <!-- create a link for every category in DNA -->
-                {% if var == rec.title and rec.parent == "DNA" and rec.category == nil %}
-                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ rec.title | capitalize }}</h3></a>
-                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ rec.title | capitalize }}</a>
-                {% endif %}
-            {% endfor %}
-        {% endfor %}
-    </div>
-</div>
+{% include recs/recs-index.html %}

@@ -27,14 +27,7 @@ main: true
 <div class="container">
     <div class="row">
         <h2>Current Recommendations</h2>
-        {% assign sorted_recs = site.recommendations | sort: "order" %}
-        {% for cat in sorted_recs %}
-            <!-- create a link for every category in recommendations -->
-            {% if (cat.title != "Recommendations") and cat.title and cat.parent == nil %}
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
-            {% endif %}
-        {% endfor %}
+            {% include recs/recs-panel.html %}
     </div>
 
     <hr>
@@ -46,7 +39,9 @@ main: true
         {% for cat in sorted_bg %}
             {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
                 <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-offset-1 col-xs-5 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
+                <div class="col-xs-6 hidden-md hidden-lg">
+                    <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-12 text-center btn btn-warning btn-md" id="menuPanels">{{ cat.title }}</a>
+                </div>
             {% endif %}
         {% endfor %}
 
