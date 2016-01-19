@@ -3,4 +3,27 @@ layout: default
 title: RNA
 order: 3
 permalink: /recommendations/RNA
+dna-variants:
+    - substitution
+    - deletion
+    - inversion
+    - duplication
+    - insertion
+    - translocation
 ---
+
+{% include recs/recs-index.html %}
+
+<div class="row">
+    <h2>See DNA recommendations for the following:</h2>
+    {% for dna in page.dna-variants %}
+        {% for var in site.recommendations %}
+            {% if dna == var.title and var.parent == "DNA" and var.category == nil %}
+                <a href="{{ var.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ var.title | capitalize }}</h3></a>
+                <div class="col-xs-6 hidden-md hidden-lg">
+                    <a href="{{ var.url | prepend: site.baseurl }}" class="col-xs-12 text-center btn btn-warning btn-md" id="menuPanels">{{ var.title }}</a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>

@@ -8,10 +8,10 @@
         {% include header.html %}
             
             {% if page.main %}
-                {{ content }}
+                {{ content | markdownify }}
             {% else %}
                 <div class="container">
-                    {{ content }}
+                    {{ content | markdownify }}
                 </div>
             {% endif %}
 
