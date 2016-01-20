@@ -1,5 +1,6 @@
 body {
     padding-top: 110px;
+    height: 100%;
 }
 
 #menuPanels {
@@ -31,6 +32,14 @@ button#collapse, a:focus {
     white-space:normal !important;
 }
 
-.credits {
-    background-color: #FF8001;
+.easterEgg {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer; 
+    cursor: hand;
 }

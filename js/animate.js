@@ -37,6 +37,11 @@ $( document ).ready ( function() {
             }, 3000);
 
             $(this).animate({
+                fontSize: "40px",
+                opacity: 100
+            }, 200);
+
+            $(this).animate({
                 fontSize: "15px",
                 opacity: 100
             }, 1000);
