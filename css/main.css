@@ -1,5 +1,6 @@
-body footer{
+body {
     padding-top: 110px;
+    height: 100%;
 }
 
 #menuPanels {
@@ -29,10 +30,6 @@ button#collapse, a:focus {
 
 .btn {
     white-space:normal !important;
-}
-
-.credits {
-    background-color: #FF8001;
 }
 
 .easterEgg {
