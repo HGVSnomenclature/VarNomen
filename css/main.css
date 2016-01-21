@@ -3,6 +3,10 @@ body {
     height: 100%;
 }
 
+footer {
+    margin-bottom: 21px;
+}
+
 #menuPanels {
     margin-bottom: 1em;
 }
