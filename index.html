@@ -14,7 +14,14 @@ main: true
                 </p>
             </div>
             <div>
-                Page 2
+                {% for pg in site.pages %}
+                    {% if pg.title == "Recent Additions" %}
+                        <p>{{ pg.content | markdownify | truncatewords: 50 }}</p>
+                    {% endif %}
+                {% endfor %}
+                <div>
+                    <a href="{{ site.baseurl}}/recent" class="btn btn-md btn-warning pull-right">Read More</a>
+                </div>
             </div>
             <div>
                 <h2>Contact Us</h2>

@@ -20,9 +20,6 @@ collections:
     bg-material:
         output: true
         permalink: /bg-material/:path/
-    recent:
-        output: true
-        permalink: /recent/:path/
 variant-priority:   # used when generating order of variants in site structure and display
 # Case-sensitive - use lowercase
     - substitution
