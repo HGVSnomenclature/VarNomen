@@ -47,3 +47,13 @@ button#collapse, a:focus {
     cursor: pointer; 
     cursor: hand;
 }
+
+a > h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.jumbotron {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
