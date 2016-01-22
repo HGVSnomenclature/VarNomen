@@ -8,6 +8,21 @@ http://hgvsnomenclature.github.io/VarNomen/
 3. Run command `jekyll serve --baseurl "" --watch`
 4. Browser URL: localhost:4000
 
+##_config.yml
+Contains important global site attributes
+
+|Attribute          |Description
+|---                |---
+|title              |Title of every page. i.e. `<title>`
+|email              |Email for every contact us section
+|description        |Description of the site (shown in the jumbotron on the main page)
+|baseurl            |Root folder, i.e. /VarNomen
+|url                |Base hostname and protocol of site
+|version            |Current version number of the nomenclature
+|collections        |File directories that contain pages for Jekyll to markup
+|variant-priority   |Used when generating order of variants in site structure and display <br> Case-sensitive - use lowercase
+
+
 ##Recommendation pages
 ###Folder Structure
 |Folder                                                                                 |Contents
