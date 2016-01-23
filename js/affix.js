@@ -12,6 +12,7 @@ $( document ).ready ( function() {
       }
     });
 
+    // governs behaviour of sidemenu when scrolling past footer
     $("#affix").on("affixed-bottom.bs.affix", function() {
         $(".recs-main").removeClass("col-md-offset-2");        
     });

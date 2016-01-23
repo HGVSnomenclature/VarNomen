@@ -26,7 +26,7 @@
     <script type="text/javascript" src="{{ "/js/carousel.js" | prepend: site.baseurl }}"></script>
     {% endif %}
 
-    {% if page.parent == "DNA" %}
+    {% if page.parent == "DNA" or page.parent == "RNA" or page.parent == "Protein" %}
     <script type="text/javascript" src="{{ "/js/collapse.js" | prepend: site.baseurl }}"></script>
     {% endif %}
     
