@@ -1,5 +1,5 @@
 <div class="row">
-    <h1>{{page.title}} <small>Recommendations</small></h1>
+    <h1>{{page.title}}<small>Recommendations</small></h1>
     <hr>
 </div>
 <div class="row">
@@ -8,10 +8,8 @@
         {% for rec in site.recommendations %}
             {% comment %} create a link for every category in "sequence" {% endcomment %}
             {% if var == rec.title and rec.parent == page.title and rec.category == nil %}
-            <a href="{{ rec.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ rec.title | capitalize }}</h3></a>
-            <div class="col-xs-6 hidden-md hidden-lg">
-                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-xs-12 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ rec.title | capitalize }}</a>
-            </div>
+            <a href="{{ rec.url | prepend: site.baseurl }}" class="col-sm-4 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ rec.title | capitalize }}</h3></a>
+            <a href="{{ rec.url | prepend: site.baseurl }}" class="col-xs-6 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ rec.title | capitalize }}</a>
             {% endif %}
         {% endfor %}
     {% endfor %}
