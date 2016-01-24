@@ -10,11 +10,18 @@ main: true
             <div>
                 <h2>What is the sequence variant nomenclature?</h2>
                 <p>
-                    The consistent and unambiguous description of sequence variants is essential to report and exchange information on the analysis of a genome. In particular, DNA diagnostics critically depends on accurate and standardised description and sharing of the variants detected. The sequence variant nomenclature system proposed in 2000 by the Human Genome Variation Society has been widely adopted and has developed into an internationally accepted standard.
+                    {{ site.description }}
                 </p>
             </div>
             <div>
-                Page 2
+                {% for pg in site.pages %}
+                    {% if pg.title == "Recent Additions" %}
+                        <p>{{ pg.content | markdownify | truncatewords: 50 }}</p>
+                    {% endif %}
+                {% endfor %}
+                <div>
+                    <a href="{{ site.baseurl}}/recent" class="btn btn-md btn-warning pull-right">Read More</a>
+                </div>
             </div>
             <div>
                 <h2>Contact Us</h2>
@@ -27,24 +34,14 @@ main: true
 <div class="container">
     <div class="row">
         <h2>Current Recommendations</h2>
-            {% include recs/recs-panel.html %}
+        {% include recs/recs-panel.html %}
     </div>
 
     <hr>
     
     <div class="row">
         <h2>Background Material</h2>
-        {% comment %} create a panel for every category in bg-material {% endcomment %}
-        {% assign sorted_bg = site.bg-material | sort: "order" %}
-        {% for cat in sorted_bg %}
-            {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
-                <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
-                <div class="col-xs-6 hidden-md hidden-lg">
-                    <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-12 text-center btn btn-warning btn-md" id="menuPanels">{{ cat.title }}</a>
-                </div>
-            {% endif %}
-        {% endfor %}
-
+        {% include bg/bg-panel.html %}
     </div>
 
 </div>
