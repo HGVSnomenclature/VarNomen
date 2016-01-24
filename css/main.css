@@ -8,8 +8,8 @@ footer {
     margin-bottom: 21px;
 }
 
-#menuPanels {
-    margin-bottom: 1em;
+.btn-warning {
+    border-color: #FFD093 !important;
 }
 
 .modal .modal-dialog {

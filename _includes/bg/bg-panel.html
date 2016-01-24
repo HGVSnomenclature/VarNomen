@@ -2,9 +2,7 @@
 {% for cat in sorted-bg %}
     {% comment %} create a link for every category in bg-material {% endcomment %}
     {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
-        <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
-        <div class="col-xs-6 hidden-md hidden-lg">
-            <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-12 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
-        </div>
+        <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-4 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
+        <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-6 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
     {% endif %}
 {% endfor %}
