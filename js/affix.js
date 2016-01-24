@@ -1,7 +1,3 @@
-function doNothing() {
-    return false;
-};
-
 $( document ).ready ( function() {
     // moves sidemenu when it hits the footer
     $("#affix").affix({
