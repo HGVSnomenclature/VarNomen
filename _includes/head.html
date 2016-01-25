@@ -29,5 +29,9 @@
     {% if page.parent == "DNA" or page.parent == "RNA" or page.parent == "Protein" %}
     <script type="text/javascript" src="{{ "/js/collapse.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+
+    {% if page.title == "Nucleotide Numbering" %}
+    <script type="text/javascript" src="{{ "/js/resize.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     
 </head>

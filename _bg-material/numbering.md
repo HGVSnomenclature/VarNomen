@@ -2,6 +2,7 @@
 layout: default-md
 title: Nucleotide Numbering
 order: 4
+permalink: /bg-material/numbering/
 ---
 
 #{{ page.title }}
@@ -41,9 +42,15 @@ Dividing the nucleotide number by 3 gives the number of the amino acid residue a
 
 * * *
 
+<div>
+    <button type="button" onclick="resize()" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-definition" >
+        <span class="glyphicon glyphicon-resize-full pull-right" id="resize"></span>
+    </button>
+</div>
+
 ## Figure
 
-![Reference Sequence Figure](/assets/RefSeq.jpg)
+![Reference Sequence Figure](/assets/RefSeq.jpg){:.img-responsive .center-block #refSeqFig}
 
 * * *
 
