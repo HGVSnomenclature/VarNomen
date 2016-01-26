@@ -6,6 +6,8 @@ order: 5
 
 # {{ page.title }}
 
+* * *
+
 ## Purpose
 
 Going through publications one can easily see where people tend to offend the _**"[Current recommendations for the description of sequence variants](/recommendations)"**_. The checklist below covers the most problematic issues and should assist those preparing a publication to describe sequence variants following the current recommendations.

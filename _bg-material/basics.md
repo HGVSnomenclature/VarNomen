@@ -4,7 +4,7 @@ title: Basics
 order: 1
 ---
 
-## {{ page.title }}
+# {{ page.title }}
 
 * * * 
 
