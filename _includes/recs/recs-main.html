@@ -53,14 +53,14 @@
             <div class="recs-example collapse in">
 {% for rec in site.recommendations %}
     {% if rec.category == "example" and rec.title == page.title and rec.parent == page.parent %}
-        {% if rec.content == "" %}
+        {% unless rec.content == "" %}
             {{ rec.content | markdownify }}
         {% else %}
             <p>
                 None available.
                 Suggestions? <a href="{{site.baseurl}}/contact">Contact us</a>
             </p>
-        {% endif %}
+        {% endunless %}
     {% endif %}
 {% endfor %}
             </div> <!-- recs-example -->
@@ -79,7 +79,7 @@
         {% comment %} assigns id according to number question in forloop (0 indexed) {% endcomment %}
                 <div class="panel panel-default" id="question{{ forloop.index0 }}">
                     <div class="panel-heading">
-                        <h3 class="panel-title">{{ qa[0] | capitalize }}</h3>
+                        <h3 class="panel-title">{{ qa[0] }}</h3>
                     </div>
                     <div class="panel-body">
                         {{ qa[1] }}

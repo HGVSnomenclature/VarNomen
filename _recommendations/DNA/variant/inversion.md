@@ -3,10 +3,8 @@ layout: recommendation
 parent: DNA
 title: inversion
 definition: 
-    Word1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ipsum.
-    Word 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio optio ipsum sunt voluptate! Nihil tempora quo, quas, facere vero culpa amet aliquid soluta accusantium eum ut dignissimos dolor ullam. Inventore.
+    Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 discussion:
-    Question1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ipsam.
-    Q2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis animi soluta repellendus, dolores tempora sequi. Laboriosam nesciunt tempore, voluptatibus obcaecati ex.
-    Q3: Lorem ipsum dolor sit.
+    Is the change AAGC to TTCG an inversion?: No, an inversion would change AAGC to GCTT, its <b>revese-complement</b>. TTCG is only the <b>complement</b> of AAGC.
+    Is the change AAGC to CGAA an inversion?: No, an inversion would change AAGC to GCTT, its <b>revese-complement</b>. CGAA is only the <b>reverse</b> of AAGC.
 ---
