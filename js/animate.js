@@ -29,7 +29,7 @@ $( document ).ready ( function() {
 
             $(this).animate({
                 fontSize: "0px",
-                opacity: 0,
+                opacity: 0
             }, 600);
 
             $(this).animate({

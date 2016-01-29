@@ -9,9 +9,10 @@
 title: Sequence Variant Nomenclature
 email: VarNomen @ HGVS.org
 description: >  # this means to ignore newlines until "baseurl:"
-    HGVS / HVP / HUGO Sequent Variant Nomenclature
+    The consistent and unambiguous description of sequence variants is essential to report and exchange information on the analysis of a genome. In particular, DNA diagnostics critically depends on accurate and standardised description and sharing of the variants detected. The sequence variant nomenclature system proposed in 2000 by the Human Genome Variation Society has been widely adopted and has developed into an internationally accepted standard.
 baseurl: "/VarNomen"  # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com"  # the base hostname & protocol for your site
+version: 15.11  # Current nomenclature version number
 collections:
     recommendations:
         output: true
@@ -19,12 +20,8 @@ collections:
     bg-material:
         output: true
         permalink: /bg-material/:path/
-    recent:
-        output: true
-        permalink: /recent/:path/
 variant-priority:   # used when generating order of variants in site structure and display
-# If editing priority list, check /_recommendations/RNA/index.html -> `dna-variants` YAML attribute
-# Case-sensitive. Use lowercase.
+# Case-sensitive - use lowercase
     - substitution
     - deletion
     - inversion
@@ -39,10 +36,14 @@ variant-priority:   # used when generating order of variants in site structure a
     # RNA specific
     - RNA processing/ initiation
     - splicing
-    - more RNA molecules
+    - more molecules
     - large deletions
     - uncertainties
     # protein specific
+    - silent
+    - variable short sequence repeats
+    - extension
+    - more changes in one individual
 
 # Build settings
 markdown: kramdown  # DOCS: http://kramdown.gettalong.org/syntax.html

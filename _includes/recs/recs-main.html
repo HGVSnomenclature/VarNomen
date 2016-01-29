@@ -1,4 +1,4 @@
-    <div class="col-md-10 recs-main">
+    <div class="col-md-10 col-md-offset-2 recs-main">
         <div class="recs-title">
             <h1>{{ page.parent }} <small>Recommendations</small></h1>
             <h1>{{ page.title | capitalize }} <small>Variant</small></h1>
@@ -53,7 +53,14 @@
             <div class="recs-example collapse in">
 {% for rec in site.recommendations %}
     {% if rec.category == "example" and rec.title == page.title and rec.parent == page.parent %}
-        {{ rec.content | markdownify }}
+        {% if rec.content == "" %}
+            {{ rec.content | markdownify }}
+        {% else %}
+            <p>
+                None available.
+                Suggestions? <a href="{{site.baseurl}}/contact">Contact us</a>
+            </p>
+        {% endif %}
     {% endif %}
 {% endfor %}
             </div> <!-- recs-example -->

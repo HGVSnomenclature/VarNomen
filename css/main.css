@@ -3,8 +3,13 @@ body {
     height: 100%;
 }
 
-#menuPanels {
-    margin-bottom: 1em;
+footer {
+    margin-top: 30px;
+    margin-bottom: 21px;
+}
+
+.btn-warning {
+    border-color: #FFD093 !important;
 }
 
 .modal .modal-dialog {
@@ -32,14 +37,26 @@ button#collapse, a:focus {
     white-space:normal !important;
 }
 
-.easterEgg {
+.noSelect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
 
-    cursor: pointer; 
-    cursor: hand;
+.easterEgg {
+    cursor: pointer !important; 
+    cursor: hand !important;
+}
+
+a > h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.jumbotron {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
