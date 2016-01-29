@@ -22,6 +22,11 @@ Contains important global site attributes
 |collections        |File directories that contain pages for Jekyll to markup
 |variant-priority   |Used when generating order of variants in site structure and display <br> Case-sensitive - use lowercase
 
+##All pages
+###Front matter
+last-modified: `date`
+Date the page was last modifed. Marked up as "Last modifed: `date`"
+
 
 ##Recommendation pages
 ###Folder Structure
