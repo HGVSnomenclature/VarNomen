@@ -8,8 +8,10 @@ footer {
     margin-bottom: 21px;
 }
 
-.btn-warning {
-    border-color: #FFD093 !important;
+#recPanels.btn-warning, #menuPanels.btn-warning {
+    border: 3px solid !important;
+    border-color: #FFFFFF !important;
+    border-radius: 7px !important;
 }
 
 .modal .modal-dialog {
