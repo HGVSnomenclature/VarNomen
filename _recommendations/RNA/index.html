@@ -19,10 +19,8 @@ dna-variants:  # All the variants the RNA nomenclature has in common with the DN
     {% for dna in page.dna-variants %}
         {% for var in site.recommendations %}
             {% if dna == var.title and var.parent == "DNA" and var.category == nil %}
-                <a href="{{ var.url | prepend: site.baseurl }}" class="col-sm-offset-1 col-sm-3 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ var.title | capitalize }}</h3></a>
-                <div class="col-xs-6 hidden-md hidden-lg">
-                    <a href="{{ var.url | prepend: site.baseurl }}" class="col-xs-12 text-center btn btn-warning btn-md" id="menuPanels">{{ var.title }}</a>
-                </div>
+                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-sm-4 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="recPanels"><h3>{{ var.title | capitalize }}</h3></a>
+                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-xs-6 text-center btn btn-warning btn-md hidden-md hidden-lg" id="recPanels">{{ var.title | capitalize }}</a>
             {% endif %}
         {% endfor %}
     {% endfor %}
