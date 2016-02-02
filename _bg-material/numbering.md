@@ -1,6 +1,6 @@
 ---
 layout: default-md
-title: Nucleotide Numbering
+title: Numbering
 order: 4
 permalink: /bg-material/numbering/
 ---

@@ -1,5 +1,5 @@
 ---
 parent: DNA
-title: translocation
+title: alleles
 category: example
 ---

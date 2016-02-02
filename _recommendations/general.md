@@ -1,6 +1,6 @@
 ---
 layout: default-md
-title: Introduction
+title: General
 order: 1
 ---
 
