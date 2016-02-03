@@ -17,7 +17,7 @@ As of now, **_any change_** in the recommendations will get a new _version numbe
 
 At the top of all pages on this site you will also find a **_Last modified_** date. This date indicates when the respective page was modified last. When this includes changes/extensions of the HGVS recommendation, the version number of the recommendation will also change. Note however that it often happens that simply a typing error was corrected, an example was added, an explanation was further clarified, a question answered, etc. In such cases the recommendations do not actually change and the version number will thus also not change.
 
-
+* * *
 
 ## Versions
 
@@ -41,6 +41,7 @@ At the top of all pages on this site you will also find a **_Last modified_** da
 *   **_Prediction / experimental proof_** -  it is often not clear whether a description of a variant at protein level is based on experimental evidence or merely a prediction based on what was detected at DNA level. To make this distinction more obvious, the recommendation is to describe the variant at protein level between brackets, like p.(Arg12Gly), when it is a prediction based on DNA data only. When RNA has been analysed, and some experimental evidence exists to support the prediction, the variant may be described without brackets, like p.Arg12Gly. 
 *   **_Repeated sequences_**  -  the 2000 recommendations where not very specific regarding the description of a variability in repeated sequences, mono-, di-, tri-nucleotide stretches, etc. Recommendations for the description of such variability have now set ([_see Recommendations_](/recommendations)). The format designed is also used to describe more complex copy number variation of larger stretches of DNA, e.g. the presence of two additional copies of one or more exons of a gene, often with the breakpoints not fully characterised.
 
+* * *
 
 {:#version-list}
 ## Version List
