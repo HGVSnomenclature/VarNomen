@@ -1,7 +1,7 @@
 ---
 layout: recommendation
 parent: DNA
-title: complex
+title: complex (HGVS/ISCN)
 definition: 
     Word1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ipsum.
     Word 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio optio ipsum sunt voluptate! Nihil tempora quo, quas, facere vero culpa amet aliquid soluta accusantium eum ut dignissimos dolor ullam. Inventore.

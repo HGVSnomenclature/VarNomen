@@ -29,10 +29,9 @@ variant-priority:   # used when generating order of variants in site structure a
     - conversion
     - insertion
     - deletion/ insertion (indel)  
-    - translocation               
-    - more changes in one chromosome
+    - alleles
     - repeated sequences
-    - complex
+    - complex (HGVS/ISCN)
     # RNA specific
     - RNA processing/ initiation
     - splicing
