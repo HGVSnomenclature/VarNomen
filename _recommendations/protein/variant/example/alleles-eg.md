@@ -1,6 +1,6 @@
 ---
 parent: Protein
-title: more changes in one individual
+title: alleles
 category: example
 ---
 

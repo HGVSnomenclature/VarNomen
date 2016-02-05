@@ -1,6 +1,6 @@
 ---
 parent: RNA
-title: more molecules
+title: alleles
 category: description
 ---
 
