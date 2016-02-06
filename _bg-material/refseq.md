@@ -33,10 +33,12 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	only public files from NCBI or EBI are accepted as a reference sequence
 	* approved reference sequence formats include; NC_# (e.g. NC_000023.10), LRG_# (e.g. LRG_199), NG_# (e.g. NG_012232.1), NM_# (e.g. NM_004006.2), NR_# (e.g. NR_002196.1) and NP_# (e.g. NP_003997.1)
+*	a reference sequence should be listed with both the **accession** and <u>**version number**</u>
+	*	 NG_012232<u>**.1**</u> is correct, NG_012232 lacks the essential version number
 *	the reference sequence used **must** contain the variant residue described
 *	the recommended DNA reference is a genomic reference sequence based on a recent genome build, e.g. NC_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
-	
-	
+
+
 * * *
 
 
@@ -141,7 +143,10 @@ Depending on the variants to be reported, different reference sequence files are
 	When different genes (partly) overlap, using the same or an opposite transcriptional orientation, which reference sequence should one use to describe the variant and to which gene should it be assigned?
 
 *	Making a judgment on what is the "wild type" (wt) nucleotide for some sequences seems arbitrary at best, correct?
-	:	All variants are described in relation to a **"reference sequence**". The reference sequence is considered to be the "**wild type**" sequence, the major allele present in the human population, and the allele used in the latest genome build. Note that everybody has influence on the reference sequence selected and can thus request that a sequence is changed to represent the most common allele. However, the debate about what is wild type becomes arbitrary when variants are very common (near 50%) or differ between populations. 
+	:	All variants are described in relation to a **"reference sequence**". The reference sequence is considered to be the "**wild type**" sequence, the major allele present in the human population, and the allele used in the latest genome build. Note that everybody has influence on the reference sequence selected and can thus request that a sequence is changed to represent the most common allele. However, the debate about what is wild type becomes arbitrary when variants are very common (near 50%) or differ between populations.
+
+*	When description in relation to a reference sequence is problematic, could one specify the variant by giving 20 bp of flanking sequence on both sides?
+	:	In many cases this would be OK, but for recently duplicated genes or genes which contain repeated segments, giving 20 nucleotides to either side will not be sufficient. Furthermore, descriptions will become very long. For problematic cases the best method is probably to include the raw data, i.e. submit the sample sequence to [_GenBank_](http://www.ncbi.nlm.nih.gov/genbank/submit) and give the accession.version number obtained.
 
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [_the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)_](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1). Descriptions should be preceded by "m.", like m.8993T>C. The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP_003024031.1:p.Leu156Pro.
@@ -152,3 +157,5 @@ Depending on the variants to be reported, different reference sequence files are
 	
 *	We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants?  Do I number it in relation to the EST or the genomic sequence?  Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?
 	:	Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants. When the EST sequence is incomplete you want to describe changes in relation to this sequence use AA010203.2:54_55insG, i.e. do not use a "g." or "c." prefix since neither a coding DNA nor a genomic reference sequence is used.
+
+

@@ -8,28 +8,15 @@ permalink: /versioning/
 
 * * *
 
-## Introduction
-
-
-The recommendations for the description of sequence variants are designed to be **_stable_**, **_meaningful_**, **_memorable_** and **_unequivocal_**. Still, every now and then small modifications will need to be made to remove small inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. To allow users to specify up to what point they follow the HGVS recommendations we have started to work with version numbers.
-
-As of now, **_any change_** in the recommendations will get a new _version number based on the date of the change_. Both in the [version list](#version-list), and on the page giving details of the change, it will be clearly marked using a format like **_date 2012-08-31_**. The version of the HGVS recommendations including that change will be _**version 2.120831**_.
-
-At the top of all pages on this site you will also find a **_Last modified_** date. This date indicates when the respective page was modified last. When this includes changes/extensions of the HGVS recommendation, the version number of the recommendation will also change. Note however that it often happens that simply a typing error was corrected, an example was added, an explanation was further clarified, a question answered, etc. In such cases the recommendations do not actually change and the version number will thus also not change.
+## Version list
 
 * * *
 
-## Versions
+HGVS nomenclature _**version 15.11**_ is described in [Den Dunnen et al. (2016). HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. _in press_](XXX). The most significant changes between version 15.11 and version 1.0 include;
 
-**Version 0**  -  On the page "[History regarding the description of sequence variants](/history)" we give an overview of all publications on the description of sequence variants. These papers can be considered as pre-versions of the first recommendations, a version 0.
-
-**Version 1  -** we consider the 2000 publication of den Dunnen JT and Antonarakis SE (_Mutation nomenclature extensions and suggestions to describe complex mutations: a discussion_. [_Hum.Mutat._ **15** (1): 7-12](http://www3.interscience.wiley.com/cgi-bin/fulltext/68503056/PDFSTART)) as a more formal set of recommendations, i.e. version 1\.
-
-**Version 2**  -  We are currently preparing a new publication that will summarize the current HGVS recommendations. The most significant and latest changes for version 2.0 compared to version 1.0 include;
-
-*   **_Reference sequence_** -  the recommendation is to use a [Locus Reference Genomic sequence](http://www.lrg-sequence.org/) (LRG) ([_Dalgleish et al. 2010_](http://genomemedicine.com/content/2/4/24)) as the reference sequence for variant descriptions. LRGs support descriptions using both genomic and coding DNA reference sequences and have been specifically made for application in a diagnostic setting ([_see Reference Sequences_](/bg-material/refseq)).  
-    In addition, indicators for new types of reference sequences have been added (e.g. m. and n., [_see Standards_](standards.html#refseq)) as well as indicators to specify different transcripts / protein isoforms generated from one gene ([_see Standards_](standards.html#traiso))
-*   **_Definitions_**  -  to enhance clarity as well as to facilitate computational analysis and description of sequence variants, the basic types of variants had to be defined more strictly. In addition descriptions have been prioritized, meaning that when a description is possible according to several classes, e.g. as a duplication or an insertion, one specific class is preferred. For an overview [_see Standards - definitions_](standards.html#define))
+*   **_Reference sequence_** -  for diagnostic applications, the recommendation is to use a [Locus Reference Genomic sequence](http://www.lrg-sequence.org/) (LRG) ([_Dalgleish et al. 2010_](http://genomemedicine.com/content/2/4/24)) as the reference sequence for variant descriptions ([_see Reference Sequences_](/bg-material/refseq)).  
+	*	indicators for new reference sequence types have been added (e.g. **m.** and **n.**, [_see Reference sequences_](/bg-material/refseq)) as well as indicators to specify different transcript variants (**t1**) and protein isoforms (**p1**) annotated in one reference sequence ([_see Reference Sequences_](/bg-material/refseq#DNAc))
+*	**_Definitions_**  -  to enhance clarity as well as to facilitate computational analysis and description of sequence variants, the basic types of variants were defined more strictly. In addition variant types were prioritized ([_see Standards - definitions_](standards.html#define))
 *   **_Pre-existing standards_**  -  several scientist have pointed out that we have thus far neglected the fact that some standards were already existing before those for the description of sequence changes were made. It is thus essential that we follow these standards in our recommendations. The most important of these are the pre-existing standards from the IUPAC (_International Union of Pure and Applied Chemistry_) and IUBMB (_International Union of Biochemistry and Molecular Biology_) for the description of nucleic acids and amino acids (see below). These include letter codes to describe incompletely specified residues at both DNA and protein level  ([see _Standards_](standards.html#aacode)). The most controversial of these changes is that where <font color="#FF0000"> the description of the stop codon </font> at protein/amino acid level <font color="#FF0000"> changed from 'X' to 'Ter'/'*' </font> since 'X' in the _IUPAC-IUB_ nomenclature means an "_unspecified_" or "_unknown_" amino acid.
     *   [Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html)  -  _IUBMB (NC-IUB)_ <br>
         specifying the description of nucleotides ([_see list_](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500))

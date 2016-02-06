@@ -16,7 +16,24 @@ The SVD-WG takes care of this website, answers questions, handles requests to ch
 
 * * *
 
-### Terminology 
+## Versioning
+
+The recommendations for the description of sequence variants are designed to be **_stable_**, **_meaningful_**, **_memorable_** and **_unequivocal_**. Still, every now and then small modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. To allow users to specify up to what point they follow HGVS nomenclature, version numbers will be assigned.
+
+Since 2015, **any change** in the recommendations receives a new **version number**. The version number will be based on the date of the change. Both in the [version list](../../versioning), and on the page containing the change, the version number assigned will be clearly marked. The version number will have the format: **HGVS nomenclature _Version 15.11_**, for the version accepted in 2015 ("**15**"), November ("**11**").
+
+The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note that when a typing error is corrected, an example added, an explanation further clarified, a question answered, etc., the recommendations not actually change and the version number therefore will not change.
+
+*	**Version 0**
+:	On the page "[History regarding the description of sequence variants](/history)" we give an overview of all publications on the description of sequence variants. These papers can be considered as pre-versions of the first recommendations, a version 0.
+*	**Version 1**
+:	The 2000 publication of Den Dunnen JT and Antonarakis SE [_Mutation nomenclature extensions and suggestions to describe complex mutations: a discussion. Hum.Mutat. 15:7-12](http://www3.interscience.wiley.com/cgi-bin/fulltext/68503056/PDFSTART)) contain a more formal set of recommendations an are considered as version 1.
+*	**Version 15.11**
+:	HGVS nomenclature version 15.11 is described in [Den Dunnen et al. (2016). HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. _in press_](XXX). For the most significant changes between this version and version 1.0 [_see Version list_](../../versioning).
+
+* * *
+
+## Terminology 
 
 Considerable effort has been invested to use for the HGVS nomenclature (and on these pages) only clearly defined terms. A Glossary with an extensive list of definitions is _**in preparation**_. Terms that might cause confusion will not be used. Below a short explanation for some of these.
 

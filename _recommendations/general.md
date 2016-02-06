@@ -6,6 +6,9 @@ order: 1
 
 # {{page.title}}
 
+Note that although the examples on these pages mainly give examples for human (_Homo sapiens_), the recommendations can be applied to **all species**.
+
+Since references to web sites are not yet acknowledged as citations, please mention [_Den Dunnen et al., 2016. HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: in press_](XXX) when referring to these pages.
 
 * * *
 
