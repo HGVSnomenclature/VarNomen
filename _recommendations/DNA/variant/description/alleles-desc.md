@@ -6,21 +6,21 @@ category: description
 
 Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. g.[123G>A;345del]
 
-* **"prefix"**  =  reference sequence used  =  g.<br>
-* **[**  =  opening symbol for allele  =  ]<br>
-* **"change1"**  =  description first variant  =  123G>A<br>
-* **;**  =  separator symbol two changes  =  ;<br>
-* **"change2"**  =  description second variant  =  345del<br>
-* **]**  =  closing symbol for allele  =  ]
+*	**"prefix"**  =  reference sequence used  =  g.<br>
+*	**[**  =  opening symbol for allele  =  ]<br>
+*	**"change1"**  =  description first variant  =  123G>A<br>
+*	**;**  =  separator symbol two changes  =  ;<br>
+*	**"change2"**  =  description second variant  =  345del<br>
+*	**]**  =  closing symbol for allele  =  ]
  
 Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345del]
 
-* **"prefix"**  =  reference sequence used  =  g.<br>
-* **[**  =  opening symbol for allele-1  =  ]<br>
-* **"change"**  =  description variant  =  123G>A<br>
-* **];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
-* **"change"**  =  description variant  =  345del<br>
-* **]**  =  closing symbol for allele-2  =  ]
+*	**"prefix"**  =  reference sequence used  =  g.<br>
+*	**[**  =  opening symbol for allele-1  =  ]<br>
+*	**"change"**  =  description variant  =  123G>A<br>
+*	**];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
+*	**"change"**  =  description variant  =  345del<br>
+*	**]**  =  closing symbol for allele-2  =  ]
  
 ---
 

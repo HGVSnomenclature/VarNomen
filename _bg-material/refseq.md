@@ -12,6 +12,15 @@ order: 2
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
+*	only public files from NCBI or EBI are accepted as a reference sequence
+	* approved reference sequence formats include; NC_# (e.g. NC_000023.10), LRG_# (e.g. LRG_199), NG_# (e.g. NG_012232.1), NM_# (e.g. NM_004006.2), NR_# (e.g. NR_002196.1) and NP_# (e.g. NP_003997.1)
+*	a reference sequence file identifier should contain both the **accession** and **<u>version number</u>**
+	*	NG_012232**<font color="red">.1</font>** is correct, NG_012232 lacks the essential version number
+	*	LRG reference sequences do not contain a version number; LRG_199
+*	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version_number_) and the actual description of a variant; NC_000011.9**<font color="red">:</font>**g.12345611G>A
+*	the reference sequence used **must contain** the variant residue described
+*	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC_000023.10 (for _Homo sapiens_ chromosome X, build GRCh37/hg19)
+
 * * *
 
 ##Reference Sequence Types
@@ -28,19 +37,7 @@ Depending on the variants to be reported, different reference sequence files are
 *	####protein
 	*	**p.**	=	[protein reference sequence](#proteinp)
 
-
-####Note
-
-*	only public files from NCBI or EBI are accepted as a reference sequence
-	* approved reference sequence formats include; NC_# (e.g. NC_000023.10), LRG_# (e.g. LRG_199), NG_# (e.g. NG_012232.1), NM_# (e.g. NM_004006.2), NR_# (e.g. NR_002196.1) and NP_# (e.g. NP_003997.1)
-*	a reference sequence should be listed with both the **accession** and **<u>version number</u>**
-	*	 NG_012232**<u>.1</u>** is correct, NG_012232 lacks the essential version number
-*	the reference sequence used **must contain** the variant residue described
-*	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
-
-
 * * *
-
 
 <a name="DNAg"></a>
 
@@ -75,7 +72,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NM_004006.2 ([_see O'Leary 2016_](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf))
 *	when, based on a genomic reference sequence, variants are reported using a "**c.**" prefix, the transcript variant used should be indicated
-	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**t1**", e.g. LRG_199**t1**:c.11T>G
+	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG_199**<font color="red">t1</font>**:c.11T>G
 *	the coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 	*	exons that disrupt the main reading frame should not be included
 
@@ -90,7 +87,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NR_002196.1 ([_see O'Leary 2016_](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf))
 *	when, based on a genomic reference sequence, variants are reported using a "**n.**" prefix, the transcript variant used should be indicated
-	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**t1**", e.g. LRG_163**t1**:n.5C>T
+	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG_163**<font color="red">t1</font>**:n.5C>T
 *	the non-coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 
 
@@ -103,7 +100,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g.  NM_004006.2 or NR_002196.1 ([_see O'Leary 2016_](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf))
 *	when, based on a genomic reference sequence, variants are reported using a "r." prefix, the transcript variant used should be indicated
-	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**t1**", e.g. LRG_199**t1**:r.11u>g
+	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG_199**<font color="red">t1</font>**:r.11u>g
 *	nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
 
 
@@ -116,7 +113,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NP_003997.1 ([_see O'Leary 2016_](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf))
 *	when, based on a genomic reference sequence, variants are reported using a "p." prefix, the reference protein isoform used should be indicated
-	*	for LRG_'s the annotated "**protein isoform 1**" is described as "**p1**", e.g. LRG_199**p1**:p.(ValGly)
+	*	for LRG_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG_199**<font color="red">p1</font>**:p.(ValGly)
 *	the protein reference sequence should be complete, cover the major and largest protein isoform known and include as many exons as possible, even when this isoform has not been proven to actually exist in nature
 
 
