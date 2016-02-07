@@ -6,9 +6,9 @@ order: 1
 
 # {{page.title}}
 
-Note that although the examples on these pages mainly give examples for human (_Homo sapiens_), the recommendations can be applied to **all species**.
-
 Since references to web sites are not yet acknowledged as citations, please mention [_Den Dunnen et al., 2016. HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: in press_](XXX) when referring to these pages.
+
+Note that although the examples on these pages mainly give examples for human (_Homo sapiens_), the recommendations can be applied to **all species**.
 
 * * *
 
@@ -43,7 +43,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 	*	"**( )**" (parentheses) are used to indicate uncertainties, e.g. when the exact position of a change is not known
 		*	the range of the uncertainty is described as precisely as possible and listed between parentheses; c.(67_70)insG
 	*	"**=**" (equals) is used to indicate a sequence was tested but not changed; g.12345A=, r.456C=, P.Arg234=
-* different formats are used to describe different types of variants;
+* different formats are used to describe the different variant types;
 	*	"**>**" indicates a **substitution** at DNA and RNA level; g.12345A>T, r.123a>u (for details see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
 		*	a substitution at the protein level is described as p.Ser321Arg (see [_protein_](/recommendations/protein/variant/substitution)) 
 	*	"**del**" indicates a **deletion**; c.76delA (for detailes see [_DNA_](/recommendations/DNA/variant/deletion), [_RNA_](/recommendations/RNA/variant/deletion), [_protein_](/recommendations/protein/variant/deletion))
@@ -52,6 +52,8 @@ Since references to web sites are not yet acknowledged as citations, please ment
 		*	duplicating insertions are described as duplications, not as insertions	
 	*	"**inv**" indicates an **inversion**; c.76_83inv (for detailes see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion))
 	*	"**con**" indicates a **conversion**; c.123_678conNM_004006.1:c.123_678 (for detailes see [_DNA_](/recommendations/DNA/variant/conversion), [_RNA_](/recommendations/RNA/variant/conversion), [_protein_](/recommendations/protein/variant/conversion))
+*	variant type descriptions are **prioritised**
+	:	When a description is possible according to several types, the preferred description is: (1) deletion, (2) inversion, (3) duplication, (4) conversion, (5) insertion. When a variant can be described as a duplication or an insertion, prioritisation determines it is a duplication.
 *	when describing genes or proteins, only **approved [HGNC gene symbols](http://www.genenames.org)** should be used.
 
 * * *

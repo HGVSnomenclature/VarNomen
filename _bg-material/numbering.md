@@ -66,16 +66,16 @@ nucleotide numbering for a RNA reference sequencing follows that of the associat
 	:	since nucleotide "c.78" has no signs attached and is not followed by a "+" or "-" and a second number it is located in the protein coding part of the gene.
 	:	_**NOTE**_: this rules does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.
 	:	_**NOTE**_: dividing the nucleotide number by 3 gives the number of the amino acid residue affected, in the example amino acid 26 (**78:3 = 26**).
-	*   **c.<font color="#FF0000">-</font>78**G>A is a variant upstream (5') of the translation initiation site, not in an intron
-	:	since nucleotide "c.-78" has a "**<font color="#FF0000">-</font>**" prefix it is located 5' of the ATG translation initiation codon.
+	*   **c.<font color="red">-</font>78**G>A is a variant upstream (5') of the translation initiation site, not in an intron
+	:	since nucleotide "c.-78" has a "**<font color="red">-</font>**" prefix it is located 5' of the ATG translation initiation codon.
 	:	_**NOTE**_: the length of the 5'UTR determines whether this nucleotide is still part of the transcript or upstream of the transcription initiation site (cap site).
-	*	**c.<font color="#FF0000">*</font>78**T>A is a variant downstream (3') of the translation initiation site, not in an intron
-	:	since nucleotide "c.*78" has a "**<font color="#FF0000">*</font>**" prefix it is located 3' of the translation termination codon.
+	*	**c.<font color="red">*</font>78**T>A is a variant downstream (3') of the translation initiation site, not in an intron
+	:	since nucleotide "c.*78" has a "**<font color="red">*</font>**" prefix it is located 3' of the translation termination codon.
 	:	_**NOTE**_: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
-	*   **c.78<font color="#FF0000">+</font>45**T>G
-	:	since nucleotide "c.78" is followed by "**<font color="#FF0000">+</font>**" and a second number ("45") the nucleotide is in an intron, 3' of the splice donor site and in the 5' half of the intron
-	*   **c.79<font color="#FF0000">-</font>45**G>T
-	:	since nucleotide "c.79" is followed by "**<font color="#FF0000">-</font>**" and a second number ("45") the nucleotide is in an intron, 5' of the splice acceptor site and in the 3' half of the intron
+	*   **c.78<font color="red">+</font>45**T>G
+	:	since nucleotide "c.78" is followed by "**<font color="red">+</font>**" and a second number ("45") the nucleotide is in an intron, 3' of the splice donor site and in the 5' half of the intron
+	*   **c.79<font color="red">-</font>45**G>T
+	:	since nucleotide "c.79" is followed by "**<font color="red">-</font>**" and a second number ("45") the nucleotide is in an intron, 5' of the splice acceptor site and in the 3' half of the intron
 
 *	When I retrieve a coding DNA sequence from GenBank (NM_ file) nucleotide numbering does not start with 1 at the A of the ATG translation initiation codon.
 	:	Correct, but it is not difficult to obtain such a file. Retrieve the NM_ sequence of interest using [_the Nucleotide database_](http://www.ncbi.nlm.nih.gov/nucleotide/), e.g. NM_004006.2. The [_file retrieved_](http://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.2) is be annotated extensively. Clicking the "**CDS**" annotation (CoDing Sequence) opens a window where the nucleotide numbering will start with 1 at the A of the ATG translation initiation codon.

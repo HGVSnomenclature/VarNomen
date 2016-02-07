@@ -29,14 +29,14 @@ Depending on the variants to be reported, different reference sequence files are
 	*	**p.**	=	[protein reference sequence](#proteinp)
 
 
-####Notes
+####Note
 
 *	only public files from NCBI or EBI are accepted as a reference sequence
 	* approved reference sequence formats include; NC_# (e.g. NC_000023.10), LRG_# (e.g. LRG_199), NG_# (e.g. NG_012232.1), NM_# (e.g. NM_004006.2), NR_# (e.g. NR_002196.1) and NP_# (e.g. NP_003997.1)
-*	a reference sequence should be listed with both the **accession** and <u>**version number**</u>
-	*	 NG_012232<u>**.1**</u> is correct, NG_012232 lacks the essential version number
-*	the reference sequence used **must** contain the variant residue described
-*	the recommended DNA reference is a genomic reference sequence based on a recent genome build, e.g. NC_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
+*	a reference sequence should be listed with both the **accession** and **<u>version number</u>**
+	*	 NG_012232**<u>.1</u>** is correct, NG_012232 lacks the essential version number
+*	the reference sequence used **must contain** the variant residue described
+*	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
 
 
 * * *
@@ -136,7 +136,8 @@ Depending on the variants to be reported, different reference sequence files are
 	*	descriptions of variants are very long making them impractical to use, e.g. NC_000006.11:g.117198495_117198496del compared to LRG_199t1:c.57_58del.
 	*	genomic reference sequence file are very big making downloading time consuming and storage problematics.
 	*	the transcriptional orientation of the gene of interest may be on the minus (-)  strand, complicating variant reporting using "c." and "r." prefixes; nucleotide numbering on coding DNA and RNA level are based on the transcriptional orientation of the gene and goes in the opposite direction, creating confusing situations.
-
+<br>
+<br>
 *	What are the disadvantages of using a coding DNA reference?
 	:	A gene may have several transcripts, using different promoters / 5'-first exons, alternatively spliced exons, different 3'-terminal exons and polyA-addition sites. In such cases, which transcript should then be used?  Every choice will mean some regions (exons) are not in the reference sequence, complicating variant description.
 	The different transcripts may encode different proteins (isoforms) with, when different promoters are used, different N-terminal sequences and even using different reading frames in one or more exons (e.g. the CDKN2A gene encoding the p14 and p16 protein isoforms).
