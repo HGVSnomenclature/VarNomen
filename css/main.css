@@ -1,3 +1,10 @@
+:target:before {
+    content: "";
+    display: block;
+    height: 20px; /* fixed header height*/
+    margin: -20px 0 0; /* negative fixed header height */
+}
+
 body {
     padding-top: 110px;
     height: 100%;
