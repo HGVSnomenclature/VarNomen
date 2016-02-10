@@ -3,25 +3,6 @@ layout: default
 title: RNA
 order: 3
 permalink: /recommendations/RNA/
-dna-variants:  # All the variants the RNA nomenclature has in common with the DNA nomenclature
-    - substitution
-    - deletion
-    - inversion
-    - duplication
-    - insertion
-    - translocation
 ---
 
 {% include recs/recs-index.html %}
-
-<div class="row">
-    <h2>See DNA recommendations for the following:</h2>
-    {% for dna in page.dna-variants %}
-        {% for var in site.recommendations %}
-            {% if dna == var.title and var.parent == "DNA" and var.category == nil %}
-                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-sm-4 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="recPanels"><h3>{{ var.title | capitalize }}</h3></a>
-                <a href="{{ rec.url | prepend: site.baseurl }}" class="col-xs-6 text-center btn btn-warning btn-md hidden-md hidden-lg" id="recPanels">{{ var.title | capitalize }}</a>
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
-</div>
