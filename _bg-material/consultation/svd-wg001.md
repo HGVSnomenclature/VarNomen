@@ -1,8 +1,6 @@
 ---
 layout: default-md
 title: SVD-WG001
-permalink: /svd-wg001/
-recent: true
 ---
 
 ##Community Consultation
