@@ -5,6 +5,6 @@ permalink: /recent/
 recent: true
 ---
 
-##Recent Additions
+####Recent Additions
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quae. Saepe vero eaque pariatur aperiam, soluta! Autem quod provident, doloremque dolores, magni sunt cum at libero qui beatae quas aperiam in ratione eveniet et mollitia repudiandae minima cupiditate! Provident expedita maxime dolor quia eaque nemo, iusto officiis quasi sed dolores aperiam fugiat eius explicabo. In at ad dolorem labore quaerat, veniam repellat quo consectetur minus reiciendis possimus sed quasi ipsam, quos vel autem, voluptatum aliquam. Necessitatibus voluptatum, accusantium at nisi obcaecati delectus neque autem laudantium, dolor libero magni unde aut reiciendis! Possimus obcaecati temporibus cum officiis, veritatis culpa nostrum minima.
+An overview of recent additions, especially those that led to a change of the _**HGVS version number**_, can be found on the [_Versioning page_](/versioning). The [_Open Issues_](/recommendations/open-issues/) page shows whether there are proposals open for _**Community Consultation**_ and which topics are currently _**under discussion**_ (pre-proposal status). The [_HGVS nomenclature facebook page_](https://www.facebook.com/HGVSmutnomen) regularly posts topics of interest, including **Q&A's** and a nomenclature agenda.

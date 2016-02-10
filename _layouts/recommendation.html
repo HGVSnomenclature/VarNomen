@@ -10,6 +10,12 @@
         <div class="container">
             {% include recs/recs-sidemenu.html %}
 
+            {% if page.last-modified %}
+                <div class="last-modified pull-right">
+                    Last modified: {{ page.last-modified }}
+                </div>
+            {% endif %}
+
             {% include recs/recs-main.html %}
         </div>
 

@@ -1,5 +1,5 @@
 ---
 parent: DNA
-title: complex
+title: complex (HGVS/ISCN)
 category: example
 ---

@@ -3,8 +3,7 @@ layout: recommendation
 parent: Protein
 title: substitution
 definition: 
-    Word1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ipsum.
-    Word 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio optio ipsum sunt voluptate! Nihil tempora quo, quas, facere vero culpa amet aliquid soluta accusantium eum ut dignissimos dolor ullam. Inventore.
+    Substitution: a sequence change where, compared to a reference sequence, **one** nucleotide is replaced by **one** other nucleotide.
 discussion:
     Question1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ipsam.
     Q2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis animi soluta repellendus, dolores tempora sequi. Laboriosam nesciunt tempore, voluptatibus obcaecati ex.

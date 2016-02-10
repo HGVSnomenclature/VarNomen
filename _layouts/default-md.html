@@ -11,6 +11,11 @@
                 {{ content | markdownify }}
             {% else %}
                 <div class="container">
+                    {% if page.last-modified %}
+                    <div class="last-modified pull-right">
+                        Last modified: {{ page.last-modified }}
+                    </div>
+                    {% endif %}
                     {{ content | markdownify }}
                 </div>
             {% endif %}
