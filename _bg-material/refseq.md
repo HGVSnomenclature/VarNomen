@@ -39,8 +39,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 * * *
 
-<a name="DNAg"></a>
-
+{:#DNAg}
 ###DNA - genomic reference sequence
 
 *	the recommended DNA reference is a genomic reference sequence based on a recent genome build, e.g. NC_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
