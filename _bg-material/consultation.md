@@ -32,6 +32,6 @@ There are currently no proposals open vor Community Consultation
 	:	suggested to accept a non-coding DNA reference sequence (n.345A>G, n.224+1G>T, n.696-38544del).
 	:	**Status**: <font color="red">accepted</font> Oct.6 (2015). Closed Jul.16 (2015). Opened May 14 (2015).
 		
-*	[SVD-WG001](http://www.hgvs.org/mutnomen/accepted001.html) (no change)
+*	[SVD-WG001](/bg-material/consultation/svd-wg001/) (no change)
 	:	suggested to allow reporting of variants that were tested but found to be unchanged (g.50377648A=, c.1823A=, r.377u=, p.Val76=). 
 	:	**Status**: <font color="red">accepted</font> Oct.6 (2015). Closed Jul.16 (2015). Opened May 14 (2015).
