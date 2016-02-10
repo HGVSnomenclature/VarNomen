@@ -128,7 +128,7 @@ amino acid numbering is simple; p.1, p.2, p.3, ..., etc. from the first to the l
 
 ## Figure
 
-![Reference Sequence Figure](/assets/RefSeq.jpg){:.img-responsive .center-block #refSeqFig}
+![Reference Sequence Figure]({{site.baseurl}}/assets/RefSeq.jpg){:.img-responsive .center-block #refSeqFig}
 
 * * *
 

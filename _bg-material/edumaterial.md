@@ -1,7 +1,7 @@
 ---
 layout: default-md
 title: Educational Material
-order: 5
+order: 6
 ---
 
 #{{ page.title }}
