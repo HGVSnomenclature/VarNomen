@@ -53,8 +53,8 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 	*	"**<font color="red">;</font>**" (semi colon) is used to separate variants or alleles
 	*	"**<font color="red">,</font>**" (comma) is used to separate different transcripts/proteins derived from one allele
 *	"**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version_number_) from the actual description of a variant; NC_000011.9**<font color="red">:1</font>**g.12345611G>A
-*	"**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties, e.g. when the exact position of a change is not known; g.(1267_1270)insG
-	_**NOTE**_:	the range of the uncertainty should be described as precisely as possible
+*	"**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties, e.g. when the exact position of a change is not known; g.(1267_1270)insG<br>
+	_**NOTE**_: the range of the uncertainty should be described as precisely as possible [_see below_](#uncertain1)
 *	"**<font color="red">?</font>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.12345_(23456_?)del
 *	"**<font color="red"></font>**" (caret) is used as "or" in the back translation of protein variants to DNA level descriptions; c.(370A>C**<font color="red"></font>**372C>R) as back translation of p.Ser124Arg
 *	"**<font color="red">&gt;</font>**" (greater then) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (for details see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
@@ -93,7 +93,44 @@ Specific abbreviations are used to describe different variant types.
 ###Discussions
 
 *	Some papers and web sites use a "-" (minus) to indicate a range, is this correct?
-:	the sign used to indicate a range is "_" (underscore) and not a "-" (minus). The minus sign should only be used as a minus in the description of variants based on a coding DNA reference sequence. **c.12-14del** describes a deletion of nucleotide -14 in the intron directly preceding cDNA nucleotide 12, **not a deletion of nucleotides c.12 to c.14**.
+:	The sign used to indicate a range is "_" (underscore) and not a "-" (minus). The minus sign should only be used as a minus in the description of variants based on a coding DNA reference sequence. **c.12-14del** describes a deletion of nucleotide -14 in the intron directly preceding cDNA nucleotide 12, **not a deletion of nucleotides c.12 to c.14**.
+
+<a name="uncertain1"></a>
+
+*	Can I describe a deletion when I have not yet sequenced the break point?
+:	Yes, using the characters to indicate uncertainties, i.e. the question mark ("**?**") and brackets ("**( )**"), such cases can be described. Describe the range of uncertainty as precise as possible. When for a specific probe/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to use the central nucleotide.
+The basic format to describe un-sequenced deletions is: **(last-positive_first-negative)_ (last-negative_first-positive)**. Descriptions differ based on the technology used to detect the rearrangement:
+	*	FISH
+	:	Genomic rearrangements detected using FISH (Fluorescence In Situ Hybridisation) can be described using [_ISCN guidelines_](XXX). When the probe sequence are known, variants can also be described using genomic coordinates;   **(position-last-positive-position-clone_first-negative-clone)_ (position-last-negative-clone_position-first-positive-clone)**.
+		*	chrX:g.(AC096506.5_AL109609.5)_(AL451144.5_AL050305.9)del
+		:	a deletion on the X-chromosome detected using FISH. The deletion spans from PAC probes RP4-556A22 (GenBank AL109609.5) to RP11-151J4 (GenBank AL451144.5), both yielding no signal. On the telomeric side (p-arm) the closest probe tested positive was PAC RP11-64I1 (GenBank AC096506.5), on the centromeric side the closest probe tested positive was RP6-60B16 (GenBank AL050305.9). _**NOTE**_ g.(AC096506.5_AL109609.5)del indicates that the deletion breakpoint is somewhere between the sequences AC096506.5 and AL109609.5 (PAC-derived) and gives a direct link to the genome.
+		:	The deletion can also be described directly in relation to the genome sequence as hg19 chrX:g.(32218983_32238146)_(32984039_33252615)del, i.e. (genomic-end-position-last-positive-clone_genomic-start-position-first-negative-clone)_ (genomic-end-position-last-negative-clone_genomic-start-position-first-positive-clone). Note that although this description is more precise, the information regarding the probe sequences used can not be derived from the description and needs to be reported separately. 
+		*	chrX:g.(?_AL109609.5)_(AL451144.5_?)del
+		:	a deletion on the X-chromosome detected using FISH. The deletion spans from PAC probes RP4-556A22 (GenBank AL109609.5) to RP11-151J4 (GenBank AL451144.5), both yielding no signal. No flanking positive probes were tested, making it unclear how far the deletion extends (compare with previous description).
+		*	chrX:g.(AC096506.5_AL109609.5)_AL451144.5del
+		:	a deletion on the X-chromosome detected using FISH. The deletion spans from PAC probes RP4-556A22 (GenBank AL109609.5) to RP11-151J4 (GenBank AL451144.5). On the telomeric side (p-arm) the closest probe tested positive was PAC RP11-64I1 (GenBank AC096506.5), while RP4-556A22 (GenBank AL109609.5) tested negative. On the centromeric side the probe RP11-151J4 (GenBank AL451144.5) gave a reduced signal, indicating that the breakpoint lies **in this clone** (note that this identifier is not between brackets).
+        :	An alternative description is chrX:g.(AC096506.5_AL109609.5)_AL451144.5:g.(1_100207)del where AL451144.5:g.(1_100207) indicates that the range where the deletion junction lies spans nucleotides 1 to 100,207. One can argue whether this addition is very informative.
+        
+	*	Southern blotting
+	:	Usually the sequence of the probe(s) used is known (or can be determined easily), can be linked to a genomic reference sequence and the rearrangement can be described using the format **(position-last-positive-probe_position-first-negative-probe)_ (position-last-negative-probe_position-first-positive-probe)**.
+	
+	*	array (CGH or SNP)
+	:	Genomic rearrangements detected using arrays (CGH or SNP arrays) can be described using [_ISCN guidelines_](XXX). In most cases the probe sequence are known and the variants can also be described using genomic coordinates;   **(position-last-positive-position-clone_first-negative-clone)_ (position-last-negative-clone_position-first-positive-clone)**.
+		*	chrX:g.(32218983_32238146)_(32984039_33252615)del (hg19)
+		:	a deletion on the X chromosome, based on reference genome build hg19, starting between nucleotides 32,218,983 to 32,238,146 and ending between nucleotides 32,984,039 to 33,252,615.
+		*	chrX:g.(?_32238146)_(32984039_?)del (hg19)
+		:	a deletion on the X chromosome, based on reference genome build hg19, starting upstream of nucleotide 32,238,146 and ending downstream of nucleotide 32,984,039.
+		:	_**NOTE**_: the description leaves it thus unclear how far the deletion might extend, suggesting no up- or downstream probes were tested (and scored positive).
+		*	chr13:g.(18,858,133_18,867,056)_(24,517,730_24,531,502)del (hg19)
+		:	alternatively g.(rs2342234_rs3929856)_(rs10507342_rs947283)del
+		:	a deletion on chromosome 13 detected using a SNP-array. The deletion spans from dbSNP entries rs3929856 to rs10507342, both yielding no signal. On the centromeric side (q-arm) the closest probe tested positive was rs2342234, on the telomeric side the closest probe tested positive was rs947283. Although the alternative description based on the human genome nucleotide numbering is more precise, the information regarding the probe sequences used is lost. 
+		*	chr13:g.(?_18,867,056)_(24,517,730_?)del (hg10)
+		:	alternatively g.(?_rs3929856)_(rs10507342_?)del
+		:	a deletion detected using an array spanning from dbSNP entries rs3929856 to rs10507342. The description assumes no flanking positive probes were tested, making it unclear how far the deletion extends.
+	
+	*	MLPA
+	:	The description uses the basic format **(position-last-positive-probe_position-first-negative-probe)_ (position-last-negative-probe_position-first-positive-probe)**. In MLPA a pair of short oligonucleotides is used to detect the copy number of a speficic sequence (mostly an exon). Effectively, when the signal for a probe is decreased, it only indicates that the pair of oligo nucleotide sequences could not be ligated. Ligation probably failed because either or both oligonucleotides did not hybridize to the 20-30 nucleotide target sequence. It is common practice, after excluding other variants in the probe binding sequence when only 1 exon probe is affected, to describe the result as a change affecting the entire exons. When the exact probe location would need to be used, variant description becomes too complex to be useful. Furthermore, assuming the MLPA probe pair used hybridizes from position c.3211 to c.3266, which location should be used, only part of the target sequence might be deleted. To make descriptions not too complicated, it **is therefore allowed** to assume the entire exon is affected (deleted or duplicated). When a probe location is used the recommendation is to use the central position. For details [_see Deletions_](/recommendations/DNA/variant/deletion/) or [_Duplications_](/recommendations/DNA/variant/duplication/).
+
 
 *	Is it correct that when I apply **the 3'rule** "g." and "c." variant descriptions for genes that are on the minus strand of a chromosome may differ regarding the nucleotide that I describe as deleted?
 	:	Yes, when a gene is on the minus strand of a chromosome (opposite transcriptional orientation) and the change is located in a repeated sequence (mono-, di-, tri-, etc. nucleotide stretches) the 3'rule has this as a consequence. When the chromosome sequence is -TGGGGCAT- and one of the G's is deleted (change to -TGGG_CAT-) the description based on chromosome coordinates is g.5delG. When the annotated coding DNA reference sequence is on the minus strand (ATGCCCCA) the description is c.7delC. Not only is the deleted nucleotide different (delG vs. delC), in fact the descriptions also point to another nucleotide, g.5 vs. g.2 (equivalent to c.7delC).

@@ -25,8 +25,9 @@ Format (sequence):   **"prefix""position_repeat_start""repeat_sequence""[""copy_
 
 ### Note
 
-*	prefix</b> reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
+*	reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 *	repeated sequences include both small (mono-, di-, tri-, etc., nucleotide) and larger (kilobase-sized) repeats. 
 *	the format based on **repeat position** is preferred, descriptions of the repeat sequence quickly become too lengthy.
-	*	a mix of the descriptions, like g.123_124TG[4], should not be used; it contains redundant information ("123_124" and "TG"). 
+	*	_**NOTE**_: while g.123CAG[23] describes a repeat of 23 CAG units, g.123_125[23] describes a tri-nucleotide repeat of 23 units which **could be interrupted** with other units (e.g. a rare CAA). The description g.123CAG[23] can thus only be used when the repeat was sequenced.
+*	the format g.123_124TG[4], should not be used; it contains redundant information ("123_124" and "TG"). 
 *	for **composite repeats** the basic format can be used, successively listing each different repeat unit; g.456_465[4]466_489[9]490_499[3].
