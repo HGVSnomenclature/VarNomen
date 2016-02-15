@@ -101,7 +101,7 @@ Depending on the variants to be reported, different reference sequence files are
 *	when, based on a genomic reference sequence, variants are reported using a "r." prefix, the transcript variant used should be indicated
 	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG_199**<font color="red">t1</font>**:r.11u>g
 *	nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
-
+* 	the reference sequence inclides the entire transcript, excluding the poly A-tail.
 
 <a name="proteinp"></a>
 
@@ -114,6 +114,7 @@ Depending on the variants to be reported, different reference sequence files are
 *	when, based on a genomic reference sequence, variants are reported using a "p." prefix, the reference protein isoform used should be indicated
 	*	for LRG_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG_199**<font color="red">p1</font>**:p.(ValGly)
 *	the protein reference sequence should be complete, cover the major and largest protein isoform known and include as many exons as possible, even when this isoform has not been proven to actually exist in nature
+*	the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include any signal peptide sequences.
 
 
 * * *
@@ -148,10 +149,10 @@ Depending on the variants to be reported, different reference sequence files are
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [_the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)_](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1). Descriptions should be preceded by "m.", like m.8993T>C. The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP_003024031.1:p.Leu156Pro.
 	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [_see MITOMAP_](http://www.mitomap.org/).
-	
+
 *	How should variants be described in genes that produce only RNA (so no protein), e.g. ncRNA, miRNA, and others?
 	:	To describe variants in genes that produce an RNA molecule but no protein a genomic reference sequence can be used ("**g.**" description). When a non-coding DNA reference sequence is available, e.g. a LRG (NR_002196.1 for the H19 transcript) or a RefSeq transcript (NR_000020.1 for the small nucleolar RNA, C/D box 33 (SNORD33) gene), variants can be described using the prefix "**n.**" [see [_Community Consultation SVD-WG002_(/bg-material/community/SVD-WG002) and [_Nucleotide numbering_](/bg-material/numbering)).
-	
+
 *	We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants?  Do I number it in relation to the EST or the genomic sequence?  Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?
 	:	Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants. When the EST sequence is incomplete you want to describe changes in relation to this sequence use AA010203.2:54_55insG, i.e. do not use a "g." or "c." prefix since neither a coding DNA nor a genomic reference sequence is used.
 

@@ -29,10 +29,10 @@ nucleotide numbering is simple m.1, m.2, m.3, ....etc. from the first to the las
 
 nucleotide numbering is based on the annotated protein isoform, the major translation product. Initial recommendations ([_Antonarakis (1998)_](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and _den Dunnen & Antonarakis (2000)_](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
 
-*	numbering starts with "c.1" at the **A** of the ATG translation initiation codon and ends with the **last nucleotide** of the translation stop codon (i.e. TA**A**, TA**G**, or TG**A**).
+*	numbering starts with "c.1" at the **A** of the ATG translation initiation codon and ends with the **last nucleotide** of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
 *	there is no nucleotide c.0.
 *	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**-**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
-*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "*" (asterisk) and numbered c.*1, c.*2, c.*3, etc. (i.e. going further downstream)
+*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "\*" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
 *	nucleotides in introns
 	*	nucleotides at the 5' end of an intron are numbered relative to the last nucleotide of the directly upstream exon, followed by a "**+**" (plus) and their position in to the intron, like c.87+1, c.87+2, c.87+3, ...
 	*	nucleotides at the 3' end of an intron are numbered relative to the first nucleotide of the directly downstream exon, followed by a "**+**" (plus)  and their position out of the intron, like ..., c.88-3, c.88-2, c.88-1.

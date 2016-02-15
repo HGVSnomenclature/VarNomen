@@ -23,7 +23,7 @@ HGVS nomenclature _**version 15.11**_ is described in Den Dunnen et al. (2016). 
 *   **_Version 15.11_**
 	:	Accepted proposals include [_SVD-WG001_](accepted001.html) and [_SVD-WG002_](accepted002.html). SVD-WG001 (_No change_) allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=). SVD-WG002 (_n. reference sequence_) allows descriptions like NR_028379.1:n.345A>G.  
 
-*   **_Version 2.121101_
+*   **_Version 2.121101_**
 	:	Variants affecting translation termination**  -  variants that replace the translation termination codon but do not encounter a new stop in the new reading frame are described as "p.*321Argext*?". Frame shift variants with the same effect are described as "p.Ile321Argfs*?" ([_see Protein descriptions_](/recommendations/protein))
 
 *   **_Version 2.120831_**
