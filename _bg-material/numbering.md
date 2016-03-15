@@ -11,13 +11,14 @@ permalink: /bg-material/numbering/
 
 ### Genomic reference sequences
 
-nucleotide numbering is simple; g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Variant descriptions based on a genomic reference sequence **do not include** "+", "-", "*" or other signs.
+nucleotide numbering is simple; g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
 
 * * * 
 
 ### Mitochondrial DNA reference sequences
 
-nucleotide numbering is simple m.1, m.2, m.3, ....etc. from the first to the last nucleotide of the reference sequence. Variant descriptions based on a genomic reference sequence **do not include** "+", "-", "*" or other signs.
+nucleotide numbering is simple m.1, m.2, m.3, ....etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
+
 *	the preferred human mtDNA reference sequence is [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).
 
 * * * 
@@ -28,10 +29,10 @@ nucleotide numbering is simple m.1, m.2, m.3, ....etc. from the first to the las
 
 nucleotide numbering is based on the annotated protein isoform, the major translation product. Initial recommendations ([_Antonarakis (1998)_](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and _den Dunnen & Antonarakis (2000)_](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
 
-*	numbering starts with "c.1" at the **A** of the ATG translation initiation codon and ends with the **last nucleotide** of the translation stop codon (i.e. TA**A**, TA**G**, or TG**A**).
+*	numbering starts with "c.1" at the **A** of the ATG translation initiation codon and ends with the **last nucleotide** of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
 *	there is no nucleotide c.0.
 *	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**-**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
-*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "*" (asterisk) and numbered c.*1, c.*2, c.*3, etc. (i.e. going further downstream)
+*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "\*" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
 *	nucleotides in introns
 	*	nucleotides at the 5' end of an intron are numbered relative to the last nucleotide of the directly upstream exon, followed by a "**+**" (plus) and their position in to the intron, like c.87+1, c.87+2, c.87+3, ...
 	*	nucleotides at the 3' end of an intron are numbered relative to the first nucleotide of the directly downstream exon, followed by a "**+**" (plus)  and their position out of the intron, like ..., c.88-3, c.88-2, c.88-1.
@@ -45,7 +46,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 
 ### non-coding DNA reference sequences
 
-nucleotide numbering is simple; n.1, n.2, n.3, ..., etc. from the first to the last nucleotide of the reference sequence. Variant descriptions based on a genomic reference sequence **do not include** "+", "-", "*" or other signs.
+nucleotide numbering is simple; n.1, n.2, n.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a non-coding DNA reference sequence **do not include** "+", "-", "*" or other prefixes.
 
 * * * 
 
@@ -53,8 +54,14 @@ nucleotide numbering is simple; n.1, n.2, n.3, ..., etc. from the first to the l
 
 nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
 
-*	in a non-coding RNA reference sequences nucleotide numbering is simple; r.1, r.2, r.3, ..., etc. from the first to the last nucleotide of the reference sequence. Variant descriptions based on a genomic reference sequence **do not include** "+", "-", "*" or other signs.
-*	in a coding RNA reference sequences nucleotide numbering is based on the annotated protein isoform, the major translation product, following that of a coding DNA reference sequence [_see coding DNA reference sequence_](#DNAc). Variant descriptions based on a genomic reference sequence **may include** "+", "-", "*" or other signs.
+*	in a non-coding RNA reference sequences nucleotide numbering is simple; r.1, r.2, r.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
+*	in a coding RNA reference sequences nucleotide numbering is based on the annotated protein isoform, the major translation product, following that of a coding DNA reference sequence [_see coding DNA reference sequence_](#DNAc). Nucleotide numbers based on a coding DNA reference sequence **may include** "+", "-", "*" or other prefixes.
+
+* * * 
+
+### Protein reference sequences
+
+amino acid numbering is simple; p.1, p.2, p.3, ..., etc. from the first to the last amino acid of the reference sequence. Amino acid numbers based on a protein reference sequence **do not include** "+", "-", "*" or other prefixes.
 
 * * * 
 
@@ -66,16 +73,20 @@ nucleotide numbering for a RNA reference sequencing follows that of the associat
 	:	since nucleotide "c.78" has no signs attached and is not followed by a "+" or "-" and a second number it is located in the protein coding part of the gene.
 	:	_**NOTE**_: this rules does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.
 	:	_**NOTE**_: dividing the nucleotide number by 3 gives the number of the amino acid residue affected, in the example amino acid 26 (**78:3 = 26**).
-	*   **c.<font color="red">-</font>78**G>A is a variant upstream (5') of the translation initiation site, not in an intron
+	*   **c.<font color="red">-</font>78**G>A is a variant upstream (5') of the translation initiation site
 	:	since nucleotide "c.-78" has a "**<font color="red">-</font>**" prefix it is located 5' of the ATG translation initiation codon.
 	:	_**NOTE**_: the length of the 5'UTR determines whether this nucleotide is still part of the transcript or upstream of the transcription initiation site (cap site).
-	*	**c.<font color="red">*</font>78**T>A is a variant downstream (3') of the translation initiation site, not in an intron
-	:	since nucleotide "c.*78" has a "**<font color="red">*</font>**" prefix it is located 3' of the translation termination codon.
+	*	**c.<font color="red">*</font>78**T>A is a variant downstream (3') of the translation initiation site
+	:	since nucleotide "c.*78" has a "**<font color="red">*</font>**" prefix it is located 3' of the translation termination codon
 	:	_**NOTE**_: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
-	*   **c.78<font color="red">+</font>45**T>G
+	*   **c.78<font color="red">+</font>45**T>G is a variant in an intron (5' half)
 	:	since nucleotide "c.78" is followed by "**<font color="red">+</font>**" and a second number ("45") the nucleotide is in an intron, 3' of the splice donor site and in the 5' half of the intron
-	*   **c.79<font color="red">-</font>45**G>T
+	*   **c.79<font color="red">-</font>45**G>T is a variant in an intron (3' half)
 	:	since nucleotide "c.79" is followed by "**<font color="red">-</font>**" and a second number ("45") the nucleotide is in an intron, 5' of the splice acceptor site and in the 3' half of the intron
+	*   **c.<font color="red">-</font>106<font color="red">+</font>**2T>A is a variant in an intron in the 5'UTR (upstream of the translation initiation site)
+	:	since nucleotide "c.-106" has a "**<font color="red">-</font>**" prefix it is located 5' of the ATG translation initiation codon and since it is followed by "**<font color="red">+</font>**" and a second number ("2") the nucleotide is in the 5' half of an intron
+	*   **c.<font color="red">*</font>639<font color="red">-</font>**1G>A is a variant in an intron in the 3'UTR (downstream of the translation termination site)
+	:	since nucleotide "c.*639" has a "**<font color="red">*</font>**" prefix it is located 3' of the translation termination codon and since it is followed by "**<font color="red">-</font>**" and a second number ("1") the nucleotide is in the 3' half of the intron
 
 *	When I retrieve a coding DNA sequence from GenBank (NM_ file) nucleotide numbering does not start with 1 at the A of the ATG translation initiation codon.
 	:	Correct, but it is not difficult to obtain such a file. Retrieve the NM_ sequence of interest using [_the Nucleotide database_](http://www.ncbi.nlm.nih.gov/nucleotide/), e.g. NM_004006.2. The [_file retrieved_](http://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.2) is be annotated extensively. Clicking the "**CDS**" annotation (CoDing Sequence) opens a window where the nucleotide numbering will start with 1 at the A of the ATG translation initiation codon.
@@ -117,7 +128,7 @@ nucleotide numbering for a RNA reference sequencing follows that of the associat
 
 ## Figure
 
-![Reference Sequence Figure](/assets/RefSeq.jpg){:.img-responsive .center-block #refSeqFig}
+![Reference Sequence Figure]({{site.baseurl}}/assets/RefSeq.jpg){:.img-responsive .center-block #refSeqFig}
 
 * * *
 

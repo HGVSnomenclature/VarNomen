@@ -1,6 +1,7 @@
 ---
 layout: default-md
 title: SVD-WG001
+category: SVD-WG
 ---
 
 ##Community Consultation

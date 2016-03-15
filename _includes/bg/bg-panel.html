@@ -1,7 +1,7 @@
 {% assign sorted-bg = site.bg-material | sort: "order" %}
 {% for cat in sorted-bg %}
     {% comment %} create a link for every category in bg-material {% endcomment %}
-    {% if (cat.title != "Background Material") and cat.title and cat.parent == nil %}
+    {% if (cat.title != "Background Material") and cat.category != "SVD-WG" and cat.title and cat.parent == nil %}
         <a href="{{ cat.url | prepend: site.baseurl }}" class="col-sm-4 text-center btn btn-warning btn-sm hidden-sm hidden-xs" id="menuPanels"><h3>{{ cat.title }}</h3></a>
         <a href="{{ cat.url | prepend: site.baseurl }}" class="col-xs-6 text-center btn btn-warning btn-md hidden-md hidden-lg" id="menuPanels">{{ cat.title }}</a>
     {% endif %}
