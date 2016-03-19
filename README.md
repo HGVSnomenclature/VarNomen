@@ -1,5 +1,6 @@
 ##URL
 http://hgvsnomenclature.github.io/VarNomen/
+http://varnomen.hgvs.org/
 
 ##To run:
 
