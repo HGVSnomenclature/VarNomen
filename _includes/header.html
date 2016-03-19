@@ -43,7 +43,7 @@
                         {% comment %} Loops through bg-material to populate the "Background Materials" dropdown {% endcomment %}
                         {% assign sorted_bg = site.bg-material | sort: "order" %}
                             {% for bg in sorted_bg %}
-                                {% if (bg.title != "Background Material") and bg.title and bg.parent == nil %}
+                                {% if (bg.title != "Background Material") and bg.category != "SVD-WG" and bg.title and bg.parent == nil %}
                                     <li>
                                         <a href="{{ bg.url | prepend: site.baseurl }}">{{ bg.title }}</a>
                                     </li>
