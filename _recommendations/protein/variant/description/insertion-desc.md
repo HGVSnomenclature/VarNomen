@@ -4,15 +4,24 @@ title: insertion
 category: description
 ---
 
-Insertions add one or more amino acid residues between two existing amino acids and this insertion is not a copy of a sequence immediately 5'-flanking ([_see Duplication_](duplication)). Insertions are described using _**"ins"**_ after an indication of the amino acids flanking the insertion site, separated by a "\_" (_underscore_) and followed by a description of the amino acid(s) inserted. In-frame insertions containing a translation stop codon in the inserted sequence are described as an insertion of a [nonsense variant](#nonsense), not as a deletion-insertion removing the entire C-terminal amino acid sequence. Since for large insertions the amino acids can be derived from the DNA and/or RNA descriptions they need not to be described exactly but the total number may be given (_like "ins17"_).
+Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e.g. p.Lys23\_Leu24insArgSerGln
 
-*   **in frame**
+**"prefix"**  =  reference sequence used  =  p.<br>
+**"amino_acids+positions_flanking"**  =  amino acids with positio flanking insertion site  =  Lys23\_Leu24<br>
+**"ins"**  =  type of change is an insertion  =  ins<br> 
+**"inserted_sequence"**  =  inserted sequence  =  ArgSerGln
 
-*   p.Lys2_Met3insGlnSerLys denotes that the sequence GlnSerLys (QSK) was inserted between amino acids Lysine-2 (Lys, K) and Methionine-3 (Met, M), changing MKMGHQQQCC to MK**<u>QSK</u>**MGHQQQCC
-*   p.(Pro2_Ile3insGlyTer) is the predicted consequence of the insertion c.6_7insGGGTAG (coding reference sequence NM_000059.3)  
-    _**NOTE:**_ this is not described as p.(Ile3_Ile3418delinsGly), a deletion-insertion removing the entire protein coding sequence
+---
 
-*   p.Trp182_Gln183ins17 describes a variant that inserts 17 amino acids between amino acids Trp182 and Gln183  
-    **_NOTE:_** it must be possible to deduce the 17 inserted amino acids from the description given at DNA or RNA level
+### Note
 
-_**NOTE:**_  duplicating insertions should be described as duplications (_[see Discussion](disc.html#dupins)_), not as insertion.
+*	**prefix** reference sequences accepted are p. (protein).
+*	an insertion can not be described using **one** amino acid position, like p.Lys23insAsp
+*	the "amino\_acids+positions\_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25)
+*	duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/variant/duplication/)), not as insertion
+*	**in-frame** insertions containing a translation stop codon in the inserted sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
+*	**out-of-frame** insertions are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/).
+*	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
+*	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Lys2\_Leu3ins34).
+*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
+	:	{ } (curly braces) can be used to list any change in the inserted sequence ("inserted_sequence") which is different when compared to the source, e.g. p.Lys23\_Leu24insArg100\_Asp120**{Gly111Glu}**

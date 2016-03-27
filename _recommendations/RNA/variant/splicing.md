@@ -3,12 +3,9 @@ layout: recommendation
 parent: RNA
 title: splicing
 definition: 
-    Word1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ipsum.
-    Word 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio optio ipsum sunt voluptate! Nihil tempora quo, quas, facere vero culpa amet aliquid soluta accusantium eum ut dignissimos dolor ullam. Inventore.
+    Splicing: a sequence change where, compared to a reference sequence, the normal RNA splicing pattern is altered.
 discussion:
-    Question1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ipsam.
-    Q2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis animi soluta repellendus, dolores tempora sequi. Laboriosam nesciunt tempore, voluptatibus obcaecati ex.
-    Q3: Lorem ipsum dolor sit.
+    A variant changes the +1 intron sequence (GT to AT). Although I did not analyse RNA, I am quite sure that normal splicing is affected. How can I best indicate this?: Although it is not an official HGVS recommendation, many use the format "<b>r.spl</b>" to indicate that RNA was not analysed but splicing most probably affected. In general the format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants). "<b>r.(spl?)</b>" is frequently used to indicate normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG).
 ---
 
 

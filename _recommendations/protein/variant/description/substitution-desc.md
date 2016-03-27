@@ -4,19 +4,23 @@ title: substitution
 category: description
 ---
 
-Substitutions (missense changes) _**replace one amino acid by one other amino acid**_ and are described using the format **_p.Trp26Cys_**. The description does not use the "**_>_**"-character used on DNA- and RNA level (indicating "_changes to_").
+Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.Arg54Ser
 
-*   **missense variant**  
-    p.Trp26Cys denotes that amino acid Tryptophan-26 (Trp, W) is changed to a Cysteine (Cys)
-*   _**start codon**  (initiating methionine change - Met1)_  (_[see Discussion](disc.html#Met),  [see Examples](examplesAA.html#sub)_)  
-    a change affecting the translation initiation codon (Met-1) is, depending on its consequence, either
-    *   a change which results in no protein being produced (_p.0_)  
-        _Met1?_ -  denotes that amino acid Methionine-1 (translation initiation site) is changed and that it is unclear what the consequences of the change are
-    *   an N-terminal [deletion](#del) (_p.Phe2_Met46del_, i.e. activating downstream translation initiation)  
-        _**NOTE:** up to August 2015 the example given was p.Met1_Lys45del which is not correct, the 3' rule should be applied_
-    *   an [extension](#extp) (_p.Met1ValextMet-12_, activating upstream translation initiation)
-*   _**nonsense variant**_  
-    is a special type of amino acid deletion introducing an immediate translation stop codon and is described like an amino acid substitution (<span style="font-style: italic;">p.Trp26Ter or p.Trp26*</span>)  
-    <span style="font-weight: bold; font-style: italic;">NOTE:</span> the description <span style="font-style: italic; font-weight: bold;">does not include</span> the deletion at protein level of the entire C-terminal amino acid sequence like _p.Trp26_Leu833del_
-*   no-stop change (Ter) (change in stop codon, Ter/\*)  
-    a change affecting the translation termination codon (Ter, \*) is described as an [extension](#extp) (_p.Ter110GlnextTer17_ or _p.\*110Glnext\*17_).
+**"prefix"**  =  reference sequence used  =  p.<br>
+**"amino_acid"**  =  reference amino acid  =  Arg<br>
+**"position"**  =  position amino acid subtituted  =  54<br>
+**"new_amino_acid"**  =  new amino acid  =  Ser
+
+---
+
+### Note
+
+*	**prefix** reference sequences accepted are p. (protein).
+*	changes involving two or more consecutive amino acids are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/protein/variant/indel/)).
+*	a variant changing a codon for an amino acid into a translation termination (stop) codon, a **nonsense** variant, is described as a **substitution**.
+*	amino acids that have been tested and found **not changed** are described as p.Cys123= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).<br>
+_**NOTE**_: the underlying DNA change **must** be given in addition and in this case is either c.456C>T or c.456C=<br>
+_**NOTE**_: such changes are **silent** protein changes
+*	the description p.Arg76\_Cys77delinsSerTrp is preferred over p.[Arg76Ser;Cys77Trp]. 
+_**NOTE:**_ by definition this change can not be described as a substitution (like p.Arg76\_Cys77SerTrp)<br>
+*	it is not correct to describe "_polymorphisms_" as p.76Ser/Arg ([_see Discussions_](/recommendations/protein/variant/substitution/#polymorphism)).
