@@ -4,18 +4,19 @@ title: duplication
 category: description
 ---
 
-Format:   **"prefix""sequence_duplicated""dup"**,  e.g. g.123_345dup
+Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"sequence_duplicated"**  =  the range of nucleotides duplicated  =  123_345<br>
-**"inv"**  =  the type of change is a duplication  =  dup
- 
- 
-**NOTE:**
-<ul>
-<li><b>prefix</b> reference sequences accepted are g., c. and n. (genomic, coding DNA and non-coding DNA reference sequences).</li>
-<li>by definition, duplication may only be used when the additional copy is <b>directly 3'-flanking</b> of the original copy (a "tandem duplication").</li> 
-<li>when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking) the original copy, the change can not be described as a duplication, it should be described as an insertion.</li> 
- <li>under discussion, see <i><a ref='http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc'>Proposal for complex variants</a></i>:<br> 
-{ } (curly braces) can be used to list any change in the region duplicated ("sequence_duplicated") which is different when compared to the source, e.g.  g.123_345dup<b><i>{232A>G}</i></b>.</li>
-</ul>
+**"prefix"**  =  reference sequence used  =  r.<br>
+**"position(s)\_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123\_345<br>
+**"dup"**  =  type of change is a duplication  =  dup
+
+---
+
+### Note
+
+*	**prefix** reference sequences accepted are r. (coding and non-coding RNA).
+*	by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").
+*	when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking) the original copy, the change can not be described as a duplication, it should be described as **an insertion** ([_see Insertion_](/recommendations/RNA/variant/insertion/)).
+*	for all descriptions the **most 3' position** possible is arbitrarily assigned to have been changed (_**3'rule**_)
+*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
+	:	{ } (curly braces) can be used to list any change in the duplicated sequence ("positions\_duplicated") which is different when compared to the source, e.g. r.123\_345dup**{234a>g}**

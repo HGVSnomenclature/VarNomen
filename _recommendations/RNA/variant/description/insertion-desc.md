@@ -4,21 +4,20 @@ title: insertion
 category: description
 ---
 
-Format:   **"prefix""position""ins""inserted_sequence"**,  e.g. g.123_124insAGC
+Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. r.123\_124insauc
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"position"**  =  position two nucleotides flanking the insertion site   =  123_124<br>
-**"ins"** =  the type of change is an insertion =  ins<br> 
-**"inserted_sequence"**  =   the inserted sequence  =  AGC
- 
- 
- **NOTE:**
-<ul>
-<li><b>prefix</b> reference sequences accepted are g., c. and n. (genomic, coding DNA and non-coding DNA reference sequences).</li>
-<li>the "position" description should contain <b><i>two flanking nucleotides</i></b>, e.g. 123 and 124 but not 123 and 125.</li>
-<li>insertion can not be described using one nucleotide position, like g.123insG</li>
-<li>when the inserted sequence is very long ....</li>
-<ul><li>under discussion, see <i><a ref='http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc'>Proposal for complex variants</a></i>:<br>
-{ } (curly braces) can be used to list any change in the inserted sequence ("new_sequence") which is different when compared to the source, e.g. .....<b><i>{999A>G}.</i></b> </li>
-</ul>
-</ul>
+**"prefix"**  =  reference sequence used  =  r.<br>
+**"positions_flanking"**  =  position two nucleotides flanking insertion site  =  123\_124<br>
+**"ins"**  =  type of change is an insertion  =  ins<br> 
+**"inserted_sequence"**  =  inserted sequence  =  auc
+
+---
+
+### Note
+
+*	**prefix** reference sequences accepted are r. (coding and non-coding RNA).
+*	the "position" description should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
+*	an insertion can not be described using one nucleotide position, like r.123insg
+*	when the inserted sequence is very long it can best be submitted to a database (e.g. [_GenBank_](http://www.ncbi.nlm.nih.gov/genbank/submit/)); the accession.version number obtained can then be used to describe the variant like r.123\_124insL37425.1:23\_361 
+*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
+	:	{ } (curly braces) can be used to list any change in the inserted sequence ("inserted_sequence") which is different when compared to the source, e.g. r.123\_124ins100\_120**{111a>u}**
