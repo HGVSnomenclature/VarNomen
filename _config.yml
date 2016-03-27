@@ -9,7 +9,7 @@
 title: Sequence Variant Nomenclature
 email: VarNomen @ HGVS.org
 description: >  # this means to ignore newlines until "baseurl:"
-    The consistent and unambiguous description of sequence variants is essential to report and exchange information on the analysis of a genome. In particular, DNA diagnostics critically depends on accurate and standardised description and sharing of the variants detected. The sequence variant nomenclature system proposed in 2000 by the Human Genome Variation Society has been widely adopted and has developed into an internationally accepted standard.
+    The consistent and unambiguous description of sequence variants is essential to report and exchange information on the analysis of a genome. In particular, DNA diagnostics critically depends on accurate and standardised description of the variants detected. The sequence variant nomenclature system proposed in 2000 by the Human Genome Variation Society (HGVS) has been widely adopted and developed into an internationally accepted standard.
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "http://varnomen.hgvs.org/"  # the base hostname & protocol for your site
 version: 15.11  # Current nomenclature version number
@@ -24,22 +24,18 @@ variant-priority:   # used when generating order of variants in site structure a
 # Case-sensitive - use lowercase
     - substitution
     - deletion
-    - inversion
     - duplication
-    - conversion
     - insertion
+    - inversion
+    - conversion
     - deletion/ insertion (indel)  
     - alleles
     - repeated sequences
     - complex (HGVS/ISCN)
     # RNA specific
-    - RNA processing/ initiation
     - splicing
-    - large deletions
-    - uncertainties
     # protein specific
-    - silent
-    - variable short sequence repeats
+    - frame shift
     - extension
 
 # Build settings

@@ -4,9 +4,23 @@ title: duplication
 category: description
 ---
 
-Duplications are described using "**_dup_**" after an indication of the first and last amino acid(s) duplicated separated by a "\_" (_underscore_). In-frame duplications containing a translation stop codon in the duplicated sequence are described as an insertion of a [nonsense variant](file:///Users/Boomheide/Files/WWW/HGVS/recs-prot.html#nonsense), not as a deletion-insertion removing the entire C-terminal amino acid sequence.
+Format:  **"prefix""amino_acid(s)+position(s)_deleted""dup"**,  e.g. p.Cys76\_Glu79dup
 
-*   p.Gly4_Gln6dup in the sequence MKMGHQQQCC denotes a duplication of amino acids Glycine-4 (Gly, G) to Glutamine-6 (Gln, Q) (i.e. MKMGHQ**<u>GHQ</u>**QQCC)
-*   duplicating insertions in single amino acid stretches (or short tandem repeats) are described as a duplication, e.g. a duplicating HQ insertion in the HQ-tandem repeat sequence of MKMGHQHQCC to MKMGHQHQ**<u>HQ</u>**CC is described as p.His7_Gln8dup (not p.Gln8_Cys9insHisGln)
+**"prefix"**  =  reference sequence used  =  p.<br>
+**"amino_acid(s)+position(s)_duplicated"**  =  amino acid with position or range (first amino acid with position to last amino acid with position) duplicated  =  Cys76\_Glu79<br>
+**"dup"**  =  type of change is a duplication =  dup
 
-_**NOTE:**_ for all descriptions the **most C-terminal position** possible is arbitrarily assigned to have been changed
+---
+
+### Note
+
+*	**prefix** reference sequences accepted are p. (protein).
+*	the "amino\_acids+positions\_duplicated" should contain **two different** positions, e.g. Cys76\_Glu79, not Cys76\_Cys76.
+*	the "positions\_duplicated" should be listed from **5' to 3'**, e.g. Cys76\_Glu79, not Glu79\_Cys76.
+*	by definition, duplication may only be used when the additional copy is **directly 3'-flanking** the original copy (a "tandem duplication").
+*	when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking) the original copy, the change can not be described as a duplication, it should be described as **an insertion** ([_see Insertion_](/recommendations/protein/variant/insertion/)).
+*	for all descriptions the **most C-terminal position** possible is arbitrarily assigned to have been changed (**3'rule**)
+*	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
+*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
+	:	{ } (curly braces) can be used to list any change in the duplicated sequence ("positions\_duplicated") which is different when compared to the source, e.g. p.Cys76\_Glu94dup**{Ala88Glu}**
+
