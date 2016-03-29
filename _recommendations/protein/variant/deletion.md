@@ -3,12 +3,12 @@ layout: recommendation
 parent: Protein
 title: deletion
 definition: 
-    Word1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ipsum.
-    Word 2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio optio ipsum sunt voluptate! Nihil tempora quo, quas, facere vero culpa amet aliquid soluta accusantium eum ut dignissimos dolor ullam. Inventore.
+    Deletion: a sequence change where, compared to a reference sequence, one or more amino acids are not present (deleted).
 discussion:
-    Question1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, ipsam.
-    Q2: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis animi soluta repellendus, dolores tempora sequi. Laboriosam nesciunt tempore, voluptatibus obcaecati ex.
-    Q3: Lorem ipsum dolor sit.
+    Can I use p.Arg45del6 to describe a 6 amino acid deletion?: No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. p.Arg45_Gly50del and not p.Arg45del6.
+    Is the description of a deletion of exon 17 as p.EX17del still allowed?: A description like p.EX17del has never been allowed. Descriptions should be specific and indicate the amino acids affected by the change.
+    In literature I often see the description "deltaF508" for a variant in the CFTR gene in patients with Cystic Fibrosis. Is this according to HGVS nomenclature a correct description: No, the correct description of this variant at the protein level is p.Phe508del.
+    What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?: It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSer<b><font color="red">_</font></b>HisAsp.. this is described as p.Ser5del. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCC<b><font color="red">_</font></b>TCCCACGAT.., so the codon for Ser4 is deleted, is not used; the description p.Ser4del is not correct.
 ---
 
 

@@ -4,19 +4,19 @@ title: inversion
 category: description
 ---
 
-Format:   **"prefix""sequence_changed""inv"**,  e.g. g.123_345inv
+Format:   **"prefix""positions_inverted""inv"**,  e.g. r.123\_345inv
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"sequence_changed"**  =  the range of nucleotides inverted  =  123_345<br>
-**"inv"**  =  the type of change is an inversion  =  inv
- 
- 
-**NOTE:**
-<ul>
-<li><b>prefix</b> reference sequences accepted are g., c. and n. (genomic, coding DNA and non-coding DNA reference sequences).</li>
-<li>by definition, the region inverted ("sequence_changed") contains <b><i>more then one nucleotide</i></b>. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a substitution. 
- <li>under discussion, see <i><a ref='http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc'>Proposal for complex variants</a></i>:<br> 
-{ } (curly braces) can be used to list any change in the region inverted ("sequence_changed") which is different when compared to the source, e.g.  
-g.123_345inv<b><i>{232A>G}</i></b>.</li>
-<li>inversions are not used on Protein level</li>
-</ul>
+**"prefix"**  =  reference sequence used  =  r.<br>
+**"positions_inverted"**  =  range of nucleotides inverted  =  123\_345<br>
+**"inv"**  =  type of change is an inversion  =  inv
+
+---
+
+### Note
+
+*	**prefix** reference sequences accepted are r. (coding and non-coding RNA)
+*	by definition, the region inverted ("positions\_inverted") contains **more then one nucleotide**. The description r.234inv is therefore not allowed; a one nucleotide inversion should be described as a [_substitution_](/recommendations/RNA/variant/substitution/)
+*	since exon splice signals will be inverted, large genomic inversions on the RNA level usually give [_deletion_](/recommendations/RNA/variant/deletion/) or [_deletion-insertion (indel)_](/recommendations/RNA/variant/indel/) variants
+*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
+	:	{ } (curly braces) can be used to list any change in the inverted sequence ("positions\_inverted") which is different when compared to the source, e.g. r.123\_345inv**{233a>g}**
+*	inversions are not used on the protein level

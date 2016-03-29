@@ -4,11 +4,12 @@ title: duplication
 category: example
 ---
 
-Duplications are designated by _**"dup"**_ after a description of the duplicated segment, i.e. the first (and last) amino acid(s) duplicated.
-
-*   MKLGHQQQCC to MKLGHQ**<u>GHQ</u>**QQCC is described as p.Gly4_Gln6dup (alternatively p.G4_Q6dup)
-*   MKLGHQQQCC to MKLGHQQQ**<u>Q</u>**CC is described as p.Gln8dup (alternatively p.Q8dup)  
-    _**NOTE:**_ for duplications in single amino acid stretches or tandem repeats, the most 3' residue is arbitrarily assigned to have been duplicated
-*   MKLGHQQQCC to MKLGHQ**<u>HQ</u>**QQCC is described as p.His5_Gln6dup (alternatively p.H5_Q6dup)  
-    **_NOTE:_** duplicating insertions in single amino acid stretches (or short tandem repeats) should be described as a duplication and not as an insertion - so in the example shown p.Gln6_Gln7insHisGln (alternatively p.Q6_C7insHQ) is not correct
-*   **variability of short sequence repeats** are designated as p.Gln6(3_6) (alternatively p.Q6(3_6)) describing that the Glutamine (Gln, Q) stretch starting at position 6 in MKLGHQQQCC is found repeated 3 to 6 times in the population
+*	p.Ala3dup (one amino acid)
+	: a duplication of amino acid Ala3 in the sequence MetGlyAlaArgSerSerHis to MetGlyAla**<font color="red">Ala</font>**ArgSerSerHis
+*	p.(Ala3dup)
+	: the **predicted** consequence at the protein level is a duplication of amino acid Ala3 in the sequence MetGlyAlaArgSerSerHis to MetGlyAla**<font color="red">Ala</font>**ArgSerSerHis
+*	p.Ala3\_Ser5dup (several amino acids)
+	: a duplication of amino acids Ala3 to Ser5 in the sequence MetGlyAlaArgSerSerHis to MetGlyAlaArgSer**<font color="red">AlaArgSer</font>**SerHis
+*	p.Ser6dup
+	: a duplication of amino acid Ser in the sequence MetGlyAlaArgSerSerHis to MetGlyAlaArgSerSer**<font color="red">Ser</font>**His
+	:	_**NOTE:**_ for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted
