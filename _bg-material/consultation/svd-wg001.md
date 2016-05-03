@@ -4,9 +4,9 @@ title: SVD-WG001
 category: SVD-WG
 ---
 
-##Community Consultation
+## Community Consultation
 
-###Proposal SVD-WG001 (no change)
+### Proposal SVD-WG001 (no change)
 
 *	Status: <font color="red">accepted</font>
 	:	proposal SVD-WG001 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since no major objections were received the proposal was **accepted** by the SVD-WG on Oct.6 (2015). The proposal is part of the HGVS nomenclature **version 15.11** update.
@@ -15,7 +15,7 @@ The proposal suggests to extend the HGVS recommendations to allow description of
 
 * * *
 
-####DNA
+#### DNA
 
 *	g.11890634G=
 	:	a screen was performed showing that nucleotide g.11890634G was a "G" like in the genomic reference sequence (the nucleotide was not changed).
@@ -31,13 +31,13 @@ The proposal suggests to extend the HGVS recommendations to allow description of
 *	LRG\_476:g.4950\_39800=
 	:	a screen was performed showing that nucleotides g.4950 to g.39800 of the COL6A2 gene were as in genomic reference sequence LRG\_476 (exons and introns).
 
-####RNA
+#### RNA
 
 *	r.473u= &nbsp; (c.473T=)
 	:	a screen was performed showing that nucleotide r.473 (on RNA level) was a "u" as in the RNA reference sequence (the nucleotide was not changed).
 	:	_**NOTE**_: description of the variant at DNA level is mandatory 
 
-####protein
+#### protein
 
 *	p.(Arg41=) &nbsp; (c.123G>A)
 	:	the predicted consequence of variant c.123G>A (DNA level) is that amino acid residue 41 is an "Arg" like in the protein reference sequence (the nucleotide was not changed, RNA was not analysed).

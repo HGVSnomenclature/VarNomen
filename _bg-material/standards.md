@@ -12,7 +12,7 @@ order: 3
 
 ## Nucleotides (DNA / RNA)
 
-At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences_ ([see IUBMB (NC-IUB)](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html), specifying the description of nucleotides ([_see list_](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500)) and the NCBI standards for sequence files and database searches ([e.g. BLAST](http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml)).
+At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences_ ([see IUBMB (NC-IUB)](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html){:target="\_blank"}, specifying the description of nucleotides ([see list](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}) and the NCBI standards for sequence files and database searches ([e.g. BLAST](http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml){:target="\_blank"}).
 
 * * * 
 
@@ -71,7 +71,7 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 ## Genetic Code
 
-At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ [_see IUPAC-IUB_](http://www.chem.qmul.ac.uk/iupac/AminoAcid/), specifying the description of amino acids ([_see list_](http://www.chem.qmul.ac.uk/iupac/AminoAcid/AA1n2.html#AA1)). In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "<b>*</b>" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon. _**NOTE**_: in older versions the "**X** was used instead.
+At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ [see IUPAC-IUB](http://www.chem.qmul.ac.uk/iupac/AminoAcid/){:target="\_blank"}, specifying the description of amino acids ([see list](http://www.chem.qmul.ac.uk/iupac/AminoAcid/AA1n2.html#AA1){:target="\_blank"}). In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon. _**NOTE**_: in older versions the "**X** was used instead.
 In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s.
 
 <table class="table table-bordered text-center">
@@ -215,8 +215,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
 
 ## Amino Acid Descriptions
 
-At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ [_see IUPAC-IUB_](http://www.chem.qmul.ac.uk/iupac/AminoAcid/), specifying the description of amino acids ([_see list_](http://www.chem.qmul.ac.uk/iupac/AminoAcid/AA1n2.html#AA1)). In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "<b>*</b>" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon. _**NOTE**_: in older versions the "**X** was used instead.
-In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s.
+At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ [see IUPAC-IUB](http://www.chem.qmul.ac.uk/iupac/AminoAcid/){:target="\_blank"}, specifying the description of amino acids ([see list](http://www.chem.qmul.ac.uk/iupac/AminoAcid/AA1n2.html#AA1){:target="\_blank"}). In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon (_**NOTE**_: in older versions the "**X** was used instead). In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s. 
 
 {:.table .table-bordered}
 | One Letter Code | Three Letter Code |          Amino Acid         |             Possible Codons             |                Systemic Name                |              Formula              |
