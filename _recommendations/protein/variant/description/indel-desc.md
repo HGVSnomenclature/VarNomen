@@ -15,7 +15,8 @@ Format:   **"prefix""amino_acid(s)+position(s)_deleted""delins""inserted_sequenc
 
 ### Note
 
-*	**prefix** reference sequences accepted are p. (protein).
+*	**prefix** reference sequence accepted is "p." (protein).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg123\_Lys127delinsSerAsp).
 *	by definition, when **one** amino acid is replaced by **one** other amino acid the change is a [_substitution_](/recommendations/protein/variant/substitution/).
 *	**frame shifting** deletion/insertion variants are a special type of protein variants described as a frame shift ([_see Frame shift_](/recommendations/protein/variant/frameshift/))
 *	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)

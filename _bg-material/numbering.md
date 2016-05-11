@@ -9,13 +9,13 @@ permalink: /bg-material/numbering/
 
 * * * 
 
-### Genomic reference sequences
+### genomic reference sequences
 
 nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
 
 * * * 
 
-### Mitochondrial DNA reference sequences
+### mitochondrial DNA reference sequences
 
 nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
 
@@ -25,7 +25,7 @@ nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nuc
 
 <a name="DNAc"></a>
 
-### Coding DNA reference sequences
+### coding DNA reference sequences
 
 nucleotide numbering is based on the annotated protein isoform, the major translation product.
 
@@ -61,7 +61,7 @@ nucleotide numbering for a RNA reference sequencing follows that of the associat
 
 * * * 
 
-### Protein reference sequences
+### protein reference sequences
 
 amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amino acid of the reference sequence. Amino acid numbers based on a protein reference sequence **do not include** "+", "-", "*" or other prefixes.
 

@@ -26,6 +26,8 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[Ser73Arg];
 
 ### Note
 
+*	**prefix** reference sequence accepted is "p." (protein).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.[(Arg727Ser)];[(Arg727Ser)]
 *	when two variants are identified in a protein that derive from **one chromosome** (in cis) this should be described as "p.[variant1;variant2]".
 *	when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]".
 *	when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "[variant<font color="red">(;)</font>variant2]".  Of course it is recommended to determine whether the changes are in the same protein allele or not. Still, when this has not yet been done, it is important to make this **clear** in the description.

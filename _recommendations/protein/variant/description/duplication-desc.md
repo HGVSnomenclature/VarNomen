@@ -14,7 +14,8 @@ Format:  **"prefix""amino_acid(s)+position(s)_deleted""dup"**,  e.g. p.Cys76\_Gl
 
 ### Note
 
-*	**prefix** reference sequences accepted are p. (protein).
+*	**prefix** reference sequence accepted is "p." (protein).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783dup).
 *	the "amino\_acids+positions\_duplicated" should contain **two different** positions, e.g. Cys76\_Glu79, not Cys76\_Cys76.
 *	the "positions\_duplicated" should be listed from **5' to 3'**, e.g. Cys76\_Glu79, not Glu79\_Cys76.
 *	by definition, duplication may only be used when the additional copy is **directly 3'-flanking** the original copy (a "tandem duplication").

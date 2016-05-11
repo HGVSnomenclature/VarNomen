@@ -25,14 +25,14 @@ There are currently no proposals open vor Community Consultation
     :   suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.
     :   **Status**: <font color="red">under review</font>. Closed Jan.15 (2016). Opened Nov.10 (2015).
 
-*   [SVD-WG003](http://www.hgvs.org/mutnomen/accepted003.html) (exon del/dup)
+*   [SVD-WG003]({{site.baseurl}}/bg-material/consultation/svd-wg003/) (exon del/dup)
     :   suggested to describe exon deletions/duplications using the format c.(233+1\_234-1)_(1234+1\_1235-1)del.
-    :   **Status**: <font color="red">new proposal</font> Oct.6 (2015). Closed Jul.16 (2015). Opened May 14 (2015).
+    :   **Status**: Oct.6 (2015) <font color="red">new proposal to be made</font>. Closed Jul.16 (2015). Opened May 14 (2015).
     
-*   [SVD-WG002](http://www.hgvs.org/mutnomen/accepted002.html) (**n.** prefix)
+*   [SVD-WG002]({{site.baseurl}}/bg-material/consultation/svd-wg002/) (**n.** prefix)
     :   suggested to accept a non-coding DNA reference sequence (n.345A>G, n.224+1G>T, n.696-38544del).
-    :   **Status**: <font color="red">accepted</font> Oct.6 (2015). Closed Jul.16 (2015). Opened May 14 (2015).
+    :   **Status**: Oct.6 (2015) <font color="red">accepted</font>. Closed Jul.16 (2015). Opened May 14 (2015).
         
 *   [SVD-WG001]({{site.baseurl}}/bg-material/consultation/svd-wg001/) (no change)
     :   suggested to allow reporting of variants that were tested but found to be unchanged (g.50377648A=, c.1823A=, r.377u=, p.Val76=). 
-    :   **Status**: <font color="red">accepted</font> Oct.6 (2015). Closed Jul.16 (2015). Opened May 14 (2015).
+    :   **Status**: Oct.6 (2015) <font color="red">accepted</font>. Closed Jul.16 (2015). Opened May 14 (2015).

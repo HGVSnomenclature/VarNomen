@@ -15,7 +15,8 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.Arg54Ser
 
 ### Note
 
-*	**prefix** reference sequences accepted are p. (protein).
+*	**prefix** reference sequence accepted is "p." (protein).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg727Ser).
 *	changes involving two or more consecutive amino acids are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/protein/variant/indel/)).
 *	a variant changing a codon for an amino acid into a translation termination (stop) codon, a **nonsense** variant, is described as a **substitution**.
 *	amino acids that have been tested and found **not changed** are described as p.Cys123= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).<br>
@@ -23,4 +24,4 @@ _**NOTE**_: the underlying DNA change **must** be given in addition and in this 
 _**NOTE**_: such changes are **silent** protein changes
 *	the description p.Arg76\_Cys77delinsSerTrp is preferred over p.[Arg76Ser;Cys77Trp]. 
 _**NOTE:**_ by definition this change can not be described as a substitution (like p.Arg76\_Cys77SerTrp)<br>
-*	it is not correct to describe "_polymorphisms_" as p.76Ser/Arg ([_see Discussions_](/recommendations/protein/variant/substitution/#polymorphism)).
+*	it is not correct to describe "**polymorphisms**" as p.76Ser/Arg ([_see Discussions_](/recommendations/protein/variant/substitution/#polymorphism)).

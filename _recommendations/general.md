@@ -13,7 +13,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 ### General recommendations
 
 *	all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
-    *	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** (predicted). 
+    *	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses.
 *	all variants should be described in relation to an accepted **reference sequence** ([_see Reference Sequences_](/bg-material/refseq)).
 	*	a **letter prefix** should be used to indicate the reference sequence used. Accepted prefixes are;
 		*	"**g.**" for a genomic reference sequence
