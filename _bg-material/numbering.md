@@ -78,7 +78,7 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 	*   **c.<font color="red">-</font>78**G>A is a variant upstream (5') of the translation initiation site
 	:	since nucleotide "c.-78" has a "**<font color="red">-</font>**" prefix it is located 5' of the ATG translation initiation codon.
 	:	_**NOTE**_: the length of the 5'UTR determines whether this nucleotide is still part of the transcript or upstream of the transcription initiation site (cap site).
-	*	**c.<font color="red">*</font>78**T>A is a variant downstream (3') of the translation initiation site
+	*	**c.<font color="red">*</font>78**T>A is a variant downstream (3') of the translation termination site
 	:	since nucleotide "c.*78" has a "**<font color="red">*</font>**" prefix it is located 3' of the translation termination codon
 	:	_**NOTE**_: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
 	*   **c.78<font color="red">+</font>45**T>G is a variant in an intron (5' half)

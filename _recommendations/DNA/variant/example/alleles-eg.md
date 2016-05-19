@@ -15,16 +15,18 @@ category: example
 *	g.[2376A>C(;)2376A>C]
 	: analysis detects one variant (g.2376A>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
 *	g.[2376A>C];[2376A=]
-	: one allele (chromosome) of a gene contains a variant, g.2376A>C, the other allele (chromosome) contains the reference sequence, g.2376= (is **wild-type**).
+	: one allele (chromosome) of a gene contains a variant, g.2376A>C, the other allele (chromosome) contains the reference sequence, g.2376A= (is **wild-type**).
 *	g.[2376A>C];[?]
 	: one allele (chromosomes) of a gene contains a variant, g.2376A>C, while a variant for the other allele is expected but not yet identified (g.?) (e.g. in individuals affected by a recessive disease).
+*	g.[266C>G;476C>T;1083G>C];[266C>G;1083G>C]
+	: a sample contains variants g.266C>G and g.1083G>C on both alleles (chromosomes) and variant g.476C>T on only one allele.
+*	g.[266C>G;476C>T(;)1083G>C];[476C>T]
+	: a sample contains a homozygous variant (g.476C>T) and two heterozygous variants (g.266C>G and 1083G>C) for which it is not known on which allele (chromosome) they are.
 *	chrX:g.[30683643A>G;33038273T>G]
 	: one allele (X-chromosome) contains two different changes in two different genes, g.30683643A>G in the GK gene and g.33038273T>G in the DMD gene.
-*	g.[266C>G;476C>T;1083G>C];g.[266C>G;1083G>C]
-	: a sample contains variants g.266C>G and g.1083G>C on both alleles (chromosomes) and variant g.476C>T on only one allele.
 *	c.[NM\_000167.5:94A>G;NM\_004006.2:76A>C]
 	: one allele (X-chromosome) contains two different changes in two different genes, NM\_000167.5:c.94A>G in the GK and NM\_004006.2:c.76A>C in the DMD gene.
-*	g.[2376=/2376A>T]
-	: a somatic case where a transcript allele in some cells contains a normal sequence (2376=), while other cells contain a "T" at this position (2376A>T)  
-*	g.[2376=//2376A>T]
-	: a chimeric organism where a transcript allele in some cells contain a normal sequence (2376=), while other cells contain a protein allele with "T" at this position (2376A>T).
+*	g.[=/2376A>T]
+	: a somatic case where a transcript allele in some cells contains a normal sequence (=), while other cells contain a "T" at this position (2376A>T)  
+*	g.[=//2376A>T]
+	: a chimeric organism where a transcript allele in some cells contain a normal sequence (=), while other cells contain a protein allele with "T" at this position (2376A>T).

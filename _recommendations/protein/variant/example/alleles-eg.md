@@ -4,6 +4,8 @@ title: alleles
 category: example
 ---
 
+For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
+
 *	p.[Ser73Arg;Asn603del]
 	: a protein allele contains two different variants, p.Ser73Arg and p.Asn603del. The variants are found **in cis**.
 *	p.[(Ser73Arg;Asn603del)]
