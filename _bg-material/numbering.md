@@ -40,6 +40,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 		*	the nucleotide exactly in the middle of an intron is numbered relative to the upstream exon followed by a "**<font color="red">+</font>**" (plus)
 	*	introns in the 5'UTR are numbered as normal introns, starting with "**c.-**" nucleotide numbers (c.-85+1, c.-85+2, c.-85+3, ..., c.-84-3, c.-84-2, c.-84-1)
 	*	introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.*38-1)
+	*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene [_see Reference Sequences_](/bg-material/refseq/#DNAc)
 *	suggestions have been made to extend the recommendations for the nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides ([_see Open Issues_](/recommendations/open-issues)).
 
 Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf){:target="\_blank"} and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf){:target="\_blank"}) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
@@ -58,6 +59,7 @@ nucleotide numbering for a RNA reference sequencing follows that of the associat
 
 *	in a non-coding RNA reference sequences nucleotide numbering is r.1, r.2, r.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
 *	in a coding RNA reference sequences nucleotide numbering is based on the annotated protein isoform, the major translation product, following that of a coding DNA reference sequence [_see coding DNA reference sequence_](#DNAc). Nucleotide numbers based on a coding DNA reference sequence **may include** "+", "-", "*" or other prefixes.
+*	a coding DNA reference sequence does **not contain** intron sequences and can therefore **not be used** to describe variants affecting intron sequences [_see Reference Sequences_](/bg-material/refseq/#RNAr)
 
 * * * 
 
@@ -67,7 +69,7 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
 * * * 
 
-## Discussions
+## Q&A
 
 *	Why do people prefer to report variants based on a coding DNA reference sequence?
 	:	This topic is discussed on the [_Reference sequences page_](/bg-material/refseq#discuss). The two main reasons are that descriptions are 1) shorter then those based on a chromosomal genomic reference sequence (e.g. NC_000006.11:g.117198495_117198496del compared to LRG_199t1:c.57_58del) and 2) give some idea where the variant is located regarding the encoded gene product (RNA and protein).

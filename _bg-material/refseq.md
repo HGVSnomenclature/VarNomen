@@ -20,9 +20,9 @@ a sequence file that is used as a **reference to describe variants** that are pr
 *	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version\_number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
 *	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ chromosome X, build GRCh37/hg19)
 *	the reference sequence used **must contain** the variant residue described
-	*	a coding DNA reference sequence does not contain intron sequences and can therefore **not be used** to describe intronic variants
-		*	<u>not correct:</u> NM\_004006.2:c.357+1T>A, LRG\_199:c.357+1T>A
-		*	<u>correct:</u> NG\_012232.1(NM\_004006.2):c.357+1T>A, NC\_000023.10(NM\_004006.2):c.357+1T>A, LRG\_199t1:c.357+1T>A
+	*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
+		*	<u>not correct:</u> NM\_004006.2:c.357+1G>A, LRG\_199:c.357+1G>A
+		*	<u>correct:</u> NG\_012232.1(NM\_004006.2):c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A, LRG\_199t1:c.357+1G>A
 	*	when a reference transcript file is not available, but a transcript is annotated in the genomic reference sequence, intronic variants can be described using the format "accession.version-number(v003):c.123+23G>A" where "v003" is the third transcript (CDS) annotated
 	
 * * *
@@ -44,10 +44,11 @@ Depending on the variants to be reported, different reference sequence files are
 * * *
 
 {:#DNAg}
+
 ### DNA - genomic reference sequence
 
 *	the recommended DNA reference is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
-	*	for diagnostic applications it is recommended to use a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, , e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}
+	*	for diagnostic applications a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}, can be used in addition
 		* 	when for a gene of interest **no LRG** is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}. 
 		*	"**pending**” LRGs should not be used, they might change before being approved
 		*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NG\_012232.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
@@ -58,14 +59,14 @@ Depending on the variants to be reported, different reference sequence files are
 *	for complex genes computational tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter){:target="\_blank"} can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
 
 
-<a name="DNAm"></a>
+{:#DNAm}
 
 ### DNA - Mitochondrial reference sequence
 
 *	the preferred human mtDNA reference sequence is [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
 
 
-<a name="DNAc"></a>
+{:#DNAc}
 
 ### DNA - coding DNA reference sequence
 
@@ -74,13 +75,15 @@ Depending on the variants to be reported, different reference sequence files are
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants and protein isoforms can be annotated
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NM\_004006.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
+*	a coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
 *	when, based on a genomic reference sequence, variants are reported using a "**c.**" prefix, the transcript variant used should be indicated
-	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:c.11T>G
+	*	for LRG_'s an annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:c.11T>G
+	*	for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A
 *	the coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 	*	exons that disrupt the main reading frame should not be included
 
 
-<a name="DNAn"></a>
+{:#DNAn}
 
 ### DNA - non-coding DNA reference sequence
 
@@ -93,8 +96,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_163**<font color="red">t1</font>**:n.5C>T
 *	the non-coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 
-
-<a name="RNAr"></a>
+{:#RNAr}
 
 ### RNA reference sequence
 
@@ -104,10 +106,12 @@ Depending on the variants to be reported, different reference sequence files are
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g.  NM\_004006.2 or NR\_002196.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
 *	when, based on a genomic reference sequence, variants are reported using a "r." prefix, the transcript variant used should be indicated
 	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:r.11u>g
+	*	for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC\_000023.10(NM\_004006.2):r.357\_358ins357+1\_357+12 or NG\_012232.1(NM\_004006.2):r.357\_358ins357+1\_357+12
 *	nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
+	*	a coding DNA reference sequence does not contain intron sequences and can therefore **not be used** to describe variants affecting intron sequences
 * 	the reference sequence inclides the entire transcript, excluding the poly A-tail.
 
-<a name="proteinp"></a>
+{:#proteinp}
 
 ### Protein reference sequence
 
@@ -123,9 +127,9 @@ Depending on the variants to be reported, different reference sequence files are
 
 * * *
 
-<a name="discuss"></a>
+{:#discuss}
 
-### Discussions
+## Q&A
 
 *	Which reference sequence type should I use?
 	:	Discussions on the **best reference sequence type to be used** have been very lively. In general it can be concluded that all suggestions made have their pro's and con's and there is no perfect solution.
@@ -152,6 +156,9 @@ Depending on the variants to be reported, different reference sequence files are
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC\_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}. Descriptions should be preceded by "m.", like m.8993T>C. The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP\_003024031.1:p.Leu156Pro.
 	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/){:target="\_blank"}.
+	
+*	For mitochondrial variants we use the format MT-ND1{NC\_012920.1}: m.[3460G>A], i.e. the gene in front of the reference sequence in curly brackets, a colon, an m and full stop and then the variant in square brackets, and a change in the protein as MT-ND1{YP\_003024026.1}: p.[(Ala52Thr)]. To be clear, is it not longer required to report/state the gene in front of the reference sequence?
+	:	The format your give does not (nor did ever) follow HGVS recommendations. Correct HGVS formats are NC\_012920.1:m.3460G>A and YP\_003024026.1:p.(Ala52Thr). It is allowed, but not mandatory, to mention the gene affected (e.g. NC\_012920.1(MT-ND1):m.3460G>A). Since there are several different proteins annotated on the mtDNA reference sequence, a protein variant based on the mtDNA sequence can only be described when the gene affected is given; NC\_012920.1(MT-ND1):p.(Ala52Thr).
 
 *	How should variants be described in genes that produce only RNA (so no protein), e.g. ncRNA, miRNA, and others?
 	:	To describe variants in genes that produce an RNA molecule but no protein a genomic reference sequence can be used ("**g.**" description). When a non-coding DNA reference sequence is available, e.g. a LRG (NR\_002196.1 for the H19 transcript) or a RefSeq transcript (NR\_000020.1 for the small nucleolar RNA, C/D box 33 (SNORD33) gene), variants can be described using the prefix "**n.**" see [_Community Consultation SVD-WG002_](/bg-material/community/SVD-WG002) and [_Nucleotide numbering_](/bg-material/numbering)).
