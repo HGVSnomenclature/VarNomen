@@ -9,9 +9,9 @@ category: SVD-WG
 ### Proposal SVD-WG001 (no change)
 
 *	Status: <font color="red">accepted</font>
-	:	proposal SVD-WG001 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since no major objections were received the SVD-WG decided to **accept** the proposal on Oct.6 (2015). The proposal was part of the HGVS nomenclature **version 2.1511** update.
+	:	proposal SVD-WG001 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since no major objections were received the proposal was **accepted** by the SVD-WG on Oct.6 (2015). The proposal is part of the HGVS nomenclature **version 15.11** update.
 
-The proposal suggests to extend the HGVS recommendations to allow description of **variant tested but no change detected** using the character "**<font color="red">=</font>**" (equal to); g.50377648A<font color="red">=</font>, m.15366G<font color="red">=</font>, c.1823A<font color="red">=</font>, n.611T<font color="red">=</font>, r.377u<font color="red">=</font>, p.Val76<font color="red">=</font>. The description should include the position(s) screened (nucleotides or amino acids) and the reference sequence used should always be mentioned.
+The proposal suggests to extend the HGVS recommendations to allow description of **variant tested but no change detected** using the character "**=**" (equal to); g.50377648A=, m.15366G=, c.1823A=, n.611T=, r.377u=, p.Val76=. The description should include the position(s) screened (nucleotides or amino acids) and the reference sequence used should always be mentioned.
 
 * * *
 
@@ -42,7 +42,3 @@ The proposal suggests to extend the HGVS recommendations to allow description of
 *	p.(Arg41=) &nbsp; (c.123G>A)
 	:	the predicted consequence of variant c.123G>A (DNA level) is that amino acid residue 41 is an "Arg" like in the protein reference sequence (the nucleotide was not changed, RNA was not analysed).
 	:	_**NOTE**_: description of the variant at DNA level is mandatory (depending on the amino acid, up to 5 different DNA changes may leave the amino acid unchanged).
-	
-* * *
-
-### [Original proposal](http://www.hgvs.org/mutnomen/comments001.html)

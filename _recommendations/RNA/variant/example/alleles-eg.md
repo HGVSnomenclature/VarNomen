@@ -4,6 +4,8 @@ title: alleles
 category: example
 ---
 
+For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
+
 *	r.[76a>u;103del]
 	: one transcript contains two different changes, r.76a>u and r.103del. The variants are found **in cis**.
 *	r.[76a>u];[103del]
