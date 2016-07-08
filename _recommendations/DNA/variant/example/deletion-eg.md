@@ -12,9 +12,12 @@ category: example
 	: _**NOTE**_: it is allowed to describe the variant as g.6\_8delTGC 
 *	c.120\_123+48del
 	: a deletion of nucleotides c.120 to c.123+48 (coding DNA reference sequence), crossing an exon/intron border
-*	c.123del
-	: based on the sequence of a genomic DNA sample, a deletion of the A nucleotide c.123 in the sequence CA**<font color="red">A</font>**gt.../..agAAG to CA**<font color="red">_</font>**gt.../..agAAG, i.e. the deletion of the last nucleotide of an exon ([_see Question below_](/recommendations/DNA/variant/deletion/#123del))
-	: _**NOTE**_: when RNA is sequenced and the variant does not alter splicing the description at the RNA level based on a coding RNA reference sequence is r.**<font color="red">125</font>**del (the **3'rule** needs to be applied)
+*	exon/intron border
+	*	c.8del
+		: the deletion of the G nucleotide at the intron/exon border in the sequence ATGCTGgt.../..agG**<font color="red">G</font>**A to ATGCTGgt.../..agG**<font color="red">_</font>**A
+	*	c.6+1del
+		: the deletion of the G nucleotide at the exon/intron border in the sequence ATGCT**<font color="red">G</font>**gt.../..agGGA to ATGCTG**<font color="red">_</font>**t.../..agAAG (not c.8del [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
+		: _**NOTE**_: when RNA is sequenced and the variant does not alter splicing the description at the RNA level based on a coding RNA reference sequence is r.**<font color="red">8</font>**del (the **3'rule** needs to be applied)
 *	c.4072-1234\_5146-246del
 	: a deletion of nucleotides c.4072-1234 to c.5146-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the DMD-gene.
 	: _**NOTE**_ : c.4072-1234\_5146-246delXXXXX, the size of the deletion (XXXXX) **should not** be described

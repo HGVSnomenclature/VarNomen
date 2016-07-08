@@ -18,7 +18,7 @@ Format:   **"prefix""positions_inverted""inv"**,  e.g. g.123_345inv
 *	by definition, the region inverted ("positions\_inverted") contains **more then one nucleotide**. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a [_substitution_](/recommendations/DNA/variant/substitution/)
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
-*	tandem inverted duplications are described using the format g.123\_456**dupinv**, not as the insertion of an inverted sequence (g.456\_457ins123\_456inv)
+*	**inverted duplications** are described as an insertion using the format g.234\_235ins123\_234inv, not as g.123\_456dupinv ([_see Q&A_](#dupinv))
 *	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
 	:	{ } (curly braces) can be used to list any change in the inverted sequence ("positions\_inverted") which is different when compared to the source, e.g. g.123\_345inv**{233A>G}**
 *	inversions are not used on Protein level

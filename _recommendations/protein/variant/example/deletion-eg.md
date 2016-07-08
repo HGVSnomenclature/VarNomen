@@ -16,3 +16,6 @@ category: example
 *   p.Gly2\_Met46del
 	: a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation ate Met1 but activating a new downstream translation initiation site (at Met46)<br>
 	_**NOTE:**_ the 3' rule has been applied.
+*	p.Trp26Ter (p.Trp26\*)
+    : amino acid Trp26 is changed to a stop codon (Ter, \*)<br>
+    _**NOTE:**_ this change is **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)

@@ -10,7 +10,7 @@ category: example
 *   **nonsense**
 	*	p.Trp26Ter (p.Trp26\*)
     	: amino acid Trp26 is changed to a stop codon (Ter, \*)<br>
-        _**NOTE:**_ this change is **not** described as a deletion of the C-terminal end of the protein (e.g. p.Trp26\_Arg1623del or p.Trp26\_Arg1623del)
+        _**NOTE:**_ this change is **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
 *	**silent**
 	* 	p.Cys123=
 		:  amino acid Cys123 is not changed (DNA level change ..TGC.. to ..TGT..)

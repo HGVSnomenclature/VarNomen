@@ -30,6 +30,8 @@ nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nuc
 nucleotide numbering is based on the annotated protein isoform, the major translation product.
 
 *	numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
+	* exception 3' rule
+	: when around exon/intron borders it is known (from genomic data) to which exon a nucleotide belongs, the 3' rule is not applied **across the intron**; the deletion of the G nucleotide at the exon/intron border in ..ATGCAGgt../..agGCTTTA is described as either c.6+1del (3'rule applied but not across the intron) or c.7del
 *	there is no nucleotide c.0.
 *	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
 *	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
@@ -38,9 +40,9 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 	*	nucleotides at the 3' end of an intron are numbered relative to the first nucleotide of the directly downstream exon, followed by a "**<font color="red">-</font>**" (minus) and their position out of the intron, like ..., c.88-3, c.88-2, c.88-1.
 		*	in the middle of the intron nucleotide numbering changes from "**<font color="red">+</font>**" (plus) to "**<font color="red">-</font>**" (minus), c.87+678 to c.88-679
 		*	the nucleotide exactly in the middle of an intron is numbered relative to the upstream exon followed by a "**<font color="red">+</font>**" (plus)
-	*	introns in the 5'UTR are numbered as normal introns, starting with "**c.-**" nucleotide numbers (c.-85+1, c.-85+2, c.-85+3, ..., c.-84-3, c.-84-2, c.-84-1)
-	*	introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.*38-1)
-	*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene [_see Reference Sequences_](/bg-material/refseq/#DNAc)
+		*	introns in the 5'UTR are numbered as normal introns, starting with "**c.-**" nucleotide numbers (c.-85+1, c.-85+2, c.-85+3, ..., c.-84-3, c.-84-2, c.-84-1)
+		*	introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.*38-1)
+*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene [_see Reference Sequences_](/bg-material/refseq/#DNAc)
 *	suggestions have been made to extend the recommendations for the nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides ([_see Open Issues_](/recommendations/open-issues)).
 
 Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf){:target="\_blank"} and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf){:target="\_blank"}) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
