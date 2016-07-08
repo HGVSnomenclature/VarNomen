@@ -16,15 +16,19 @@ a sequence file that is used as a **reference to describe variants** that are pr
 	* approved reference sequence formats include; NC\_# (e.g. NC\_000023.10), LRG\_# (e.g. LRG\_199), NG\_# (e.g. NG\_012232.1), NM\_# (e.g. NM\_004006.2), NR\_# (e.g. NR\_002196.1) and NP\_# (e.g. NP\_003997.1)
 *	a reference sequence file identifier should contain both the **accession** and **version number**
 	*	NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 lacks the essential version number
-	*	LRG reference sequences (e.g. LRG\_199) do not contain a version number
+	*	LRG reference sequences do not contain a version number (e.g. LRG\_199)
+*	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
+	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
+	*	accepted specifications include transcripts (NM\_004006.2, DMD\_v001, MT-TL1) or proteins (NP\_003997.1, DMD\i001, YP\_003024028.1)
+		*	DMD\_v001 indicates the first DMD transcript **<font color="red">v</font>**ariant annotated; can be used when transcript reference sequence records are not available
+		*	DMD\_i001 indicates the first DMD protein **<font color="red">i</font>**soform annotated; can be used when protein reference sequence records are not available
 *	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version\_number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
 *	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ chromosome X, build GRCh37/hg19)
 *	the reference sequence used **must contain** the variant residue described
 	*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
 		*	<u>not correct:</u> NM\_004006.2:c.357+1G>A, LRG\_199:c.357+1G>A
 		*	<u>correct:</u> NG\_012232.1(NM\_004006.2):c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A, LRG\_199t1:c.357+1G>A
-	*	when a reference transcript file is not available, but a transcript is annotated in the genomic reference sequence, intronic variants can be described using the format "accession.version-number(v003):c.123+23G>A" where "v003" is the third transcript (CDS) annotated
-	
+
 * * *
 
 ## Reference Sequence Types
@@ -63,7 +67,8 @@ Depending on the variants to be reported, different reference sequence files are
 
 ### DNA - Mitochondrial reference sequence
 
-*	the preferred human mtDNA reference sequence is [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
+*	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
+	*	[_example descriptions_](/bg-material/refseq/#mtDNA)
 
 
 {:#DNAc}
@@ -153,9 +158,14 @@ Depending on the variants to be reported, different reference sequence files are
 *	When description in relation to a reference sequence is problematic, could one specify the variant by giving 20 bp of flanking sequence on both sides?
 	:	In many cases this would be OK, but for recently duplicated genes or genes which contain repeated segments, giving 20 nucleotides to either side will not be sufficient. Furthermore, descriptions will become very long. For problematic cases the best method is probably to include the raw data, i.e. submit the sample sequence to [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit){:target="\_blank"} and give the accession.version number obtained.
 
+{:#mtDNA}
+
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC\_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}. Descriptions should be preceded by "m.", like m.8993T>C. The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP\_003024031.1:p.Leu156Pro.
 	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/){:target="\_blank"}.
+	*	NC\_012920.1:m.3243A>G describes variant 3243A>G based on the mitochondrial reference sequence NC\_012920.1
+	*	NC\_012920.1:m.3243A>G (MT-TL1) describes variant 3243A>G in the MT-LT1 genes based on the mitochondrial reference sequence NC\_012920.1
+	*	NC\_012920.1(MT-TL1):n.14A>G describes variant 14A>G based on the annotated MT-TL1 non-coding DNA reference sequence of the MT-TL1 gene in NC\_012920.1
 	
 *	For mitochondrial variants we use the format MT-ND1{NC\_012920.1}: m.[3460G>A], i.e. the gene in front of the reference sequence in curly brackets, a colon, an m and full stop and then the variant in square brackets, and a change in the protein as MT-ND1{YP\_003024026.1}: p.[(Ala52Thr)]. To be clear, is it not longer required to report/state the gene in front of the reference sequence?
 	:	The format your give does not (nor did ever) follow HGVS recommendations. Correct HGVS formats are NC\_012920.1:m.3460G>A and YP\_003024026.1:p.(Ala52Thr). It is allowed, but not mandatory, to mention the gene affected (e.g. NC\_012920.1(MT-ND1):m.3460G>A). Since there are several different proteins annotated on the mtDNA reference sequence, a protein variant based on the mtDNA sequence can only be described when the gene affected is given; NC\_012920.1(MT-ND1):p.(Ala52Thr).
