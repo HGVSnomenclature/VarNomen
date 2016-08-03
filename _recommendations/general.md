@@ -77,7 +77,7 @@ Specific abbreviations are used to describe different variant types.
 	*	duplicating insertions are described as duplications, not as insertions	
 *	"**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion))
 *	"**<font color="red">con</font>**" indicates a **conversion**; NC\_000022.10:g.42522624\_42522669con42536337\_42536382 (see [_DNA_](/recommendations/DNA/variant/conversion), [_RNA_](/recommendations/RNA/variant/conversion))
-*	"**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456Glyfs**Ter17 ([_see Frame shifts_](/recommendations/protein/variant/frameshift))
+*	"**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, [_see Frame shifts_](/recommendations/protein/variant/frameshift))
 *	"**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Frame shifts_](/recommendations/protein/variant/extension))
 
 *	HGVS/ISCN ([_see Community Consultation_](http://www.hgvs.org/mutnomen/comments004.html))
