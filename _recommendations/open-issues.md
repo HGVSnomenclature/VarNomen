@@ -46,6 +46,13 @@ Would you consider a small change in the suggested nomenclature for the [_descri
 
 The description of extensions can probably indeed be simplified. While for **extensions** we currently give the position of the new translation initiation (start) codon as "-5" or of the termination (stop) codon as "\*17" this is strictly speaking not necessary. By defenition the extension goes upstream for an N-terminal change and downstream for a C-terminal change. Using p.Met1ext5 (now p.Met1ext-5) and p.\*110Glnext17 (now p.\*110Glnext\*17) therefore seems sufficient.
 
+<a name ="circular"></a>
+
+### Circular molecules
+
+July 19 (2016) - JT den Dunnen
+HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y\_Xdel X should be smaller then Y). Do you have a suggestion??
+
 <a name ="modifications"></a>
 
 ### Modifications
