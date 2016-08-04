@@ -23,5 +23,5 @@ Format:  **"prefix""position(s)_deleted""del"**,  e.g. g.123\_127del
 	*	**exception**
 	:	deletions around exon/intron and intron/exon borders when identical nucleotides flank these borders ([_see Numbering_](/bg-material/numbering/#DNAc))
 		:	**c.546+1del** describes a deletion of a "G" at the exon/intron border ..CAGgtg.. (positions c.546/c.546+1). When RNA analysis shows a G deletion (r.456del), so no effect on splicing, the change is described as **c.546del**.
-		:	_**NOTE**_:	when in the above example the next exon starts with GGT.. the deletion is still described as c.546del (not c.548del) but based on a coding RNA sequence as r.548del.
+		:	_**NOTE**_:	when in the above example the next exon starts with GGT.. the deletion is still described as c.546del (not c.548del).
 
