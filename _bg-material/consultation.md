@@ -21,7 +21,7 @@ There are currently no proposals open vor Community Consultation
 
 ### Closed
 
-*   [SVD-WG004](http://www.hgvs.org/mutnomen/comments004.html) (ISCN<>HGVS)
+*   [SVD-WG004]({{site.baseurl}}/bg-material/consultation/svd-wg004/) (ISCN<>HGVS)
     :   suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.
     :   **Status**: <font color="red">under review</font>. Closed Jan.15 (2016). Opened Nov.10 (2015).
 
