@@ -4,10 +4,10 @@ title: inversion
 category: description
 ---
 
-Format:   **"prefix""positions_inverted""inv"**,  e.g. g.123_345inv
+Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
 
 **"prefix"**  =  reference sequence used  =  g.<br>
-**"positions_inverted"**  =  range of nucleotides inverted  =  123_345<br>
+**"positions\_inverted"**  =  range of nucleotides inverted  =  123_345<br>
 **"inv"**  =  type of change is an inversion  =  inv
 
 ---
