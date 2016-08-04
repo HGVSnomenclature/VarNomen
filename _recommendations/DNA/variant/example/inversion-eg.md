@@ -10,7 +10,7 @@ category: example
 	: inversion of nucleotides c.77 to c.80 (coding DNA reference sequence), changing ..AGGCTGATT.. to ..AGG<font color="red">TCAG</font>TT..
 *	g.203\_506inv
 	: inversion of the 304 nucleotides from position g.203 to g.506
-*	g.111754331\_111966764
+*	g.111754331\_111966764inv
 	: a large inversion (212,434 nucleotides) from position g.111754331 to g.111966764
 *	g.122\_123ins123\_234inv
 	: a copy of nucleotides g.123 to g.234 is inserted, in inverted orientation, 5' of the original sequence, between nucleotide g.122 and g.123
