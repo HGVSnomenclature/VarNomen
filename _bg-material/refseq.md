@@ -15,14 +15,14 @@ a sequence file that is used as a **reference to describe variants** that are pr
 *	only public files from NCBI or EBI are accepted as a reference sequence
 	* approved reference sequence formats include; NC\_# (e.g. NC\_000023.10), LRG\_# (e.g. LRG\_199), NG\_# (e.g. NG\_012232.1), NM\_# (e.g. NM\_004006.2), NR\_# (e.g. NR\_002196.1) and NP\_# (e.g. NP\_003997.1)
 *	a reference sequence file identifier should contain both the **accession** and **version number**
-	*	NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 lacks the essential version number
+	*	NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 not (lacks the essential version number)
 	*	LRG reference sequences do not contain a version number (e.g. LRG\_199)
 *	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
 	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
 	*	accepted specifications include transcripts (NM\_004006.2, DMD\_v001, MT-TL1) or proteins (NP\_003997.1, DMD\i001, YP\_003024028.1)
-		*	DMD\_v001 indicates the first DMD transcript **<font color="red">v</font>**ariant annotated; can be used when transcript reference sequence records are not available
+		*	DMD\_v001 indicates the first DMD transcript (CDS) **<font color="red">v</font>**ariant annotated; can be used when transcript reference sequence records are not available
 		*	DMD\_i001 indicates the first DMD protein **<font color="red">i</font>**soform annotated; can be used when protein reference sequence records are not available
-*	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version\_number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
+*	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version-number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
 *	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ chromosome X, build GRCh37/hg19)
 *	the reference sequence used **must contain** the variant residue described
 	*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
@@ -69,6 +69,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
 	*	[_example descriptions_](/bg-material/refseq/#mtDNA)
+	:	_**NOTE:**_ the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
 
 
 {:#DNAc}
