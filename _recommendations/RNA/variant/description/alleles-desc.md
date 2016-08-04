@@ -27,7 +27,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345
 ### Note
 
 *	humans are diploid organisms and have **two alleles** at each genetic locus, with one allele inherited from each parent
-*	when two variants are identified in a transcript that derive from **one chromosome** (in cis) this should be described as "r.[variant1;variant2]".
-*	when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1];[variant2]".
-*	when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "**[variant1<font color="red">(;)</font>variant2]**".  Of course it is recommended to determine whether the changes are in the same transcript allele or not. Still, when this has not yet been done, it is important to make this **absolutely clear** in the description.
-*	when two variants are identified in two different transcripts that derive from **one variant** at the DNA level this should be described as "r.[variant1,variant2]".
+*	when two variants are identified in a transcript that derive from **one chromosome** (in cis) this should be described as "r.[variant1**<font color="red">(;)</font>**variant2]".
+*	when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1]**<font color="red">(;)</font>**[variant2]".
+*	when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "**variant1<font color="red">(;)</font>variant2**", i.e. without using "[ ]".  _**NOTE:**_ it is recommended to determine whether the changes are in the same transcript or not.
+*	when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a “,”; p.[variant1**<font color="red">,</font>**variant2]”.
