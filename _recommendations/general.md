@@ -45,9 +45,9 @@ Since references to web sites are not yet acknowledged as citations, please ment
 
 In HGVS nomenclature some **characters** have a **specific meaning**
 
-*	"**<font color="red">+</font>**" (plus) is used in [_nucleotide numbering_](bg-material/numbering/); c.123+45A>G
-*	"**<font color="red">-</font>**" (minus) is used in [_nucleotide numbering_](bg-material/numbering/); c.124-56C>T
-*	"**<font color="red">\*</font>**" (asterisk) is used in [_nucleotide numbering_](bg-material/numbering/) and to indicate a translation termination (stop) codon ([_see Standards_](/bg-material/standards#RNAcode)); c.\*32G>A and P.Trp41\* 
+*	"**<font color="red">+</font>**" (plus) is used in [_nucleotide numbering_](/bg-material/numbering); c.123+45A>G
+*	"**<font color="red">-</font>**" (minus) is used in [_nucleotide numbering_](/bg-material/numbering); c.124-56C>T
+*	"**<font color="red">*</font>**" (asterisk) is used in [_nucleotide numbering_](/bg-material/numbering) and to indicate a translation termination (stop) codon ([_see Standards_](/bg-material/standards#RNAcode)); c.\*32G>A and P.Trp41\* 
 *	"**<font color="red">_</font>**" (underscore) is used to indicate a range; g.12345\_12678del
 *	"**<font color="red">[ ]</font>**" (angled brackets) are used for alleles (see [_DNA_](/recommendations/DNA/variant/alleles), [_RNA_](/recommendations/RNA/variant/alleles), [_protein_](/recommendations/protein/variant/alleles))
 	*	"**<font color="red">;</font>**" (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
