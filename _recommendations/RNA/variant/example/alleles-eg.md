@@ -15,7 +15,7 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 *	r.76a>u(;)103del
 	: two variants are found in a transcript, r.76a>u and r.103del, but it is not known whether they derive from the same or from different transcript alleles (chromosomes).
 	: _**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
-*	r.[76a>u]\(;)(76a>u)
+*	r.[76a>u];[(76a>u)]
 	: analysis detects one variant (r.76a>u), suggesting both transcript alleles contain this variants but it can not be excluded the other allele is deleted or not expressed.
 *	r.[76a>u];[76A=]
 	: one transcript allele contains a variant, r.76a>u, the other transcript allele contains the reference sequence, r.76= (is **wild-type**).
