@@ -32,6 +32,6 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 *	p.[Asn26His,Ala25\_Gly29del]
 	: two different proteins, p.Asn26His and p.Ala25\_Gly29del, derived from a variant on one chromosome (c.76A>T at the DNA level and r.[76a>c,73_88del] at the RNA level)
 *	p.[Arg83=/Arg83Ser]
-	: a somatic case where a protein allele in some cells contains a normal sequence (Arg83=), while other cells contain a Ser at this position (Arg83Ser)  
+	: a somatic case where a protein allele in some cells has a normal sequence (Arg83=), while other cells have a Ser at this position (Arg83Ser)  
 *	p.[Arg83=//Arg83Ser]
-	: a chimeric organism where a protein allele in some cells contain a normal sequence (Arg83=), while other cells contain a protein allele with Ser at this position (Arg83Ser).
+	: a chimeric organism where a protein allele in one cell type has a normal sequence (Arg83=), while the other cell type has a Ser at this position (Arg83Ser).
