@@ -13,12 +13,15 @@ category: example
 *	c.120\_123+48del
 	: a deletion of nucleotides c.120 to c.123+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron border
-	*	c.3delA
-		: when exon 3 ends with ..CAA and exon 4 starts with ACG.. and the genomic DNA sequence shows that the last A-nucleotide of exon 3 is deleted (and not the first A in exon 4), the deletion changing ..CAAACG.. to ..CAACG.. is described as c.3delA (not c.4delA, [_see exception in Numbering_](/bg-material/numbering/#DNAc))	
+	*	c.3del
+		: when exon 3 ends with ..CAA and exon 4 starts with ACG.. and the genomic DNA sequence shows that the last A-nucleotide of exon 3 is deleted (and not the first A in exon 4), the deletion changing ..CAAACG.. to ..CAACG.. is described as c.3delA (not c.4delA, [_see exception in Numbering_](/bg-material/numbering/#DNAc))
+		: _**NOTE**_: it is allowed to describe the variant as c.3delA
 	*	c.8del
 		: the deletion of the G nucleotide at the intron/exon border in the sequence ATGCTGgt.../..agG**<font color="red">G</font>**A to ATGCTGgt.../..agG**<font color="red">_</font>**A
+		: _**NOTE**_: it is allowed to describe the variant as c.8delG
 	*	c.6+1del
 		: the deletion of the G nucleotide at the exon/intron border in the sequence ATGCTG**<font color="red">g</font>**t.../..agGGA to ATGCTG**<font color="red">_</font>**t.../..agAAG (not c.8del [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
+		: _**NOTE**_: it is allowed to describe the variant as c.6+1delG
 *	c.4072-1234\_5146-246del
 	: a deletion of nucleotides c.4072-1234 to c.5146-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the DMD-gene.
 	: _**NOTE**_ : c.4072-1234\_5146-246delXXXXX, the size of the deletion (XXXXX) **should not** be described
