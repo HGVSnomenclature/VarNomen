@@ -13,7 +13,7 @@ category: example
 *	g.2376A>C(;)3103del
 	: two variants in a gene, g.2376A>C and g.3103del, but it is not known whether they are on the same or on different alleles (chromosomes).
 	: _**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
-*	g.[2376A>C]\(;)(2376A>C)
+*	g.[2376A>C];[(2376A>C)]
 	: analysis detects one variant (g.2376A>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
 *	g.[2376A>C];[2376A=]
 	: one allele (chromosome) of a gene contains a variant, g.2376A>C, the other allele (chromosome) contains the reference sequence, g.2376A= (is **wild-type**).
