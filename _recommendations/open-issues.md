@@ -1,7 +1,7 @@
 ---
 layout: default-md
 title: Open Issues
-order: 6
+order: 7
 ---
 
 # {{page.title}}
