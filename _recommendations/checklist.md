@@ -1,7 +1,7 @@
 ---
 layout: default-md
 title: Checklist
-order: 5
+order: 7
 ---
 
 # {{ page.title }}
