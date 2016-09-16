@@ -40,6 +40,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes or proteins
 
 * * *
+<a name="characters"></a>
 
 #### Characters used
 
@@ -64,6 +65,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 *	"**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
 
 * * *
+<a name="abbreviation"></a>
 
 #### Abbreviations in variant descriptions
 
