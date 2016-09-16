@@ -14,8 +14,7 @@ order: 7
 
 *   Chimerism
     :   the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}). Opposite of mosaicism.
-    :   descritpions [_see General/Charcters used_](/recommendations/general#character).
-
+    :   descritpions [_see General/Charcters used_](/recommendations/general#characters).
 
 *   Complex
     :   **HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
@@ -25,9 +24,9 @@ order: 7
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/conversion/) or  [_RNA_](/recommendations/RNA/variant/conversion/).
 
 *   Deletion
-    :   one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
-    :   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/deletion/), [_RNA_](/recommendations/RNA/variant/deletion/) or [_protein_](/recommendations/protein/variant/deletion/).
+    *   one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
+    *   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
 
 *   Deletion-insertion (indel)
     :   one or more letters in the DNA code are missing and replaced by several new letters
@@ -53,7 +52,7 @@ order: 7
 
 *   Mosaicism
     :   the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism){:target="\_blank"}). Opposite of chimerism.
-    :   descritpions [_see General/Characters used_](/recommendations/general#character).
+    :   descritpions [_see General/Characters used_](/recommendations/general#characters).
 
 *   Nucleotide
     :   a letter fron the DNA code, either A, C, G, or T ([_see Standards_](/bg-material/standards/)).
