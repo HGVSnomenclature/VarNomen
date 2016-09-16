@@ -24,9 +24,9 @@ order: 7
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/conversion/) or  [_RNA_](/recommendations/RNA/variant/conversion/).
 
 *   Deletion
-    :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/deletion/), [_RNA_](/recommendations/RNA/variant/deletion/) or [_protein_](/recommendations/protein/variant/deletion/).
     *   one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
     *   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
+    :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/deletion/), [_RNA_](/recommendations/RNA/variant/deletion/) or [_protein_](/recommendations/protein/variant/deletion/).
 
 *   Deletion-insertion (indel)
     :   one or more letters in the DNA code are missing and replaced by several new letters
