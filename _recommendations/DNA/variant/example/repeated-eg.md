@@ -22,6 +22,7 @@ category: example
 	: based on the HTT (huntingtin) coding DNA reference sequence (GenBank NM\_002111.6), applying the **3'rule**, the Huntington's Disease tri-nucleotide repeat is described as an GCA (not CAG) repeat.
 	*	c.53GCA[19]
 	: _**NOTE**_: the coding DNA reference sequence (NM\_002111.6) contains an allele of 19 GCA repeats
+	: _**NOTE**_: when the CAG-Gln repeat is not interrupted by a CAA-Gln unit and directly changes in to a CCG-Pro unit the repeat should be reported as a AGC-repeat (followed by a CGC repeat) 
 	: _**NOTE**_: on protein level the reference allele contains 21 Gln's, described as p.Gln[21] (alternatively p.Q[21]). The difference derives from the fact that the GCA repeat ends at a ACA-triplet ("CAA" coding) at position 20.
 	*	c.53\_55[30]
 	: the coding DNA reference sequence (NM\_002111.6) contains a tri-nucleotide allele of 30 repeats (GCA-19, ACA, GCC-2, ACC, GCC-7).
