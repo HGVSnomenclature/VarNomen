@@ -66,14 +66,20 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 #### RNA
 
+*	r.?
+	:	used to indicate that an affect on the RNA level is expected but that it is not possible to give a reliable prediction of the consequences
 *	r.spl
-	:	frequently used (not an official HGVS recommendation) to indicate that RNA was not analysed but that it is **very likely** that splicing is affected. The format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants)
+	:	frequently used (not an official HGVS recommendation) to indicate that it is **very likely** that splicing is affected (RNA not analysed). The format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants)
 *	r.(spl?)
-	:	frequently used to indicate that RNA was not analysed but that normal splicing **might** be affected. The format is used for variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG).
+	:	frequently used to indicate that splicing **might** be affected (RNA not analysed). The format is used for variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG).
 *	r.(?)
-	:	frequently used to indicate that RNA was not analysed but that no changes on RNA are expected other then those directly derived from the change at the DNA level. Alternatively the predicted consequence at the RNA level can be described, e.g. r.(306g>t)
+	:	frequently used to indicate that RNA was not analysed but that no changes on the RNA level are expected other then those simply derived from the change at the DNA level. Alternatively the predicted consequence at the RNA level can be described, e.g. r.(306g>t)
 
 #### protein
 
-*	p.
+*	p.?
+	:	used to indicate that an effect on the protein level is expected but that it is not possible to give a reliable prediction of the consequences
+*	p.(?)
+	:	frequently used to indicate that no changes on the protein level are expected other then those simply derived from the change at the DNA level. Alternatively the predicted consequence at the protein level can be described, e.g. p.(Arg2371Ser)
+
 * * *
