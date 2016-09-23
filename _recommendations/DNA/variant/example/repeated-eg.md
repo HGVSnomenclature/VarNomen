@@ -18,12 +18,12 @@ category: example
 	*	c.-128\_-126[(600\_800)]
 	: the repeated tri-nucleotide sequence, starting at position c.-128, has an estimated size of between 600 to 800 copies.
 	: _**NOTE**_: the repeat can be pure or a mix of GGC and GGA triplets.
-*	HD AGC-repeat
-	: based on the HTT (huntingtin) coding DNA reference sequence (GenBank NM\_002111.6), applying the **3'rule**, the Huntington's Disease tri-nucleotide repeat is described as an AGC (not CAG) repeat.
-	*	c.53AGC[19]
-	: _**NOTE**_: the coding DNA reference sequence (NM\_002111.6) contains an allele of 21 AGC repeats
-	: _**NOTE**_: on protein level the reference allele contains 21 Gln's, described as p.Gln[21] (alternatively p.Q[21]). The difference derives from the fact that the AGC repeat is interrupted by a AAC-triplet ("CAA" coding) at position 20.
-	*	c.53\_55[31]
-	: the coding DNA reference sequence (NM\_002111.6) contains a tri-nucleotide allele of 32 repeats (AGC-19, AAC, AGC, CGC, CAC, CGC-7, CTC-2) encoding 21 Gln and 11 Pro-residues.
+*	HD GCA-repeat
+	: based on the HTT (huntingtin) coding DNA reference sequence (GenBank NM\_002111.6), applying the **3'rule**, the Huntington's Disease tri-nucleotide repeat is described as an GCA (not CAG) repeat.
+	*	c.53GCA[19]
+	: _**NOTE**_: the coding DNA reference sequence (NM\_002111.6) contains an allele of 19 GCA repeats
+	: _**NOTE**_: on protein level the reference allele contains 21 Gln's, described as p.Gln[21] (alternatively p.Q[21]). The difference derives from the fact that the GCA repeat ends at a ACA-triplet ("CAA" coding) at position 20.
+	*	c.53\_55[30]
+	: the coding DNA reference sequence (NM\_002111.6) contains a tri-nucleotide allele of 30 repeats (GCA-19, ACA, GCC-2, ACC, GCC-7).
 *	g.456\_457[4]466\_468[9]490[12] (alternatively 456TG[4]TAA[9]T[12])
 	: a complex repeated sequence has a first unit located from position g.456 to g.457, present in 4 copies, a second unit from position g.466 to g.468 present in 9 copies and a third unit (mono-nucleotide) starting at position position 490 present in 12 copies.
