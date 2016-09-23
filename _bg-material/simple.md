@@ -14,7 +14,7 @@ order: 5
 
 The format of a complete variant description is **reference:description**, e.g.;
 
-	*	NM\_004006.2:c.4375C>T
+	*	NM_004006.2:c.4375C>T
 
 All variants are described in relation to a reference, the so called reference sequence. In the example **NM\_004006.2** is the reference sequence and **c.4375C>T** is the description of a variant.
 
@@ -32,12 +32,23 @@ Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** i
 
 #### Example descriptions
 
-*	NC\_000023.10:g.32407761G>A  (Feb.2009: h19, GRCh37)
-	*	NC\_000023.9:g.32317682G>A  (Mar.2006: hg18, NCBI36)
-	*	NC\_000023.11:g.32389644G>A  (Dec.2013: hg38, GRCh38)
-*	NG\_012232.1:g.954966C>T
-*	LRG\_199t1:c.4375C>T
-*	NM\_004006.2:c.4375C>T  (r.4375c>u, p.Arg1459*)
+*	genomic
+	*	N<font color=#FF0000>C</font>\_ a genomic reference sequence based on a <font color=#FF0000>C</font>hromosome
+		*	NC\_000023.10:g.32407761G>A  (Feb.2009: h19, GRCh37)
+		*	NC\_000023.9:g.32317682G>A  (Mar.2006: hg18, NCBI36)
+		*	NC\_000023.11:g.32389644G>A  (Dec.2013: hg38, GRCh38)
+	*	N<font color=#FF0000>G</font>\_ a genomic reference sequence based on a <font color=#FF0000>G</font>ene or Genomic region
+		*	NG\_012232.1:g.954966C>T
+	*	LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a <font color=#FF0000>G</font>ene or Genomic region
+		*	LRG\_199t1:c.4375C>T
+*	transcript
+	*	N<font color=#FF0000>M</font>\_ a reference sequence based on a coding DNA transcript (<font color=#FF0000>m</font>RNA)
+		*	NM\_004006.2:c.4375C>T
+	*	N<font color=#FF0000>R</font>\_ a reference sequence based on a non-coding <font color=#FF0000>R</font>NA sequence
+		*	NR_002196.1:c.601G>T
+*	protein (amino acid)
+	*	N<font color=#FF0000>P</font>\_ a reference sequence based on a <font color=#FF0000>p</font>rotein (amino acid) sequence
+	*	NP\_003997.1:p.Arg1459* (p.Arg1459Ter)
 
 ### Genomic reference sequences
 
