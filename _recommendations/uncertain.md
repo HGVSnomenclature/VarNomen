@@ -25,6 +25,8 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 <a name="uncertain1"></a>
 
+#### DNA
+
 *	deletion
 	:	The basic format to describe deletions that have not been fully characterised, i.e. the deletion break point has not been sequenced, is: **(last-normal_first-deleted)_ (last-deleted_first-normal)**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**.
 	*	MLPA
@@ -62,4 +64,16 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	duplication
 	:	The basic format to describe duplications that have not been fully characterised, i.e. the duplication break point has not been sequenced, is: **(last-normal_first-duplicated)_ (last-duplicated_first-normal)**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**. For examples see above, deletions.
 
+#### RNA
+
+*	r.spl
+	:	frequently used (not an official HGVS recommendation) to indicate that RNA was not analysed but that it is **very likely** that splicing is affected. The format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants)
+*	r.(spl?)
+	:	frequently used to indicate that RNA was not analysed but that normal splicing **might** be affected. The format is used for variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG).
+*	r.(?)
+	:	frequently used to indicate that RNA was not analysed but that no changes on RNA are expected other then those directly derived from the change at the DNA level. Alternatively the predicted consequence at the RNA level can be described, e.g. r.(306g>t)
+
+#### protein
+
+*	p.
 * * *
