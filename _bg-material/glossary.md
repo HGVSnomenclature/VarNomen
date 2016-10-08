@@ -6,11 +6,12 @@ order: 7
 ## {{ page.title }}
 
 *   Allele
+    :   variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"})
     :   **HGVS**: a series of variants on one chromosome.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/alleles/), [_RNA_](/recommendations/RNA/variant/alleles/) or [_protein_](/recommendations/protein/variant/alleles/).
 
 *   Amino acid
-    :   a letter fron the protein code ([_see Standards_](/bg-material/standards/)).
+    :   a letter from the protein code ([_see Standards_](/bg-material/standards/)).
 
 *   Chimerism
     :   the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}). Opposite of mosaicism.
@@ -18,7 +19,10 @@ order: 7
 
 *   Complex
     :   **HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
-     
+
+*   Compound heterozygote
+    :   used in cases of _autosomal recessive_ disease where the disease-causing variants on both alleles at a given locus are **not identical** (opposite of _homozygous_)
+    
 *   Conversion
     :   **HGVS**: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/conversion/) or  [_RNA_](/recommendations/RNA/variant/conversion/).
@@ -38,6 +42,15 @@ order: 7
     :   **HGVS**: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/), [_RNA_](/recommendations/RNA/variant/duplication/) or [_protein_](/recommendations/protein/variant/duplication/).
 
+*   Hemizygous
+    :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
+    
+*   Heterozygous
+    :   an individual in which both alleles at a given locus are **not identical** (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
+    
+*   Homozygous
+    :   an individual in which both alleles at a given locus are **identical** ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
+    
 *   Indel
     :   see deletion-insertion
 
@@ -53,9 +66,19 @@ order: 7
 *   Mosaicism
     :   the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism){:target="\_blank"}). Opposite of chimerism.
     :   descritpions [_see General/Characters used_](/recommendations/general#characters).
-
+    
+*   Mutation
+    :   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
+    :   _**biology**_: a change in the sequence
+    :   _**medicine**_: a sequence variant **associated** with a disease phenotype
+    
 *   Nucleotide
-    :   a letter fron the DNA code, either A, C, G, or T ([_see Standards_](/bg-material/standards/)).
+    :   a letter fron the DNA code, either A, C, G, or T ([_see Standards_](/bg-material/standards/))
+
+*   Polymorphism
+    :   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
+    :   _**biology**_: a sequence variant present in the population at a frequency of 1% or higher
+    :   _**medicine**_: a sequence variant **not associated** with a disease phenotype
 
 *   Repeated sequence
     :   **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other
@@ -65,3 +88,5 @@ order: 7
     :   **HGVS**: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/substitution/), [_RNA_](/recommendations/RNA/variant/substitution/) or [_protein_](/recommendations/protein/variant/substitution/).
 
+*   Variant
+    :   a difference between the reference sequence and the sample sequence
