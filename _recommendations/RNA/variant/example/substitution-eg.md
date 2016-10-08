@@ -5,7 +5,7 @@ category: example
 ---
 
 *	r.76a>c
-	: a substitution of the "a" nucleotide at r.76 for a "c"
+	: a substitution of the "a" nucleotide at r.76 with a "c"
 *   r.-14g>c
 	: a "g" to "c" substitution 14 nucleotides 5' of the ATG translation initiation codon
 *   r.*46u>a
