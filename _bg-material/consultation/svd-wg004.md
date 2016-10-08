@@ -1,6 +1,6 @@
 ---
 layout: default-md
-title: SVD-WG001
+title: SVD-WG004
 category: SVD-WG
 ---
 
