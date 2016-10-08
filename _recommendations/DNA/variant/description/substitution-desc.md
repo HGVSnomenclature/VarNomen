@@ -20,5 +20,5 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 *	changes involving two or more consecutive nucleotides are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/DNA/variant/indel/)).
 *	nucleotides that have been tested and found **not changed** are described as c.123A=, g.4567T= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).
 *	the description c.76_77delinsTT is preferred over c.[76A>T;77G>T].<br> 
-_**NOTE:**_ by definition this change can not be described as a substitution (like c.76\_77AG>TT or c.76AG>TT)
+  _**NOTE:**_ by definition this change can not be described as a substitution (like c.76\_77AG>TT or c.76AG>TT)
 *	it is not correct to describe "_polymorphisms_" as c.76A/G ([_see Discussions_](/recommendations/DNA/variant/substitution/#polymorphism)).
