@@ -7,7 +7,7 @@ category: description
 Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. r.[123g>a;345del]
 
 *	**"prefix"**  =  reference sequence used  =  r.<br>
-*	**[**  =  opening symbol for allele  =  ]<br>
+*	**[**  =  opening symbol for allele  =  [<br>
 *	**"change1"**  =  description first variant  =  123g>a<br>
 *	**;**  =  separator symbol two changes  =  ;<br>
 *	**"change2"**  =  description second variant  =  345del<br>
@@ -16,7 +16,7 @@ Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. r.[123g>a;345del
 Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345del]
 
 *	**"prefix"**  =  reference sequence used  =  r.<br>
-*	**[**  =  opening symbol for allele-1  =  ]<br>
+*	**[**  =  opening symbol for allele-1  =  [<br>
 *	**"change"**  =  description variant  =  123g>a<br>
 *	**];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
 *	**"change"**  =  description variant  =  345del<br>
