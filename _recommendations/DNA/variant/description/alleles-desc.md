@@ -16,7 +16,7 @@ Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. g.[123G>A;345del
 Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345del]
 
 *	**"prefix"**  =  reference sequence used  =  g.<br>
-*	**[**  =  opening symbol for allele-1  =  ]<br>
+*	**[**  =  opening symbol for allele-1  =  [<br>
 *	**"change"**  =  description variant  =  123G>A<br>
 *	**];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
 *	**"change"**  =  description variant  =  345del<br>
