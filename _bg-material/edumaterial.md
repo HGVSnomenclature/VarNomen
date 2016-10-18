@@ -14,6 +14,6 @@ The basics of the current recommendations are explained in a [slide presentation
 
 Topics of interest are regularly discussed on the [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen){:target="blank"}. The HGVS nomenclature facebook agenda can be used to see where the recommendations are presented/discussed.
 
-Testing your knowledge of the current recommendations can be done using a **Question & Answer** test that we have generated using the [Socrative platform](http:www.socrative.com){:target="blank"}. To join, either download the [Socrative Student App](http://www.socrative.com/apps.php){:target="blank"} or use the Socrative web site and [Login as a Student](https://b.socrative.com/login/student/){:target="blank"}. When asked, go to the class room **HGVSmutnomen** and give it a try.
+Testing your knowledge of the current recommendations can be done using a **Question & Answer** test that we have generated using the [Socrative platform](http://www.socrative.com){:target="blank"}. To join, either download the [Socrative Student App](http://www.socrative.com/apps.php){:target="blank"} or use the Socrative web site and [Login as a Student](https://b.socrative.com/login/student/){:target="blank"}. When asked, go to the class room **HGVSmutnomen** and give it a try.
 
 When you have made educational or training material or know of others who did so, **please let us know!!**
