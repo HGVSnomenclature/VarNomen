@@ -9,7 +9,7 @@ category: SVD-WG
 ### Proposal SVD-WG005 (gom/lom)
 
 *	Status: <font color="red">open</font>
-	:	proposal SVD-WG005 was opened for **Community Consultation** on October 15 (2016), closing on Dec.15 (2016). 
+	:	proposal SVD-WG005 opens for **Community Consultation** on October 20 (2016), closing on Dec.31 (2016). 
 
 The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <font color="red">gom</font> to indicate a general gain of methylation (hypermethylation), the abbreviation <font color="red">lom</font> to indicate a general loss of methylation (hypomethylation). 
 
