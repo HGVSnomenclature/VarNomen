@@ -11,7 +11,7 @@ category: SVD-WG
 *	Status: <font color="red">open</font>
 	:	proposal SVD-WG005 opens for **Community Consultation** on October 20 (2016), closing on Dec.31 (2016). 
 
-The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <font color="red">gom</font> to indicate a general gain of methylation (hypermethylation), the abbreviation <font color="red">lom</font> to indicate a general loss of methylation (hypomethylation). 
+The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <font color="red">gom</font> to indicate a general gain of methylation (hypermethylation), the abbreviation <font color="red">lom</font> to indicate a general loss of methylation (hypomethylation). The "\|" character ("pipe") is introduced to indicate that not a direct change of the sequence is described but a **modification** (change of state, here methylation).
 
 * * *
 
@@ -27,4 +27,4 @@ The proposal suggests to extend the HGVS recommendations to allow description of
 
 ### Note
 
-The proposal ("lom" and "gom") follows the current standard to use three-letter abbreviations. The "\|" character ("pipe") has been introduced to indicate a **modification** of the sequence is reported, i.e. not a direct change in the sequence but an indirect change, a change in state (here methylation). Introduction of the "\|" facilitates future additions when recommendations would be requested to describe other types of modification, e.g. of protein sequences (phosphorylation). In addition introduction of the "\|" facilitates backward compatibility, modifications can be easily stripped from the description. The current proposal does not include recommendations to add a numerical description of the amount of methylation detected. The SVD-WG is interested to learn whether such an extension is desired and, when yes, how to add it. 
+The proposal ("lom" and "gom") follows the current standard to use three-letter abbreviations. The "\|" character ("pipe") is used to indicate a **modification** of the sequence is reported, a change in state (here methylation), not a change in the sequence itself. Introduction of the "\|" facilitates future additions when recommendations would be requested to describe other types of modification, e.g. of protein sequences (phosphorylation). In addition introduction of the "\|" facilitates backward compatibility, modifications can be easily stripped from the description. The current proposal does not include recommendations to add a numerical description of the amount of methylation detected. The SVD-WG is interested to learn whether such an extension is desired and, when yes, how to add it. 
