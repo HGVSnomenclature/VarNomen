@@ -10,7 +10,7 @@ order: 6
 
 A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters ([_see History_](/history/)).
 
-The basics of the current recommendations are explained in a [slide presentation](http://www.hgvs.org/mutnomen/HGVS-basics2014.pdf){:target="blank"} from **Johan den Dunnen** (last updated Aug.2014).
+The basics of the current recommendations are explained in a [slide presentation](http://www.hgvs.org/varnomen/HGVS-basics2016.pdf){:target="blank"} from **Johan den Dunnen** (last updated Oct.2016).
 
 Topics of interest are regularly discussed on the [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen){:target="blank"}. The HGVS nomenclature facebook agenda can be used to see where the recommendations are presented/discussed.
 
