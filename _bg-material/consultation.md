@@ -15,7 +15,10 @@ HGVS nomenclature falls under the responsibility of the SVD-WG ([_Sequence Varia
 
 ### Open
 
-There are currently no proposals open vor Community Consultation
+*   [SVD-WG005]({{site.baseurl}}/bg-material/consultation/svd-wg005/) (gom/lom)
+    :   suggests to extend the HGVS recommendations to allow description of changes in general methylation status
+    :   **Status**: <font color="red">Open</font>. Oct.20 (2016). Closes Dec.31 (2016).
+
 
 * * *
 
