@@ -10,10 +10,9 @@ order: 8
 
 ## Community Consultation
 
-<font color="red">**Currently open**</font> for [_Community Consultation_](/bg-material/consultation/): [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/). 
+**<font color="red">Currently open</font>** for Community Consultation: [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/). 
 
 Proposal [_SVD-WG004 (ISCN<>HGVS)_](/bg-material/consultation/svd-wg004/) to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis closed Jan.15 (2016) and is currently _under review_. Proposal {{site.baseurl}}[_SVD-WG003 (exon del/dup)_](/bg-material/consultation/svd-wg003/) with the suggesting to describe exon deletions/duplications using the format c.(233+1\_234-1)\_(1234+1\_1235-1)del, closed Jul.16 (2015), is prepared for a new round of consultation.
-
 
 * * *
 
