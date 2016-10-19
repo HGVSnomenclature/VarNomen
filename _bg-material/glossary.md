@@ -63,6 +63,13 @@ order: 7
     :   **HGVS**: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/inversion/) or [_RNA_](/recommendations/RNA/variant/inversion/).
 
+*   LOH
+    :   Loss of Heterozygosity (LOH) is the loss of one allele at a specific locus, caused by a deletion ([MESH](http://www.ncbi.nlm.nih.gov/mesh/?term=loss+of+heterozygosity){:target="\_blank"}).
+    :   _**NOTE**:_ the term LOH should thus **not** be used to indicate a **homozygous** region, i.e. a region where both chromosomes have the same sequence.
+
+*   Loss of Heterozygosity
+    :   see LOH. 
+
 *   Mosaicism
     :   the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism){:target="\_blank"}). Opposite of chimerism.
     :   descritpions [_see General/Characters used_](/recommendations/general#characters).
