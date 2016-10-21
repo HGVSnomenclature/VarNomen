@@ -5,6 +5,14 @@ order: 7
 ---
 ## {{ page.title }}
 
+---
+
+### In preparation
+
+Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
+
+---
+
 *   Allele
     :   variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"})
     :   **HGVS**: a series of variants on one chromosome.
