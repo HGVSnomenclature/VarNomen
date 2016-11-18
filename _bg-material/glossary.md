@@ -124,6 +124,17 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   **HGVS**: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/substitution/), [_RNA_](/recommendations/RNA/variant/substitution/) or [_protein_](/recommendations/protein/variant/substitution/).
 
+*   translocation
+    :   a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation){:target="\_blank"}).
+    :   _**NOTE**:_ a translocation occurs when two chromosomes break and the fragments rejoin with the non-homologous chromosome. A full description of a (reciprocal) translocation consists of 2 parts, one describing the first junction, the second describing the other junction (e.g. the chromosome 4;X junction and the chromosome X;4 junction)
+    *   translocation, balanced
+        :   a translocation with an even exchange of DNA sequences and no segments deleted or duplicated
+    *   translocation, un balanced
+        :   a translocation with an uneven exchange of DNA sequences and segments being deleted or duplicated
+
+*   transposition
+    :   a sequence change where compared to a reference sequence a range of nucleotides moves from one position to another position, i.e. a deletion at one postion combined with the insertion of the deleted sequence at another position.
+
 *   triplication
     :   a sequence change where, compared to a reference sequence, two copies of a sequence are inserted directly 3' of the original copy of that sequence.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/).
