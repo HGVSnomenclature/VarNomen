@@ -105,12 +105,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   _**medicine**_: a sequence variant **not associated** with a disease phenotype
 
 *   quadruplication
-    :   a sequence change where, compared to a reference sequence, three copies of a sequence are inserted directly 3' of the original copy of that sequence.
-    :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/).
+    :   a sequence change where, compared to a reference sequence, three copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/)).
 
 *   quintuplication
-    :   a sequence change where, compared to a reference sequence, four copies of a sequence are inserted directly 3' of the original copy of that sequence.
-    :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/).
+    :   a sequence change where, compared to a reference sequence, four copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/)).
 
 *   repeated sequence
     :   **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other
@@ -136,8 +134,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   a sequence change where compared to a reference sequence a range of nucleotides moves from one position to another position, i.e. a deletion at one postion combined with the insertion of the deleted sequence at another position.
 
 *   triplication
-    :   a sequence change where, compared to a reference sequence, two copies of a sequence are inserted directly 3' of the original copy of that sequence.
-    :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/).
+    :   a sequence change where, compared to a reference sequence, two copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/)).
 
 *   trisomy
     : the presence of a third chromosome of any one type in an otherwise diploid cell ([MESH](http://www.ncbi.nlm.nih.gov/mesh/?term=trisomy){:target="\_blank"}).
