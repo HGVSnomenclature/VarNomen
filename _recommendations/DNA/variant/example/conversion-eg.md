@@ -4,6 +4,8 @@ title: conversion
 category: example
 ---
 
+*	g.333\_590con1844\_2101
+	: conversion replacing nucleotides g.333 to g.590 with nucleotides g.1844 to g.2101 from the same genomic reference sequence
 *	g.415\_1655conAC096506.5:g.409\_1683
 	: conversion replacing nucleotides g.414 to g.1655 with nucleotides g.409 to g.1683 as found in the genomic reference sequence AC096506.5
 *	NC\_000022.10:g.42522624\_42522669con42536337\_42536382
