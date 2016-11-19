@@ -16,6 +16,8 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	:	are used to indicate uncertainties, in general the extent (region) of uncertainty, like in g.(123456\_234567)\_(345678\_456789)del, where (123456\_234567) and (345678\_456789) indicate the two regions where the break point should be located
 *	"**<font color="red">?</font>**" (question mark)
 	:	is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
+*	"**<font color="red">^</font>**" (caret)
+	:	is used as “or”, like p.(Gly719Ala^Ser)
 *	IUPAC codes
 	:	all IUPAC nucleotide codes can be used to describe uncertain nucleotides ([_see Standards_](/bg-material/standards/))
 
