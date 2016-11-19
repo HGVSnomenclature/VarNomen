@@ -28,5 +28,5 @@ category: example
 *	translation termination codon _(stop codon, **no-stop change**)_
 	:	[_see Extension_](/recommendations/protein/variant/extension)
 *	p.(Gly19Ala^Ser^Cys)
-	:	amino acid Gly19 is changed to an Ala, Ser or Cys ([_see Uncertain_](/recommendations/uncertain/)
+	:	amino acid Gly19 is changed to an Ala, Ser or Cys ([_see Uncertain_](/recommendations/uncertain/))
 	
