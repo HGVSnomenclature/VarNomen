@@ -16,7 +16,7 @@ category: example
 	:	_**NOTE**_: the variant can also be described as c.145\_147delinsTGG, i.e. a [_deletion/insertion_](/recommendations/DNA/variant/substitution/). The deletion/insertion format is preferred unless either of the two variants (c.145C>T or c.147A>G) is known as a frequently occurring variant.
 *	c.56G>H
 	:	 a substitution of the G nucleotide at c.56 (coding DNA reference sequence) with a A, C or T (IUPAC code "H", [_see Standards_](/bg-material/standards/)) 	
-*	 c.85C=\/>T
+*	c.85C=/>T
 	:	a mosaic case where at position 85 besides the normal sequence (a C, described as "C=") also chromosomes are found containing a T (c.85C>T)
-*	 c.85C=\/\/>T
+*	c.85C=//>T
 	:	a chimeric case, i.e. the sample is a mix of cells containing c.85C= and c.85C>T
