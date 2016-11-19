@@ -17,6 +17,8 @@ category: example
 	: analysis detects one variant (g.2376A>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
 *	g.[2376A>C];[2376A=]
 	: one allele (chromosome) of a gene contains a variant, g.2376A>C, the other allele (chromosome) contains the reference sequence, g.2376A= (is **wild-type**).
+	: _**NOTE**_: for other variant types the format is g.[2376del];[2376=], g.[2376_2399dup];[2376_2399=], g.[2376_2377insGT];[2376_2376=], etc.
+	: _**NOTE**_: using g.= would mean the entire genomic reference sequence was tested and found not changed (c.= the entire coding DNA reference sequence is unchanged)
 *	g.[2376A>C];[?]
 	: one allele (chromosomes) of a gene contains a variant, g.2376A>C, while a variant for the other allele is expected but not yet identified (g.?) (e.g. in individuals affected by a recessive disease).
 *	g.[266C>G;476C>T;1083G>C];[266C>G;1083G>C]
