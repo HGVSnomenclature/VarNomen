@@ -27,6 +27,8 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	: _**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
 *	p.[Ser73Arg];[Ser73=]
 	: one protein allele contains a variant, p.Ser73Arg, the other protein allele contains the reference sequence, Ser73= (is **wild-type**).
+	: _**NOTE**_: for other variant types the format is p.[Ser73del];[Ser73=], p.[Ser73_Arg79dup];[Ser73_Arg79=], p.[Ser73_Ala74insSerGln];[Ser73_Ala74=], etc.
+	: _**NOTE**_: using p.= would mean the entire protein reference sequence was tested and found not changed
 *	p.[Ser73Arg];[(?)]
 	: one protein allele contains a variant, p.Ser73Arg, while a variant for the other protein allele is expected but not yet identified (p.(?)) (e.g. in individuals affected by a recessive disease).
 *	p.[Asn26His,Ala25\_Gly29del]
