@@ -22,8 +22,8 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	: _**NOTE**_: the description p.([Ser73Arg];[Asn603del]) is not correct
 *	p.[Ser73Arg];[Ser73Arg]
 	: both protein alleles contain the same variant, p.Ser73Arg. A **homozygous** case (e.g. in a recessive disease).
-*	p.Ser73Arg(;)Asn603del
-	: two protein variants are found, p.Ser73Arg and p.Asn603del, but it is not known whether they derive from the same or from different alleles (chromosomes).
+*	p.(Ser73Arg)(;)(Asn603del)
+	: two predicted protein variants are found, p.(Ser73Arg) and p.(Asn603del), but it is not known whether they derive from the same or from different alleles (chromosomes).
 	: _**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
 *	p.[Ser73Arg];[Ser73=]
 	: one protein allele contains a variant, p.Ser73Arg, the other protein allele contains the reference sequence, Ser73= (is **wild-type**).
