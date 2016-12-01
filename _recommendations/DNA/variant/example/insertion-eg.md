@@ -28,3 +28,5 @@ category: example
 	: the insertion of 5 not specified nucleotides (NNNNN) between position g.15431 and g.15432
 	*	g.1134\_1135ins(100)
 	: the insertion of 100 not specified nucleotides between position g.1134 and g.1135
+*	g.?\_?insNC\_000023.10:(12345\_23456)\_(34567\_45678)
+	: the insertion of a sequence from the X-chromosome (NC\_000023.10), maximally involving nucleotides 12345\_45678 but certainly nucleotides 23456\_34567, at an unknown position (g.?\_?) in the genome ([_see Uncertain_](/recommendations/uncertain))
