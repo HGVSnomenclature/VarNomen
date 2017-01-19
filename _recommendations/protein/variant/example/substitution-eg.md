@@ -7,6 +7,8 @@ category: example
 *	**missense**
 	* 	p.Trp26Cys
 	: 	amino acid Trp26 is changed to a Cys
+	* 	p.(Trp26Cys)
+	: 	amino acid Trp26 is predicted to change to a Cys (no experimental proof, e.g. based on DNA level data)
 *	**nonsense**
 	*	p.Trp26Ter (p.Trp26\*)
     	:	amino acid Trp26 is changed to a stop codon (Ter, \*)<br>
