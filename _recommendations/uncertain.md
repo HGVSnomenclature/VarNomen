@@ -14,8 +14,9 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 *	"**<font color="red">( )</font>**" (parentheses)
 	:	are used to indicate uncertainties
-	:	in g.(123456\_234567)\_(345678\_456789)del the extent (region) of uncertainty for the location of the deletion breakpoint, where (123456\_234567) and (345678\_456789) indicate the two regions where the break point should be located
-	:	in p.(Cys123Gly) indicating the amino acid change is predicted from DNA level data (no experimental proof)
+	*	in g.(123456\_234567)\_(345678\_456789)del the extent (region) of uncertainty for the location of the deletion breakpoint, where (123456\_234567) and (345678\_456789) indicate the two regions where the break point should be located
+	*	in p.(Cys123Gly) indicating the amino acid change is predicted from DNA level data (no experimental proof)
+	<br>
 *	"**<font color="red">?</font>**" (question mark)
 	:	is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
 *	"**<font color="red">^</font>**" (caret)
