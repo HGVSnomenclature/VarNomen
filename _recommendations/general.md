@@ -16,8 +16,8 @@ Since references to web sites are not yet acknowledged as citations, please ment
     *	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses.
 *	all variants should be described in relation to an accepted **reference sequence** ([_see Reference Sequences_](/bg-material/refseq)).
 	*	the reference sequence file used should be **public and clearly described**, e.g. NC\_000023.10, LRG\_199, NG\_012232.1, ENST00000357033, NM\_004006.2, NR\_002196.1, NP\_003997.1, etc.
-    		*	when variants are not reported in relation to a genomic reference sequence from a recent genome build, the preferred reference sequence is a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"}
-    		*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
+		*	when variants are not reported in relation to a genomic reference sequence from a recent genome build, the preferred reference sequence is a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"}
+		*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
 		*	the reference sequence used must contain the residue(s) described to be changed. 
 	*	a **letter prefix** should be used to indicate the type of reference sequence used. Accepted prefixes are;
 		*	"**g.**" for a genomic reference sequence
