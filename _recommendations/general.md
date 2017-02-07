@@ -15,17 +15,17 @@ Since references to web sites are not yet acknowledged as citations, please ment
 *	all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
     *	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses.
 *	all variants should be described in relation to an accepted **reference sequence** ([_see Reference Sequences_](/bg-material/refseq)).
-	*	a **letter prefix** should be used to indicate the reference sequence used. Accepted prefixes are;
+	*	the reference sequence file used should be **public and clearly described**, e.g. NC\_000023.10, LRG\_199, NG\_012232.1, ENST00000357033, NM\_004006.2, NR\_002196.1, NP\_003997.1, etc.
+    		*	when variants are not reported in relation to a genomic reference sequence from a recent genome build, the preferred reference sequence is a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"}
+    		*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
+		*	the reference sequence used must contain the residue(s) described to be changed. 
+	*	a **letter prefix** should be used to indicate the type of reference sequence used. Accepted prefixes are;
 		*	"**g.**" for a genomic reference sequence
 		*	"**m.**" for a mitochondrial reference sequence
 		*	"**c.**" for a coding DNA reference sequence	
 		*	"**n.**" for a non-coding DNA reference sequence
 		*	"**r.**" for an RNA reference sequence (transcript)
 		*	"**p.**" for a protein reference sequence
-    *	the reference sequence file used should be **public and clearly described**, e.g. NC\_000023.10, LRG\_199, NG\_012232.1, ENST00000357033, NM\_004006.2, NR\_002196.1, NP\_003997.1, etc.
-    	*	when variants are not reported in relation to a genomic reference sequence from a recent genome build, the preferred reference sequence is a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"}
-    	*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
-		*	the reference sequence used must contain the residue(s) described to be changed. 
 	*	numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** ([_see Numbering_](/bg-material/numbering))
 *	**3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
