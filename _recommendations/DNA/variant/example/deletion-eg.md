@@ -33,5 +33,8 @@ category: example
 	: a deletion starting somewhere upstream of a gene, last postion tested postive c.-29, and ending in the intron between nucleotides c.12+1 and c.13-1 (intron 1).
 *	c.(?\_-1)\_(\*1\_?)del
 	: a deletion of the entire protein coding region of a gene based on a coding DNA reference sequence).
-	: _**NOTE**_: when more details are available regarding the deletion, based on the probes tested to determine its location, the description can be specified like c.(?\_-189)_(\*884\_?)del, meaning the deletion starts 5' of c.-189 and extends 3' of c.*884.
-	
+	: _**NOTE**_: when more details are available regarding the deletion, based on the probes tested to determine its location, the description can be specified like c.(?\_-189)\_(\*884\_?)del, meaning the deletion starts 5' of c.-189 and extends 3' of c.\*884.
+*	g.186\_188=/del
+	: a mosaic case where from position 186 to 188 besides the normal sequence also chromosomes are found containing a deletion of this sequence
+*	g.186\_188=//del
+	: a chimeric case, i.e. the sample is a mix of cells containing g.186\_188= and g.186\_188del
