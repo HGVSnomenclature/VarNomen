@@ -22,11 +22,12 @@ category: example
 	*	c.6+1del
 		: the deletion of the G nucleotide at the exon/intron border in the sequence ATGCTG**<font color="red">g</font>**t.../..agGGA to ATGCTG**<font color="red">_</font>**t.../..agAAG (not c.8del [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
 		: _**NOTE**_: it is allowed to describe the variant as c.6+1delG
-*	c.4072-1234\_5146-246del
-	: a deletion of nucleotides c.4072-1234 to c.5146-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the DMD-gene.
-	: _**NOTE**_ : c.4072-1234\_5146-246delXXXXX, the size of the deletion (XXXXX) **should not** be described
-*	c.(4071+1\_4072-1)\_(5145+1\_5146-1)del
-	: a deletion of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the DMD-gene. The deletion break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5146) have been tested an shown to be **not deleted**. The deletion therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5145+1 to c.5156-1).
+*	c.4072-1234\_5155-246del
+	: a deletion of nucleotides c.4072-1234 to c.5155-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
+	: _**NOTE**_ : c.4072-1234\_5155-246delXXXXX, the size of the deletion (XXXXX) **should not** be described
+*	c.(4071+1\_4072-1)\_(5154+1\_5155-1)del
+	: a deletion of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene. The deletion break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5155) have been tested an shown to be **not deleted**. The deletion therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5154+1 to c.5155-1).
+	: _**NOTE**_ : as mentioned ([_Uncertain_](/recommendations/uncertain/)) the description can also be probe-based. For a deletion of exons 30 to exon 36 detected using MLPA the description would be c.(3996\_4196)\_(5090\_5284)del, i.e. following the suggestion to use the 3’ nucleotide of the probe ligation site (the MLPA exon 29 probes hybdrize from position c.3963 to c.4030 giving c.3996 as the central position).
 	: _**NOTE**_ : this description is part of proposal [_SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
 	: _**NOTE**_ : previously, the suggestion was made to describe such deletions using the format c.4072-?\_5154+?del. However, since c.4072-? indicates "**to an unknown postion 5' of c.4072**" and c.5154+? "**to an unknown postion 3' of c.5154**" this description is not correct when it is known that exons 29 and 37 are present.
 *	c.(?\_-30)\_(12+1\_13-1)del
