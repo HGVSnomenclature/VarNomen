@@ -126,5 +126,7 @@ Note the format: **<font color="red">the variant is first described using ISCN n
 *	additional chromosome
 	*	supernumerary ring chromosome derived from chromosome 22
 	:	seq[GRCh37] +r(22)(p11.2q13.1)
-	:	chr22:g.add[pter\_10000000del::40000000\_qterdel]
-
+	:	chr22:g.[pter\_10000000del::40000000\_qterdel]add
+	*	uniparental disomy, additional copy of maternal chromosome 14 
+	:	seq[GRCh37] 46,XY,upd(14)mat
+	:	chr14:g.[pter\_cen\_qter]add
