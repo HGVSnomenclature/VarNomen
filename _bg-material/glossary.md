@@ -40,7 +40,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     *   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/deletion/), [_RNA_](/recommendations/RNA/variant/deletion/) or [_protein_](/recommendations/protein/variant/deletion/).
 
-*   deletion-insertion (indel)
+*   deletion-insertion (delins)
     :   one or more letters in the DNA code are missing and replaced by several new letters
     :   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/indel/), [_RNA_](/recommendations/RNA/variant/indel/) or [_protein_](/recommendations/protein/variant/indel/).
@@ -60,7 +60,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   an individual in which both alleles at a given locus are **identical** ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
     
 *   indel
-    :   see deletion-insertion
+    :   **HGVS**: confusing term, do not use
+        :   _**sometimes**_: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides
+        :   _**sometimes**_: a variant which is a deletion or an insertion. ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=indel){:target="\_blank"}): a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or a sequence deletion 
 
 *   insertion
     :   one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
