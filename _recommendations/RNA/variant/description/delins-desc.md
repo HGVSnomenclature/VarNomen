@@ -1,6 +1,6 @@
 ---
 parent: RNA
-title: deletion/ insertion (indel)
+title: deletion-insertion
 category: description
 ---
 
