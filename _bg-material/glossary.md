@@ -118,7 +118,13 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   silent
     :   a variant in a DNA sequence that does not change the amino acid sequence of the encoded protein (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=silent){:target="\_blank"}).
     :   **HGVS**: a variant in a protein sequence where compared to the reference sequence the DNA sequenced changed but not the translated amino acid (i.e. the translated codon did change).
+    
+*   SNP
+    :   Single Nucleotide Polymorphism (SNP). Prefeered term is SNV (Single Nucleotide Variant), see polymorphism
 
+*   SNV
+    :   Single Nucleotide Variant (SNV). Term preferred over SNP.
+    
 *   substitution
     :   one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 
     :   **HGVS**: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
