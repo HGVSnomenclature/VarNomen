@@ -1,14 +1,14 @@
 ---
 parent: Protein
-title: deletion/ insertion (indel)
+title: deletion/insertion
 category: description
 ---
 
-Format:   **"prefix""amino_acid(s)+position(s)_deleted""delins""inserted_sequence"**,  e.g. p.Arg123\_Lys127delinsSerAsp
+Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_sequence"**,  e.g. p.Arg123\_Lys127delinsSerAsp
 
 **"prefix"**  =  reference sequence used  =  g.<br>
-**"amino_acid(s)+position(s)_deleted"**  =  position nucleotide or range of nucleotides deleted  =  Arg123\_Lys127<br>
-**"delins"**  =  type of change is a deletion-insertion (indel)  =  delins<br>
+**"amino\_acid(s)+position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  Arg123\_Lys127<br>
+**"delins"**  =  type of change is a deletion-insertion  =  delins<br>
 **"inserted_sequence"**  =  description inserted sequence  =  SerAsp<br>
 
 ---
