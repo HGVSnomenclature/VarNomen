@@ -1,6 +1,6 @@
 ---
 parent: Protein
-title: deletion-insertion
+title: deletion/ insertion (indel)
 category: description
 ---
 
