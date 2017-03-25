@@ -1,7 +1,7 @@
 ---
 layout: recommendation
 parent: Protein
-title: deletion-insertion
+title: deletion/ insertion (indel)
 definition: 
     Deletion-Insertion (delins): a sequence change where, compared to a reference sequence, one or more amino acids are replaced by one or more other amino acids <b>and which is not</b> a substitution or conversion.
 discussion:
