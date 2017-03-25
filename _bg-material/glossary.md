@@ -21,6 +21,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   amino acid
     :   a letter from the protein code ([_see Standards_](/bg-material/standards/)).
 
+*   cap site
+    :   first nucleotide of a transcript (5' end) to which a specially altered nucleotide is added
+
 *   chimerism
     :   the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}). Opposite of mosaicism.
     :   descritpions [_see General/Charcters used_](/recommendations/general#characters).
@@ -73,6 +76,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   **HGVS**: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/inversion/) or [_RNA_](/recommendations/RNA/variant/inversion/).
 
+*   Kozak sequence
+    :   a consensus sequence, including the ATG translation initiation codon, playing a role in the initiation of translation
+
 *   LOH
     :   Loss of Heterozygosity (LOH) is a term originally derived from the analysis of tumor samples where, as a consequence of a somatic change, a cell that had originally two different alleles **looses one allele**. The LOH can be caused by different molecular mechanism, including the deletion of the allele, a gene conversion or uniparental disomy.
     :   _**NOTE**:_ the definition given by [MESH](http://www.ncbi.nlm.nih.gov/mesh/?term=loss+of+heterozygosity){:target="\_blank"}, i.e. the loss of one allele at a specific locus caused by a deletion, is therefore not correct
@@ -101,6 +107,12 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   nucleotide
     :   a letter fron the DNA code, either A, C, G, or T ([_see Standards_](/bg-material/standards/))
 
+*   polyA addition site
+    :   the 3' end of a precursor messenger RNA (pre-mRNA) transcript that is cleaved and to which subsequently a tail of A nucleotides is added (the polyA-tail)
+
+*   polyA signal
+    :   a sequence in the 3' UTR of a transcript signalling the downstream cleavage and addition of a polyA tail 
+    
 <a name="polymorphism"></a>
 *   polymorphism
     :   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
@@ -125,6 +137,18 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   SNV
     :   Single Nucleotide Variant (SNV). Term preferred over SNP.
+
+*   splice acceptor site (SA)
+    :   the 3' splice site, at the end of the intron/start of the exon
+    
+*   splice donor site (SD)
+    :   the 5' splice site, at the end of the exon/start of the intron
+    
+*   splice site
+    :   the site in a precursor messenger RNA (pre-mRNA) transcript that is cleaved to remove the intron.
+
+*   splicing
+    :   the process removing specific segments (the inrons) of a precursor messenger RNA (pre-mRNA) transcript. When an intron is removed the flanking RNA segments (the exons) are joined together (ligated)
     
 *   substitution
     :   one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 
@@ -148,5 +172,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   trisomy
     : the presence of a third chromosome of any one type in an otherwise diploid cell ([MESH](http://www.ncbi.nlm.nih.gov/mesh/?term=trisomy){:target="\_blank"}).
 
+*   UTR
+    :   UnTranslated Region (UTR), the segments of of a protein coding RNA molecule that is not translated.
+    :   5'UTR = UTR 5' of the tranlsation initiation codon (ATG start codon)
+    :   3'UTR = UTR 3' of the translation termination codon
+    
 *   variant
     :   a difference between the reference sequence and the sample sequence
