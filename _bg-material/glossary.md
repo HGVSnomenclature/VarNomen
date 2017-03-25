@@ -101,6 +101,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   nucleotide
     :   a letter fron the DNA code, either A, C, G, or T ([_see Standards_](/bg-material/standards/))
 
+<a name="polymorphism"></a>
 *   polymorphism
     :   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
     :   _**biology**_: a sequence variant present in the population at a frequency of 1% or higher
@@ -120,7 +121,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   **HGVS**: a variant in a protein sequence where compared to the reference sequence the DNA sequenced changed but not the translated amino acid (i.e. the translated codon did change).
     
 *   SNP
-    :   Single Nucleotide Polymorphism (SNP). Prefeered term is SNV (Single Nucleotide Variant), see polymorphism
+    :   Single Nucleotide Polymorphism (SNP). Note the preferred term is SNV (Single Nucleotide Variant), [_see polymorphism_](#polymorphism)
 
 *   SNV
     :   Single Nucleotide Variant (SNV). Term preferred over SNP.
