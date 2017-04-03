@@ -35,15 +35,15 @@ The current HGVS version number is shown in the top right corner of this web sit
 
 ## Terminology 
 
-Considerable effort has been invested to use only clearly defined terms. A [_Glossary_](/bg-material/glossary/) with an extensive list of definitions is _**in preparation**_.
+Considerable effort has been invested to use only clearly defined terms. For details see our [_Glossary_](/bg-material/glossary/).
 
-#### Mutation and polymorphism
+### Mutation and polymorphism
 
 In some disciplines the term **"mutation"** is used to indicate "_a change_" while in other disciplines it is used to indicate "_a disease-causing change_". Similarly, the term **"polymorphism"** is used both to indicate "_a non disease-causing change_" or "_a change found at a frequency of 1% or higher in a population_". To prevent this confusion we do not use the terms mutation and polymorphism (including SNP or Single Nucleotide Polymorphism) but neutral terms like **"sequence variant"**, **"alteration"** and **"allelic variant"**. Vol.19(1) of Human Mutation (2002) contains several contributions discussing the issues and shows that the term **"mutation"** has developed a negative connotation (see [Cotton RGH - p.2](http://onlinelibrary.wiley.com/doi/10.1002/humu.10029/pdf){:target="\_blank"}, [Condit CM et al. - p.69](http://onlinelibrary.wiley.com/doi/10.1002/humu.10023/pdf){:target="\_blank"} and [Marshall JH - p.76](http://onlinelibrary.wiley.com/doi/10.1002/humu.10021/pdf){:target="\_blank"}). Who would like to carry a mutation and thus be a **"mutant"**??  Current guidelines of authorative organisations now also recommend to use neutral terms like "**variant**" and "**change**" only (see [Richards 2015, Genet.Med. 17:405-424](http://www.nature.com/gim/journal/v17/n5/pdf/gim201530a.pdf){:target="\_blank"}).
 
-#### Pathogenic
+### Pathogenic
 
-Another confusing term used frequently is "a **pathogenic** variant". A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors. While a non-expert concludes the variant described "_causes disease_", the expert probably means "_causes disease when in a specific context_", e.g:
+Another confusing term used frequently is "a **pathogenic** variant". A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors. While a non-expert concludes the variant described "_**causes disease**_", the expert probably means "_**causes disease when in a specific context**_", e.g:
 
 *   causes disease when found in a male (X-linked recessive disorder)
 *   causes disease when combined with a change on the other allele (autosomal recessive)
@@ -51,5 +51,5 @@ Another confusing term used frequently is "a **pathogenic** variant". A variant 
 
 Another problem emerges when variants need to be classified that determine non-disease phenotypes like lactose tolerance/persistence, bitter tasting or hair and skin colour. What is pathogenic in the MC1R gene: dark, blond, or red hair?  What ends up in the SLC24A5 database as the pathogenic skin color: light or dark skin?
 
-To prevent confusion it therefore seems better not to use the term "_pathogenic_". A good alternative is a specific but neutral term like "**affects function**". This properly describes what one actually means, the variant affects the normal function of the gene/protein (in whatever way). It also solves the issue of what term to use for non-disease phenotypes like skin/hair/eye colour.
-For variant classification people use most frequently five categories. Based on affects function these are; _affects function,  probably affects function,  unknown (or effect on function not known),  probably does not affect function (or probably no functional effect),  does not affect function (or no functional effect)_.
+To prevent confusion it therefore seems better not to use the term "_pathogenic_". For variant classification a good alternative is a specific but neutral term like "**affects function**". This properly describes what one actually means, the variant affects the normal function of the gene/protein (in whatever way). It also solves the issue of what term to use for non-disease phenotypes like skin/hair/eye colour. To indicate that in an individual variant(s) were found that can explain the disease phenotype an alternative for "_pathogenic_" is to use "**disease-associated variant**".
+For variant classification people use most frequently five categories. Based on affects function these could be; _affects function,  probably affects function,  unknown (or effect on function not known),  probably does not affect function (or probably no functional effect),  does not affect function (or no functional effect)_.
