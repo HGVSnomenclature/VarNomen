@@ -59,13 +59,13 @@ Addition of RNA editing data to a DNA variant database seems a sensible thing to
 
 The suggestion is to describe RNA editing using "**|@**";
 
-*	g.1287|@ (based on a genomic reference sequence)
-*	c.143|@ (based on a coding DNA reference sequence)
-*	n.143|@ (based on a non-coding DNA reference sequence)
+*	g.1287\|@ (based on a genomic reference sequence)
+*	c.143\|@ (based on a coding DNA reference sequence)
+*	n.143\|@ (based on a non-coding DNA reference sequence)
 *	r.143c>u on RNA level
 *	p.(His48Pro) on protein level (i.e. the predicted consequence)
 
-The use of the "**@**" character versus other characters (&, $, ~, #) is of course debatable. Another option is to use a three-letter abbreviation like "del" and "ins", e.g. "**edt**" (g.1287C|edt / c.143C|edt) but this is seems less attractive (longer and potentially confusing). The "**@**" should serve as a simple mark, indicating 'note this site, something is happening at ("**@**") this position.
+The use of the "**@**" character versus other characters (&, $, ~, #) is of course debatable. Another option is to use a three-letter abbreviation like "del" and "ins", e.g. "**edt**" (g.1287C\|edt, c.143C\|edt) but this is seems less attractive (longer and potentially confusing). The "**@**" should serve as a simple mark, indicating 'note this site, something is happening at ("**@**") this position.
 
 Using the description r.143c>u on RNA level suggests a substitution. There are several types of RNA editing and "r.143c" probably does not really change to a "u". All we can say is that the polymerases used to make a copy inserted an "a". At some point we probably need to suggest ways to exactly describe the chemical modification made by the RNA editing enzyme but we can do that later. Making such recommendations can then be combined with those for DNA modifications (like methylation with methyl or hydroxy-methyl groups) making sure they follow the same rules.
 
