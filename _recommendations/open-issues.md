@@ -31,14 +31,6 @@ The current recommendation to describe variants based on a coding DNA reference 
 *	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
 	:	_**NOTE**_:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
 
-<a name ="imperfectcopy"></a>
-
-### Imperfect copies
-
-HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
-*	g.24_65dup{46G>T}
-	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
-
 <a name ="extensions"></a>
 
 ### Protein Extensions
@@ -59,21 +51,21 @@ HGVS nomenclature assumes reference sequences are linear. However, the mitochond
 ### Modifications
 
 Aug.24 (2011) - JT den Dunnen
-HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/) makes a start to get recommendations on this topic.
+HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
 
 #### RNA editing
 
 Addition of RNA editing data to a DNA variant database seems a sensible thing to do. An RNA-based sequencing study might reveal an interesting variant which, when checked in the database, is listed (...RNA editing data is not recorded). This will trigger a DNA sequencing experiment, trying to confirm the variant, which will fail since the variant is not present at the DNA level and valuable resources are spoiled.
 
-The suggestion is to describe RNA editing using "**@**";
+The suggestion is to describe RNA editing using "**|@**";
 
-*	g.1287@ (based on a genomic reference sequence)
-*	c.143@ (based on a coding DNA reference sequence)
-*	n.143@ (based on a non-coding DNA reference sequence)
-*	r.143c@u on RNA level (or the observed change r.143c>u)
+*	g.1287|@ (based on a genomic reference sequence)
+*	c.143|@ (based on a coding DNA reference sequence)
+*	n.143|@ (based on a non-coding DNA reference sequence)
+*	r.143c>u on RNA level
 *	p.(His48Pro) on protein level (i.e. the predicted consequence)
 
-The use of the "**@**" character versus other characters (&, $, ~, #) is of course debatable. Another option is to use a three-letter abbreviation like "del" and "ins", e.g. "**edt**" (g.1287Cedt / c.143Cedt) but this is seems less attractive (longer and potentially confusing). The "**@**" should serve as a simple mark, indicating 'note this site, something is happening at ("**@**") this position.
+The use of the "**@**" character versus other characters (&, $, ~, #) is of course debatable. Another option is to use a three-letter abbreviation like "del" and "ins", e.g. "**edt**" (g.1287C|edt / c.143C|edt) but this is seems less attractive (longer and potentially confusing). The "**@**" should serve as a simple mark, indicating 'note this site, something is happening at ("**@**") this position.
 
 Using the description r.143c>u on RNA level suggests a substitution. There are several types of RNA editing and "r.143c" probably does not really change to a "u". All we can say is that the polymerases used to make a copy inserted an "a". At some point we probably need to suggest ways to exactly describe the chemical modification made by the RNA editing enzyme but we can do that later. Making such recommendations can then be combined with those for DNA modifications (like methylation with methyl or hydroxy-methyl groups) making sure they follow the same rules.
 
@@ -88,3 +80,12 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 *	The CBS gene was originally thought to contain 16 exons. Later it was recognised that exon 15 does not exist, and recently two additional non-translated 5' exons were detected. The current gene structure therefore includes 17 exons, of which exons 3 to 17 are translated. Should the exons of a gene be counted from the exon that contains the start codon rather than the beginning of the cDNA?  If so, should exons preceding the start codon be counted 0, -1, -2, etc. or should the 0 be skipped?  Is there an agreement on how to deal with changes in exon numbering?
 	:	For the description of sequence changes it does not matter how exons are numbered,  exon (and intron) numbers are not used in the descriptions, only nucleotide positions. For exon numbering the only logical thing to do is to start with 1 for the first exon and number all following exons successively. Using other numbering schemes problems will emerge at some point. Note that when alternative numbering schemes are used, these will only be recognised by experts in the field knowing their history; newcomers just blindly assume that the first exon annotated in the genome is exon 1. Consequently, when legacy numbering schemes are used, this will cause confusion and at some point wrong assumptions will be made and a patient might end up with an erroneous diagnosis. In papers, when used, specifically mention how exons were numbered (M&M, Figure and Table legends). For tables, consider to add a column listing the historic / old exon numbers.
+
+<a name ="imperfectcopy"></a>
+
+### Imperfect copies
+
+HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
+*	g.24\_65dup{46G>T}
+	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
+After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
