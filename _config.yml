@@ -9,7 +9,7 @@
 title: Sequence Variant Nomenclature
 email: VarNomen @ HGVS.org
 description: >  # this means to ignore newlines until "baseurl:"
-    These pages summarise HGVS-nomenclature: the recommendations for the description of sequence variants. HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. When using the recommendations please refer to [_HGVS recommendations for the description of sequence variants: 2016 update", Den Dunnen et al. (2016). Hum.Mutat. 37:564-569_](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/abstract;jsessionid=2D88C5D123993B570D52DCA754469CE6.f03t01){:target="\_blank"}. HGVS-nomenclature is authorised by the Human Genome Variation Society (HGVS), the Human Variome Project (HVP) and the HUman Genome Organization (HUGO).
+    These pages summarise HGVS-nomenclature: the recommendations for the description of sequence variants. HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard. When using the recommendations please refer to [**HGVS recommendations for the description of sequence variants - 2016 update, Den Dunnen et al. 2016. Hum.Mutat. 37:564-569**](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/){:target="\_blank"}. HGVS-nomenclature is authorised by the Human Genome Variation Society (HGVS), the Human Variome Project (HVP) and the HUman Genome Organization (HUGO).
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "http://varnomen.hgvs.org/"  # the base hostname & protocol for your site
 version: 15.11  # Current nomenclature version number
