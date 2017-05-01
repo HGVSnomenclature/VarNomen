@@ -87,7 +87,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A
 *	the coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 	*	exons that disrupt the main reading frame should not be included
-	*	for human, [_EBI _](http://www.ensembl.org/Help/Glossary?id=346){:target="\_blank"} uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
+	*	for human, [EBI](http://www.ensembl.org/Help/Glossary?id=346){:target="\_blank"} uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
 
 {:#DNAn}
 
