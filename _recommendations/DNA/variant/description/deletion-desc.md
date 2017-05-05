@@ -22,6 +22,5 @@ Format:  **"prefix""position(s)_deleted""del"**,  e.g. g.123\_127del
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 	*	**exception**
 	:	deletions around exon/intron and intron/exon borders when identical nucleotides flank these borders ([_see Numbering_](/bg-material/numbering/#DNAc))
-		:	**c.546+1del** describes a deletion of a "G" at the exon/intron border ..CAGgtg.. (positions c.546/c.546+1). When RNA analysis shows a G deletion (r.456del), so no effect on splicing, the change is described as **c.546del**.
-		:	_**NOTE**_:	when in the above example the next exon starts with GGT.. the deletion is still described as c.546del (not c.548del).
-
+		:	**NG\_012232.1(NM\_004006.1):c.186+1del** describes a deletion of a "G" at the exon/intron border ..CTGgta.. (positions c.186/c.186+1). When RNA analysis shows a G deletion (NM\_004006.1:r.186del), so no effect on splicing, the change is described as **NM\_004006.1:c.186del**.
+		:	_**NOTE**_:	when in the above example the next exon would starts with GGC.. the deletion is still described as NM\_004006.1:c.186del (not c.188del).
