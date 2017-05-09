@@ -15,14 +15,14 @@ HGVS nomenclature falls under the responsibility of the SVD-WG ([_Sequence Varia
 
 ### Open
 
-*   [SVD-WG005]({{site.baseurl}}/bg-material/consultation/svd-wg005/) (gom/lom)
-    :   suggests to extend the HGVS recommendations to allow description of changes in general methylation status
-    :   **Status**: <font color="red">Open</font>. Oct.20 (2016). Closes Dec.31 (2016).
-
 
 * * *
 
 ### Closed
+
+*   [SVD-WG005]({{site.baseurl}}/bg-material/consultation/svd-wg005/) (gom/lom)
+    :   suggests to extend the HGVS recommendations to allow description of changes in general methylation status.
+    :   **Status**: <font color="red">under review</font>. Closed Dec.31 (2016). Opened Oct.20 (2016).
 
 *   [SVD-WG004]({{site.baseurl}}/bg-material/consultation/svd-wg004/) (ISCN<>HGVS)
     :   suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.
