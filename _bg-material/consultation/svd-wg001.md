@@ -6,6 +6,10 @@ category: SVD-WG
 
 ## Community Consultation
 
+### NOTE
+
+The proposal below describes all variants including the nucleotide (A, C, G or T) that was identified as not changed (g.50377648A=, c.1823A=, n.611T=). It should be noted that, following HGVS standards (e.g. g.123456del, c.123dup) this addition is not necessary; g.50377648=, c.1823= and n.611= are correct and preferred HGVS descriptions.
+
 ### Proposal SVD-WG001 (no change)
 
 *	Status: <font color="red">accepted</font>
