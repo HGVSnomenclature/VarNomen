@@ -6,24 +6,21 @@ category: example
 
 For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 
-*	r.[76a>u;103del]
-	: one transcript contains two different changes, r.76a>u and r.103del. The variants are found **in cis**.
-*	r.[76a>u];[103del]
-	: the two transcript alleles each contain a different change, r.76a>u and r.103del. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
-*	r.[76a>u];[76a>u]
-	: both transcript alleles contain the same variant, r.76a>u. A **homozygous** case (e.g. in a recessive disease).
-*	r.76a>u(;)103del
-	: two variants are found in a transcript, r.76a>u and r.103del, but it is not known whether they derive from the same or from different transcript alleles (chromosomes).
-	: _**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
-*	r.[76a>u];[(76a>u)]
-	: analysis detects one variant (r.76a>u), suggesting both transcript alleles contain this variants but it can not be excluded the other allele is deleted or not expressed.
-*	r.[76a>u];[76A=]
-	: one transcript allele contains a variant, r.76a>u, the other transcript allele contains the reference sequence, r.76= (is **wild-type**).
-*	r.[76a>u];[?]
-	: one transcript allele contains a variant, r.76a>u, while a variant in the other transcript allele is expected but not yet identified (r.?) (e.g. in individuals affected by a recessive disease).
-*	r.[76a>u,74\_88del]
-	: two different transcripts, r.76a>u and r.74\_88del, derived from a variant on one chromosome (c.76A>T at the DNA level)
-*	r.[76=/76a>u]
-	: a somatic case where a transcript allele in some cells contains a normal sequence (76=), while other cells contain a "u" at this position (76a>u)  
-*	r.[76=//76a>u]
-	: a chimeric organism where a transcript allele in some cells contain a normal sequence (76=), while other cells contain a protein allele with "u" at this position (76a>u).
+*	LRG_199t1:r.[76a>u;103del]
+	:	one transcript contains two different changes, r.76a>u and r.103del. The variants are found **in cis**.
+*	LRG_199t1:r.[76a>u];[103del]
+	:	the two transcript alleles each contain a different change, r.76a>u and r.103del. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
+*	NM_004006.2:r.76[a>u];[a>u]
+	:	both transcript alleles contain the same variant, r.76a>u. A **homozygous** case (e.g. in a recessive disease).
+*	NM_004006.2:r.76a>u(;)103del
+	:	two variants are found in a transcript, r.76a>u and r.103del, but it is not known whether they derive from the same or from different transcript alleles (chromosomes).
+	:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
+*	LRG_199t1:r.76[a>u];[(a>u)]
+	:	analysis detects one variant (r.76a>u), suggesting both transcript alleles contain this variants but it can not be excluded the other allele is deleted or not expressed.
+*	LRG_199t1:r.76[a>u];[=]
+	:	one transcript allele contains a variant, r.76a>u, the other transcript allele contains at position r.76 the reference sequence, r.76= (is **wild-type**).
+	:	_**NOTE**_: the description r.[76a>u];[=], containing r.76a>u and r.=, is different since it indicates the entire coding RNA reference sequence was analysed and the only variant identified was r.76a>u (on one allele).
+*	NM_004006.2:r.[76a>u];[?]
+	:	one transcript allele contains a variant, r.76a>u, while a variant in the other transcript allele is expected but not yet identified (r.?) (e.g. in individuals affected by a recessive disease).
+*	NM_004006.2:r.[76a>u,74\_88del]
+	:	two different transcripts, r.76a>u and r.74\_88del, derive from one variant (c.76A>T at the DNA level)
