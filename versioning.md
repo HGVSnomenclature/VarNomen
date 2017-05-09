@@ -8,9 +8,9 @@ permalink: /versioning/
 
 The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note that the version does not change when a typing error is corrected, an example added, an explanation clarified, a question answered, etc.
 
-#### The current version is HGVS nomenclature v15.11.
+### The current version is HGVS nomenclature v15.11.
 
-HGVS nomenclature _**version 15.11**_ is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf){:target="\_blank"}. The most significant changes between version 15.11 and version 1.0 are [_described below_](#v1511). For proposals open for Community Consultation and issues currently discussed, [_see Open Issues_](/recommendations/open-issues/).
+For proposals open for Community Consultation and issues currently discussed, [_see Open Issues_](/recommendations/open-issues/).
 
 * * *
 
@@ -21,7 +21,7 @@ HGVS nomenclature _**version 15.11**_ is described in Den Dunnen et al. (2016) [
 {:#version-list}
 
 *   _**In preparation**_
-	:	the recommendation to use a "m." prefix for a mitochondrial reference sequences has been retracted, [_"g." should be used instead_](/bg-material/refseq/#DNAg)
+	:	The recommendation to use a "m." prefix for a mitochondrial reference sequences has been retracted, [_"g." should be used instead_](/bg-material/refseq/#DNAg)
 	:	Accepted proposals will include [_SVD-WG005_](/bg-material/consultation/svd-wg005/):
 	*	SVD-WG005 (_gom/lom_)
 	:	allows descriptions of changes in general methylation status like g.123_456lom  
@@ -32,6 +32,8 @@ HGVS nomenclature _**version 15.11**_ is described in Den Dunnen et al. (2016) [
 		:	allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
 	*	SVD-WG002 (_n. reference sequence_)
 		:	allows descriptions like NR_028379.1:n.345A>G.  
+
+HGVS nomenclature _**version 15.11**_ is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf){:target="\_blank"}. The most significant changes between version 15.11 and version 1.0 are [_described below_](#v1511). 
 
 *   _**Version 2.121101**_
 	:	**Variants affecting translation termination**  -  variants that replace the translation termination codon but do not encounter a new stop in the new reading frame are described as "p.*321Argext*?". Frame shift variants with the same effect are described as "p.Ile321Argfs*?" ([_see Protein descriptions_](/recommendations/protein/variant/extension))
