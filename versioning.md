@@ -20,10 +20,18 @@ HGVS nomenclature _**version 15.11**_ is described in Den Dunnen et al. (2016) [
 
 {:#version-list}
 
+*   _**In preparation**_
+	:	the recommendation to use a "m." prefix for a mitochondrial reference sequences has been retracted, [_"g." should be used instead_](/bg-material/refseq/#DNAg)
+	:	Accepted proposals will include [_SVD-WG005_](/bg-material/consultation/svd-wg005/):
+	*	SVD-WG005 (_gom/lom_)
+	:	allows descriptions of changes in general methylation status like g.123_456lom  
+
 *   _**Version 15.11**_
-	:	Accepted proposals include [_SVD-WG001_](http://www.hgvs.org/mutnomen/accepted001.html){:target="\_blank"} and [_SVD-WG002_](http://www.hgvs.org/mutnomen/accepted002.html){:target="\_blank"}.
-	:	SVD-WG001 (_No change_) allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
-	:	SVD-WG002 (_n. reference sequence_) allows descriptions like NR_028379.1:n.345A>G.  
+	:	Accepted proposals include [_SVD-WG001_](/bg-material/consultation/svd-wg001/) and [_SVD-WG002_](/bg-material/consultation/svd-wg002/):
+	*	SVD-WG001 (_No change_)
+		:	allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
+	*	SVD-WG002 (_n. reference sequence_)
+		:	allows descriptions like NR_028379.1:n.345A>G.  
 
 *   _**Version 2.121101**_
 	:	**Variants affecting translation termination**  -  variants that replace the translation termination codon but do not encounter a new stop in the new reading frame are described as "p.*321Argext*?". Frame shift variants with the same effect are described as "p.Ile321Argfs*?" ([_see Protein descriptions_](/recommendations/protein/variant/extension))
