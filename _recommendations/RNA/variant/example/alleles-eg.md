@@ -22,5 +22,5 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	:	_**NOTE**_: the description r.[76a>u];[=], containing r.76a>u and r.=, is different since it indicates the entire coding RNA reference sequence was analysed and the only variant identified was r.76a>u (on one allele).
 *	NM_004006.2:r.[76a>u];[?]
 	:	one transcript allele contains a variant, r.76a>u, while a variant in the other transcript allele is expected but not yet identified (r.?) (e.g. in individuals affected by a recessive disease).
-*	NM_004006.2:r.[76a>u,74\_88del]
-	:	two different transcripts, r.76a>u and r.74\_88del, derive from one variant (c.76A>T at the DNA level)
+*	LRG_199t1:r.[897u>g,832_960del]
+	:	two different transcripts, r.897u>g and r.832_960del, derive from one variant (LRG_199t1:c.897T>G at the DNA level)
