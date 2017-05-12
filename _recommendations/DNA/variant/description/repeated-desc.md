@@ -30,4 +30,4 @@ Format (sequence):   **"prefix""position_repeat_start""repeat_sequence""[""copy_
 *	the format based on **repeat position** is preferred, descriptions of the repeat sequence quickly become too lengthy.
 	*	_**NOTE**_: while g.123CAG[23] describes a repeat of 23 CAG units, g.123\_125[23] describes a tri-nucleotide repeat of 23 units which **could be interrupted** with other units (e.g. a rare CAA). The description g.123CAG[23] can thus only be used when the repeat was sequenced.
 *	the format g.123\_124TG[4], should not be used; it contains redundant information ("123\_124" and "TG"). 
-*	for **composite repeats** the basic format can be used, successively listing each different repeat unit; g.456\_465[4]466\_489[9]490\_499[3].
+*	for **composite repeats** the basic format can be used, successively listing each different repeat unit; g.456\_467[4]468\_494[9]495\_503[3].
