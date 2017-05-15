@@ -57,7 +57,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 	_**NOTE**_: the range of the uncertainty should be described as precisely as possible ([_see below_](#uncertain1))
 *	"**<font color="red">?</font>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
 *	"**<font color="red">^</font>**" (caret) is used as "or"; c.(370A>C^372C>R) as back translation of p.Ser124Arg
-*	"**<font color="red">&gt;</font>**" (greater then) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
+*	"**<font color="red">&gt;</font>**" (greater than) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
 *	"**<font color="red">{ }</font>**" (curly braces) suggested for the description of variants in otherwise perfect copy sequences ([_see Open Issues_](/recommendations/open-issues#imperfectcopy)); g.24\_65dup{46G>T}	
 *	"**<font color="red">=</font>**" (equals) is used to indicate a sequence was tested but found unchanged; p.(Arg234=)
 *	"**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
