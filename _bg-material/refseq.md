@@ -127,7 +127,7 @@ See [genomic reference sequence](#DNAg).
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NP\_003997.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
 *	when, based on a genomic reference sequence, variants are reported using a "p." prefix, the reference protein isoform used should be indicated
-	*	for LRG_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG\_199**<font color="red">p1</font>**:p.(ValGly)
+	*	for LRG\_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG\_199**<font color="red">p1</font>**:p.(Val25Gly)
 *	the protein reference sequence should be complete, cover the major and largest protein isoform known and include as many exons as possible, even when this isoform has not been proven to actually exist in nature
 *	the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include any signal peptide sequences.
 
