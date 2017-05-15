@@ -5,30 +5,30 @@ category: example
 ---
 
 *	**missense**
-	* 	p.Trp26Cys
-	: 	amino acid Trp26 is changed to a Cys
-	* 	p.(Trp26Cys)
-	: 	amino acid Trp26 is predicted to change to a Cys (no experimental proof, e.g. based on DNA level data)
+	* 	LRG_199p1:p.Trp24Cys
+	: 	amino acid Trp24 is changed to a Cys
+	* 	NP_003997.1:p.(Trp24Cys)
+	: 	amino acid Trp24is predicted to change to a Cys (no experimental proof, e.g. based on DNA level data)
 *	**nonsense**
-	*	p.Trp26Ter (p.Trp26\*)
-    	:	amino acid Trp26 is changed to a stop codon (Ter, \*)<br>
-        _**NOTE:**_ this change is **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
+	*	LRG_199p1:p.Trp24Ter (p.Trp24\*)
+    	:	amino acid Trp24 is changed to a stop codon (Ter, \*)<br>
+        _**NOTE:**_ this change is **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp24\_Met36853del)
 *	**silent**
-	* 	p.Cys123=
-	:	amino acid Cys123 is not changed (DNA level change ..TGC.. to ..TGT..)
+	* 	NP_003997.1:p.Cys188=
+	:	amino acid Cys188 is not changed (DNA level change ..TGC.. to ..TGT..)
 * 	translation initiation codon  
 	:	description depends on the consequences of the change on the translation product (protein);
-	*	p.0
+	*	LRG_199p1:p.0
 	:	as a consequence of a variant no protein is produced
-	*	p.? (p.Met1?)
+	*	LRG_199p1:p.? (p.Met1?)
     	:	the consequence of a variant at the protein level are not known (can not be predicted)
 *	**new translation initiation site**
 	*	**<u>upstream</u>**  -  [_see Extension_](/recommendations/protein/variant/extension)
-	*	**<u>downstream</u>**  -  p.Phe2\_Met46del 
-		:	a variant causes the inactivation of the normal and activation of a downstream translation initiation site (Met) resulting in deletion of the first 45 amino acids (Met-1 to Lys-45) of the protein.<br>
+	*	**<u>downstream</u>**  -  NP_003997.1:p.Leu2\_Met124del 
+		:	a variant causes the inactivation of the normal and activation of a downstream translation initiation site (Met) resulting in deletion of the first 123 amino acids (Met-1 to Val-123) of the protein.<br>
         	_**NOTE:**_ the 3' rule applies.
 *	translation termination codon _(stop codon, **no-stop change**)_
 	:	[_see Extension_](/recommendations/protein/variant/extension)
-*	p.(Gly19Ala^Ser^Cys)
-	:	amino acid Gly19 is changed to an Ala, Ser or Cys ([_see Uncertain_](/recommendations/uncertain/))
+*	NP_003997.1:p.(Gly56Ala^Ser^Cys)
+	:	amino acid Gly56 is changed to an Ala, Ser or Cys ([_see Uncertain_](/recommendations/uncertain/))
 	
