@@ -12,4 +12,4 @@ category: example
 	: a duplication of amino acids Ala3 to Ser5 in the sequence MetGlyAlaArgSerSerHis to MetGlyAlaArgSer**<font color="red">AlaArgSer</font>**SerHis
 *	p.Ser6dup
 	: a duplication of amino acid Ser in the sequence MetGlyAlaArgSerSerHis to MetGlyAlaArgSerSer**<font color="red">Ser</font>**His
-	:	_**NOTE:**_ for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted
+	:	_**NOTE:**_ for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been duplicated
