@@ -34,7 +34,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 *	deletion
 	:	The basic format to describe deletions that have not been fully characterised (sequenced) depends on the method used.
-	*	PCR
+	*	**PCR**
 		*	size
 		:	when a fragment containing a deletion has been amplified but only its size was determined (and not its sequence), the variant should be reported as **g.(position-fragment-start\_position-fragment-end)del(#)** with "#" indicating the size (or estimated size) of the deletion in nucleotides. Example NM\_002111.6:c.(-12\_262)del(6).
 		* present/absent
@@ -69,15 +69,14 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	*	Southern blotting
 	:	usually the sequence of the probe(s) used is known (or can be determined easily), can be linked to a genomic reference sequence and the deletion can therefore be described using the standard format **(position-last-normal-probe\_position-first-altered-probe)\_(position-last-altered-probe\_position-first-normal-probe)**. For details and examples [_see Deletions_](/recommendations/DNA/variant/deletion/).
 
-*	insertion
+*	**insertion**
 	*	size
 	:	when a fragment containing an insertion has been amplified but only its size was determined (and not its sequence), the variant should be reported as **g.(position-fragment-start\_position-fragment-end)ins(#)** with "#" indicating the size (or estimated size) of the insertion in nucleotides. Example NM\_002111.6:c.(-12\_262)ins(12).
 	*	present/absent
 	:	the basic format to describe insertions that have not been fully characterised, i.e. the inserted sequence and/or the insertion break point has not been sequenced, is **g.(last-normal\_first-normal)ins(first-inserted_last-inserted)**. The description of the site of the insertion, g.(last-normal\_first-normal), gives the range of uncertainty of its position. When the insertion site is not known, e.g. when an assay only detects an additional copy of a sequence, the suggestion is to describe the insertion site as "g.?\_?". For the inserted sequence follow the standard recommendations, i.e. try to describe it as precise as possible, including regions of uncertainty. A possible description might then be like g.?\_?insNC\_000023.10:(12345\_23456)\_(34567\_45678).
 
 *	duplication
-	:	when there is **no evidence** the additional copy is **in tandem** with the original copy but might be anywhere in a genome, the variant should be described as an **insertion** (see above).
-	:	the basic format to describe duplications that have not been fully characterised, i.e. the duplication break point has not been sequenced, is: **g.(last-normal\_first-duplicated)\_(last-duplicated\_first-normal)dup**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**. For examples see deletions (above). 
+	:	when there is **no evidence** the additional copy is **in tandem** with the original copy but might be anywhere in a genome, the variant should be described as an **insertion** (see above).  The basic format to describe duplications that have not been fully characterised, i.e. the duplication break point has not been sequenced, is: **g.(last-normal\_first-duplicated)\_(last-duplicated\_first-normal)dup**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**. For examples see deletions (above). 
 
 * * *
 
