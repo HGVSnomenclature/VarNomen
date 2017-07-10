@@ -4,7 +4,7 @@ title: insertion
 category: description
 ---
 
-Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e.g. p.Lys23\_Leu24insArgSerGln
+Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e.g. p.(Lys23\_Leu24insArgSerGln)
 
 **"prefix"**  =  reference sequence used  =  p.<br>
 **"amino_acids+positions_flanking"**  =  amino acids with positio flanking insertion site  =  Lys23\_Leu24<br>
