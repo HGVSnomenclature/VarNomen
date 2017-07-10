@@ -28,3 +28,5 @@ category: example
 	: _**NOTE**_: when the sequence was not determined, but the repeat estimated based on PCR fragment size, the description is c.(54\_56;117\_119;120\_122;126\_128;129\_131)[35]
 *	g.456\_457[4]466\_468[9]490[12] (when sequenced, alternatively 456TG[4]TAA[9]T[12])
 	: a complex repeated sequence has a first unit located from position g.456 to g.457, present in 4 copies, a second unit from position g.466 to g.468 present in 9 copies and a third unit (mono-nucleotide) starting at position position 490 present in 12 copies.
+*	different genomic (g.) and coding DNA (c.) descriptions
+	:	NC\_000001.10:g.57832719ATAAA[15] and NM\_021080.3:c.-136-75952ATTTT[15] describe the same repeat allele in intron 3 of the DAB1 gene. _**NOTE**_: based on the **3' rule** and the transcriptional orientation of the gene (minus strand) the description of the repeat unit differs.
