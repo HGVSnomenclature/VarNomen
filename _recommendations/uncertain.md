@@ -33,7 +33,9 @@ HGVS recommendations also contain suggestions to describe variants for which not
 #### DNA
 
 *	deletion
-	:	The basic format to describe deletions that have not been fully characterised, i.e. the deletion break point has not been sequenced, is: **g.(last-normal\_first-deleted)\_(last-deleted\_first-normal)del**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**.
+	:	The basic format to describe deletions that have not been fully characterised (sequenced) depends on the method used. 
+		*	a fragment containing a deletion has been amplified but was analysed only to determine its size (and not its sequence) the variant should be reported as **g.(position-fragment-start\_position-fragment-end)del#** with "#" indicating the size (or estimated size) of the deletion in nucleotides.
+		*	a deletion based on the presence/absence of specific sequences tested is described as **g.(last-normal\_first-deleted)\_(last-deleted\_first-normal)del**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**.
 	*	MLPA
 	:	The description uses the basic format **(position-last-normal-probe\_position-first-altered-probe)\_ (position-last-altered-probe\_position-first-normal-probe)**.
 	:	In MLPA a pair of short oligonucleotides is used to detect the copy number of a specific sequence (mostly an exon). When the signal of a probe is decreased or absent it indicates that the pair of oligo nucleotide sequences could not be ligated. Ligation will fail when one or both oligonucleotides did not hybridize to the target sequence either because the target sequence is absent (deleted) **or** by differences between the target and probe sequence.
