@@ -4,7 +4,7 @@ title: substitution
 category: description
 ---
 
-Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.Arg54Ser
+Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 
 **"prefix"**  =  reference sequence used  =  p.<br>
 **"amino_acid"**  =  reference amino acid  =  Arg<br>
