@@ -4,7 +4,7 @@ title: deletion-insertion
 category: description
 ---
 
-Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_sequence"**,  e.g. p.Arg123\_Lys127delinsSerAsp
+Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_sequence"**,  e.g. p.(Arg123\_Lys127delinsSerAsp)
 
 **"prefix"**  =  reference sequence used  =  g.<br>
 **"amino\_acid(s)+position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  Arg123\_Lys127<br>
