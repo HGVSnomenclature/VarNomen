@@ -4,7 +4,7 @@ title: frame shift
 category: description
 ---
 
-Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termination_site"**,  e.g. p.Arg123LysfsTer34
+Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termination_site"**,  e.g. p.(Arg123LysfsTer34)
 
 **"prefix"**  =  reference sequence used  =  p.<br>
 **"amino_acid"**  =  first amino acid changed  =  Arg<br>
