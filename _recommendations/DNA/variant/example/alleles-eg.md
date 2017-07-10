@@ -29,5 +29,3 @@ category: example
 	:	a sample contains heterozygous variants on different alleles (c.296T>G and c.476C>T) and two additional heterozygous variants (c.1083G>C and c.1406del) for which it is not known on which allele (chromosome) they are.
 *	NC_000023.10:g.[30683643A>G;33038273T>G]
 	:	one allele (X-chromosome) contains two different changes in two different genes, g.30683643A>G in the GK gene and g.33038273T>G in the DMD gene.
-*	different genomic (g.) and coding DNA (c.) descriptions
-	:	NC\_000001.10:g.57832719ATAAA[15] and NM\_021080.3:c.-136-75952ATTTT[15] describe the same repeat allele in intron 3 of the DAB1 gene. _**NOTE**_: based on the **3' rule** and the transcriptional orientation of the gene (minus strand) the description of the repeat unit differs.
