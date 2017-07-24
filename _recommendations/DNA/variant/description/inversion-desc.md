@@ -19,6 +19,4 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 *	**inverted duplications** are described as an insertion using the format g.234\_235ins123\_234inv, not as g.123\_456dupinv ([_see Q&A_](#dupinv))
-*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
-	:	{ } (curly braces) can be used to list any change in the inverted sequence ("positions\_inverted") which is different when compared to the source, e.g. g.123\_345inv**{233A>G}**
-*	inversions are not used on Protein level
+*	inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
