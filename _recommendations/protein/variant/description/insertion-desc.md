@@ -25,6 +25,4 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 	*	the 3'rule also applies for changes in single amino acid stretches and tandem repeats
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
-*	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Lys2\_Leu3ins34).
-*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
-	:	{ } (curly braces) can be used to list any change in the inserted sequence ("inserted_sequence") which is different when compared to the source, e.g. p.Lys23\_Leu24insArg100\_Asp120**{Gly111Glu}**
+*	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Lys2\_Leu3ins(34) ).
