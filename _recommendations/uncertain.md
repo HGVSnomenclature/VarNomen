@@ -102,7 +102,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	p.(Ala123\_Pro131)\*
 	:	used to describe that at an unknown position between amino acids Ala123 and Pro131 an amino acid is substituted for a translation termination (stop) codon
 *	p.(Ala123\_Pro131)fs
-	:	used to describe there is a frame shift variant at an unknown position between amino acids Ala123 and Pro131
+	:	used to describe there is a frame shift variant starting at an unknown position between amino acids Ala123 and Pro131
 *	p.(Ala123\_Pro131)ins(4).
 	:	used to describe there is an insertion of 4 amino acids at an unknown position between amino acids Ala123 and Pro131
 *	p.Gly719(Ala^Ser)fs\*23
