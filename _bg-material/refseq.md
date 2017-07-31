@@ -89,6 +89,7 @@ See [genomic reference sequence](#DNAg).
 *	the coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 	*	exons that disrupt the main reading frame should not be included
 	*	for human, [EBI](http://www.ensembl.org/Help/Glossary?id=346){:target="\_blank"} uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
+*	when a gene is located on the minus strand the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC\_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC\_000023.10:g.32361300 links to nucleotide NM\_004006.1:c.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM\_004006.1:c.5697del (linking to NC\_000023.10:g.32361293). See also [different genomic (g.) and coding DNA (c.) descriptions](/recommendations/DNA/variant/repeated/).
 
 {:#DNAn}
 
@@ -98,10 +99,11 @@ See [genomic reference sequence](#DNAg).
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants can be annotated
 	*	"**pending**” LRGs should not be used, they might change before being approved
-	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NR\_002196.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
+	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NR\_002196.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
 *	when, based on a genomic reference sequence, variants are reported using a "**n.**" prefix, the transcript variant used should be indicated
-	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_163**<font color="red">t1</font>**:n.5C>T
+	*	for LRG\_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_163**<font color="red">t1</font>**:n.5C>T
 *	the non-coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
+*	when a gene is located on the minus strand the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC\_000023.10:g.2019099del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC\_000023.10:g.2019099 links to nucleotide NR\_002196.2:n.7. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NR\_002196.2:n.7del (linking to NC\_000023.10:g.20190955). See also [different genomic (g.) and coding DNA (c.) descriptions](/recommendations/DNA/variant/repeated/).
 
 {:#RNAr}
 
@@ -112,11 +114,12 @@ See [genomic reference sequence](#DNAg).
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g.  NM\_004006.2 or NR\_002196.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
 *	when, based on a genomic reference sequence, variants are reported using a "r." prefix, the transcript variant used should be indicated
-	*	for LRG_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:r.11u>g
+	*	for LRG\_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:r.11u>g
 	*	for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC\_000023.10(NM\_004006.2):r.357\_358ins357+1\_357+12 or NG\_012232.1(NM\_004006.2):r.357\_358ins357+1\_357+12
 *	nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
 	*	a coding DNA reference sequence does not contain intron sequences and can therefore **not be used** to describe variants affecting intron sequences
 * 	the reference sequence inclides the entire transcript, excluding the poly A-tail.
+*	when a gene is located on the minus strand the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC\_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC\_000023.10:g.32361300 links to nucleotide NM\_004006.1:r.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM\_004006.1:r.5697del (linking to NC\_000023.10:g.32361293).
 
 {:#proteinp}
 
