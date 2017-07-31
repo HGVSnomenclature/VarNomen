@@ -99,3 +99,13 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	:	used to indicate that an effect on the protein level is expected but that it is not possible to give a reliable prediction of the consequences
 *	p.(?)
 	:	used to indicate that no changes on the protein level are expected other then those simply derived from the change at the DNA level. Alternatively the predicted consequence at the protein level can be described, e.g. p.(Arg2371Ser)
+*	p.(Ala123\_Pro131)\*
+	:	used to describe that at an unknown position between amino acids Ala123 and Pro131 an amino acid is substituted for a translation termination (stop) codon
+*	p.(Ala123\_Pro131)fs
+	:	used to describe there is a frame shift variant at an unknown position between amino acids Ala123 and Pro131
+*	p.(Ala123\_Pro131)ins(4).
+	:	used to describe there is an insertion of 4 amino acids at an unknown position between amino acids Ala123 and Pro131
+*	p.Gly719(Ala^Ser)fs\*23
+	:	used to describe there is a frame shift variant starting at an unknown position in the codon for amino acid Gly719
+*	p.Gly23(Glufs\*7ˆAla24Cysfs\*6)
+	:	used to describe there is a frame shift variant starting in the codon for amino acid Gly23 giving either p.(Gly23Glufs\*7) or p.(Gly23Ala24Cysfs\*6)
