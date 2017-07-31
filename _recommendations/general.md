@@ -76,8 +76,8 @@ Specific abbreviations are used to describe different variant types.
 *	"**<font color="red">dup</font>**" indicates a **duplication**; c.76dupA (see [_DNA_](/recommendations/DNA/variant/duplication), [_RNA_](/recommendations/RNA/variant/duplication), [_protein_](/recommendations/protein/variant/duplication))
 *	"**<font color="red">ins</font>**" indicates an **insertion**; c.76\_77insG (see [_DNA_](/recommendations/DNA/variant/insertion), [_RNA_](/recommendations/RNA/variant/insertion), [_protein_](/recommendations/protein/variant/insertion))
 	*	duplicating insertions are described as duplications, not as insertions	
-*	"**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion))
-*	"**<font color="red">con</font>**" indicates a **conversion**; NC\_000022.10:g.42522624\_42522669con42536337\_42536382 (see [_DNA_](/recommendations/DNA/variant/conversion), [_RNA_](/recommendations/RNA/variant/conversion))
+*	"**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion)). Not used at protein level, usually described as [_"delins"_](/recommendations/protein/variant/delins/)
+*	"**<font color="red">con</font>**" indicates a **conversion**; NC\_000022.10:g.42522624\_42522669con42536337\_42536382 (see [_DNA_](/recommendations/DNA/variant/conversion), [_RNA_](/recommendations/RNA/variant/conversion), _protein_)
 *	"**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, [_see Frame shifts_](/recommendations/protein/variant/frameshift))
 *	"**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Frame shifts_](/recommendations/protein/variant/extension))
 
@@ -87,6 +87,10 @@ Specific abbreviations are used to describe different variant types.
 	*	"**<font color="red">chr</font>**" indicates a **chromosome**; chr11:g.12345611G>A (NC_000011.9)
 	*	"**<font color="red">pter</font>** indicates the **first nucleotide** of a chromosome
 	*	"**<font color="red">qter</font>**" indicates the **last nucleotide** of a chromosome
+
+*	changes of state (modifications)
+	*	"**<font color="red">gom</font>**" indicates a **gain of methylation**; g.12345678_12345901**<font color="red">|gom</font>**
+	*	"**<font color="red">lom</font>**" indicates a **loss of methylation**; g.12345678_12345901**<font color="red">|lom</font>**	
 
 * * *
 
