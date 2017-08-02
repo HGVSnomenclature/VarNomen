@@ -17,9 +17,8 @@ nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucl
 
 ### mitochondrial DNA reference sequences
 
-nucleotide numbering is g.1, g.2, g.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
+nucleotide numbering is g.1, g.2, g.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.  _**NOTE:**_ previously the suggestion was to use an "m." prefix, this suggestion has been **retracted** ([_see Reference Sequences_](/bg-material/refseq/))
 
-	:	_**NOTE:**_ previously the suggestion was to use an "m." prefix, this suggestion has been **retracted** ([_see Reference Sequences_](/bg-material/refseq/))
 *	the preferred human mtDNA reference sequence is the _Homo sapiens_ [mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
 
 * * * 
