@@ -18,7 +18,8 @@ nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucl
 ### mitochondrial DNA reference sequences
 
 nucleotide numbering is g.1, g.2, g.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
-	:	_**NOTE:**_ previously the suggestion was to use an "m." prefix, this suggestion has been **retracted** [_Reference Sequences_](/lbg-material/refseq/)
+
+	:	_**NOTE:**_ previously the suggestion was to use an "m." prefix, this suggestion has been **retracted** ([_see Reference Sequences_](/bg-material/refseq/))
 *	the preferred human mtDNA reference sequence is the _Homo sapiens_ [mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
 
 * * * 
@@ -55,7 +56,7 @@ Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi
 
 *	nucleotide numbering is n.1, n.2, n.3, ..., etc. from the first to the last nucleotide of the reference sequence
 *	nucleotides upstream (5’) of the **transcription start site** are marked with a “-” (minus) and numbered n.-1, n.-2, n.-3, etc. (i.e. going further upstream)
-*	nucleotides downstream (3’) of the **transcription start site** are marked with a “*” (asterisk) and numbered n.*1, n.*2, n.*3, etc. (i.e. going further downstream)
+*	nucleotides downstream (3’) of the **transcription start site** are marked with a “\*” (asterisk) and numbered n.\*1, n.\*2, n.\*3, etc. (i.e. going further downstream)
 *	nucleotides in introns are numbered as for coding DNA reference sequences [_(see above)_](#DNAc), although preceeded by n. (not c.).
 
 * * * 
