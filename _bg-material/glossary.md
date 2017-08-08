@@ -22,7 +22,18 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   a letter from the protein code ([_see Standards_](/bg-material/standards/)).
 
 *   cap site
-    :   first nucleotide of a transcript (5' end) to which a specially altered nucleotide is added
+    :   first nucleotide of a transcript (5' end) to which a specially altered nucleotide is added.
+    
+*   cDNA
+    :   cDNA, "copy DNA" or "complementary DNA", is the DNA copy of a single stranded RNA molecule synthesized using the enzyme reverse transcriptase ([Wikipedia](https://en.wikipedia.org/wiki/Complementary_DNA){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68018076){:target="\_blank"}).
+    :   _**NOTE:**_ cDNA is not the same as "coding DNA" (see below).
+
+*   CDS
+    :   coding DNA sequence.
+    
+*   coding DNA
+    :   the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
+    :   _**NOTE:**_ a [_coding DNA reference sequence_](/bg-material/refseq/#DNAc) is **not** a cDNA sequence (see above)
 
 *   chimerism
     :   the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}). Opposite of mosaicism.
@@ -53,6 +64,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   **HGVS**: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/), [_RNA_](/recommendations/RNA/variant/duplication/) or [_protein_](/recommendations/protein/variant/duplication/).
 
+*   exon
+    :   any nucleotide sequence within a gene which, during maturation of the RNA transcript, is not removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Exon){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68005091){:target="\_blank"}). Every exon, except the first and lat exon, is flanked by two **introns**.
+
 *   hemizygous
     :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
     
@@ -71,6 +85,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
     :   **HGVS**: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/insertion/), [_RNA_](/recommendations/RNA/variant/insertion/) or [_protein_](/recommendations/protein/variant/insertion/).
+
+*   intron
+    :   any nucleotide sequence within a gene which, during maturation of the RNA transcript, is removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Intron){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68007438){:target="\_blank"}). Every intron is flanked by two **exons**.
 
 *   inversion
     :   **HGVS**: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.
