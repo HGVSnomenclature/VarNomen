@@ -8,7 +8,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 **"prefix"**  =  reference sequence used  =  g.<br>
 **"position_substituted"**  =  position nucleotide sustituted  =  123<br>
-**"reference_nulceotide"**  =  nucleotide at reference position =  A<br>
+**"reference_nucleotide"**  =  nucleotide at reference position =  A<br>
 **">"**  =  type of change is a substitution =  ><br>
 **"new_nucleotide"**  =  substituted nucleotide  =  G
 
