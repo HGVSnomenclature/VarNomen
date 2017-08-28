@@ -71,7 +71,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 *	**insertion**
 	*	size
-	:	when a fragment containing an insertion has been amplified but only its size was determined (and not its sequence), the variant should be reported as **g.(position-fragment-start\_position-fragment-end)ins(#)** with "#" indicating the size (or estimated size) of the insertion in nucleotides. Example NM\_002111.6:c.(-12\_262)ins(12).
+	:	when a fragment containing an insertion has been amplified but only its size was determined (and not its sequence), the variant should be reported as **g.(position-fragment-start\_position-fragment-end)ins(#)** with "#" indicating the size (or estimated size) of the insertion in nucleotides. Example NM\_002111.6:c.(-12\_262)ins(12) or NM\_002111.6:c.(-12\_262)ins(150_200).
 	*	present/absent
 	:	the basic format to describe insertions that have not been fully characterised, i.e. the inserted sequence and/or the insertion break point has not been sequenced, is **g.(left-ins-position\_right-ins-position)ins(last-normal\_first-inserted)\_(last-inserted\_first-normal)** like g.?\_?insNC\_000023.10:(12345\_23456)\_(34567\_45678).
 	:	When the insertion site (g.(left-ins-position\_right-ins-position)) is not known, e.g. when an assay only detects an additional copy of a sequence, it should be described as "g.?\_?".
