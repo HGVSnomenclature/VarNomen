@@ -105,6 +105,9 @@ Specific abbreviations are used to describe different variant types.
 
 *	When I want to report a variant on DNA, RNA and protein level do I need to use a specific separator?
 	:	No, best is to report the variant using the format NM\_004006.2:c.124G>G r.(?) p.(Ser42Gly). **_NOTE:_** needless to say, always mention the reference sequence file used
+
+*	What do you mean by "descriptions at protein level should describe the changes observed on that level and not try to incorporate any knowledge regarding the change at DNA-level"?
+	:	To describe a variant at the protein level you simply compare the reference and variant protein sequence. You forget what happened at the DNA level. When the sequence ...ATG AGC TCG AGC CTT... (encoding MetSerSerSerLeu) changes to ...TGG AGC AGC CTT... (encoding MetSerSerLeu) this is described as p.(Ser4del) and **not as** p.(Ser3del) because from DNA level the codon for Ser3 is deleted.
 	
 *	Is it correct that when I apply **the 3'rule** for genes that are on the minus strand of a chromosome, the "g." and "c." variant descriptions differ regarding the nucleotide that I describe as deleted?
 	:	Yes, when a gene is on the minus strand of a chromosome (opposite transcriptional orientation) and the change is located in a repeated sequence (mono-, di-, tri-, etc. nucleotide stretches) the 3'rule has this as a consequence. When the chromosome sequence is -TGGGGCAT- and one of the G's is deleted (change to -TGGG_CAT-) the description based on chromosome coordinates is g.5delG. When the annotated coding DNA reference sequence is on the minus strand (ATGCCCCA) the description is c.7delC. Not only is the deleted nucleotide different (delG vs. delC), in fact the descriptions also point to another nucleotide, g.5 vs. g.2 (equivalent to c.7delC).
