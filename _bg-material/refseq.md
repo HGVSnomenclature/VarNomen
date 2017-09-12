@@ -52,9 +52,9 @@ Depending on the variants to be reported, different reference sequence files are
 ### DNA - genomic reference sequence
 
 *	the recommended DNA reference is a genomic reference sequence
-	*	genomic reference sequences includes a mitochondrial sequence, chloroplast sequences, plasmid sequence, viral resuence, etc. and those base on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
+	:	genomic reference sequences includes a mitochondrial sequence, chloroplast sequences, plasmid sequence, viral resuence, etc. and those base on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
 	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, and unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
-	*	for diagnostic applications a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}, can be used in addition
+	:	_**NOTE:**_  for diagnostic applications a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}, can be used in addition
 		* 	when for a gene of interest **no LRG** is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}. 
 		*	"**pending**” LRGs should not be used, they might change before being approved
 		*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NG\_012232.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
