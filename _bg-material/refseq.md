@@ -53,14 +53,14 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	the recommended DNA reference is a genomic reference sequence
 	:	genomic reference sequences includes a mitochondrial sequence, chloroplast sequences, plasmid sequence, viral resuence, etc. and those base on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
-	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, and unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
+	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 	:	_**NOTE:**_  for diagnostic applications a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}, can be used in addition
 		* 	when for a gene of interest **no LRG** is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}. 
 		*	"**pending**” LRGs should not be used, they might change before being approved
 		*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NG\_012232.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
-	*	a genomic reference sequence;
-		*	should include all known exons and cover all known transcripts
-		*	to facilitate the description of variants in immediate gene flanking regions (e.g. the promoter region), should contain several kilobases of 5' upstream (recommended is 5 kb) and 3' downstream (recommended 2 kb) sequences
+*	a genomic reference sequence;
+	*	should include all known exons and cover all known transcripts
+	*	to facilitate the description of variants in immediate gene flanking regions (e.g. the promoter region), should contain several kilobases of 5' upstream (recommended is 5 kb) and 3' downstream (recommended 2 kb) sequences
 *	when a complete genomic reference sequence is not available, a coding DNA reference sequence should be used.
 *	for complex genes computational tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter){:target="\_blank"} can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
 
@@ -69,9 +69,9 @@ Depending on the variants to be reported, different reference sequence files are
 
 ### DNA - Mitochondrial reference sequence
 
-*	a mitochondrial reference sequence is, by definition, a genomic reference.  However, the **m.** prefix is well-established, universally used, and unequivocal, and therefore recommended
-	*	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
-	:	 the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
+*	a mitochondrial reference sequence is, by definition, a genomic reference.  However, the **m.** prefix is well-established, universally used, unequivocal and therefore recommended
+*	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
+	:	 _**NOTE:**_	the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
 
 
 {:#DNAc}
