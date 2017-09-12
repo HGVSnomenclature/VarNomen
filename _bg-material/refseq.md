@@ -37,7 +37,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	#### DNA
 	*	**g.**	=	[genomic reference sequence](#DNAg)
-	:	_**NOTE:**_ the recommendation to use m. for a mitochondrial reference sequences has been retracted, [use g. instead](#DNAg)
+	*	**m.**	=	[mitochondrial reference](#DNAg)
 	*	**c.**	=	[coding DNA reference sequence](#DNAc) (based on a protein coding transcript)
 	*	**n.**	=	[non-coding DNA reference sequence](#DNAn) (based on a transcript not coding for a protein)
 *	#### RNA
@@ -53,8 +53,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	the recommended DNA reference is a genomic reference sequence
 	*	genomic reference sequences includes a mitochondrial sequence, chloroplast sequences, plasmid sequence, viral resuence, etc. and those base on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
-	:	_**NOTE:**_ the recommendation to use "m." for a mitochondrial reference sequences has been **retracted**, such a sequence is a genomic reference sequence which can be indicated using a "**g.**" prefix. The preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
-	:	 the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
+	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, and unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 	*	for diagnostic applications a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}, can be used in addition
 		* 	when for a gene of interest **no LRG** is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}. 
 		*	"**pending**” LRGs should not be used, they might change before being approved
@@ -70,7 +69,9 @@ Depending on the variants to be reported, different reference sequence files are
 
 ### DNA - Mitochondrial reference sequence
 
-See [genomic reference sequence](#DNAg).
+*	a mitochondrial reference sequence is, by definition, a genomic reference.  However, the **m.** prefix is well-established, universally used, and unequivocal, and therefore recommended
+	*	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
+	:	 the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
 
 
 {:#DNAc}
