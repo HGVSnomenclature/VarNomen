@@ -37,7 +37,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 			*	**three-letter** amino acid code is preferred ([_see Standards_](/bg-material/standards/#aacode))
 *	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) deletion, (2) inversion, (3) duplication, (4) conversion, (5) insertion
 	* when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
-*	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes or proteins
+*	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
 
 * * *
 <a name="characters"></a>
