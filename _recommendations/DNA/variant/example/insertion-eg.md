@@ -14,7 +14,7 @@ category: example
 	*	NM\_004006.1:c.419\_420ins[T;401\_419]
 	:	the insertion of T followed by a copy of the sequence from c.401 to c.419 (a duplication not directly flanking the original sequence)
 	*	LRG\_199t1:c.419\_420ins[T;450\_470;AGGG]
-	:	the insertion of T followed by a copy of the sequence from c.450 to c.470, followed by AGG
+	:	the insertion of T followed by a copy of the sequence from c.450 to c.470, followed by AGGG
 *	insertion of inverted duplicated copies
 	*	NM\_004006.1:c.849\_850ins850\_900inv
 	:	a copy of nucleotides c.850 to c.900 is inserted, in inverted orientation, 5' of the original sequence, between nucleotide c.849 and c.850
