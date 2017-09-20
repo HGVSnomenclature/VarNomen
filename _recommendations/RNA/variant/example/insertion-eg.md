@@ -4,17 +4,17 @@ title: insertion
 category: example
 ---
 
-*	r.426\_427insa
-	: the insertion of an "a" nucleotide between nucleotides r.426 and r.427 
-*	r.756\_757insacu
-	: the insertion of nucleotides "acu" between nucleotides r.756 and r.757
-*	c.(67\_70)insg (p.Gly23fs)
-	: the insertion of a "g" at an unknown position in the sequence encoding amino acid 23
-*	r.549\_550insn 
-	: the insertion of one not specified nucleotide (n) between position r.549 and r.550
-*	r.431\_432ins(5) (alternatively r.431\_432insnnnnn)
-	: the insertion of 5 not specified nucleotides (nnnnn) between position r.431 and r.432
-*	r.1134\_1135ins(100)
-	: the insertion of 100 not specified nucleotides between position r.1134 and r.1135
-*	r.123\_124insL37425.1:23\_361
-	:  the insertion of nucleotides 23 to 361 as described in GenBank file L37425.1 between nucleotides r.123 and r.124. 
+*	LRG\_199t1:r.426\_427insa
+	:	the insertion of an "a" nucleotide between nucleotides r.426 and r.427 
+*	LRG\_199t1:r.756\_757insuacu
+	:	the insertion of nucleotides "ucu" between nucleotides r.756 and r.757
+*	NM\_004006.2:r.(222\_226)insg (p.Asn75fs)
+	:	the insertion of a "g" at an unknown position in the sequence encoding amino acid 75
+*	NM\_004006.2:r.549\_550insn 
+	:	the insertion of one not specified nucleotide (n) between position r.549 and r.550
+*	NM\_004006.2:r.761\_762insnnnnn (alternatively r.761\_762ins(5))
+	: the insertion of 5 not specified nucleotides (nnnnn) between position r.761 and r.762
+*	LRG\_199t1:r.1149\_1150ins(100)
+	:	the insertion of 100 not specified nucleotides between position r.1149 and r.1150
+*	NG\_012232.1(NM\_004006.2):r.1992\_1993ins[1993-34\_1993-23;1993-6\_1993-1]
+	: 	the insertion of intronic nucleotides r.1993-34 to r.1993-23 and r.1993-6 to r.1993-1 between nucleotides r.1992 and r.1993 (caused by the deletion NG\_012232.1(NM\_004006.2):c.1993-22\_1993-7del]
