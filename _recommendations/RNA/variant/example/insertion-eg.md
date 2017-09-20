@@ -16,5 +16,6 @@ category: example
 	: the insertion of 5 not specified nucleotides (nnnnn) between position r.761 and r.762
 *	LRG\_199t1:r.1149\_1150ins(100)
 	:	the insertion of 100 not specified nucleotides between position r.1149 and r.1150
-*	NG\_012232.1(NM\_004006.2):r.2949\_2950ins[2950-30\_2950-12;2950-4\_2950-1] (alternatively r.2949\_2950ins[2950-30\_2950-12;ttag])
+*	NG\_012232.1(NM\_004006.2):r.2949\_2950ins[2950-30\_2950-12;2950-4\_2950-1]
 	: 	the insertion of intronic nucleotides r.2950-30 to r.2950-12 and r.1993-4 to r.1993-1 between nucleotides r.1992 and r.1993 (caused by the deletion NG\_012232.1(NM\_004006.2):c.2950-11\_2950-5del]
+	:	 alternative description r.2949\_2950ins[2950-30\_2950-12;uuag]
