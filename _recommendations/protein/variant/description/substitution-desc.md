@@ -16,7 +16,7 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 ### Note
 
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg727Ser).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727Ser).
 *	changes involving two or more consecutive amino acids are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/protein/variant/indel/)).
 *	a **nonsense** variant, a variant changing an amino acid to a translation termination (stop) codon, is described as a **substitution**.
 	_**NOTE:**_ a nonsense variant is not described as a [Deletion](/recommendations/protein/variant/deletion/) of the C-terminal end of the protein (e.g. p.Trp26\_Arg1623del)
