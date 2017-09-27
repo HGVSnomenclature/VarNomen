@@ -24,7 +24,7 @@ Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_
 ### Note
 
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Ter110Glnext\*17).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110Glnext\*17).
 *	**prefix** reference sequences accepted are p. (protein).
 *   **extension** variants have been accepted on **<font color="red">2012-08-31</font>**  
 *	variants affecting the translation initiation site (Met1) activating a downstream (C-terminal) translation initiation site are described as a [_deletion_](/recommendations/protein/variant/deletion/), e.g. p.Gly2\_Met46del.
