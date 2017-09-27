@@ -16,7 +16,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 ### Note
 
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg727\_Ser728insTrpCys).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser728insTrpCys).
 *	an insertion can not be described using **one** amino acid position, like p.Lys23insAsp
 *	the "amino\_acids+positions\_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25)
 *	duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/variant/duplication/)), not as insertion
