@@ -15,7 +15,7 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
 ### Note
 
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783del).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783del).
 *	the "amino\_acids+positions\_deleted" should contain **two different** positions, e.g. Cys76\_Glu79, not Cys76\_Cys76.
 *	the "positions\_deleted" should be listed from **5' to 3'**, e.g. Cys76\_Glu79, not Glu79\_Cys76.
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_).
