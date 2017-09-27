@@ -19,7 +19,7 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 ### Note
 
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
 *	frame shifts can also be described using a **short format**; p.Arg123fs i.e. indicating the first amino acid changed, its position and "fs" without further detail.
 *	frame shifts are a special type of amino acid **deletion/insertion**, but the description does not include the deletion from the site of the change to the C-terminal end of the protein (stop codon), like "Arg123\_Leu833del", nor the amino acid sequence inserted.
 *	the position of the translation termination (stop) codon in the new reading frame is calculated **starting** at the first amino acid changed by the frame shift (codon 1), and **ending** at the first stop codon encountered (Ter# or \*#)<br>
