@@ -25,6 +25,8 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 *	NP_003997.1:p.(Ser68Arg)(;)(Asn594del)
 	:	two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they derive from the same or from different alleles (chromosomes).
 	:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets are not used
+*	NP_003997.1:p.Ser68Arg;[(Ser68Arg)]
+	:	analysis detects one variant (p.Ser68Arg), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
 *	NP_003997.1:p.[Ser68Arg];[Ser68=]
 	:	one protein allele contains a variant, p.Ser68Arg, the other protein allele contains the reference sequence, Ser68= (is **wild-type**).
 	:	_**NOTE**_: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68_Arg70dup];[Ser68_Arg70=], p.[Ser68_Ala74insSerGln];[Ser68_Ala74=], etc.
