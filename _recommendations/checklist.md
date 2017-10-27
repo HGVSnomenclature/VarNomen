@@ -23,7 +23,7 @@ Going through publications one can easily see where people give variant descript
 	*	for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as _**nucleotide 1**_?
 	*	legacy numbering is only allowed _**in addition to**_ approved numbering
 	*	does your reference sequence contain the residue that you describe as changed?
-	:	_**NOTE**_:	**NM\_** reference sequences cover mature transcripts, do _**not contain**_ intron and gene flanking sequences and can thus not be used to describe variants in those regions ([_see Reference Sequences_](/bg-material/refseq/#DNAc)).
+	_**NOTE**_:	**NM\_** reference sequences cover mature transcripts, do _**not contain**_ intron and gene flanking sequences and can thus not be used to describe variants in those regions ([_see Reference Sequences_](/bg-material/refseq/#DNAc)).
 2.  **Intronic variants** - are descriptions of intron variants correct and complete?
 	*	variants in introns_ are described using the format "**c.89-2A>G**", descriptions like "_c.IVS4-2A>G_" are not allowed.
 	*	do you properly describe ranges in the introns?  The format c.123-65\_123-50 is correct, the format c.123-65**\_-50** is not, it is **incomplete**.
