@@ -18,7 +18,7 @@ category: example
 *	LRG_199t1:c.2376[G>C];[G=]
 	:	one allele (chromosome) of a gene contains a variant, c.2376G>C, the other allele (chromosome) contains the reference sequence, c.2376G= (is **wild-type**).
 	:	_**NOTE**_: the description c.[2376G>C];[=], containing c.2376G>C and c.=, is different since it indicates the entire coding DNA reference sequence was analysed and the only variant identified was c.2376G>C (on one allele).
-	:	_**NOTE**_: for other variant types the format is c.2376[del];[=], c.2376_2399[dup];[=], c.2376_2377[insGT];[=], etc.
+	:	_**NOTE**_: for other variant types the format is c.2376[del];[G=], c.2376_2399[dup];[=], c.2376_2377[insGT];[=], etc.
 *	LRG_199t1:c.[2376G>C];[?]
 	:	one allele (chromosomes) of a gene contains a variant, c.2376G>C, while a variant for the other allele is expected but not yet identified (g.?) (e.g. in individuals affected by a recessive disease).
 *	LRG_199t1:c.[296T>G;476C>T;1083A>C];[296T>G;1083A>C]
