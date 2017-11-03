@@ -31,4 +31,4 @@ category: example
 	:	a complex repeated sequence from position g.112036755 to g.112036823 on chromosome 12 with a first CTG unit present in 9 copies, a second TTG unit present in 1 copy and a third CTG unitpresent in 13 copies
 *	different genomic (g.) and coding DNA (c.) descriptions
 	:	NC\_000001.10:g.57832719\_57832793ATAAA[15] and NM\_021080.3:c.-136-75952\_-136-75878ATTTT[15] describe the same repeat allele in intron 3 of the DAB1 gene
-	:	_**NOTE**_: based on the **3' rule** and the transcriptional orientation of the gene (minus strand) the description of the repeat unit differs
+	:	_**NOTE**_: based on the **3' rule** and the transcriptional orientation of the gene (minus strand) the description of the repeat units differs
