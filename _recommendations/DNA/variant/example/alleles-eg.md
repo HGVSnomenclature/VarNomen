@@ -12,7 +12,7 @@ category: example
 	:	both alleles (chromosomes) of a gene contain the same variant, c.2376G>C. A **homozygous** case (e.g. in a recessive disease).
 *	LRG_199t1:c.2376G>C(;)3103del
 	:	two variants in a gene, c.2376G>C and c.3103del, but it is not known whether they are on the same or on different alleles (chromosomes).
-	:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
+	:	_**NOTE**_: in the latest publication of the recommendations (_[Den Dunnen et al. (2016)_](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf){:target="\_blank"}) the example given is not correct. Allele brackets should not be used when it is not known whether variants are on one allele or not.
 *	LRG_199t1:c.2376[G>C];[(G>C)]
 	:	analysis detects one variant (c.2376G>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
 *	LRG_199t1:c.2376[G>C];[=]
