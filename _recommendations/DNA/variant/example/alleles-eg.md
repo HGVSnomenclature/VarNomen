@@ -21,11 +21,11 @@ category: example
 	:	_**NOTE**_: for other variant types the format is c.2376[del];[=], c.2376_2399[dup];[=], c.2376_2377[insGT];[=], etc.
 *	LRG_199t1:c.[2376G>C];[?]
 	:	one allele (chromosomes) of a gene contains a variant, c.2376G>C, while a variant for the other allele is expected but not yet identified (g.?) (e.g. in individuals affected by a recessive disease).
-*	LRG_199t1:c.[296T>G;476C>T;1083A>C];[296T>G;1083A>C]
+*	LRG_199t1:c.[296T>G;476T>C;1083A>C];[296T>G;1083A>C]
 	:	a sample contains variants c.296T>G and c.1083A>C on both alleles (chromosomes) and variant c.476C>T on only one allele.
-*	NM\_004006.2:c.[296T>G;476C>T];[476C>T]\(;)1083A>C
-	:	a sample contains a homozygous variant (c.476C>T) and two heterozygous variants (c.296T>G and c.1083G>C) for which it is not known on which allele (chromosome) they are.
-*	LRG_199t1:c.[296T>G];[476C>T]\(;)1083G>C(;)1406del
-	:	a sample contains heterozygous variants on different alleles (c.296T>G and c.476C>T) and two additional heterozygous variants (c.1083G>C and c.1406del) for which it is not known on which allele (chromosome) they are.
+*	NM\_004006.2:c.[296T>G;476T>C];[476T>C]\(;)1083A>C
+	:	a sample contains a homozygous variant (c.476T>C) and two heterozygous variants (c.296T>G and c.1083G>C) for which it is not known on which allele (chromosome) they are.
+*	LRG_199t1:c.[296T>G];[476T>C]\(;)1083G>C(;)1406del
+	:	a sample contains heterozygous variants on different alleles (c.296T>G and c.476T>C) and two additional heterozygous variants (c.1083G>C and c.1406del) for which it is not known on which allele (chromosome) they are.
 *	NC_000023.10:g.[30683643A>G;33038273T>G]
 	:	one allele (X-chromosome) contains two different changes in two different genes, g.30683643A>G in the GK gene and g.33038273T>G in the DMD gene.
