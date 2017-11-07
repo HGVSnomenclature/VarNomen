@@ -14,9 +14,9 @@ category: example
 	:	a deletion of nucleotides c.183 to c.186+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron border
 	*	LRG\_199t1:c.1152del
-		: the deletion of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGG**<font color="red">G</font>TAC to CATGAGgt.../..agGG<font color="red">**_**</font>TAC
+		: the deletion of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGG**<font color="red">G</font>**TAC to CATGAGgt.../..agGG**<font color="red">_</font>**TAC
 	*	LRG\_199t1:c.1149+1del
-		:	the deletion of the G nucleotide at the exon/intron border in the sequence CATGAG<font color="red">**g**</font>t.../..agGGGTAC to CATGAG<font color="red">**_**</font>t.../..agGGGTAC (not c.1152del [_see exception in Numbering_](/bg-material/numbering/#DNAc)) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
+		:	the deletion of the G nucleotide at the exon/intron border in the sequence CATGAG**<font color="red">g</font>**t.../..agGGGTAC to CATGAG**<font color="red">_</font>**t.../..agGGGTAC (not c.1152del, [_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
 *	NG\_012232.1(NM\_004006.1):c.4072-1234\_5155-246del
 	:	a deletion of nucleotides c.4072-1234 to c.5155-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
 	:	_**NOTE**_ : c.4072-1234\_5155-246delXXXXX, the size of the deletion (XXXXX) **should not** be described
