@@ -13,13 +13,15 @@ category: example
 	:	_**NOTE**_: it is allowed to describe the variant as c.20\_23dupTAGA
 *	LRG\_199t:c.260\_264+48dup (NC\_000023.10:g.32862852\_32862904dup)
 	:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
-*	LRG\_199t:c.6290dup
-	:	based on the sequence of a genomic DNA sample, a duplication of the G nucleotide c.6290 in the sequence AGGgt.../..agGCG to AGG**<font color="red">G</font>**gt.../..agGCG, i.e. the duplication of the last nucleotide of an exon ([_see Question below_](/recommendations/DNA/variant/duplication/#123dup))
-	:	_**NOTE**_: when RNA is sequenced and the variant does not alter splicing the description at the RNA level, based on a coding RNA reference sequence, is r.**<font color="red">6291</font>**dup (the **3'rule** needs to be applied)
+*	exon/intron border
+	*	LRG\_199t1:c.1152dup
+		:	the duplication of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGGGTAC to CATGAGgt.../..agGGG**<font color="red">G</font>**TAC
+	*	LRG\_199t1:c.1149+1dup
+		:	the duplication of the G nucleotide at the exon/intron border in the sequence CATGAGgt.../..agGGGTAC to CATGAGg**<font color="red">g</font>**t.../..agGGGTAC (not c.1152dup, [_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A below_](/recommendations/DNA/variant/duplication/#123dup))
 *	LRG\_199t1:c.4072-1234\_5155-246dup
 	:	a duplication of nucleotides c.4072-1234 to c.5155-246 duplicating exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
 	: 	_**NOTE**_ : the format c.4072-1234\_5155-246dupXXXXX, with XXXXX indicating the size of the duplication, **should not** be used
-*	NG\012232.1(NM\_004006.2):c.(4071+1\_4072-1)\_(5154+1\_5155-1)dup
+*	NG\_012232.1(NM\_004006.2):c.(4071+1\_4072-1)\_(5154+1\_5155-1)dup
 	:	a duplication of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the human DMD-gene. The duplication break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5146) have been tested an shown to be **not duplicated**. The duplication therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5145+1 to c.5156-1).
 	:	_**NOTE**_ : this description is part of [_proposal SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
 	:	_**NOTE**_ : previously, the suggestion was made to describe such duplications using the format c.4072-?\_5154+?dup. However, since c.4072-? indicates "**to an unknown postion 5' of c.4072**" and c.5154+? "**to an unknown postion 3' of c.5154**" this description is not correct when it is known that exons 29 and 37 are involved.
