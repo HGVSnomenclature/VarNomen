@@ -31,9 +31,8 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 
 *	numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
 	*	exception 3’ rule
-	:	when around exon/intron borders it is known (from genomic or RNA data) where the variant nucleotide is located (to prevent that when c. descriptions are translated back to genomic g. positions one ends up at the wrong nucleotide (even in the wrong exon))
-		*	when exon 3 ends with ..CAA and exon 4 starts with ACG.. and the genomic DNA sequence shows that the last A-nucleotide of exon 3 is deleted (and not the first A-nucleotide in exon 4), the deletion changing ..CAAACG.. to ..CAACG.. is described as c.3delA (**not as** c.4delA)
-		*	when the exon 3/intron 3 border is ..CAGgtg.. and RNA analysis shows a deletion of the G nucleotide in exon 3 (so no effect on splicing) the variant ..CAGgtg.. to ..CAgtg.. is described as c.3delG (**not as** c.3+1delG)
+	:	deletions and duplications around exon/exon junctions when identical nucleotides flank the junction, to prevent that when c. descriptions are translated to g. positions (genomic) one ends up at the wrong nucleotide (in the wrong exon)
+		*	when RNA analysis reveals variant LRG\_199t1:r.358del but a genomic DNA analysis variant LRG\_199:g.521316del (LRG\_199t1:c.357+1del) and not LRG\_199:g.527970del (LRG\_199t1:c.358del), based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.357+1del, **not as** LRG\_199t1:c.358del (sequence around the exon/intron intron/exon borders ..CAG gta..//..tag GTC..)
 *	there is no nucleotide c.0.
 *	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
 *	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
