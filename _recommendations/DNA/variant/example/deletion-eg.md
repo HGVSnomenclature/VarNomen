@@ -13,15 +13,10 @@ category: example
 *	NG\_012232.1(NM\_004006.1):c.183\_186+48del
 	:	a deletion of nucleotides c.183 to c.186+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron border
-	*	NM\_004006.1:c.1149del
-		:	when exon 10 ends with ..GAG and exon 11 starts with GGGT.. and the genomic DNA sequence shows that the last G-nucleotide of exon 10 is deleted (and not the G in exon 11), the deletion changing ..GAGGGGT.. to ..GAGGGT.. is described as c.1149del (not c.1152del, [_see exception in Numbering_](/bg-material/numbering/#DNAc))
-		:	_**NOTE**_: it is allowed to describe the variant as NM\_004006.1:c.1149delG
-	*	NM\_004006.1:c.1152del
-		: the deletion of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGG**<font color="red">G</font>**TAC to CATGAGgt.../..agGG**<font color="red">_</font>**TAC
-		:	_**NOTE**_: it is allowed to describe the variant as NM\_004006.1:c.1152delG
-	*	NG\_012232.1(NM\_004006.1):c.1149+1del
-		:	the deletion of the G nucleotide at the exon/intron border in the sequence CATGAG**<font color="red">g</font>**t.../..agGGGTAC to CATGAG**<font color="red">_</font>**t.../..agGGGTAC (not c.1152del [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
-		:	_**NOTE**_: it is allowed to describe the variant as NG\_012232.1(NM\_004006.1):c.1149+1delG
+	*	LRG\_199t1:c.1152del
+		: the deletion of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGG**<font color="red">G</font>TAC to CATGAGgt.../..agGG<font color="red">**_**</font>TAC
+	*	LRG\_199t1:c.1149+1del
+		:	the deletion of the G nucleotide at the exon/intron border in the sequence CATGAG<font color="red">**g**</font>t.../..agGGGTAC to CATGAG<font color="red">**_**</font>t.../..agGGGTAC (not c.1152del [_see exception in Numbering_](/bg-material/numbering/#DNAc)) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
 *	NG\_012232.1(NM\_004006.1):c.4072-1234\_5155-246del
 	:	a deletion of nucleotides c.4072-1234 to c.5155-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
 	:	_**NOTE**_ : c.4072-1234\_5155-246delXXXXX, the size of the deletion (XXXXX) **should not** be described
