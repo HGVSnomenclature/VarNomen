@@ -20,4 +20,4 @@ Format:  **"prefix""position(s)_deleted""del"**,  e.g. g.123\_127del
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	**exception**
 	:	deletions around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc));  
-		:	when RNA analysis reveals variant LRG\_199t1:r.358del but a genomic DNA analysis variant LRG\_199:g.521316del (LRG\_199t1:c.357+1del) and not LRG\_199:g.527970del (LRG\_199t1:c.358del), then based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.357+1del and not LRG\_199t1:c.358del (sequence around the exon/intron intron/exon borders ..CAG gta..//..tag GTC..)
+		:	when RNA analysis reveals variant LRG\_199t1:r.358del but a genomic DNA analysis variant LRG\_199:g.521316del (LRG\_199t1:c.357+1del) and not LRG\_199:g.527970del (LRG\_199t1:c.358del), then based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.357+1del **and not** LRG\_199t1:c.358del (sequence around the exon/intron intron/exon borders ..CAG gta..//..tag GTC..)
