@@ -21,6 +21,5 @@ Format:  **"prefix""position(s)_deleted""del"**,  e.g. g.123\_127del
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 	*	**exception**
-	:	deletions around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc))
-		:	when RNA analysis reveals variant LRG\199t1:r.358del but a genomic DNA analysis variant
-		LRG\_199:g.521316del (LRG\_199t1:c.357+1del) and not LRG\_199:g.527970del (LRG\_199t1:c.358del), then based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.357+1del and not LRG\_199t1:c.358del (sequence around the exon/intron intron/exon borders ..CAG gta..//..tag GTC..)
+	:	deletions around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc));  
+		:	when RNA analysis reveals variant LRG\_199t1:r.358del but a genomic DNA analysis variant LRG\_199:g.521316del (LRG\_199t1:c.357+1del) and not LRG\_199:g.527970del (LRG\_199t1:c.358del), then based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.357+1del and not LRG\_199t1:c.358del (sequence around the exon/intron intron/exon borders ..CAG gta..//..tag GTC..)
