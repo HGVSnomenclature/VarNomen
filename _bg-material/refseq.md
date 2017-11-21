@@ -170,7 +170,6 @@ Depending on the variants to be reported, different reference sequence files are
 {:#mtDNA}
 
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
-	:	_**NOTE:**_ the recommendation to use m. for a mitochondrial reference sequences has been retracted, [use g. instead](#DNAg)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC\_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}. Since a mitochondrial reference sequence is a genomic reference sequence descriptions should be preceded by "g.", like g.8993T>C. The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP\_003024031.1:p.Leu156Pro.
 	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/){:target="\_blank"}.
 	*	NC\_012920.1:g.3243A>G describes variant 3243A>G based on the mitochondrial reference sequence NC\_012920.1
