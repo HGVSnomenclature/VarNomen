@@ -20,12 +20,12 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 		:	two protein alleles contain the same variant with a **predicted** consequence p.(Ser68Arg)
 			:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets, the description p.([Ser68Arg];[Ser68Arg]) is not correct
 		*	NP\_003997.1:p.(Ser68Arg)(;)(Ser68Arg)
-		:	one protein allele contains predicted variant p.(Ser68Arg), for the other allele it can no be excluded the allele is deleted
+		:	a possible homozygous case where one protein allele contains predicted variant p.(Ser68Arg), but where it can not be excluded the other allele is deleted
 	*	heterozygous
 		*	NP\_003997.1:p.[Ser68Arg];[Asn594del]
 		:	two protein alleles each contain a different variant, p.Ser68Arg and p.Asn594del (compound heterozygote, e.g. in a recessive disease, the variants are found **in trans**)
 		*	NP\_003997.1:p.(Ser68Arg)(;)(Asn594del)
-		:	two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they derive from the same or from different alleles (chromosomes).
+		:	two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they are on the same or on different alleles (chromosomes).
 			:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets are not used
 		*	NP\_003997.1:p.[Ser68Arg];[Ser68=]
 		:	one protein allele contains a variant, p.Ser68Arg, the other allele contains the reference sequence, Ser68= (is **wild-type**).
