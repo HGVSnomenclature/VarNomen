@@ -6,28 +6,24 @@ category: example
 
 For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 
-*	NP_003997.1:p.[Ser68Arg;Asn594del]
-	:	a protein allele contains two different variants, p.Ser68Arg and p.Asn594del. The variants are found **in cis**.
-*	NP_003997.1:p.[(Ser68Arg;Asn594del)]
-	:	a protein allele contains two different predicted variants, p.Ser68Arg and p.Asn594del. The predicted variants are found **in cis**.
-	:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets
-	:	_**NOTE**_: the description p.([Ser68Arg;Asn594del]) is not correct
-*	NP_003997.1:p.[Ser68Arg;(Asn594del)]
+*	NP\_003997.1:p.[Ser68Arg;Asn594del]
+	:	a protein allele contains two different variants, p.Ser68Arg and p.Asn594del. The variants are found **in cis**
+	:	when the protein variants **in cis** are **predicted** consequences, the description is NP\_003997.1:p.[(Ser68Arg;Asn594del)]
+		:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets, the description p.([Ser68Arg;Asn594del]) is not correct
+*	NP\_003997.1:p.[Ser68Arg;(Asn594del)]
 	:	a protein allele contains two different variants, p.Ser68Arg and predicted variant p.Asn594del. The variants are found **in cis**.
-*	NP_003997.1:p.[Ser68Arg];[Asn594del]
+*	NP\_003997.1:p.[Ser68Arg];[Asn594del]
 	:	the two protein alleles each contain a different variant, p.Ser68Arg and p.Asn594del. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
-*	NP_003997.1:p.[(Ser68Arg)];[(Asn594del)]
-	:	the two protein alleles each contain a different predicted variant, p.(Ser68Arg) and p.(Asn594del). A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
-	:	_**NOTE**_: the parentheses are placed inside of the allele brackets
-	:	_**NOTE**_: the description p.([Ser68Arg];[Asn594del]) is not correct
-*	NP_003997.1:p.[Ser68Arg];[Ser68Arg]
+	:	when the protein variants **in trans** are **predicted** consequences, the description is NP\_003997.1:p.[(Ser68Arg;Asn594del)]
+		:	_**NOTE**_: the parentheses are placed inside of the allele brackets, the description p.([Ser68Arg];[Asn594del]) is not correct
+*	NP\_003997.1:p.[Ser68Arg];[Ser68Arg]
 	:	both protein alleles contain the same variant, p.Ser68Arg. A **homozygous** case (e.g. in a recessive disease).
-*	NP_003997.1:p.(Ser68Arg)(;)(Asn594del)
+*	NP\_003997.1:p.(Ser68Arg)(;)(Asn594del)
 	:	two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they derive from the same or from different alleles (chromosomes).
 	:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets are not used
-*	NP_003997.1:p.Ser68Arg;[(Ser68Arg)]
+*	NP\_003997.1:p.Ser68Arg;[(Ser68Arg)]
 	:	analysis detects one variant (p.Ser68Arg), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
-*	NP_003997.1:p.[Ser68Arg];[Ser68=]
+*	NP\_003997.1:p.[Ser68Arg];[Ser68=]
 	:	one protein allele contains a variant, p.Ser68Arg, the other protein allele contains the reference sequence, Ser68= (is **wild-type**).
 	:	_**NOTE**_: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68_Arg70dup];[Ser68_Arg70=], p.[Ser68_Ala74insSerGln];[Ser68_Ala74=], etc.
 	:	_**NOTE**_: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
