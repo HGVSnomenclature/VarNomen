@@ -21,7 +21,6 @@ For proposals open for Community Consultation and issues currently discussed, [_
 {:#version-list}
 
 *   _**In preparation**_
-	:	The recommendation to use a "m." prefix for a mitochondrial reference sequences has been retracted, [_"g." should be used instead_](/bg-material/refseq/#DNAg)
 	:	Accepted proposals will include [_SVD-WG005_](/bg-material/consultation/svd-wg005/):
 	*	SVD-WG005 (_gom/lom_)
 	:	allows descriptions of changes in general methylation status like g.123_456|lom  
