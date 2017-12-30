@@ -21,3 +21,4 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 *	two variants separated by one or more amino acids should preferably be described individually and not as a “delins”
 *	**frame shifting** deletion/insertion variants are a special type of protein variants described as a frame shift ([_see Frame shift_](/recommendations/protein/variant/frameshift/))
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
+*	deletion/insertion variants **in** the translation termination (stop) codon, extending the reading frame, are described as [_Extension_](/recommendations/protein/variant/extension). Deletion/insertion variants **starting 5' of and including** the translation termination (stop) codon are described as [_Frame shift_](/recommendations/protein/variant/frameshift).
