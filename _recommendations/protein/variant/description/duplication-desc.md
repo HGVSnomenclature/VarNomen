@@ -23,6 +23,4 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 	*	the 3'rule also applies for changes in single amino acid stretches and tandem repeats
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
-*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
-	:	{ } (curly braces) can be used to list any change in the duplicated sequence ("positions\_duplicated") which is different when compared to the source, e.g. p.Cys76\_Glu94dup**{Ala88Glu}**
-
+*	duplications **in** the translation termination (stop) codon, extending the reading frame, are described as [_Extension_](/recommendations/protein/variant/extension). Duplications **starting 5' of and including** the translation termination (stop) codon may have no effect or are described as [_Frame shift_](/recommendations/protein/variant/frameshift).
