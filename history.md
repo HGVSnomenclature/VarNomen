@@ -55,6 +55,7 @@ Below an overview of publications on the subject of sequence variant description
 #### **2011**
 
 *	Taschner PEM, Den Dunnen JT (2011). Describing structural changes by extending HGVS sequence variation nomenclature. [Hum. Mutat. 32:507-511](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf).
+	:	_**NOTE:**_	<font color="#FF0000">this proposal has been rejected</font>
 *   Laros JF, Blavier A, Den Dunnen JT, Taschner PE (2011). A formalized description of the standard human variant nomenclature in Extended Backus-Naur Form. [BMC Bioinformatics 12 Suppl 4:S5](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3194197/pdf/1471-2105-12-S4-S5.pdf){:target="\_blank"}.
 
 
