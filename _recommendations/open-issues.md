@@ -83,6 +83,8 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 ### Imperfect copies
 
+<font color="#FF0000">The proposal has been REJECTED</font>. Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
+
 HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
 *	g.24\_65dup{46G>T}
 	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
