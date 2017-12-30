@@ -23,6 +23,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 	*	a **letter prefix** should be used to indicate the type of reference sequence used. Accepted prefixes are;
 		*	"**g.**" for a genomic reference sequence
 		*	"**c.**" for a coding DNA reference sequence	
+		*	"**m.**" for a mitochondrial DNA reference sequence
 		*	"**n.**" for a non-coding DNA reference sequence
 		*	"**r.**" for an RNA reference sequence (transcript)
 		*	"**p.**" for a protein reference sequence
