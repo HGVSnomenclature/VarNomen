@@ -6,7 +6,7 @@ order: 5
 
 # HGVS simple
 
-**Changes** in DNA, RNA and protein sequences, also called **variants**, mutations or polymorphisms, are described using a specific language. To prevent confusion regarding its meaning a standard has been developed for this language, the so called **HGVS nomenclature**. The standard is used world-wide, especially in human health and diagnostics. This page will try to explain the standard, briefly and in simple terms. After reading you should understand the basics of the HGVS nomenclature and be able to use the internet to find more information on specific variants. In addition, while searching, you should be able to prevent making the most frequently made mistakes by misinterpretation of the variant description. More details, on all subjects, are availble elsewhere on the HGVS nomenclature pages.
+**Changes** in DNA, RNA and protein sequences, also called **variants**, mutations or polymorphisms, are described using a specific language. To prevent confusion regarding its meaning a **standard** has been developed for this language, the so called **HGVS nomenclature**. The standard is used world-wide, especially in human health and diagnostics. This page will try to explain the standard, briefly and in simple terms. After reading you should understand the basics of the HGVS nomenclature and be able to use the internet to find more information on specific variants. In addition, while searching, you should be able to prevent making mistakes leading to misinterpretation of the variant description and its possible consequences. More details, on all subjects, are availble elsewhere on the HGVS nomenclature pages.
 
 * * *
 
@@ -14,37 +14,37 @@ order: 5
 
 The format of a complete variant description is **reference:description**, e.g.;
 
-	*	NM_004006.2:c.4375C>T
+	*	NM\_004006.2:c.4375C>T
 
-All variants are described in relation to a reference, the so called reference sequence. In the example **NM\_004006.2** is the reference sequence and **c.4375C>T** is the description of a variant.
+All variants are described in relation to a **reference**, the so called reference sequence, in the example **NM\_004006.2**. After the reference a description of the variant is given, in the example **c.4375C>T**.
 
-A description without a reference sequence is near useless, additional information will then be required to guess what reference may have been used, e.g. variant descriptions based on several levels (DNA, RNA and/or protein), the name of the gene containing the variant, the associated phenotype studied (disease), the chromosome number, etc. Furthermore, since reference sequences usually change over time, the date of the report can give useful information as well.
+A description without a reference sequence is near useless, additional information will then be required to **guess** what reference may have been used, e.g. the name of the gene containing the variant, the associated phenotype studied (disease), the chromosome number and possibly predicted consequences of the variant on the RNA and/or protein) level. Furthermore, since reference sequences usually change over time, the date of the report can give useful information as well.
 
-Variants are usually detected by reading the DNA sequence (sequencing). A proper report always contains the variant described on the DNA level. Often it has in addition a description of the predicted consequences on the protein level. In rare cases, not following current standards, only the predicted consequences at the protein level are reported.
+Variants are usually detected by reading the DNA sequence (sequencing). A proper report **always** contains the variant described on the DNA level. Often the predicted consequences on the protein level are given as well. In rare cases, not following current standards, only the predicted consequences at the protein level are reported.
 
 * * *
 
 ## Reference sequences
 
-Variants described on the DNA level are mostly reported in relation to a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a genome reference. Descriptions based on a **"genomic reference sequence"** start with **"g."** (g.32407761G>A). A description of the (predicted) consequences on the protein level should start with **"p."** (note that the "p." addition is often missing).
+Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. NOTE: the "p." addition is often missing when the predicted protein consequences are reported. For details [_see "Reference Sequences"](https://varnomen.hgvs.org/bg-material/refseq/).
 
-Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** is the **accession number** of the reference sequence and "**.10**" its **version number**. Version numbers are required since we started to use reference sequences at a time our knowledge of the human genome was far from complete. The version number directly follows the accession number and increases over time; NC\_000023.9 from March 2006 was followed by NC\_000023.10 (Feb.2009) and NC\_000023.11 (Dec.2013).
+Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** is the **accession number** of the reference sequence and "**.10**" its **version number**. Version numbers are required since we started to use reference sequences at a time our knowledge of the human genome was far from complete. The version number directly follows the accession number and increases over time; NC\_000023.9 (March 2006) was followed by NC\_000023.10 (Feb.2009) and NC\_000023.11 (Dec.2013).
 
 #### Example descriptions
 
-*	genomic
-	*	NC\_ a genomic reference sequence based on a Chromosome
-		*	NC\_000023.10:g.32407761G>A  (Feb.2009: h19, GRCh37)
+*	genomic (nucleotide)
+	*	NC\_ a genomic reference sequence based on a chromosome
 		*	NC\_000023.9:g.32317682G>A  (Mar.2006: hg18, NCBI36)
+		*	NC\_000023.10:g.32407761G>A  (Feb.2009: h19, GRCh37)
 		*	NC\_000023.11:g.32389644G>A  (Dec.2013: hg38, GRCh38)
 	*	NG\_ a genomic reference sequence based on a Gene or Genomic region
 		*	NG\_012232.1:g.954966C>T
 	*	LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
-		*	LRG\_199t1:c.4375C>T
-*	transcript
-	*	NM\_ a reference sequence based on a coding RNA (mRNA)
+		*	LRG\_199:g.954966C>T
+*	transcript (RNA, nucleotide)
+	*	NM\_ a reference sequence based on a protein coding RNA (mRNA)
 		*	NM\_004006.2:c.4375C>T
-	*	NR\_ a reference sequence based on a non-coding RNA
+	*	NR\_ a reference sequence based on a non-protein coding RNA
 		*	NR_002196.1:c.601G>T
 *	protein (amino acid)
 	*	NP\_ a reference sequence based on a protein (amino acid) sequence
@@ -52,11 +52,11 @@ Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** i
 
 ### Genomic reference sequences
 
-For human the reference sequence **accession number** directly in front of the version number gives the number of the chromosome, 1-22 and 23 for the X-chromosome and 24 for the Y-chromosome. In NC\_000023.10 this number is "23" so a reference sequence of human **chromosome X**.
+For human the reference sequence **accession number** directly in front of the version number gives the number of the chromosome: 1-22, 23 for the X-chromosome and 24 for the Y-chromosome. In NC\_000023.10 this number is "23" so a reference sequence of human **chromosome X**.
 
-In many cases the reference sequence is not given but a **genome build** is mentioned. The genome build has two formats, either "hg" and a number (hg18, hg19, hg38) or "GRCh/NCBI" and a number (NCBI35, NCBI36, GRCh37, GRCh38). Having the reference sequence is exact, when it is missing it is very informative to know the genome build. The difference is that genome builds are versioned as well, so called **"patches"** (e.g. p1) in which errors are corrected.
+In many cases the reference sequence is not given but a **genome build** is mentioned. The genome build has two formats, either "hg" and a number (hg18, hg19, hg38) or "GRCh/NCBI" and a number (NCBI35, NCBI36, GRCh37, GRCh38). Having the genomic reference sequence (like NC\_000023.10) is exact. When it is missing one needs to know the genome build used. The difference is that genome builds are versioned as well, so called **"patches"** (e.g. p1) in which errors are corrected.
 
-Genomic reference sequences can also be based on smaller sequences, usually including a specific gene or specifically named genomic segment only. The most frequently used are **LRG_s** (Locus Genomic Reference sequences, format LRG\_199) or NG\_s (RefSeq Gene reference sequences, format NG\_012232.1).
+Genomic reference sequences can also be based on smaller sequences, usually including a specific gene or specifically named genomic segment only. The most frequently used are **LRG's** (Locus Genomic Reference sequences, format LRG\_199) or NG's (RefSeq Gene reference sequences, format NG\_012232.1).
 
 ### Coding DNA reference sequences
 
@@ -67,7 +67,7 @@ In a human diagnostic setting the most frequently used reference is a **"coding 
 
 ## Variants
 
-Depending on the change found, the variant, its description can have many different formats. For a detailed overview we refer to the specific pages on this website [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations){:target="\_blank"}. Here we will list and briefly explain, the major variant types.
+Depending on the change found, the variant, its description can have many different formats. For a detailed overview we refer to the specific pages on this website [_see header "Recommendations"_](https://varnomen.hgvs.org/recommendations){:target="\_blank"}. Here we will list and briefly explain, the major variant types.
 
 A standard variant description has the format **"prefix\_position(s)\_change"**. In the variant description c.4375C>T the prefix **"c."** indicates the type of reference sequence used ("c." indicating a coding DNA reference sequence), **"4375"** the position of the nucleotide(s) affected and **"C>T"** the change (a C changed to T).
 
