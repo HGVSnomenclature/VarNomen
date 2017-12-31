@@ -60,8 +60,8 @@ Genomic reference sequences can also be based on smaller sequences, usually incl
 
 ### Coding DNA reference sequences
 
-In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. Numbering **starts** with 1 at the first position of the protein coding region, the A of the starting ATG triplet. Numbering **ends** at the last position of the ending triplet, the last A of the stop codon TAA, TAG or TGA. Positions in front of the protein coding sequence get a minus sign (**"c.-"**) those after the stop an asterisk (**"c.*"**). When you divide the position number from a "c." description by three you get in most cases the position of the affected amino acid from the protein sequence (description starting with "p."); for c.4375C>T i.e. 4375 divided by three > 1459.
-	The most frequently used coding DNA reference sequences are the NM\_s (RefSeq gene transcript sequences, NM\_004006.2) and the LRG\_s (Locus Genomic Reference sequences, LRG\_199t1).
+In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. Numbering **starts** with 1 at the first position of the protein coding region, the A of the starting ATG triplet. Numbering **ends** at the last position of the ending triplet, the last position of the stop codon (TAA, TAG or TGA). Positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**) those after the stop an asterisk (e.g. **"c.*85"**). When you divide the position number from a "c." description by three you get in most cases the number of the affected amino acid residue from the protein sequence (description starting with "p."); for c.4375C>T i.e. 4375 divided by three gives amino acid 1459.
+	The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM\_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG\_199t1).
 
 * * *
 
@@ -96,8 +96,12 @@ All variants given are in the DMD gene and reported in relation to coding DNA re
 	*	c.4375\_4376delinsAGTT
 		:	the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375\_4376delCGinsAGTT
 	
-There are more variant types yet these occur less frequently then those listed above. For details [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations){:target="\_blank"}.
-	
+There are more variant types yet these occur less frequently. For details [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations){:target="\_blank"}.
+
+### Aliases
+
+It should be noted that **one variant**, based on different reference sequences used, can be described in many different ways. Variant c.5234G>A in the DMD gene can be described based on different genomic reference sequences (e.g. NC\_000023.9:g.32290917C>T, NC\_000023.10:g.32380996C>T, NC\_000023.11:g.32362879C>T, NG_012232.1:g.981731G>A, LRG_199:g.981731G>A) as well as different coding DNA reference sequences (e.g. LRG\_199t1:c.5234G>A, NM\_004006.2:c.5234G>A, NM\_004009.3:c.5222G>A, NM\_000109.3:c.5210G>A, NM\_004007.2:c.4865G>A, NM\_004010.3:c.4865G>A, NM\_004011.3:c.1211G>A, NM\_004012.3:c.1202G>A). These alternative descriptions are rather confusing, especially when reference sequences are not properly listed. Consequently, when databases or the internet are queried for information regarding the potential consequences of specific variants, errors are easily made. 
+
 * * *
 
 ### Other descriptions
