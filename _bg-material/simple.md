@@ -26,7 +26,7 @@ Variants are usually detected by reading the DNA sequence (sequencing). A proper
 
 ## Reference sequences
 
-Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. NOTE: the "p." addition is often missing when the predicted protein consequences are reported. For details [_see "Reference Sequences"](https://varnomen.hgvs.org/bg-material/refseq/).
+Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. NOTE: the "p." addition is often missing when the predicted protein consequences are reported. For details [_see "Reference Sequences"_](http://varnomen.hgvs.org/bg-material/refseq/).
 
 Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** is the **accession number** of the reference sequence and "**.10**" its **version number**. Version numbers are required since we started to use reference sequences at a time our knowledge of the human genome was far from complete. The version number directly follows the accession number and increases over time; NC\_000023.9 (March 2006) was followed by NC\_000023.10 (Feb.2009) and NC\_000023.11 (Dec.2013).
 
@@ -67,7 +67,7 @@ In a human diagnostic setting the most frequently used reference is a **"coding 
 
 ## Variants
 
-Depending on the change found, the variant, its description can have many different formats. For a detailed overview we refer to the specific pages on this website [_see header "Recommendations"_](https://varnomen.hgvs.org/recommendations){:target="\_blank"}. Here we will list and briefly explain, the major variant types.
+Depending on the change found, the variant, its description can have many different formats. For a detailed overview we refer to the specific pages on this website [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations){:target="\_blank"}. Here we will list and briefly explain, the major variant types.
 
 A standard variant description has the format **"prefix\_position(s)\_change"**. In the variant description c.4375C>T the prefix **"c."** indicates the type of reference sequence used ("c." indicating a coding DNA reference sequence), **"4375"** the position of the nucleotide(s) affected and **"C>T"** the change (a C changed to T).
 
