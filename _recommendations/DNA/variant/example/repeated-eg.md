@@ -18,10 +18,10 @@ category: example
 	:	_**NOTE**_:	the repeat can be pure or a mix of GGC and GGA triplets
 *	HD repeat
 	:	in literature the Huntington's Disease tri-nucleotide repeat, encoding a poly-Gln repeat on protein level, is known as the CAG repeat. However, based on the HTT (huntingtin) coding DNA reference sequence (GenBank LRG\_763t1 or NM\_002111.8) and applying the **3'rule**, the repeat has to be described as an AGC repeat
-	*	LRG\_763t1:c.53GCA[23]
-	:	an AGC tri-nucleotide repeat starting at position c.53 contains 23 units, on protein level described as NP\_002102.4:p.(Gln18)[25]
-	*	LRG\_763t1:54\_143GCA[23]ACA[1]GCC[2]ACC[1]GCC[10]
-	:	the allele sequenced from position c.54 to c.143 contains 23 GCA, 1 ACA, 2 GCC, 1 ACC and 10 GCC repeats 
+	*	LRG\_763t1:c.54GCA[23]
+	:	a sequenced GCA tri-nucleotide repeat starting at position c.54 contains 23 units, on protein level described as NP\_002102.4:p.(Gln18)[25] (_**NOTE:**_ the GCA repeat is followed by ACAG extending the encoded Gln-repeat by 2)
+	*	LRG\_763t1:54\_149GCA[23]ACA[1]GCC[2]ACC[1]GCC[10]
+	:	the allele sequenced from position c.54 to c.149 contains 23 GCA, 1 ACA, 2 GCC, 1 ACC and 10 GCC repeats 
 *	NC\_000012.11:g.112036755\_112036823CTG[9]TTG[1]CTG[13]
 	:	a complex repeated sequence from position g.112036755 to g.112036823 on chromosome 12 with first a CTG unit present in 9 copies, then a TTG unit present in 1 copy and then a CTG unit present in 13 copies
 *	different genomic (g.) and coding DNA (c.) descriptions
