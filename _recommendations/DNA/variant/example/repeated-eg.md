@@ -17,7 +17,7 @@ category: example
 	:	a GGC tri-nucleotide repeat starting at position c.-128, not sequenced, has an estimated size of between 600 to 800 copies
 	:	_**NOTE**_:	the repeat can be pure or a mix of GGC and GGA triplets
 *	HD repeat
-	:	in literature the Huntington's Disease tri-nucleotide repeat, encoding a poly-Gln repeat on protein level, is known as the CAG repeat. However, based on the HTT (huntingtin) coding DNA reference sequence (GenBank LRG\_763t1 or NM\_002111.8) and applying the **3'rule**, the repeat has to be described as an AGC repeat
+	:	in literature the Huntington's Disease tri-nucleotide repeat, encoding a poly-Gln repeat on protein level, is known as the CAG repeat. However, based on the HTT (huntingtin) coding DNA reference sequence (GenBank LRG\_763t1 or NM\_002111.8) and applying the **3'rule**, the repeat has to be described as an GCA repeat
 	*	LRG\_763t1:c.54GCA[23]
 	:	a sequenced GCA tri-nucleotide repeat starting at position c.54 contains 23 units, on protein level described as NP\_002102.4:p.(Gln18)[25] (_**NOTE:**_ the GCA repeat is followed by ACAG extending the encoded Gln-repeat by 2)
 	*	LRG\_763t1:54\_149GCA[23]ACA[1]GCC[2]ACC[1]GCC[10]
