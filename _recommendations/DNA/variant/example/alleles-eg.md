@@ -16,10 +16,10 @@ category: example
 	:	_**NOTE**_: in the latest publication of the recommendations (_[Den Dunnen et al. (2016)_](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf){:target="\_blank"}) the example given is not correct. Allele brackets should not be used when it is not known whether variants are on one allele or not.
 *	LRG_199t1:c.[2376G>C];[(2376G>C)]
 	:	analysis detects one variant (c.2376G>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
-*	LRG_199t1:c.[2376G>C];[2376G=]
-	:	one allele (chromosome) of a gene contains a variant, c.2376G>C, the other allele (chromosome) contains the reference sequence, c.2376G= (is **wild-type**).
+*	LRG_199t1:c.[2376G>C];[2376=]
+	:	one allele (chromosome) of a gene contains a variant, c.2376G>C, the other allele (chromosome) contains the reference sequence, c.2376= (is **wild-type**).
 	:	_**NOTE**_: the description c.[2376G>C];[=], containing c.2376G>C and c.=, is different since it indicates the entire coding DNA reference sequence was analysed and the only variant identified was c.2376G>C (on one allele).
-	:	_**NOTE**_: for other variant types the format is c.[2376del];[2376G=], c.[2376_2399dup];[2376_2399=], c.[2376_2377insGT];[2376_2377=], etc.
+	:	_**NOTE**_: for other variant types the format is c.[2376del];[2376=], c.[2376_2399dup];[2376_2399=], c.[2376_2377insGT];[2376_2377=], etc.
 *	LRG_199t1:c.[2376G>C];[?]
 	:	one allele (chromosomes) of a gene contains a variant, c.2376G>C, while a variant for the other allele is expected but not yet identified (c.?) (e.g. in individuals affected by a recessive disease).
 *	LRG_199t1:c.[296T>G;476T>C;1083A>C];[296T>G;1083A>C]
