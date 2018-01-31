@@ -33,7 +33,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 	*	exception 3’ rule
 	:	deletion/duplication around exon/exon junctions when identical nucleotides flank the junction, to prevent that when c. descriptions are translated to g. positions (genomic) one ends up at the wrong nucleotide, in the wrong exon
 		*	when a variant identified on genomic level is located in an exon, the 3'rule will not be applied when for the description based on a coding DNA reference sequence the variant would shift to the next exon ([_see also Deletions_](/recommendations/DNA/variant/deletion))
-		:	when ..GAT gta..//..cag TCA.. changes to ..GA_ gta..//..cag TCA.. the variant is based on a coding DNA reference sequence described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
+		:	when ..GAT gta..//..cag TCA.. changes to ..GA_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
 *	there is no nucleotide c.0.
 *	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
 *	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
