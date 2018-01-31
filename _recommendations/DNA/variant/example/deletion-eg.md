@@ -17,7 +17,7 @@ category: example
 	*	exon/exon
 		*	LRG_199t1:c.3921del
 		:	the deletion of the T nucleotide at the exon/exon border in the sequence ..GA**<font color="red">T</font>** gta..//..cag TCA.. changing to ..GA**<font color="red">_</font>** gta..//..cag TCA..
-		:	_**NOTE**_ : according to an exception of the 3'rule the variant (NC\_000023.10:g.32459297del) is **not described** as c.3922del since this would shift the position of the variant to the next exon (c. 3922 links to g.32456507) ([_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
+		:	_**NOTE**_ : according to an exception of the 3'rule the variant (NC\_000023.10:g.32459297del) is **not described** as c.3922del since this would shift the position of the variant to the next exon (c. 3922 linking to g.32456507) ([_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
 	*	exon/intron
 		*	LRG\_199t1:c.1704+1del
 		:	the deletion of the G nucleotide at the exon/intron border in the sequence GAACAG**<font color="red">g</font>**t.../..agTGCCTT changing to GAACAG**<font color="red">_</font>**t.../..agTGCCTT (not c.1704del)
