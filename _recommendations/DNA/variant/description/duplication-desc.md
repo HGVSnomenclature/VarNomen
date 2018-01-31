@@ -24,4 +24,4 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	**exception**
 	:	duplications around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc)); 
-		:	when RNA analysis reveals variant LRG\_199t1:r.358dup but a genomic DNA analysis variant LRG\_199:g.521316dup (LRG\_199t1:c.357+1dup) and not LRG\_199:g.527970dup (LRG\_199t1:c.358dup), based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.357+1dup **and not** LRG\_199t1:c.358dup (sequence around the exon/intron intron/exon borders ..CAG gta..//..tag GTC..)
+		:	when ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
