@@ -24,4 +24,4 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	**exception**
 	:	duplications around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc)); 
-		:	when ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
+		:	when ..GAT gta..//..cag TCA.. changes to ..GATT gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921dup (NC\_000023.10:g.32459297dup) and **not as** c.3922dup (which would translate to g.32456507dup)
