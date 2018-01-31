@@ -27,7 +27,7 @@ category: example
 	*	LRG\_199t1:c.720\_991dup
 		:	a duplication of nucleotides c.720 to c.991 starting in exon 8 (position c.720) and ending in exon 10 (position c.991) of the DMD-gene.
 		: 	_**NOTE**_ : the description NM\_004006.2:c.720\_991dup is not correct, the reference sequence NM\_004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
-*	NG\_012232.1(NM\_004006.2):c.(4071+1\_4072-1)\_(5154+1\_5155-1)dup
+	*	NG\_012232.1(NM\_004006.2):c.(4071+1\_4072-1)\_(5154+1\_5155-1)dup
 		:	a duplication of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the human DMD-gene. The duplication break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5146) have been tested an shown to be **not duplicated**. The duplication therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5145+1 to c.5156-1).
 		:	_**NOTE**_ : this description is part of [_proposal SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
 		:	_**NOTE**_ : previously, the suggestion was made to describe such duplications using the format c.4072-?\_5154+?dup. However, since c.4072-? indicates "**to an unknown postion 5' of c.4072**" and c.5154+? "**to an unknown postion 3' of c.5154**" this description is not correct when it is known that exons 29 and 37 are involved.
@@ -36,7 +36,7 @@ category: example
 		:	_**NOTE**_ : this description should only be used when the two additional copies are in tandem with the original copy. There is no specific recommendation yet how to describe such a change but following current recommendations the format would be something like g.?\_?ins(32381076\_32382698)\_(32430031\_32456357)[2] ([2] since **2** additional copies have been inserted somewhere in the genome).
 	*	LRG\_199t1:c.(?\_-127)\_(31+1\_32-1)dup
 		:	a duplication starting somewhere upstream of the DMD gene, last postion tested duplicated c.-127, and ending in the intron between nucleotides c.31+1 and c.32-1 (intron 1).
-*	gene(s)
+*	gene
 	*	LRG\_199t1:c.(?\_-1)\_(\*1\_?)dup
 		:	a duplication of the entire protein coding region of a gene (based on a coding DNA reference sequence).
 		:	_**NOTE**_: when more details are available regarding the duplication, based on the probes tested to determine its location, the description can be specified like c.(?\_-189)\_(\*884\_?)dup, meaning the duplication starts 5' of c.-189 and extends 3' of c.\*884.
