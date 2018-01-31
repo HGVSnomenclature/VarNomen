@@ -5,20 +5,28 @@ category: example
 ---
 
 *	one nucleotide - NM\_004006.2:c.20dup (NC\_000023.10:g.33229410dup)
-	:	the duplication of a T at position c.20 in the sequence AGAAGTAGAGG to AGAAGT**<font color="red">T</font>**AGAGG
-	:	_**NOTE**_: it is allowed to describe the variant as c.20dupT
-	:	_**NOTE**_: it is **not** allowed to describe the variant as g.19\_20insT ([_see prioritisation_](/recommendations/general/))
+:	the duplication of a T at position c.20 in the sequence AGAAGTAGAGG to AGAAGT**<font color="red">T</font>**AGAGG
+:	_**NOTE**_: it is allowed to describe the variant as c.20dupT
+:	_**NOTE**_: it is **not** allowed to describe the variant as g.19\_20insT ([_see prioritisation_](/recommendations/general/))
 *	several nucleotides
 	*	NM\_004006.2:c.20\_23dup (NC\_000023.10:g.33229407\_33229410dup)
-		:	a duplication from position c.20 to c.23 in the sequence AGAAGTAGAGG to AGAAGTAGA**<font color="red">TAGA</font>**GG
-		:	_**NOTE**_: it is allowed to describe the variant as c.20\_23dupTAGA
+	:	a duplication from position c.20 to c.23 in the sequence AGAAGTAGAGG to AGAAGTAGA**<font color="red">TAGA</font>**GG
+	:	_**NOTE**_: it is allowed to describe the variant as c.20\_23dupTAGA
 	*	LRG\_199t:c.260\_264+48dup (NC\_000023.10:g.32862852\_32862904dup)
-		:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
-*	exon/intron border
-	*	LRG\_199t1:c.1152dup
-		:	the duplication of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGGGTAC to CATGAGgt.../..agGGG**<font color="red">G</font>**TAC
-	*	LRG\_199t1:c.1149+1dup
-		:	the duplication of the G nucleotide at the exon/intron border in the sequence CATGAGgt.../..agGGGTAC to CATGAGg**<font color="red">g</font>**t.../..agGGGTAC (not c.1152dup, [_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A below_](/recommendations/DNA/variant/duplication/#123dup))
+	:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
+*	exon/intron/exon
+	*	exon/exon
+		*	LRG_199t1:c.3921dup
+		:	the duplication of the T nucleotide at the exon/exon border in the sequence ..GA**<font color="red">T</font>** gta..//..cag TCA.. changing to ..GA**<font color="red">TT</font>** gta..//..cag TCA..
+		:	_**NOTE**_ : according to an exception of the 3'rule the variant (NC\_000023.10:g.32459297dup) is **not described** as c.3922dup since this would shift the position of the variant to the next exon (c. 3922 linking to g.32456507) ([_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
+	*	exon/intron
+		*	LRG\_199t1:c.1704+1dup
+		:	the duplication of the G nucleotide at the exon/intron border in the sequence GAACAG**<font color="red">g</font>**t.../..agTGCCTT changing to GAACAG**<font color="red">gg</font>**t.../..agTGCCTT (not c.1704dup)
+		:	_**NOTE**_: this description does not depend on the effect observed on RNA level, giving either altered splicing or r.1704dup
+	*	intron/exon
+		*	LRG\_199t1:c.1813dup
+		:	the duplication of the G nucleotide at the intron/exon border in the sequence CTGGCCgt.../..ag**<font color="red">G</font>**TTTTA changing to CTGGCCgt.../..ag**<font color="red">GG</font>**TTTTA (not c.1813-1dup)
+		:	_**NOTE**_: this description does not depend on the effect observed on RNA level, giving either altered splicing or r.1813dup
 *	exons
 	*	LRG\_199t1:c.4072-1234\_5155-246dup
 		:	a duplication of nucleotides c.4072-1234 to c.5155-246 duplicating exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
@@ -40,4 +48,3 @@ category: example
 	*	LRG\_199t1:c.(?\_-1)\_(\*1\_?)dup
 		:	a duplication of the entire protein coding region of a gene (based on a coding DNA reference sequence).
 		:	_**NOTE**_: when more details are available regarding the duplication, based on the probes tested to determine its location, the description can be specified like c.(?\_-189)\_(\*884\_?)dup, meaning the duplication starts 5' of c.-189 and extends 3' of c.\*884.
-
