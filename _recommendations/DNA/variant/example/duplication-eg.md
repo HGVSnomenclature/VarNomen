@@ -16,17 +16,17 @@ category: example
 		:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron border
 	*	LRG\_199t1:c.1152dup
-		:	the duplication of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGGGTAC to CATGAGgt.../..agGGG<font color="red">**G**</font>TAC
+		:	the duplication of the G nucleotide at the intron/exon border in the sequence CATGAGgt.../..agGGGTAC to CATGAGgt.../..agGGG**<font color="red">G</font>**TAC
 	*	LRG\_199t1:c.1149+1dup
-		:	the duplication of the G nucleotide at the exon/intron border in the sequence CATGAGgt.../..agGGGTAC to CATGAGg<font color="red">**g**</font>t.../..agGGGTAC (not c.1152dup, [_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A below_](/recommendations/DNA/variant/duplication/#123dup))
+		:	the duplication of the G nucleotide at the exon/intron border in the sequence CATGAGgt.../..agGGGTAC to CATGAGg**<font color="red">g</font>**t.../..agGGGTAC (not c.1152dup, [_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A below_](/recommendations/DNA/variant/duplication/#123dup))
 *	exons
 	*	LRG\_199t1:c.4072-1234\_5155-246dup
 		:	a duplication of nucleotides c.4072-1234 to c.5155-246 duplicating exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
 		: 	_**NOTE**_ : the format c.4072-1234\_5155-246dupXXXXX, with XXXXX indicating the size of the duplication, **should not** be used
-		: 	_**NOTE**_ : the description NM_\004006.2:c.4072-1234\_5155-246dup is not correct, the reference sequence NM_\004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
+		: 	_**NOTE**_ : the description NM\_004006.2:c.4072-1234\_5155-246dup is not correct, the reference sequence NM\_004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
 	*	LRG\_199t1:c.720\_991dup
 		:	a duplication of nucleotides c.720 to c.991 starting in exon 8 (position c.720) and ending in exon 10 (position c.991) of the DMD-gene.
-		: 	_**NOTE**_ : the description NM_\004006.2:c.720\_991dup is not correct, the reference sequence NM_\004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
+		: 	_**NOTE**_ : the description NM\_004006.2:c.720\_991dup is not correct, the reference sequence NM\_004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
 *	NG\_012232.1(NM\_004006.2):c.(4071+1\_4072-1)\_(5154+1\_5155-1)dup
 		:	a duplication of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the human DMD-gene. The duplication break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5146) have been tested an shown to be **not duplicated**. The duplication therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5145+1 to c.5156-1).
 		:	_**NOTE**_ : this description is part of [_proposal SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
