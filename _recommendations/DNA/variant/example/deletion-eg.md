@@ -26,7 +26,6 @@ category: example
 		*	LRG\_199t1:c.1813del
 		:	the deletion of the G nucleotide at the intron/exon border in the sequence CTGGCCgt.../..ag**<font color="red">G</font>**TTTTA changing to CTGGCCgt.../..ag**<font color="red">_</font>**TTTTA (not c.1813-1del)
 		:	_**NOTE**_: this description does not depend on the effect observed on RNA level, giving either altered splicing or r.1813del	
-
 *	exons 
 	*	NG\_012232.1(NM\_004006.1):c.4072-1234\_5155-246del
 	:	a deletion of nucleotides c.4072-1234 to c.5155-246 removing exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
