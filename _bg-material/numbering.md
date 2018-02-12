@@ -31,7 +31,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 
 *	numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
 	*	exception 3’ rule
-	:	deletion/duplication around exon/exon junctions when identical nucleotides flank the junction, to prevent that when c. descriptions are translated to g. positions (genomic) one ends up at the wrong nucleotide, in the wrong exon
+	:	the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, and shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon)
 		*	when a variant identified on genomic level is located in an exon, the 3'rule will not be applied when for the description based on a coding DNA reference sequence the variant would shift to the next exon ([_see also Deletions_](/recommendations/DNA/variant/deletion))
 		:	when ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
 *	there is no nucleotide c.0.
