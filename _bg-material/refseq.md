@@ -19,7 +19,7 @@ a sequence file that is used as a **reference to describe variants** that are pr
 	*	LRG reference sequences do not contain a version number (e.g. LRG\_199)
 *	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
 	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
-	*	accepted specifications include transcripts (NM\_004006.2, DMD\_v001, MT-TL1) or proteins (NP\_003997.1, DMD\i001, YP\_003024028.1)
+	*	accepted specifications include transcripts (NM\_004006.2, DMD\_v001, MT-TL1) or proteins (NP\_003997.1, DMD\_i001, YP\_003024028.1)
 		*	DMD\_v001 indicates the first DMD transcript (CDS) **<font color="red">v</font>**ariant annotated; can be used when transcript reference sequence records are not available
 		*	DMD\_i001 indicates the first DMD protein **<font color="red">i</font>**soform annotated; can be used when protein reference sequence records are not available
 *	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version-number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
