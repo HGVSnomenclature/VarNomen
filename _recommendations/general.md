@@ -28,10 +28,11 @@ Since references to web sites are not yet acknowledged as citations, please ment
 		*	"**r.**" for an RNA reference sequence (transcript)
 		*	"**p.**" for a protein reference sequence
 	*	numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** ([_see Numbering_](/bg-material/numbering))
+	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	**3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
-	*	**exception**: deletion/duplication around exon/exon junctions ([_see Numbering_](/bg-material/numbering/#DNAc))
+	*	**exception**: deletion/duplication around exon/exon junctions using **c.**, **r.** or **n.** reference sequences ([_see Numbering_](/bg-material/numbering/#DNAc))
 *	descriptions at DNA, RNA and protein level are clearly different:
 	*	**DNA-level** 123456A>T ([_see Details_](/recommendations/DNA)): number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using [_IUPAC-IUBMB assigned nucleotide symbols_](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}
 	*	**RNA-level** 76a>u ([_see Details_](/recommendations/RNA)): number(s) referring to the nucleotide(s) affected, nucleotides in lower case using [IUPAC-IUBMB assigned nucleotide symbols](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}
