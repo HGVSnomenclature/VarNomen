@@ -28,7 +28,6 @@ Since references to web sites are not yet acknowledged as citations, please ment
 		*	"**r.**" for an RNA reference sequence (transcript)
 		*	"**p.**" for a protein reference sequence
 	*	numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** ([_see Numbering_](/bg-material/numbering))
-	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	**3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
@@ -39,7 +38,8 @@ Since references to web sites are not yet acknowledged as citations, please ment
 	*	**protein level** Lys76Asn ([_see Details_](/recommendations/protein)): the amino acid(s) affected in 3- or 1-letter followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}
 			*	**three-letter** amino acid code is preferred ([_see Standards_](/bg-material/standards/#aacode))
 *	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) deletion, (2) inversion, (3) duplication, (4) conversion, (5) insertion
-	* when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
+	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
+	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
 
 * * *
