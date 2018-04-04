@@ -18,6 +18,6 @@ category: example
 	*	NP\_003997.1:p.(Ser332\_Ser333ins(1)) (alternatively NP_003997.1:p.(Ser332\_Ser333insX))
 	:	the insertion of an unknown amino acid ('ins(1)') between amino acids Ser332 and Ser333
 	:	_**NOTE**_: the IUPAC code for an unknown amino acid is 'X' ([_see Standards_](/bg-material/standards/)). Since in the past 'X' has been used to indicate a translation termination codon, to prevent confusion, 'ins(1)' is prefered over 'insX'.
-	*	NP\_003997.1:p.(Val582\_Asn583ins(5)) (alternatively NP_003997.1:p.(Val582_Asn583insXXXX))
+	*	NP\_003997.1:p.(Val582\_Asn583ins(5)) (alternatively NP_003997.1:p.(Val582_Asn583insXXXXX))
 	:       the insertion of 5 unknown amino acids (ins(5)) between amino acids Val582 and Asn583
 	
