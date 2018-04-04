@@ -18,7 +18,7 @@ There are currently no proposals open for Community Consultation. Proposals [_SV
 
 ## Open topics
 
-For closed topics [see below](recommendations/open-issues#closedtopics).
+For closed topics [see below](/recommendations/open-issues#closedtopics).
 
 <a name ="extensions"></a>
 
@@ -58,13 +58,13 @@ The use of the "**@**" character versus other characters (&, $, ~, #) is of cour
 
 Using the description r.143c>u on RNA level suggests a substitution. There are several types of RNA editing and "r.143c" probably does not really change to a "u". All we can say is that the polymerases used to make a copy inserted an "a". At some point we probably need to suggest ways to exactly describe the chemical modification made by the RNA editing enzyme but we can do that later. Making such recommendations can then be combined with those for DNA modifications (like methylation with methyl or hydroxy-methyl groups) making sure they follow the same rules.
 
-The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](http://www.hgvs.org/mutnomen/accepted001.html) more or less opened the option for such marks.
+The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](/bg-material/consultation/svd-wg001/) more or less opened the option for such marks.
 
 <a name ="exonnumbering"></a>
 
 ### Exon Numbering
 
-HGVS nomenclature does not give specific recommendations for the **numbering of exons**. For variant descriptions exon numbers are not required, **nucleotide position are sufficient**. In many genes there is no consensus on exon/intron numbering and several old numbering schemes may exist that had to be revised to include newly discovered exons (internal as well as 5' and/or 3' of the gene). This led to all kinds of numbering schemes with no clear structure, making it very difficult for non-experts in the specific gene to keep track of all details (see also [Dalgleish 2010](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="_blank"} and [NCBI RefSeqGene](http://www.ncbi.nlm.nih.gov/refseq/rsg/faq/#exon){:target="_blank"}). To prevent confusion and with the increasing use of genome browsers, numbering exons simply as 1, 2, 3, etc., from start to the end is the only logical option.
+HGVS nomenclature does not give specific recommendations for the **numbering of exons**. For variant descriptions exon numbers are not required, **nucleotide position are sufficient**. In many genes there is no consensus on exon/intron numbering and several old numbering schemes may exist that had to be revised to include newly discovered exons (internal as well as 5' and/or 3' of the gene). This led to all kinds of numbering schemes with no clear structure, making it very difficult for non-experts in the specific gene to keep track of all details (see also [Dalgleish 2010](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target= "_blank"} and [NCBI RefSeqGene](http://www.ncbi.nlm.nih.gov/refseq/rsg/faq/#exon){:target= "_blank"}). To prevent confusion and with the increasing use of genome browsers, numbering exons simply as 1, 2, 3, etc., from start to the end is the only logical option.
 	Although this is probably difficult to accept by the experts, we can not keep on confusing newcomers by forever using legacy numbering systems. We should realize that, at some point, wrong assumptions will be made with as a consequence a patient will receive an erroneous diagnosis. This is of course unacceptable.
 
 *	The CBS gene was originally thought to contain 16 exons. Later it was recognised that exon 15 does not exist, and recently two additional non-translated 5' exons were detected. The current gene structure therefore includes 17 exons, of which exons 3 to 17 are translated. Should the exons of a gene be counted from the exon that contains the start codon rather than the beginning of the cDNA?  If so, should exons preceding the start codon be counted 0, -1, -2, etc. or should the 0 be skipped?  Is there an agreement on how to deal with changes in exon numbering?
@@ -77,6 +77,18 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 ## Closed topics
 
+<a name ="imperfectcopy"></a>
+
+### Imperfect copies
+
+<font color="#FF0000">The proposal has been REJECTED</font>
+Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
+
+HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
+*	g.24\_65dup{46G>T}
+	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
+After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
+
 <a name ="geneflanking"></a>
 
 ### Numbering gene flanking nucleotides
@@ -88,15 +100,5 @@ The current recommendation to describe variants based on a coding DNA reference 
 *	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
 	:	_**NOTE**_:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
 
-<font color="#FF0000">The proposal has been REJECTED</font>; (i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of transcript reference sequences should be described based on a gene or chromosome reference sequence and not a reference sequence (c.) which does not contain the reference nucleotide.
-
-<a name ="imperfectcopy"></a>
-
-### Imperfect copies
-
-<font color="#FF0000">The proposal has been REJECTED</font>. Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
-
-HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
-*	g.24\_65dup{46G>T}
-	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
-After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
+<font color="#FF0000">The proposal has been REJECTED</font>
+(i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of transcript reference sequences should be described based on a gene or chromosome reference sequence and not a reference sequence (c.) which does not contain the reference nucleotide.
