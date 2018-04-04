@@ -18,16 +18,7 @@ There are currently no proposals open for Community Consultation. Proposals [_SV
 
 ## Open topics
 
-<a name ="geneflanking"></a>
-
-### Numbering gene flanking nucleotides
-
-The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 53' of the translation termination codon [_see Numbering_](/bg-material/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
-
-*	c.-N-uM  =  nucleotide uM is at position -M upstream (u) of nucleotide c.-N, the transcription initiation site of the reference transcript, e.g. c.-237-u29A>G (currently c.-266A>G)
-	:	_**NOTE**_:	restricted to nucleotides 5' of the transcription initiation site (cap site), i.e. upstream of the gene (incl. the promoter)
-*	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
-	:	_**NOTE**_:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
+For closed topics [see below](recommendations/open-issues/#closedtopics).
 
 <a name ="extensions"></a>
 
@@ -89,3 +80,22 @@ HGVS nomenclature has excellent possibilities to describe large duplications, in
 *	g.24\_65dup{46G>T}
 	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
 After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
+
+* * *
+
+<a name ="closedtopics"></a>
+
+## Closed topics
+
+<a name ="geneflanking"></a>
+
+### Numbering gene flanking nucleotides
+
+The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](/bg-material/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
+
+*	c.-N-uM  =  nucleotide uM is at position -M upstream (u) of nucleotide c.-N, the transcription initiation site (cap-site) of the reference transcript, e.g. c.-237-u29A>G (currently c.-266A>G)
+	:	_**NOTE**_:	restricted to nucleotides 5' of the transcription initiation site (cap site), i.e. upstream of the gene (incl. the promoter)
+*	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
+	:	_**NOTE**_:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
+
+The proposal has **been rejected**; (i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of transcript reference sequences should be described based on a gene or chromosome reference sequence and not a reference sequence (c.) which does not contain the reference nucleotide.
