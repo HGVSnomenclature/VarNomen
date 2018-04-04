@@ -18,7 +18,7 @@ There are currently no proposals open for Community Consultation. Proposals [_SV
 
 ## Open topics
 
-For closed topics [see below](recommendations/open-issues/#closedtopics).
+For closed topics [see below](recommendations/open-issues#closedtopics).
 
 <a name ="extensions"></a>
 
