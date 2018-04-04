@@ -12,8 +12,9 @@ order: 2
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
-*	only public files from NCBI or EBI are accepted as a reference sequence
-	* approved reference sequence formats include; NC\_# (e.g. NC\_000023.10), LRG\_# (e.g. LRG\_199), NG\_# (e.g. NG\_012232.1), ENSG00000182533.6, NM\_# (e.g. NM\_004006.2), ENST00000343849.2, NR\_# (e.g. NR\_002196.1) and NP\_# (e.g. NP\_003997.1)
+*	only public files from NCBI or EBI are accepted as reference sequence files
+	*	approved reference sequence formats include; NC\_# (e.g. NC\_000023.10), LRG\_# (e.g. LRG\_199), NG\_# (e.g. NG\_012232.1), NM\_# (e.g. NM\_004006.2), NR\_# (e.g. NR\_002196.1) and NP\_# (e.g. NP\_003997.1)
+	*	_**NOTE:**_	the SVD-WG is currently considering the recommendation whether Ensembl reference sequences (e.g. , ENSG00000182533.6, ENST00000357033.8, ENSP00000354923.3) can be used or not. An important issue is that version numbers are not included in downloaded Ensembl sequence files.
 *	a reference sequence file identifier should contain both the **accession** and **version number**
 	*	NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 not (lacks the essential version number)
 	*	LRG reference sequences do not contain a version number (e.g. LRG\_199)
