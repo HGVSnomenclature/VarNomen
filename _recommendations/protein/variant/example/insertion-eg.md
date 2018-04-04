@@ -15,9 +15,9 @@ category: example
 	:	the in-frame insertion of a 23 amino acid sequence between amino acids Arg78 and Gly79
 	:	_**NOTE:**_ it must be possible to deduce the 23 inserted amino acids from the description given at DNA or RNA level
 *	incomplete descriptions (preferably use exact descriptions only)
-	*	NP\_003997.1:p.(Ser332\_Ser333insX)
-	:	the insertion of an unknown amino acid ('X') between amino acids Ser332 and Ser333
-	:	_**NOTE**_: the IUPAC code for an unknown amino acid is 'X' ([_see Standards_](bg-material/standards/))
-	*	NP\_003997.1:p.(Val582\_Asn583insXXXXX) (alternatively NP_003997.1:Val582_Asn583ins(5))
-	:       the insertion of 5 unknown amino acids (XXXXX) between amino acids Val582 and Asn583
+	*	NP\_003997.1:p.(Ser332\_Ser333ins(1)) (alternatively NP_003997.1:p.(Ser332\_Ser333insX))
+	:	the insertion of an unknown amino acid ('ins(1)') between amino acids Ser332 and Ser333
+	:	_**NOTE**_: the IUPAC code for an unknown amino acid is 'X' ([_see Standards_](/bg-material/standards/)). Since in the past 'X' has been used to indicate a translation termination codon, to prevent confusion, 'ins(1)' is prefered over 'insX'.
+	*	NP\_003997.1:p.(Val582\_Asn583ins(5)) (alternatively NP_003997.1:p.(Val582_Asn583insXXXX))
+	:       the insertion of 5 unknown amino acids (ins(5)) between amino acids Val582 and Asn583
 	
