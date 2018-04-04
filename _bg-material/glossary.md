@@ -64,6 +64,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   duplication
     :   one or more letters of the DNA code are present twice (doubled, duplicated)
     :   **HGVS**: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.
+    :    _**NOTE:**_ diagnostic assays (like MLPA) usually detect _**an additional copy**_ of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/), [_RNA_](/recommendations/RNA/variant/duplication/) or [_protein_](/recommendations/protein/variant/duplication/).
 
 *   exon
