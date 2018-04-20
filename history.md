@@ -62,7 +62,7 @@ _**NOTE:**_	<font color="#FF0000">this proposal has been rejected</font>
 #### **2014**
 
 *   Ordulu Z, Wong KE, Currall BB, Ivanov AR, Pereira S, Althari S, Gusella JF, Talkowski ME, Morton CC (2014). Describing sequencing results of structural chromosome rearrangements with a suggested next-generation cytogenetic nomenclature. [Am. J. Hum. Genet. 94:695-670](http://doi.org/10.1016/j.ajhg.2014.03.020){:target="\_blank"}.<br>
-:	_**NOTE:**_	<font color="#FF0000">official ISCN and HGS recommendations differ significantly from this proposal</font>
+_**NOTE:**_	<font color="#FF0000">official ISCN and HGS recommendations differ significantly from this proposal</font>
 
 #### **2015**
 
@@ -72,9 +72,9 @@ _**NOTE:**_	<font color="#FF0000">this proposal has been rejected</font>
 
 *   Den Dunnen JT, Dalgelish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM (2016). HGVS recommendations for the description of sequence variants: 2016 update. [Hum. Mutat. 37:564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf){:target="\_blank"}.
 *   McGowan-Jordan J, Simons A, Schmid M (2016). An International System for Human Cytogenomic Nomenclature (2016). [ISCN book](https://www.karger.com/Book/Home/271658){:target="\_blank"}.<br>
-_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG003 (gom/lom)](/bg-material/consultation/svd-wg003)</font>
+_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG003 (gom/lom)](http://varnomen.hgvs.org/bg-material/consultation/svd-wg003)</font>
 
 #### **2018**
 
 *   Monk D, Morales J, den Dunnen JT, Russo S, Court F, Prawitt D, Eggermann T, Beygo J, Buiting K, Tümer Z; Nomenclature group of the European Network for Human Congenital Imprinting Disorder (2018). Recommendations for a nomenclature system for reporting methylation aberrations in imprinted domains. [Epigenetics 13:117-121](https://www.ncbi.nlm.nih.gov/pubmed/?term=27911167){:target="\_blank"}.<br>
-_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG005 (gom/lom)](/bg-material/consultation/svd-wg005)</font>
+_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG005 (gom/lom)](http://varnomen.hgvs.org/bg-material/consultation/svd-wg005)</font>
