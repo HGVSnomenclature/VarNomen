@@ -72,9 +72,9 @@ Below an overview of publications on the subject of sequence variant description
 
 *   Den Dunnen JT, Dalgelish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM (2016). HGVS recommendations for the description of sequence variants: 2016 update. [Hum. Mutat. 37:564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf){:target="\_blank"}.
 *   McGowan-Jordan J, Simons A, Schmid M (2016). An International System for Human Cytogenomic Nomenclature (2016). [ISCN book](https://www.karger.com/Book/Home/271658){:target="\_blank"}.
-:	_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG003 (gom/lom)](bg-material/consultation/svd-wg003/)</font>
+_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG003 (gom/lom)](/bg-material/consultation/svd-wg003/)</font>
 
 #### **2018**
 
 *   Monk D, Morales J, den Dunnen JT, Russo S, Court F, Prawitt D, Eggermann T, Beygo J, Buiting K, Tümer Z; Nomenclature group of the European Network for Human Congenital Imprinting Disorder (2018). Recommendations for a nomenclature system for reporting methylation aberrations in imprinted domains. [Epigenetics 13:117-121](https://www.ncbi.nlm.nih.gov/pubmed/?term=27911167){:target="\_blank"}.
-:	_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG005 (gom/lom)](bg-material/consultation/svd-wg005/)</font>
+_**NOTE:**_	<font color="#FF0000">linked to  proposal [Proposal SVD-WG005 (gom/lom)](/bg-material/consultation/svd-wg005/)</font>
