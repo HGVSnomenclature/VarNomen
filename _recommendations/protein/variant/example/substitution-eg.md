@@ -33,4 +33,7 @@ category: example
 *	uncertain
 	*	NP_003997.1:p.(Gly56Ala^Ser^Cys)
 	:	amino acid Gly56 is changed to an Ala, Ser or Cys ([_see Uncertain_](/recommendations/uncertain/))
-	
+*	mosaic
+	*	LRG_199p1:p.Trp24=/Cys
+	:	a mosaic case where at amino acid position 24 besides the normal amino acid (a Trp, described as “=”) also protein is found containing a Cys (Trp24Cys)
+	:	_**NOTE:**_	for the predicted consequences of a variant the description is LRG_199t1:p.(Trp24=/Cys)
