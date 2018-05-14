@@ -22,3 +22,7 @@ category: example
 	:	RNA has not been analysed but it is very likely that splicing is affected
 *	LRG_199t1:r.?
 	:	an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
+*	LRG_199t1:r.85=/u>c
+	:	a mosaic case where at position 85 besides the normal sequence (a U, described as “=”) also transcripts are found containing a C (r.85u>c)
+*	LRG_199t1:r.85=//u>c
+	:	a chimeric case, i.e. the sample is a mix of cells containing r.85= and r.85u>c.
