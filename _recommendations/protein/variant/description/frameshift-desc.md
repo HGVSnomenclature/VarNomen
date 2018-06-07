@@ -27,6 +27,6 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 	_**NOTE**_: the number of amino acids in the new C-terminal sequence is "#-1" amino acids<br>
 	_**NOTE**_: the shortest frame shift variant possible contains "fsTer2"; "fsTer1" variants are by definition nonsense variants ([_see Substitution_](/recommendations/protein/variant/substitution/)).
 	*	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
-*	deletions at DNA/RNA level that go beyond the translation termination (stop) codon are described as [_Deletion-insertion_](/recommendations/protein/variant/insdel/), not as frame shift
-*	insertions from intron sequences which give premature translation termination are described as frame shifts, intron insertions maintaining the normal open reading are described as [_Insertion_](/recommendations/protein/variant/insertion/) or [_Deletion-insertion_](/recommendations/protein/variant/insdel/)
+*	deletions at DNA/RNA level that go beyond the translation termination (stop) codon are described as [_Deletion-insertion_](/recommendations/protein/variant/delins/), not as frame shift
+*	insertions from intron sequences which give premature translation termination are described as frame shifts, intron insertions maintaining the normal open reading are described as [_Insertion_](/recommendations/protein/variant/insertion/) or [_Deletion-insertion_](/recommendations/protein/variant/delins/)
 *	variants should be described on the protein level and not incorporate any knowledge regarding the change at DNA-level ([_see Discussion_](/recommendations/protein/variant/frameshift/#protonly)).
