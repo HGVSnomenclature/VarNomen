@@ -24,7 +24,8 @@ Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_
 ### Note
 
 * **prefix** reference sequence accepted is "p." (protein)
-* predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110Glnext\*17)
 * **extension** variants have been accepted on **<font color="red">2012-08-31</font>**  
+* predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110Glnext\*17)
+: "*17" in p.Ter110Glnext*17 is a **position** not an amnio acid so "Ter17" can not be used
 * variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [_deletion-insertion_](/recommendations/protein/variant/delins/), those activating a downstream (C-terminal)  initiation site as a [_deletion_](/recommendations/protein/variant/deletion/)
 * **prioritisation**: (1) extension, (2) frame shift or deletion-insertion
