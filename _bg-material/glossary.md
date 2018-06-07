@@ -69,6 +69,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   exon
     :   any nucleotide sequence within a gene which, during maturation of the RNA transcript, is not removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Exon){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68005091){:target="\_blank"}). Every exon, except the first and lat exon, is flanked by two **introns**.
+    
+*   extension
+    :   a sequence change extending the normal amino acid sequence at the N- or C-terminal end with one or more amino acids ([_protein_](/recommendations/protein/variant/extension/))
 
 *   hemizygous
     :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
