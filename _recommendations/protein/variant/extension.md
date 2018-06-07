@@ -3,7 +3,7 @@ layout: recommendation
 parent: Protein
 title: extension
 definition: 
-    Extension: a sequence change extending the normal translational reading frame at the N- or C-terminal end with one or more amino acids.
+    Extension: a sequence change extending the amino acid sequence at the N- or C-terminal end with one or more amino acids.
 discussion:
     How are variants at the protein level called that directly affect the translation initiation (start) codon?: The variant is called <b>start-lost</b> variant, one of two types of a protein extension, an N-terminal extension. Note the difference with a <b>start-gained</b> variant where the start codon itself is not directly affected, another type of N-terminal extension.
     How are variants at the protein level called that directly affect the translation termination (stop) codon?: The variant is called a <b>no-stop</b> or <b>stop-lost</b> variant, one of two types of a protein extension, a C-terminal extension.
