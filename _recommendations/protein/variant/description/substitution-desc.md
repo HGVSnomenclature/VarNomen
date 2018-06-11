@@ -17,8 +17,9 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 
 *	**prefix** reference sequence accepted is "p." (protein).
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727Ser).
-*	changes involving two or more consecutive amino acids are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/protein/variant/indel/)).
-*	a **nonsense** variant, a variant changing an amino acid to a translation termination (stop) codon, is described as a **substitution**.
+*	changes involving two or more consecutive amino acids are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/protein/variant/indel/)).<br>
+	_**NOTE:**_ when either of two directly flanking substitution variants is known as a regularly occurring variant, the variants are described individually and not as a "delins".
+*	a **nonsense** variant, a variant changing an amino acid to a translation termination (stop) codon, is described as a **substitution**.<br>
 	_**NOTE:**_ a nonsense variant is not described as a [Deletion](/recommendations/protein/variant/deletion/) of the C-terminal end of the protein (e.g. p.Trp26\_Arg1623del)
 *	amino acids that have been tested and found **not changed** are described as p.Cys123= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).<br>
 _**NOTE**_: the underlying DNA change **must** be given in addition and in this case is either c.456C>T or c.456C=<br>
