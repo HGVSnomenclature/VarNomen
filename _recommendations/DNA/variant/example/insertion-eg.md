@@ -9,7 +9,7 @@ category: example
 *	NC\_000023.10:g.32862923\_32862924insCCT (LRG\_199t1:c.240\_241insAGG)
 	:	the insertion of nucleotides CCT between nucleotides g.32862923 and g.32862924
 *	NC\_000023.10:g.32867907\_32867908insL37425.1:23\_361
-	: 	the insertion of nucleotides 23 to 361 as described in GenBank file L37425.1 between nucleotides g.123 and g.124
+	: 	the insertion of nucleotides 23 to 361 as described in GenBank file L37425.1 between nucleotides g.32867907 and g.32867908
 *	complex insertions
 	*	NM\_004006.2:c.419\_420ins[T;401\_419]
 	:	the insertion of T followed by a copy of the sequence from c.401 to c.419 (a duplication not directly flanking the original sequence)
