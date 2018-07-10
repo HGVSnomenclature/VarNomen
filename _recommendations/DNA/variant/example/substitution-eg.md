@@ -18,6 +18,7 @@ category: example
 	:	a substitution of the G nucleotide at c.54 (coding DNA reference sequence) by A, C or T (IUPAC code "H", [_see Standards_](/bg-material/standards/))
 *	NM_004006.1:c.123=
 	:	a screen was performed showing that nucleotide c.123 was a “C” as in the coding DNA reference sequence (the nucleotide was not changed).
+	:	_**NOTE**_: the description NM_004006.2:c.= indicates the entire NM_004006.2 coding DNA reference sequence was analysed and no change was identified.
 *	LRG_199t1:c.85=/T>C
 	:	a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (c.85T>C)
 *	NM_004006.1:c.85=//T>C
