@@ -241,8 +241,9 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 | U               | Sec               | Selenocysteine              | TGA                                     |                                             | H2N-CH(COOH)--CH2-SeH             |
 | V               | Val               | Valine                      | GTA, GTC, GTG, GTT                      | 2-Amino-3-methylbutanoic acid               | (CH3)2CH-CH(NH2)-COOH             |
 | W               | Trp               | Tryptophan                  | TGG                                     | 2-Amino-3-(lH-indol-3-yl)-propanoic acid    | ![Tryptophan]({{site.baseurl}}/assets/AA/tryptophan.gif)|
-| X               | Xaa               | unknown or 'other'          | NNN                                     |                                             |                                   |
+| X<sup>a</sup>   | Xaa               | unknown or 'other'          | NNN                                     |                                             |                                   |
 | Y               | Tyr               | Tyrosine                    | TAC, TAT                                | 2-Amino-3-(4-hydroxyphenyl)-propanoic acid  | ![Tyrosine]({{site.baseurl}}/assets/AA/tyrosine.gif)|
 | Z               | Glx               | Glutamic acid or Glutamine  |                                         |                                             |                                   |
 | *               | *                 | Termination                 | TAA, TAG, TGA (translation termination) | HGVS addition (V2.0)                        |                                   |
 
+<sup>a</sup>To prevent confusion, since 'X' has been used to indicate a translation stop codon, use 'Xaa' only.
