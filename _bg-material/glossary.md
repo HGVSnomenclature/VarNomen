@@ -39,7 +39,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   chimerism
     :   the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}). Opposite of mosaicism.
-    :   descritpions [_see General/Charcters used_](/recommendations/general#characters).
+    :   descriptions [_see General/Charcters used_](/recommendations/general#characters).
 
 *   complex
     :   **HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
@@ -116,7 +116,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   mosaicism
     :   the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism){:target="\_blank"}). Opposite of chimerism.
-    :   descritpions [_see General/Characters used_](/recommendations/general#characters).
+    :   descriptions [_see General/Characters used_](/recommendations/general#characters).
     
 *   mutation
     *   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
