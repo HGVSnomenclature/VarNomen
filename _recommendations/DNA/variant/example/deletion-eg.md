@@ -46,4 +46,4 @@ category: example
 *	NG\_012232.1:g.19\_21=/del
 :	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a deletion of this sequence
 *	NG\_012232.1:g.19\_21=//del
-:	a chimeric case, i.e. the sample is a mix of cells containing g.19\_g.21= and g.19\_21del
+:	a chimeric case, i.e. the sample is a mix of cells containing g.19\_21= and g.19\_21del
