@@ -45,5 +45,5 @@ category: example
 	:	_**NOTE**_: when more details are available regarding the deletion, based on the probes tested to determine its location, the description can be specified like NG\_012232.1(NM\_004006.1):c.(?\_-189)\_(\*884\_?)del, meaning the deletion starts 5' of c.-189 and extends 3' of c.\*884.
 *	NG\_012232.1:g.19\_21=/del
 :	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a deletion of this sequence
-*	NG\_012232.1:g.19\_21del=//del
+*	NG\_012232.1:g.19\_21=//del
 :	a chimeric case, i.e. the sample is a mix of cells containing g.19\_g.21= and g.19\_21del
