@@ -48,3 +48,7 @@ category: example
 	*	LRG\_199t1:c.(?\_-1)\_(\*1\_?)dup
 		:	a duplication of the entire protein coding region of a gene (based on a coding DNA reference sequence).
 		:	_**NOTE**_: when more details are available regarding the duplication, based on the probes tested to determine its location, the description can be specified like c.(?\_-189)\_(\*884\_?)dup, meaning the duplication starts 5' of c.-189 and extends 3' of c.\*884.
+*	NG\_012232.1:g.19\_21=/dup
+:	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a duplication of this sequence
+*	NG\_012232.1:g.19\_21=//dup
+:	a chimeric case, i.e. the sample is a mix of cells containing g.19\_21= and g.19\_21dup
