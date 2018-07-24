@@ -19,6 +19,4 @@ Format:   **"prefix""positions_inverted""inv"**,  e.g. r.123\_345inv
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 *	since exon splice signals will be inverted, large genomic inversions on the RNA level usually give [_deletion_](/recommendations/RNA/variant/deletion/) or [_deletion-insertion (indel)_](/recommendations/RNA/variant/indel/) variants
-*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
-	:	{ } (curly braces) can be used to list any change in the inverted sequence ("positions\_inverted") which is different when compared to the source, e.g. r.123\_345inv**{233a>g}**
 *	inversions are not used on the protein level
