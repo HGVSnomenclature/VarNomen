@@ -32,6 +32,12 @@ category: example
 	*	NM\_004006.2:c.761\_762insNNNNN (alternatively NM\_004006.1:c.761\_762ins(5))
 	:	the insertion of 5 not specified nucleotides (NNNNN) between position c.761 and c.762
 	*	NC\_000023.10:g.32717298_32717299ins(100)
-	:	the insertion of 100 not specified nucleotides between position g.32717298 and g.32717299
+	:	the insertion of 100 nucleotides (not specified) between position g.32717298 and g.32717299
+	*	NC\_000023.10:g.32717298_32717299ins(80_120)
+	:	the insertion of 80 to 120 nucleotides between position g.32717298 and g.32717299
+	*	NC\_000004.11:g.(3076562\_3076732)ins(12)
+	:	the insertion of 12 nucleotides (not specified) between position g.3076562 and g.3076732 (exon 1 of the HTT gene containing the Gln/Pro repeat region)
+	*	NC\_000023.10:g.32717298_32717299ins(?)
+	:	the insertion of an unknown number of nucleotides between position g.32717298 and g.32717299
 *	g.?\_?insNC\_000023.10:(12345\_23456)\_(34567\_45678)
 	:	the insertion of a sequence from the X-chromosome (NC\_000023.10), maximally involving nucleotides 12345\_45678 but certainly nucleotides 23456\_34567, at an unknown position (g.?\_?) in the genome ([_see Uncertain_](/recommendations/uncertain))
