@@ -21,6 +21,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 * for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 * two variants separated by one or more amino acids should preferably be described individually and not as a “delins”<br>
 _**NOTE**_ :  when either of two directly flanking variants is known as a regularly occurring variant, the variants are described individually and not as a "delins".
+* when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Arg456_Leu488delins(54)).
 * when describing the deletion of the "delins", the description should not extend beyond the sequence affected at the DNA level. 
 * **in-frame** deletion-insertion variants containing a translation termination (stop) codon should be described as a deletion-insertion replacing the affected with the new amino acid sequence (not as a deletion-insertion replacing the entire C-terminus of the protein from the variant site with a new amino acid sequence)
 * **frame shifting** deletion-insertion variants are a special type of protein variants described as a frame shift ([_see Frame shift_](/recommendations/protein/variant/frameshift/))<br>
