@@ -108,6 +108,8 @@ Depending on the variants to be reported, different reference sequence files are
 *	the non-coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
 *	when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC\_000023.10:g.2019099del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC\_000023.10:g.2019099 links to nucleotide NR\_002196.2:n.7. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NR\_002196.2:n.7del (linking to NC\_000023.10:g.20190955). See also [_different genomic (g.) and coding DNA (c.) descriptions_](/recommendations/DNA/variant/repeated/).
 
+---
+
 {:#RNAr}
 
 ### RNA reference sequence
@@ -124,6 +126,8 @@ Depending on the variants to be reported, different reference sequence files are
 * 	the reference sequence inclides the entire transcript, excluding the poly A-tail.
 *	when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC\_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC\_000023.10:g.32361300 links to nucleotide NM\_004006.1:r.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM\_004006.1:r.5697del (linking to NC\_000023.10:g.32361293).
 
+---
+
 {:#proteinp}
 
 ### Protein reference sequence
@@ -132,10 +136,10 @@ Depending on the variants to be reported, different reference sequence files are
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NP\_003997.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
+*	a protein reference sequence should **correspond exactly** with the associated DNA and RNA reference sequence used
 *	when, based on a genomic reference sequence, variants are reported using a "p." prefix, the reference protein isoform used should be indicated
 	*	for LRG\_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG\_199**<font color="red">p1</font>**:p.(Val25Gly)
-*	the protein reference sequence should be complete, cover the major and largest protein isoform known and include as many exons as possible, even when this isoform has not been proven to actually exist in nature
-*	the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include any signal peptide sequences.
+*	a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
 
 * * *
