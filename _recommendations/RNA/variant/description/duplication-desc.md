@@ -20,5 +20,3 @@ Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
-*	under discussion, [_see Proposal for complex variants_](http://www.hgvs.org/mutnomen/HGVS_extend_PT.doc)
-	:	{ } (curly braces) can be used to list any change in the duplicated sequence ("positions\_duplicated") which is different when compared to the source, e.g. r.123\_345dup**{234a>g}**
