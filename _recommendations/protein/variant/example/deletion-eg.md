@@ -4,15 +4,20 @@ title: deletion
 category: example
 ---
 
-*	one amino acid - LRG\_199p1:p.Val7del
+*	one amino acid
+	*	LRG\_199p1:p.Val7del
 	:	a deletion of amino acid Val7 in the reference sequence LRG\_199p1
-*	LRG\_199p1:p.(Val7del)
-	: the **predicted** consequence at the protein level is a deletion of amino acid Val7 in the reference sequence LRG\_199p1
-*	several amino acids - NP\_003997.1:p.Lys23\_Val25del
-	:	a deletion of amino acids Lys23 to Val25 in reference sequence NP\_003997.1
-*	LRG\_199p1:p.Trp4del
+	*	LRG\_199p1:p.(Val7del)
+	:	the **predicted** consequence at the protein level is a deletion of amino acid Val7 in the reference sequence LRG\_199p1
+	*	LRG\_199p1:p.Trp4del
 	:	a deletion of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrp**<font color="red">_</font>**Glu
-	:	**NOTE:**_ for deletions in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted
+	:	_**NOTE:**_ for deletions in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted	
+*	several amino acids
+	*	NP\_003997.1:p.Lys23\_Val25del
+	:	a deletion of amino acids Lys23 to Val25 in reference sequence NP\_003997.1
+	*	LRG\_232p1:p.(Pro458\_Gly460del)
+	:	a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence LRG\_232p1
+	:	_**NOTE:**_ the underlying DNA variant (LRG\_232t1:c.1365\_1373del) affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
 *   p.Gly2\_Met46del
 	:	a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation ate Met1 but activating a new downstream translation initiation site (at Met46)<br>
 	_**NOTE:**_ the 3' rule has been applied.
