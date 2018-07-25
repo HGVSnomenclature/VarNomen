@@ -29,14 +29,16 @@ nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nuc
 
 nucleotide numbering is based on the annotated protein isoform, the major translation product.
 
-*	numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
+*	protein coding regionn
+:	numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
 	*	exception 3’ rule
 	:	the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, and shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon)
-		:	when ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
+		:	When ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
 		:	_**NOTE:**_ this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction ([_see also Deletions_](/recommendations/DNA/variant/deletion))
-*	there is no nucleotide c.0.
-*	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
-*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
+*	untranslated region (UTR)
+	*	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
+	*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
+	*	there is no nucleotide c.0.	
 *	nucleotides in introns
 	*	_**NOTE:**_ a coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions [_see Reference Sequences_](/bg-material/refseq/#DNAc). Correct descriptions refer to a genomic reference sequence like LRG\_199t1:c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A.
 	*	nucleotides at the 5' end of an intron are numbered relative to the last nucleotide of the directly upstream exon, followed by a "**<font color="red">+</font>**" (plus) and their position in to the intron, like c.87+1, c.87+2, c.87+3, ...
@@ -44,8 +46,8 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 		*	in the middle of the intron nucleotide numbering changes from "**<font color="red">+</font>**" (plus) to "**<font color="red">-</font>**" (minus), e.g. c.87+678 to c.88-678
 		*	the nucleotide exactly in the middle of an intron is numbered relative to the upstream exon followed by a "**<font color="red">+</font>**" (plus), e.g.  c.1552+232 to c.1553-231
 	*	introns in the 5'UTR are numbered as normal introns, starting with "**c.-**" nucleotide numbers (c.-85+1, c.-85+2, c.-85+3, ..., c.-84-3, c.-84-2, c.-84-1)
-	*	introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.*38-1)
-*	suggestions have been made to extend the recommendations for the nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides ([_see Open Issues_](/recommendations/open-issues)).
+	*	introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.\*38-1)
+*	suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected ([_see Open Issues_](/recommendations/open-issues)).
 
 Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf){:target="\_blank"} and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf){:target="\_blank"}) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
 
@@ -55,9 +57,6 @@ Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi
 
 *	nucleotide numbering is n.1, n.2, n.3, ..., etc. from the first to the last nucleotide of the reference sequence
 *	nucleotides in introns are numbered as for coding DNA reference sequences [_(see above)_](#DNAc), although preceeded by n. (not c.)
-*	nucleotides upstream (5’) of the **transcription start site** are marked with a “-” (minus) and numbered n.-1, n.-2, n.-3, etc. (i.e. going further upstream)
-*	nucleotides downstream (3’) of the **transcription termination site** are marked with a “\*” (asterisk) and numbered n.\*1, n.\*2, n.\*3, etc. (i.e. going further downstream)
-:	_**NOTE:**_ a non-coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions. Correct descriptions refer to a genomic reference sequence like NC\_000023.10(NR\_002196.1):n.1454-3del or LRG\_1030t1:n.1454-3del,
 
 * * * 
 
@@ -67,7 +66,7 @@ nucleotide numbering for a RNA reference sequencing follows that of the associat
 
 *	in a non-coding RNA reference sequences nucleotide numbering is r.1, r.2, r.3, ..., etc. from the first to the last nucleotide of the reference sequence.
 *	in a coding RNA reference sequences nucleotide numbering is based on the annotated protein isoform, the major translation product, following that of a coding DNA reference sequence [_see coding DNA reference sequence_](#DNAc).
-*	a coding RNA reference sequence does **not contain** intron sequences and can therefore **not be used** to describe variants affecting these sequences [_see Reference Sequences_](/bg-material/refseq/#RNAr). Correct descriptions refer to a genomic reference sequence like LRG\_199t1:r.186\_187ins186+1\_186+4, NC\_000023.10(NM\_004006.2):r.186\_187ins186+1\_186+4 or NG\_012232.1(NM\_004006.2):r.186\_187ins186+1\_186+4.
+*	coding/non-coding RNA reference sequences do **not contain** intron sequences and can therefore **not be used** to describe variants affecting these sequences [_see Reference Sequences_](/bg-material/refseq/#RNAr). Correct descriptions therefore need to give a genomic reference sequence like LRG\_199t1:r.186\_187ins186+1\_186+4, NC\_000023.10(NM\_004006.2):r.186\_187ins186+1\_186+4 or NG\_012232.1(NM\_004006.2):r.186\_187ins186+1\_186+4.
 
 * * * 
 
