@@ -41,7 +41,7 @@ category: example
 			:	the mixed repeat sequence form position c.1210-33 to c.1210-6 contains 11 GT and 6 T copies
 			:	_**NOTE**_:	when only the variable T-stretch is described the format is NM\_000492.3:c.1210-12T[7] (see Q&A below)
 	*	NC\_000012.11:g.112036755\_112036823CTG[9]TTG[1]CTG[13]
-			:	a complex repeated sequence from position g.112036755 to g.112036823 on chromosome 12 with first a CTG unit present in 9 copies, then a TTG unit present in 1 copy and then a CTG unit present in 13 copies
+	:	a complex repeated sequence from position g.112036755 to g.112036823 on chromosome 12 with first a CTG unit present in 9 copies, then a TTG unit present in 1 copy and then a CTG unit present in 13 copies
 *	differing genomic (g.) and coding DNA (c.) descriptions
 	:	NC\_000001.10:g.57832719ATAAA[15] and NM\_021080.3:c.-136-75952ATTTT[15] describe the same repeat allele in intron 3 of the DAB1 gene
 	:	_**NOTE**_:	based on the **3' rule** and the transcriptional orientation of the gene (minus strand) the description of the repeat units differs
