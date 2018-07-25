@@ -56,7 +56,7 @@ Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi
 *	nucleotide numbering is n.1, n.2, n.3, ..., etc. from the first to the last nucleotide of the reference sequence
 *	nucleotides in introns are numbered as for coding DNA reference sequences [_(see above)_](#DNAc), although preceeded by n. (not c.)
 *	nucleotides upstream (5’) of the **transcription start site** are marked with a “-” (minus) and numbered n.-1, n.-2, n.-3, etc. (i.e. going further upstream)
-*	nucleotides downstream (3’) of the **transcription start site** are marked with a “\*” (asterisk) and numbered n.\*1, n.\*2, n.\*3, etc. (i.e. going further downstream)
+*	nucleotides downstream (3’) of the **transcription termination site** are marked with a “\*” (asterisk) and numbered n.\*1, n.\*2, n.\*3, etc. (i.e. going further downstream)
 :	_**NOTE:**_ a non-coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions. Correct descriptions refer to a genomic reference sequence like NC\_000023.10(NR\_002196.1):n.1454-3del or LRG\_1030t1:n.1454-3del,
 
 * * * 
