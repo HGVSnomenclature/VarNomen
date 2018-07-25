@@ -29,7 +29,7 @@ nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nuc
 
 nucleotide numbering is based on the annotated protein isoform, the major translation product.
 
-*	protein coding regionn
+*	protein coding region
 :	numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
 	*	exception 3’ rule
 	:	the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, and shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon)
@@ -39,7 +39,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 	*	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
 	*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
 	*	there is no nucleotide c.0.	
-*	nucleotides in introns
+*	introns
 	*	_**NOTE:**_ a coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions [_see Reference Sequences_](/bg-material/refseq/#DNAc). Correct descriptions refer to a genomic reference sequence like LRG\_199t1:c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A.
 	*	nucleotides at the 5' end of an intron are numbered relative to the last nucleotide of the directly upstream exon, followed by a "**<font color="red">+</font>**" (plus) and their position in to the intron, like c.87+1, c.87+2, c.87+3, ...
 	*	nucleotides at the 3' end of an intron are numbered relative to the first nucleotide of the directly downstream exon, followed by a "**<font color="red">-</font>**" (minus) and their position out of the intron, like ..., c.88-3, c.88-2, c.88-1.
