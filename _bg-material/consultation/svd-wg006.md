@@ -20,7 +20,7 @@ The proposal suggests to extend the HGVS recommendations to improve the descript
 
 #### Examples
 
-*	NC\_012920.1:m.[16563\_13del]
+*	NC\_012920.1:m.16563\_13del
 	:	compared to the mitochondrial reference sequence (NC\_012920.1, a circular DNA molecule) the region from nucleotides m.16563 to m.13 is deleted
 	:	_**NOTE:**_	for mitochondrial reference sequences the "m." prefix will be used
 *	J01749.1:o.4344_197dup
