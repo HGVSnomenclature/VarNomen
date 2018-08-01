@@ -11,9 +11,7 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	:	a protein allele contains two different variants, p.Ser68Arg and p.Asn594del (the variants are found **in cis**)
 	*	NP\_003997.1:p.[(Ser68Arg;Asn594del)]
 	:	a protein allele contains two different **predicted** variants, p.(Ser68Arg) and p.(Asn594del) (the variants are found **in cis**)
-		:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets, the description p.([Ser68Arg;Asn594del]) is not correct
-	*	NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]
-	:	two different proteins, p.Lys31Asn and p.Val25\_Lys31del, derive from a variant on one allele (c.93G>T at the DNA level and r.[83g>u,73\_93del] at the RNA level)
+	:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets, the description p.([Ser68Arg;Asn594del]) is not correct
 *	**variants on different alleles**
 	*	**homozygous**
 		*	NP\_003997.1:p.[Ser68Arg];[Ser68Arg]
@@ -39,3 +37,6 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	:	a somatic case where a protein allele in some cells has a normal sequence (Arg49=), while other cells have a Ser at this position (Arg49Ser)  
 *	NP\_003997.1:p.[Arg49=//Ser]
 	:	a chimeric organism where a protein allele in one cell type has a normal sequence (Arg49=), while the other cell type has a Ser at this position (Arg49Ser).
+*	**one allele encoding two proteins**
+	*	NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]
+	:	two different proteins, p.Lys31Asn and p.Val25\_Lys31del, derive from a variant on one allele (c.93G>T at the DNA level and r.[83g>u,73\_93del] at the RNA level)
