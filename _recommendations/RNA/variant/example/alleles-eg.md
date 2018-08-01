@@ -24,6 +24,6 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	*	NM\_004006.2:r.76a>u(;)103del
 	:	two variants are found in a transcript, r.76a>u and r.103del, but it is not known whether they derive from the same or from different transcript alleles (chromosomes).
 	:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets should not be used
-*	**two transcripts from one allele**
+*	**one allele, two transcripts**
 	*	LRG\_199t1:r.[897u>g,832_960del]
 	:	two different transcripts, r.897u>g and r.832_960del, derive from one variant (LRG_199t1:c.897T>G at the DNA level)
