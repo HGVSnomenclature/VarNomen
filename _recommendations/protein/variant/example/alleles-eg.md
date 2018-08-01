@@ -33,10 +33,10 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 		:	one protein allele contains a variant, p.Ser68Arg, the other allele contains the reference sequence, Ser68= (is **wild-type**).
 		:	_**NOTE**_: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68_Arg70dup];[Ser68_Arg70=], p.[Ser68_Ala74insSerGln];[Ser68_Ala74=], etc.
 		:	_**NOTE**_: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
+	*	**one allele encoding two proteins**
+		*	NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]
+		:	two different proteins, p.Lys31Asn and p.Val25\_Lys31del, derive from a variant on one allele (c.93G>T at the DNA level and r.[83g>u,73\_93del] at the RNA level)
 *	NP\_003997.1:p.[Arg49=/Ser]
 	:	a somatic case where a protein allele in some cells has a normal sequence (Arg49=), while other cells have a Ser at this position (Arg49Ser)  
 *	NP\_003997.1:p.[Arg49=//Ser]
 	:	a chimeric organism where a protein allele in one cell type has a normal sequence (Arg49=), while the other cell type has a Ser at this position (Arg49Ser).
-*	**one allele encoding two proteins**
-	*	NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]
-	:	two different proteins, p.Lys31Asn and p.Val25\_Lys31del, derive from a variant on one allele (c.93G>T at the DNA level and r.[83g>u,73\_93del] at the RNA level)
