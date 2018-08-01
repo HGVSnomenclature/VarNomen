@@ -15,6 +15,11 @@ HGVS nomenclature falls under the responsibility of the SVD-WG ([_Sequence Varia
 
 ### Open
 
+*   [SVD-WG006]({{site.baseurl}}/bg-material/consultation/svd-wg006/) (circular DNA)
+    :   suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.
+    :   suggests to add the exception for circular genomic reference sequences ("m." and "o." prefix) to allow NC_012920.1:m.16563_13del
+    :   **Status**: <font color="red">Open</font>. Opened Aug.1 (2018), closing Oct.30 (2018). 
+
 
 * * *
 
