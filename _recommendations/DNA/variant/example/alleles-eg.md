@@ -15,7 +15,7 @@ category: example
 	*	LRG\_199t1:c.[2376G>C];[2376G>C]
 	:	both alleles (chromosomes) of a gene contain the same variant, c.2376G>C. A **homozygous** case (e.g. in a recessive disease).
 	:	_**NOTE**_: it is not allowed to shorten this to c.2376[G>C];[G>C] or even c.2376G>C[];[]
-	:	_**NOTE**_: LRG\_199t1:c.[2376G>C];([2376G>C]) indicates analysis detects one variant (c.2376G>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
+	:	_**NOTE**_: LRG\_199t1:c.[2376G>C];[(2376G>C)] indicates analysis detects one variant (c.2376G>C), suggesting both alleles (chromosomes) contain this variants but it can not be excluded the other allele is deleted.
 	*	LRG\_199t1:c.[296T>G;476T>C;1083A>C];[296T>G;1083A>C]
 	:	a sample contains variants c.296T>G and c.1083A>C on both alleles (chromosomes) and variant c.476C>T on only one allele.
 	*	LRG\_199t1:c.[2376G>C];[2376=]
