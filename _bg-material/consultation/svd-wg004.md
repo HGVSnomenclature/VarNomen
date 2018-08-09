@@ -48,8 +48,10 @@ The committees propose that as soon as nucleotide positions are used in the desc
 *	the presence of an additional sequence (marker/ring chromosome) is indicated by "**add**"
 :	_**NOTE:**_	the description of the addional molecule is given using "[ ]add"
 :	_**NOTE:**_	"ext" is not available since it is already used to describe protein extension variants
-*	translocation, transposition, ring chromosome and chromothripsis break points (junctions) are designated by a "**::**" (double colon)
-*	non-template sequences ("inserts") at imperfect breakpoints are described using the format "**::sequence::**" (e.g. ::AAGTAC:: )
+*	the "**::**" (double colon) is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome
+:	_**NOTE:**_	non-template sequences ("inserts") at these imperfect break points are described using the format "**::sequence::**" (e.g. ::AAGTAC:: )
+	*	the "**::**" (double colon) is also used to designate the junction of fusion transcripts from genes on different chromosomes
+	:	_**NOTE:**_	fusion transcripts from genes on the same chromosome are described as "delins"
 
 * * *
 
