@@ -37,18 +37,24 @@ The committees propose that as soon as nucleotide positions are used in the desc
 
 ##### HGVS additions
 
-*	aberrations affecting autosomes are listed first (numbers from low to high), followed by those affecting sex chromosomes (X then Y)
-*	to determine the location of the break point, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule). Break point location is determined by the first break point encountered, i.e. from pter of the chromosome with the lowest number
-*	multiple breakpoints in one chromosome are listed in order of occurrence from pter to qter
-*	variant descriptions are always in the forward orientation (from pter to qter, the end of the chromosome), determined by the chromosomal origin of the intact centromere ("**cen**")
-*	inverted sequences are described using "**inv**"
-*	the start of the chromosome is described as "**pter**", the end as "**qter**", the centromere as "**cen**"
+*	1, 2, 3, ..., 21, 22, X, Y
+:	aberrations affecting autosomes are listed first (numbers from low to high), followed by those affecting sex chromosomes (X then Y)
+*	3'rule
+:	to determine the location of the break point, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule). Break point location is determined by the first break point encountered, i.e. from pter of the chromosome with the lowest number
+*	pter to qter
+:	multiple breakpoints in one chromosome are listed in order of occurrence from pter to qter
+	*	variant descriptions are always in the forward orientation (from pter to qter, the end of the chromosome), determined by the chromosomal origin of the intact centromere ("**cen**")
+	*	inverted sequences are described using "**inv**"
+*	pter, cen, qter
+:	the start of the chromosome is described as "**pter**", the end as "**qter**", the centromere as "**cen**"
 :	_**NOTE:**_	since the genomic reference sequence contains N's at the start/end of the chromosome (telomeres) the use of specific nucleotide positions is undesirable
 :	_**NOTE:**_	the use of "**cen**" helps to recognize the derivative chromosome
-*	the presence of an additional sequence (marker/ring chromosome) is indicated by "**add**"
+*	"add"
+:	the presence of an additional sequence (marker/ring chromosome) is indicated by "**add**"
 :	_**NOTE:**_	the description of the addional molecule is given using "[ ]add"
 :	_**NOTE:**_	"ext" is not available since it is already used to describe protein extension variants
-*	the "**::**" (double colon) is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome
+*	"**::**" (double colon)
+:	"::" (double colon) is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome
 :	_**NOTE:**_	non-template sequences ("inserts") at these imperfect break points are described using the format "**::sequence::**" (e.g. ::AAGTAC:: )
 	*	the "**::**" (double colon) is also used to designate the junction of fusion transcripts from genes on different chromosomes
 	:	_**NOTE:**_	fusion transcripts from genes on the same chromosome are described as "delins"
