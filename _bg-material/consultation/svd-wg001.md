@@ -13,7 +13,7 @@ In the original proposal the descriptions included the nucleotide (A, C, G or T)
 ### Proposal SVD-WG001 (no change)
 
 *	Status: <font color="red">accepted</font>
-	:	proposal SVD-WG001 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since no major objections were received the SVD-WG decided to **accept** the proposal on Oct.6 (2015). The proposal was part of the HGVS nomenclature **version 2.1511** update.
+	:	proposal SVD-WG001 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since no major objections were received the SVD-WG decided to **accept** the proposal on Oct.6 (2015). The proposal was part of the HGVS nomenclature **version 15.11** update.
 
 The proposal suggests to extend the HGVS recommendations to allow description of **variant tested but no change detected** using the character "**<font color="red">=</font>**" (equal to); g.50377648<font color="red">=</font>, m.15366<font color="red">=</font>, c.1823<font color="red">=</font>, n.611<font color="red">=</font>, r.377<font color="red">=</font>, p.Val76<font color="red">=</font>. The description should include the position(s) screened (nucleotides or amino acids) and the reference sequence used should always be mentioned.
 
