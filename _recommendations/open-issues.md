@@ -16,7 +16,7 @@ Proposal [_SVD-WG006 (circular DNA)_](/bg-material/consultation/svd-wg006/) sugg
 
 <a name ="opentopics"></a>
 
-## Open topics
+## Ongoing discussions
 
 For closed topics [see below](/recommendations/open-issues#closedtopics).
 
