@@ -10,7 +10,7 @@ order: 8
 
 ## Community Consultation
 
-There are currently no proposals open for Community Consultation. Proposals [_SVD-WG004 (ISCN<>HGVS)_](/bg-material/consultation/svd-wg004/) to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis and [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/) to allow the description of changes in general methylation status are currently _under review_. Proposal {{site.baseurl}}[_SVD-WG003 (exon del/dup)_](/bg-material/consultation/svd-wg003/) with the suggesting to describe exon deletions/duplications using the format c.(233+1\_234-1)\_(1234+1\_1235-1)del, closed Jul.16 (2015), is prepared for a new round of consultation.
+Proposal [_SVD-WG006 (circular DNA)_](/bg-material/consultation/svd-wg006/) suggesting to extend the HGVS recommendations to allowing a “o.” prefix for circular genomic reference sequences is currently open for Community Consulation (**Closing:** Oct.30 (2018).
 
 * * *
 
