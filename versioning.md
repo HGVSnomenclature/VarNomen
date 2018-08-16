@@ -6,7 +6,10 @@ permalink: /versioning/
 
 # {{ page.title }}
 
-The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note that the version does not change when a typing error is corrected, an example added, an explanation clarified, a question answered, etc.
+The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note the version does not change when a typing error is corrected, an example added, an explanation clarified or a question answered.
+
+Outside the core HGVS recommendations, covered by the version number, the recommendations have "**named extensions**", i.e optional extensions for a specific use. Supporting named extensions is optional. A proper reference to the HGVS nomenclature version number supported should mention supported named extensions as well.
+
 
 ### The current version is HGVS nomenclature v15.11.
 
@@ -20,12 +23,15 @@ For proposals open for Community Consultation and issues currently discussed, [_
 
 {:#version-list}
 
-*   _**In preparation**_
-	:	Accepted proposals will include [_SVD-WG005_](/bg-material/consultation/svd-wg005/):
-	*	SVD-WG005 (_gom/lom_)
+*	_**In preparation**_
+	:	The new version number will include SVD-WG005 (_gom/lom_):
+	*	[_SVD-WG005_](/bg-material/consultation/svd-wg005/)
 	:	allows descriptions of changes in general methylation status like g.123_456|lom  
 
-*   _**Version 15.11**_
+*	_**ISCN extension**_
+	:	Proposal [_SVD-WG004_](/bg-material/consultation/svd-wg004/) (ISCN<>HGVS) has been accepted as the first "named extension"
+
+*	_**Version 15.11**_
 	:	Accepted proposals include [_SVD-WG001_](/bg-material/consultation/svd-wg001/) and [_SVD-WG002_](/bg-material/consultation/svd-wg002/):
 	*	SVD-WG001 (_No change_)
 		:	allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
