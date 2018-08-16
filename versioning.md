@@ -6,9 +6,7 @@ permalink: /versioning/
 
 # {{ page.title }}
 
-The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note the version does not change when a typing error is corrected, an example added, an explanation clarified or a question answered.
-
-Outside the core HGVS recommendations, covered by the version number, the recommendations have "**named extensions**", i.e optional extensions for a specific use. Supporting named extensions is optional. A proper reference to the HGVS nomenclature version number supported should mention supported named extensions as well.
+The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note the version does not change when a typing error is corrected, an example added, an explanation clarified or a question answered. Outside the core HGVS recommendations, covered by the version number, the recommendations have "**named extensions**", i.e optional extensions for a specific use. Supporting named extensions is optional. A proper reference to the version of the HGVS nomenclature should mention the version number and the named extensions supported.
 
 
 ### The current version is HGVS nomenclature v15.11.
