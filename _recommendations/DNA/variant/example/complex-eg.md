@@ -76,7 +76,7 @@ The basis of the examples is from Community Consultation proposal [_SVD-WG004_](
 *	**additional chromosome**
 	*	+r(22)(p11.1q13.1)
 	:	_(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_
-	:	chr22:g.[pter\_(12200001|_14700000)del::(37600001\_410000000\_qterdel]add
+	:	chr22:g.[pter\_(12200001|_14700000)del::(37600001\_410000000)\_qterdel]add
 	*	46,XY,upd(14)mat
 	:	_(uniparental disomy, additional copy of maternal chromosome 14)_
 	:	chr14:g.[pter\_cen\_qter]add
