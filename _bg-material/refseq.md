@@ -35,7 +35,7 @@ a sequence file that is used as a **reference to describe variants** that are pr
 
 ## Reference Sequence Types
 
-Depending on the variants to be reported, different reference sequence files are used at the DNA, RNA or protein level. The type of reference sequence file used is indicated using a **prefix** preceding the variant description. Approved reference sequence types are **g.**, **m.**, **c.**, **n.**, **r.** and **p.**: 
+Depending on the variants to be reported, different reference sequence files are used at the DNA, RNA or protein level. It is mandatory to indicate the type of reference sequence file using a **prefix** preceding the variant description. Approved reference sequence types are **g.**, **m.**, **c.**, **n.**, **r.** and **p.**: 
 
 *	#### DNA
 	*	**g.**	=	[genomic reference sequence](#DNAg)
@@ -192,4 +192,4 @@ Depending on the variants to be reported, different reference sequence files are
 	:	To describe variants in genes that produce an RNA molecule but no protein a genomic reference sequence can be used ("**g.**" description). When a non-coding DNA reference sequence is available, e.g. a LRG (NR\_002196.1 for the H19 transcript) or a RefSeq transcript (NR\_000020.1 for the small nucleolar RNA, C/D box 33 (SNORD33) gene), variants can be described using the prefix "**n.**" see [_Community Consultation SVD-WG002_](/bg-material/community/SVD-WG002) and [_Nucleotide numbering_](/bg-material/numbering)).
 
 *	We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants?  Do I number it in relation to the EST or the genomic sequence?  Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?
-	:	Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants. When the EST sequence is incomplete you want to describe changes in relation to this sequence use AA010203.2:54\_55insG, i.e. do not use a "g." or "c." prefix since neither a coding DNA nor a genomic reference sequence is used.
+	:	Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants.
