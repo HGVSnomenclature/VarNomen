@@ -20,7 +20,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 		*	when variants are not reported in relation to a genomic reference sequence from a recent genome build, the preferred reference sequence is a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"}
 		*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
 		*	the reference sequence used must contain the residue(s) described to be changed. 
-	*	a **letter prefix** should be used to indicate the type of reference sequence used. Accepted prefixes are;
+	*	a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
 		*	"**g.**" for a genomic reference sequence
 		*	"**c.**" for a coding DNA reference sequence	
 		*	"**m.**" for a mitochondrial DNA reference sequence
