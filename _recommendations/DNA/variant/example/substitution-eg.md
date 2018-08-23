@@ -19,6 +19,7 @@ category: example
 *	NM_004006.1:c.123=
 	:	a screen was performed showing that nucleotide c.123 was a “C” as in the coding DNA reference sequence (the nucleotide was not changed).
 	:	_**NOTE**_: the description NM_004006.2:c.= indicates the entire NM_004006.2 coding DNA reference sequence was analysed and no change was identified.
+	:	_**NOTE**_: the description NC_000023.11(NM_004006.2):c.94-23_188+33= indicates no variants where found in the region specified (exon 3 of the DMD gene).
 *	LRG_199t1:c.85=/T>C
 	:	a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (c.85T>C)
 *	NM_004006.1:c.85=//T>C
