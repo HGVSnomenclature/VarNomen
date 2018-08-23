@@ -254,11 +254,14 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 ## ISCN cytogenetic band to chromosome positions
 
-At the p
+_**NOTE:**_  We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct. 
+
+To facilitate translating variant descriptions based on [_ISCN_](/bg-material/consultation/ISCN/) recommendations, human chromosomal band descrptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. 
+
 
 {:.table .table-bordered}
-|  Chromosome |   Band    |     Position (hg19)           |     Position (hg38)           |
-|:-----------:|:---------:|:-----------------------------:|:-----------------------------:|
+|  Chromosome |   Band    |     Position (hg19)         |     Position (hg38)         |
+|:-----------:|:---------:|:---------------------------:|:---------------------------:|
 | chr1 |  p36.33 | pter  (1) – 2300000 | pter  (1) – 2300000 |
 | chr1 |  p36.32 | 2300001 – 5400000 | 2300001 – 5300000 |
 | chr1 |  p36.31 | 5400001 – 7200000 | 5300001 – 7100000 |
@@ -1121,3 +1124,5 @@ At the p
 | chrY |  q11.223 | 22100001 – 26200000 | 19600001 – 23800000 |
 | chrY |  q11.23 | 26200001 – 28800000 | 23800001 – 26600000 |
 | chrY |  q12 | 28800001 – qter   (59373566) | 26600001 – qter   (57227415) |
+
+Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
