@@ -17,7 +17,7 @@ Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_
 **"Ter_position"**  =  normal translation termination site  =  Ter110<br>
 **"new_amino_acid"**  =  amino acid encoded by variant termination codon  =  Gln<br>
 **"ext"**  =  type of change is an extension =  ext<br>
-**"position_new_termination_site"**  =  position new downstream translation initiation site =  \*17
+**"position_new_termination_site"**  =  position new downstream translation termination site =  \*17
 
 ---
 
