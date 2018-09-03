@@ -16,7 +16,7 @@ category: example
 	:	_**NOTE**_: the variant can also be described as NM\_004006.1:c.145\_147delinsTGG, i.e. a [_deletion/insertion_](/recommendations/DNA/variant/substitution/). The deletion/insertion format is preferred unless either of the two variants (c.145C>T or c.147C>G) is known as a frequently occurring variant.
 *	LRG\_199t1:c.54G>H
 	:	a substitution of the G nucleotide at c.54 (coding DNA reference sequence) by A, C or T (IUPAC code "H", [_see Standards_](/bg-material/standards/))
-*	NM_\004006.1:c.123=
+*	NM\_004006.1:c.123=
 	:	a screen was performed showing that nucleotide c.123 was a “C” as in the coding DNA reference sequence (the nucleotide was not changed).
 	:	_**NOTE**_: the description NM\_004006.2:c.= indicates the entire NM\_004006.2 coding DNA reference sequence was analysed and no change was identified.
 	:	_**NOTE**_: the description LRG\_199t1:c.94-23_188+33= indicates no variants where found in the region indicated (exon 3 of the DMD gene).
