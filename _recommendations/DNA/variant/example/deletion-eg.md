@@ -10,7 +10,7 @@ category: example
 *	several nucleotides
 	*	NG\_012232.1:g.19\_21del
 	:	a deletion of nucleotides g.19 to g.21 in the sequence AGAA**<font color="red">TCA</font>**CA to AGAA**<font color="red">___</font>**CA
-	:	_**NOTE**_: it is allowed to describe the variant as NG\_012232.1:g.19\_21delTGC 
+	:	_**NOTE**_: it is allowed to describe the variant as NG\_012232.1:g.19\_21delTCA 
 	*	NG\_012232.1(NM\_004006.1):c.183\_186+48del
 	:	a deletion of nucleotides c.183 to c.186+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron/exon
