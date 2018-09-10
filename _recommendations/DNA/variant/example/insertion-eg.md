@@ -5,7 +5,7 @@ category: example
 ---
 
 *	NC\_000023.10:g.32867861\_32867862insT  (NM\_004006.2:c.169\_170insA)
-	:	the insertion of an T nucleotide between nucleotides g.32867861 and g.32867861 
+	:	the insertion of an T nucleotide between nucleotides g.32867861 and g.32867862 
 *	NC\_000023.10:g.32862923\_32862924insCCT (LRG\_199t1:c.240\_241insAGG)
 	:	the insertion of nucleotides CCT between nucleotides g.32862923 and g.32862924
 *	NC\_000023.10:g.32867907\_32867908insL37425.1:23\_361
