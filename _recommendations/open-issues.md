@@ -93,6 +93,7 @@ After careful consideration the decision was made **not to accept** this proposa
 
 ### Numbering gene flanking nucleotides
 
+<font color="#FF0000">The proposal has been REJECTED</font>
 The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](/bg-material/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
 
 *	c.-N-uM  =  nucleotide uM is at position -M upstream (u) of nucleotide c.-N, the transcription initiation site (cap-site) of the reference transcript, e.g. c.-237-u29A>G (currently c.-266A>G)
@@ -100,5 +101,4 @@ The current recommendation to describe variants based on a coding DNA reference 
 *	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
 	:	_**NOTE**_:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
 
-<font color="#FF0000">The proposal has been REJECTED</font>
-(i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of transcript reference sequences should be described based on a gene or chromosome reference sequence and not a reference sequence (c.) which does not contain the reference nucleotide.
+This proposal has been rejected since: (i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of a transcript can not be described based on a coding DNA reference sequence (c.), it does not contain the reference nucleotide, and should be described based on a gene or chromosome reference sequence. Use NC\_000023.10:g.33229820A>G or LRG\_199t1:c.-391T>C **and not** NC\_000023.10(NM\_004006.2):c.-244-u147T>C, LRG\_199t1:c.-244-147T>C or similar descriptions. 
