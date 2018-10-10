@@ -64,8 +64,8 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 *	"**<font color="red">&gt;</font>**" (greater than) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
 *	"**<font color="red">{ }</font>**" (curly braces) suggested for the description of variants in otherwise perfect copy sequences ([_see Open Issues_](/recommendations/open-issues#imperfectcopy)); g.24\_65dup{46G>T}	
 *	"**<font color="red">=</font>**" (equals) is used to indicate a sequence was tested but found unchanged; p.(Arg234=)
-*	"**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
-*	"**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
+*	"**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
+*	"**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
 
 * * *
 <a name="abbreviation"></a>
