@@ -88,7 +88,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   indel
     :   **HGVS**: confusing term, do not use
         :   _**sometimes**_: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides
-        :   _**sometimes**_: a variant which is a deletion or an insertion. [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=indel){:target="\_blank"}: a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or a sequence deletion 
+        :   _**sometimes**_: a variant which is a deletion or an insertion.
+        :   _**sometimes**_: (evolutionary biology) a type of variant in which a specific nucleotide sequence is present (insertion) or absent (deletion). 
+        :   [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=indel){:target="\_blank"}: a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or a sequence deletion 
 
 *   insertion
     *   one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
