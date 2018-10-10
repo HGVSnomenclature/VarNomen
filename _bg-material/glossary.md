@@ -32,6 +32,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   CDS
     :   coding DNA sequence.
+   
+*   cis
+    :   two variants are **"in cis"** when they are on the same allele (DNA molecule, chromosome).
     
 *   coding DNA
     :   the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
@@ -181,7 +184,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     *   one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 
     *   **HGVS**: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/substitution/), [_RNA_](/recommendations/RNA/variant/substitution/) or [_protein_](/recommendations/protein/variant/substitution/).
-
+   
+*   trans
+    :   two variants are **"in trans"** when they are on different alleles (DNA molecules, chromosomes).
+    
 *   translocation
     *   a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation){:target="\_blank"})
     *   **HGVS**: a sequence change where, compared to a reference sequence, from a specific nucleotide position (the break point) all nucleotides upstream derive from another chromosome then those down stream
