@@ -8,7 +8,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
 
 **"prefix"**  =  reference sequence used  =  g.<br>
 **"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127<br>
-**"delins"**  =  type of change is a deletion-insertion (indel)  =  delins<br>
+**"delins"**  =  type of change is a deletion-insertion  =  delins<br>
 **"inserted\_sequence"**  =  description inserted sequence  =  AG<br>
 
 ---
