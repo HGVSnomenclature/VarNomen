@@ -86,7 +86,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   an individual in which both alleles at a given locus are **identical** ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
     
 *   indel
-    :   **HGVS**: confusing term, do not use
+    :   **HGVS**: confusing term, not used
         :   _**sometimes**_: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides
         :   _**sometimes**_: a variant which is a deletion or an insertion.
         :   _**sometimes**_: (evolutionary biology) a type of variant in which a specific nucleotide sequence is present (insertion) or absent (deletion). 
