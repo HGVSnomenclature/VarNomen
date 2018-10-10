@@ -22,5 +22,8 @@ category: example
 	:	_**NOTE**_: the description LRG\_199t1:c.94-23_188+33= indicates no variants where found in the region indicated (exon 3 of the DMD gene).
 *	LRG\_199t1:c.85=/T>C
 	:	a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (c.85T>C)
+	:	_**NOTE**_: irrepesctive of the frequencey in which each nucleotide was found, the reference is always described first
 *	NM\_004006.1:c.85=//T>C
 	:	a chimeric case, i.e. the sample is a mix of cells containing c.85= and c.85T>C.
+	:	_**NOTE**_: irrepesctive of the frequencey in which each nucleotide was found, the reference is always described first
+	
