@@ -45,9 +45,12 @@ category: example
 	*	LRG\_199t1:c.(?\_-127)\_(31+1\_32-1)dup
 		:	a duplication starting somewhere upstream of the DMD gene, last postion tested duplicated c.-127, and ending in the intron between nucleotides c.31+1 and c.32-1 (intron 1).
 *	gene
-	*	LRG\_199t1:c.(?\_-1)\_(\*1\_?)dup
-		:	a duplication of the entire protein coding region of a gene (based on a coding DNA reference sequence).
-		:	_**NOTE**_: when more details are available regarding the duplication, based on the probes tested to determine its location, the description can be specified like c.(?\_-189)\_(\*884\_?)dup, meaning the duplication starts 5' of c.-189 and extends 3' of c.\*884.
+	*	NC\_000023.11:g.(31060227\_31100351)\_(33274278\_33417151)dup
+	:	a duplication of the entire DMD gene based on a SNP-array analysis where the maximum size of the duplication lies between SNPs rs396303 and rs7887548 (nucleotides 31060227 and 33417151) and the minimum size between SNPs rs808178 and rs7887103 (nucleotides 31100351 and 33274278). Describing the duplication based on a coding DNA reference sequence using NC\_000023.11(NM\_004006.2):c.(-205839\_-62966)\_(\*21568\_\*61692)dup makes no sense.
+	:	_**NOTE**_: the array analysis detects an extra copy of the sequences and it has to be determined whether it is a duplication. When it is not sure the variant is a duplication the variant should be described as an insertion, g.?\_?insNC\_000023.11:(31060227\_31100351)\_(33274278\_33417151)
+	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)dup
+	:	a duplication of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons. Based on a coding DNA reference sequence the duplication can be described as NC\_000023.11(NM\_000109.3):c.(?\_-212)\_(\*1423\_?)dup.
+	:	_**NOTE**_: the MLPA analysis detects an extra copy of the sequences and it has to be determined whether it is a duplication. When it is not sure the variant is a duplication the variant should be described as an insertion, g.?\_?insNC\_000023.11:(?\_31120496)\_(33339477\_?)
 *	NG\_012232.1:g.19\_21=/dup
 :	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a duplication of this sequence
 *	NG\_012232.1:g.19\_21=//dup
