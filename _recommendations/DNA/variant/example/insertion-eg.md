@@ -20,7 +20,7 @@ category: example
 	:	a copy of nucleotides c.850 to c.900 is inserted, in inverted orientation, 5' of the original sequence, between nucleotide c.849 and c.850
 	*	NM\_004006.2:c.900\_901ins850\_900inv
 	:	a copy of nucleotides c.850 to c.900 is inserted, in inverted orientation, 3' of the original sequence, between nucleotide c.900 and c.901
-	*	LRG_199t1:c.940\_941ins[885\_940inv;884G>A;851\_883inv]
+	*	LRG_199t1:c.940\_941ins[885\_940inv;A;851\_883inv]
 	:	an inverted copy of nucleotides c.851 to c.940, with a G>A substitution of nucleotide c.884, is inserted directly 3' of the original sequence
 	*	NM\_004006.2:c.940\_941ins[903\_940inv;851\_885inv]
 	:	an inverted copy of nucleotides c.851 to c.940, with a deletion from nucleotides c.886 to c.902, is inserted directly 3' of the original sequence
