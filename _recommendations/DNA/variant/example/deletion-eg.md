@@ -42,7 +42,7 @@ category: example
 *	gene
 	*	NC\_000023.11:g.(31060227\_31100351)\_(33274278\_33417151)del
 	:	a deletion of the entire DMD gene based on a SNP-array analysis where the maximum size of the deletion lies between SNPs rs396303 and rs7887548 (nucleotides 31060227 and 33417151) and the minimum size between SNPs rs808178 and rs7887103 (nucleotides 31100351 and 33274278). Based on a coding DNA reference sequence the deletion can be best described as c.0 (using NC\_000023.11(NM\_004006.2):c.(-205839\_-62966)\_(\*21568\_\*61692)del makes no sense).
-	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)del (NM\_004006.2):c.(?\_-1)\_(\*1\_?)del
+	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)del
 	:	a deletion of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons. Based on a coding DNA reference sequence the deletion can be described as c.0 or NC\_000023.11(NM\_000109.3):c.(?\_-212)\_(\*1423\_?)del.
 *	NG\_012232.1:g.19\_21=/del
 :	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a deletion of this sequence
