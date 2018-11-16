@@ -17,6 +17,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
 
 *	**prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 *	by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [_substitution_](/recommendations/RNA/variant/substitution/).
-*	two variants separated by one or more nucleotides should preferably be described individually and not as a “delins”
-	*	two variants separated by one nucleotide, together affecting one amino acid, can be described as a “delins” (e.g. r.142_144delinsugg (p.Arg48Trp))
+*	two variants separated by one or more nucleotides should preferably be described individually and **not** as a "delins"
+	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. c.142\_144delinsTGG (p.Arg48Trp)).
+	:	**_NOTE:_**	this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been 
