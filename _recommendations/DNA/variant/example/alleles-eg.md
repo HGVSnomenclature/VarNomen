@@ -12,6 +12,7 @@ category: example
 *	**variants on two alleles**
 	*	LRG\_199t1:c.[2376G>C];[3103del]
 	:	the two alleles (chromosomes) of a gene each contain a different change, c.2376G>C and c.3103del. The variants are found **in trans**. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease).
+	:	_**NOTE**_: do not use c.[2376G>C;3103=];[2376=;3103del], the indication "not changed" is used only when one variant was identified (like LRG\_199t1:c.[2376G>C];[2376=])
 	*	LRG\_199t1:c.[2376G>C];[2376G>C]
 	:	both alleles (chromosomes) of a gene contain the same variant, c.2376G>C. A **homozygous** case (e.g. in a recessive disease).
 	:	_**NOTE**_: it is not allowed to shorten this to c.2376[G>C];[G>C] or even c.2376G>C[];[]
