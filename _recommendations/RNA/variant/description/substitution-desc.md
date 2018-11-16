@@ -21,5 +21,5 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 * two variants separated by one or more nucleotides should preferably be described individually and not as a “delins”
  * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a “delins” (e.g. r.142\_144delinsugg (p.Arg48Trp)).
  _**NOTE:**_ this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
-*	nucleotides that have been tested and found **not changed** are described as r.109u= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).
+*	nucleotides that have been tested and found **not changed** are described as r.109u=, r.4567_4569= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).
 *	it is not correct to describe "_polymorphisms_" as r.76a/g ([_see Discussions_](/recommendations/RNA/variant/substitution/#polymorphism)).
