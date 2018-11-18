@@ -24,8 +24,8 @@ category: example
 	:	an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
 *	LRG_199t1:r.85=/u>c
 	:	a mosaic case where at position 85 besides the normal sequence (a U, described as “=”) also transcripts are found containing a C (r.85u>c)
-	:	_**NOTE**_: irrepesctive of the frequencey in which each nucleotide was found, the reference is always described first
+	:	_**NOTE**_: irrespective of the frequency in which each nucleotide was found, the reference is always described first
 *	LRG_199t1:r.85=//u>c
 	:	a chimeric case, i.e. the sample is a mix of cells containing r.85= and r.85u>c.
-	:	_**NOTE**_: irrepesctive of the frequencey in which each nucleotide was found, the reference is always described first
+	:	_**NOTE**_: irrespective of the frequency in which each nucleotide was found, the reference is always described first
 	
