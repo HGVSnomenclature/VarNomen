@@ -14,9 +14,10 @@ order: 5
 
 The format of a complete variant description is **reference:description**, e.g.;
 
-	*	NM\_004006.2:c.4375C>T
+	*	NM_004006.2:c.4375C>T
+	*	NC_000023.11:g.32389644G>A
 
-All variants are described in relation to a **reference**, the so called reference sequence, in the example **NM\_004006.2**. After the reference a description of the variant is given, in the example **c.4375C>T**.
+All variants are described in relation to a reference, the so called **reference sequence**, in the examples **NM\_004006.2** and **NC\_000023.11**. After the reference a description of the variant is given, in the examples **c.4375C>T** and **g.32389644G>A**.
 
 A description without a reference sequence is near useless, additional information will then be required to **guess** what reference may have been used, e.g. the name of the gene containing the variant, the associated phenotype studied (disease), the chromosome number and possibly predicted consequences of the variant on the RNA and/or protein) level. Furthermore, since reference sequences usually change over time, the date of the report can give useful information as well.
 
