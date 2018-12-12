@@ -9,7 +9,9 @@ permalink: /bg-material/consultation/
 
 * * * 
 
-HGVS nomenclature falls under the responsibility of the SVD-WG ([_Sequence Variant Description Working Group_](/bg-material/basics/)). The SVD-WG handles requests to change or extend HGVS nomenclature operating according to a charter defining its activities ([see HVP website](http://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html){:target="\_blank"}) and involving a **Community Consultation** step. Any proposal made by the SVD-WG will be **published on this web page**. When published, the proposal is open for comments for a 2-month period ([_register for email notification_](/bg-material/basics/)). Everybody interested is asked to study the proposal and send comments, positive or negative, to the SVD-WG. Comments to proposals should be addressed to “Varnomen @ variome.org”, Subject: SVD-WGxxx (xxx the proposal number, e.g. SVD-WG001).
+HGVS nomenclature falls under the responsibility of the SVD-WG ([_Sequence Variant Description Working Group_](/bg-material/basics/)). The SVD-WG handles requests to change or extend HGVS nomenclature operating according to a charter defining its activities ([see HVP website](http://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html){:target="\_blank"}) which includes a **Community Consultation** step. Any proposal made by the SVD-WG will be **published on this web page**. When published, the proposal is open for comments for a 2-month period. Everybody interested is asked to study the proposal and send comments, positive or negative, to the SVD-WG. Comments to proposals should be addressed to “Varnomen @ variome.org”, Subject: SVD-WGxxx (xxx the proposal number, e.g. SVD-WG001).
+
+To ensure you **do not miss** a new proposal [_please register for e-mail notification_](/bg-material/basics/)). Those registered will also receive notification when the HGVS nomenclature version number changes.
 
 * * *
 
