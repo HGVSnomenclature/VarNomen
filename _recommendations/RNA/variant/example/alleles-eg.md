@@ -15,8 +15,8 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 	*	NM\_004006.2:r.[76a>u];[76a>u]
 	:	both transcript alleles contain the same variant, r.76a>u. A **homozygous** case (e.g. in a recessive disease).
 	:	_**NOTE**_: LRG\_199t1:r.[76a>u];[(76a>u)] indicates analysis detects one variant (r.76a>u), suggesting both transcript alleles contain this variant, but it can not be excluded the other allele is deleted or not expressed.
-	*	LRG_199t1:r.[76a>u];[76a=]
-	:	one transcript allele contains a variant, r.76a>u, the other transcript allele contains at position r.76 the reference sequence, r.76a= (is **wild-type**).
+	*	LRG_199t1:r.[76a>u];[76=]
+	:	one transcript allele contains a variant, r.76a>u, the other transcript allele contains at position r.76 the reference sequence, r.76= (is **wild-type**).
 	:	_**NOTE**_: the description r.[76a>u];[=], containing r.76a>u and r.=, is different since it indicates the entire coding RNA reference sequence was analysed and the only variant identified was r.76a>u (on one allele).
 	*	NM\_004006.2:r.[76a>u];[?]
 	:	one transcript allele contains a variant, r.76a>u, while a variant in the other transcript allele is expected but not yet identified (r.?) (e.g. in individuals affected by a recessive disease).
