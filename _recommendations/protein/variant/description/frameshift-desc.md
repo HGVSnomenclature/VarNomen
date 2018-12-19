@@ -27,7 +27,8 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 	*	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 	*	the (predicted) amino acid changes of additional variants on the same allele (in cis) downstream of the frame shift are not described unless they change the length of the shifted reading frame (i.e. introduce an earlier translational termination codon or affect the termination codon of the shifted frame). 	
 	*	frame shifts can also be described using a **short format**; p.Arg123fs i.e. indicating the first amino acid changed, its position and "fs" without further detail.
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
-*	deletions starting 5’ of and including the translation termination (stop) codon are described as [_Deletion_](/recommendations/protein/variant/deletion/)
+*	insertions encoding an open reading frame but then shifting to another reading in the original sequence are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
+*	deletions starting 5’ of and including the translation termination (stop) codon are described as [_**frame shift**_](/recommendations/protein/variant/frameshift/)
 *	insertions from intron sequences which give premature translation termination are described as frame shifts, intron insertions maintaining the normal open reading are described as [_Insertion_](/recommendations/protein/variant/insertion/) or [_Deletion-insertion_](/recommendations/protein/variant/delins/)
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
 *	variants should be described on the protein level and not incorporate any knowledge regarding the change at DNA-level ([_see Discussion_](/recommendations/protein/variant/frameshift/#protonly)).
