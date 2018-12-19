@@ -28,7 +28,7 @@ For issues currently discussed see [_Open for Community Consultation_](/bg-mater
 	*	SVD-WG005 (_gom/lom_)
 		:	allows descriptions of changes in general methylation status like g.123_456|lom  
 
-*	_**ISCN extension**_
+*	_**Named extension ISCN**_
 	:	Proposal [_SVD-WG004_](/bg-material/consultation/svd-wg004/) (ISCN<>HGVS) has been accepted a "named extension ISCN"
 
 *	_**Version 15.11**_
