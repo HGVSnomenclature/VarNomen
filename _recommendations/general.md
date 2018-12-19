@@ -21,12 +21,13 @@ Since references to web sites are not yet acknowledged as citations, please ment
 		*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
 		*	the reference sequence used must contain the residue(s) described to be changed. 
 	*	a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
-		*	"**g.**" for a genomic reference sequence
 		*	"**c.**" for a coding DNA reference sequence	
+		*	"**g.**" for a linear genomic reference sequence
 		*	"**m.**" for a mitochondrial DNA reference sequence
 		*	"**n.**" for a non-coding DNA reference sequence
-		*	"**r.**" for an RNA reference sequence (transcript)
+		*	"**o.**" for a circular genomic reference sequence
 		*	"**p.**" for a protein reference sequence
+		*	"**r.**" for an RNA reference sequence (transcript)
 	*	numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** ([_see Numbering_](/bg-material/numbering))
 *	**3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
