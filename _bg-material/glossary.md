@@ -51,22 +51,22 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   used in cases of _autosomal recessive_ disease where the disease-causing variants on both alleles at a given locus are **not identical** (opposite of _homozygous_)
     
 *   conversion
-    :   **HGVS**: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
+    :   **HGVS**-DNA: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/conversion/) or  [_RNA_](/recommendations/RNA/variant/conversion/).
 
 *   deletion
     *   one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
-    *   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
+    *   **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/deletion/), [_RNA_](/recommendations/RNA/variant/deletion/) or [_protein_](/recommendations/protein/variant/deletion/).
 
 *   deletion-insertion (delins)
     *   one or more letters in the DNA code are missing and replaced by several new letters
-    *   **HGVS**: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion.
+    *   **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/indel/), [_RNA_](/recommendations/RNA/variant/indel/) or [_protein_](/recommendations/protein/variant/indel/).
 
 *   duplication
     *   one or more letters of the DNA code are present twice (doubled, duplicated)
-    *   **HGVS**: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.
+    *   **HGVS**-DNA: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.
     :    _**NOTE:**_ diagnostic assays (like MLPA) usually detect _**an additional copy**_ of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/), [_RNA_](/recommendations/RNA/variant/duplication/) or [_protein_](/recommendations/protein/variant/duplication/).
 
@@ -75,6 +75,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 *   extension
     :   a sequence change extending the normal amino acid sequence at the N- or C-terminal end with one or more amino acids ([_protein_](/recommendations/protein/variant/extension/))
+
+*   frame shift
+    :   a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](/recommendations/protein/variant/frameshift/))
 
 *   hemizygous
     :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
@@ -94,14 +97,14 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   insertion
     *   one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
-    *   **HGVS**: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.
+    *   **HGVS**-DNA: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/insertion/), [_RNA_](/recommendations/RNA/variant/insertion/) or [_protein_](/recommendations/protein/variant/insertion/).
 
 *   intron
     :   any nucleotide sequence within a gene which, during maturation of the RNA transcript, is removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Intron){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68007438){:target="\_blank"}). Every intron is flanked by two **exons**.
 
 *   inversion
-    :   **HGVS**: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.
+    :   **HGVS**-DNA: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/inversion/) or [_RNA_](/recommendations/RNA/variant/inversion/).
     
 *   ISCN
@@ -162,7 +165,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   silent
     *   a variant in a DNA sequence that does not change the amino acid sequence of the encoded protein (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=silent){:target="\_blank"}).
-    *   **HGVS**: a variant in a protein sequence where compared to the reference sequence the DNA sequenced changed but not the translated amino acid (i.e. the translated codon did change).
+    *   **HGVS**: an amino acid residue in a protein sequence where compared to the reference sequence the DNA sequence changed but not the encoded amino acid.
     
 *   SNP
     :   Single Nucleotide Polymorphism (SNP). Note the preferred term is SNV (Single Nucleotide Variant), [_see polymorphism_](#polymorphism)
@@ -184,7 +187,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 *   substitution
     *   one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 
-    *   **HGVS**: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
+    *   **HGVS**-DNA: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/substitution/), [_RNA_](/recommendations/RNA/variant/substitution/) or [_protein_](/recommendations/protein/variant/substitution/).
    
 *   trans
