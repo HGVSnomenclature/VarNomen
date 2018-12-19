@@ -35,11 +35,12 @@ a sequence file that is used as a **reference to describe variants** that are pr
 
 ## Reference Sequence Types
 
-Depending on the variants to be reported, different reference sequence files are used at the DNA, RNA or protein level. It is mandatory to indicate the type of reference sequence file using a **prefix** preceding the variant description. Approved reference sequence types are **g.**, **m.**, **c.**, **n.**, **r.** and **p.**: 
+Depending on the variants to be reported, different reference sequence files are used at the DNA, RNA or protein level. It is mandatory to indicate the type of reference sequence file using a **prefix** preceding the variant description. Approved reference sequence types are **c.**, **g.**, **m.**, **n.**, **o.**, **p.** and **r.**: 
 
 *	#### DNA
 	*	**g.**	=	[genomic reference sequence](#DNAg)
-	*	**m.**	=	[mitochondrial reference](#DNAg)
+	*	**o.**	=	[circular genomic reference](#DNAo)
+	*	**m.**	=	[mitochondrial reference](#DNAg) (special case of a circular genomic reference sequence)
 	*	**c.**	=	[coding DNA reference sequence](#DNAc) (based on a protein coding transcript)
 	*	**n.**	=	[non-coding DNA reference sequence](#DNAn) (based on a transcript not coding for a protein)
 *	#### RNA
@@ -51,25 +52,33 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#DNAg}
 
-### DNA - genomic reference sequence
+### DNA - genomic reference sequence (g.)
 
 *	the recommended DNA reference is a genomic reference sequence
-	:	genomic reference sequences includes a mitochondrial sequence, chloroplast sequences, plasmid sequence, viral resuence, etc. and those base on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ build GRCh37/hg19)
-	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
+	:	genomic reference sequences include all **linear** DNA molecules and are preferably based on a recent genome build, e.g. NC\_000023.11 (for _Homo sapiens_ build GRCh38/hg39)
 	:	_**NOTE:**_  for diagnostic applications a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/){:target="\_blank"}, e.g. LRG\_199 ([_see Dalgleish 2010_](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"}, or [_MacArthur 2014_](http://nar.oxfordjournals.org/content/42/D1/D873.full.pdf){:target="\_blank"}, can be used in addition
 		* 	when for a gene of interest **no LRG** is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}. 
 		*	"**pending**” LRGs should not be used, they might change before being approved
 		*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NG\_012232.1 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
-*	a genomic reference sequence;
+*	a gene-based genomic reference sequence (NG_, LRG_);
 	*	should include all known exons and cover all known transcripts
 	*	to facilitate the description of variants in immediate gene flanking regions (e.g. the promoter region), should contain several kilobases of 5' upstream (recommended is 5 kb) and 3' downstream (recommended 2 kb) sequences
 *	when a complete genomic reference sequence is not available, a coding DNA reference sequence should be used.
-*	for complex genes computational tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter){:target="\_blank"} can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
+*	tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter){:target="\_blank"} and [Variant Validator](http://www.variantvalidator.org){:target="\_blank"} can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
+
+
+{:#DNAo}
+
+### DNA - Cicular genomic reference sequence (o.)
+
+*	a cicular genomic reference sequence is, by definition, a genomic reference sequence. To discriminate **circular** genomic reference sequences from genomic reference sequences based on a **linear** DNA molecule, the **o.** prefix is used.
+	:	circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.
+	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
 
 {:#DNAm}
 
-### DNA - Mitochondrial reference sequence
+### DNA - Mitochondrial reference sequence (m.)
 
 *	a mitochondrial reference sequence is, by definition, a genomic reference sequence.  However, since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
 *	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
@@ -78,7 +87,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#DNAc}
 
-### DNA - coding DNA reference sequence
+### DNA - coding DNA reference sequence (c.)
 
 *	the preferred coding DNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
@@ -96,7 +105,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#DNAn}
 
-### DNA - non-coding DNA reference sequence
+### DNA - non-coding DNA reference sequence (n.)
 
 *	the preferred non-coding DNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
@@ -112,7 +121,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#RNAr}
 
-### RNA reference sequence
+### RNA reference sequence (r.)
 
 *	the preferred RNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
@@ -130,7 +139,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#proteinp}
 
-### Protein reference sequence
+### Protein reference sequence (p.)
 
 *	the preferred protein reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
