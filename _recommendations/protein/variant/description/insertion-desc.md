@@ -16,15 +16,15 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 ### Note
 
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser728insTrpCys).
-*	an insertion can not be described using **one** amino acid position, like p.Lys23insAsp
 *	the "amino\_acids+positions\_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25)
-*	duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/variant/duplication/)), not as insertion
-*	**in-frame** insertions containing a translation stop codon in the inserted sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence
-*	**out-of-frame** insertions are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)<br>
-_**NOTE**_:	insertions from intron sequences which maintain the normal open reading are described as insertion or [_Deletion-insertion_](/recommendations/protein/variant/insdel/), intronic insertions which give premature translation termination are described as [_frame shift_](/recommendations/protein/variant/frameshift/)
+	*	an insertion can not be described using **one** amino acid position, like p.Lys23insAsp
+	*	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only, e.g. p.Lys2\_Leu3ins(34)
+	*	duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/variant/duplication/)), not as insertion
+*	insertions **containing a translation stop codon** in the inserted sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence
+*	insertions encoding an open reading frame but shifting to another reading of the original sequence are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)<br>
+*	insertions from intron sequences which maintain the normal open reading are described as insertion or [_Deletion-insertion_](/recommendations/protein/variant/insdel/), intronic insertions which give premature translation termination are described as [_frame shift_](/recommendations/protein/variant/frameshift/)
+*	insertions **in** the translation termination (stop) codon, extending the reading frame, are described as [_Extension_](/recommendations/protein/variant/extension)
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 	*	the 3'rule also applies for changes in single amino acid stretches and tandem repeats
-*	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
-*	insertions **in** the translation termination (stop) codon, extending the reading frame, are described as [_Extension_](/recommendations/protein/variant/extension)
-*	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Lys2\_Leu3ins(34) ).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser728insTrpCys).
+*	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level.
