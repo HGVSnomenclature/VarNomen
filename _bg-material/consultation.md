@@ -36,7 +36,7 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 *   [SVD-WG004]({{site.baseurl}}/bg-material/consultation/svd-wg004/) (ISCN<>HGVS)
     :   suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.
     :   **Status**: <font color="red">accepted</font>. Closed Jan.15 (2016). Opened Nov.10 (2015).
-    :   **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"ISCN extension"** ([_a named extension_](/versioning/)).
+    :   **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([_named extension_](/versioning/)).
 
 *   [SVD-WG003]({{site.baseurl}}/bg-material/consultation/svd-wg003/) (exon del/dup)
     :   suggested to describe exon deletions/duplications using the format c.(233+1\_234-1)_(1234+1\_1235-1)del.
