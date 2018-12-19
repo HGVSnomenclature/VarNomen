@@ -3,7 +3,7 @@ layout: recommendation
 parent: Protein
 title: duplication
 definition: 
-    Duplication: a sequence change where, compared to a reference sequence, a copy of one or more amino acids are inserted <b>directly C-terminal</b> of the original copy of that sequence.
+    Duplication: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, a copy of one or more amino acids are inserted <b>directly C-terminal</b> of the original copy of that sequence.
 discussion:
     Why do we not describe a duplication as an insertion?: Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly".</li></ul>
     How should I describe the change "MetArgThr<b>GlySerSer</b>HisGlnTrpPhe" to "MetArgThr<b>GlySerSer</b>His<b>GlySerSer</b>GlnTrpPhe"?  The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event.: The variant should be described as an insertion; p.His7_Gln8insGly4_Ser6. A description using "dup" is not correct since, by definition, a duplication should be <b>directly 3'-flanking of the original copy</b> (in tandem). Note that the description given still makes it clear that the sequence inserted between p.His7 and pGln8 is probably derived from nearby, i.e. position p.Gly4 to p.Ser6, and thus likely derived from a duplicative event.
