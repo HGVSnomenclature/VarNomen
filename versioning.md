@@ -23,7 +23,7 @@ For issues currently discussed see [_Open for Community Consultation_](/bg-mater
 
 *	_**Version 19.01**_
 	:	Accepted proposals include [_SVD-WG005_](/bg-material/consultation/svd-wg005/) and [_SVD-WG006_](/bg-material/consultation/svd-wg006/):
-	*	SVD-WG005 (_circular DNA_)
+	*	SVD-WG006 (_circular DNA_)
 		:	allows descriptions like o.16000_100del  
 	*	SVD-WG005 (_gom/lom_)
 		:	allows descriptions of changes in general methylation status like g.123_456|lom  
