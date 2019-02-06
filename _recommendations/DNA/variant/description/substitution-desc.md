@@ -17,7 +17,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 ### Note
 
 *	**prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
-*	changes involving two or more consecutive nucleotides are described as deletion/insertions (indels) ([_see Deletion/insertion (indel)_](/recommendations/DNA/variant/indel/)).
+*	changes involving two or more consecutive nucleotides are described as deletion/insertions (indels) ([_see Deletion/insertion (delins)_](/recommendations/DNA/variant/delins/)).
 * two variants separated by one or more nucleotides should preferably be described individually and not as a “delins”
  * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a “delins” (e.g. c.142\_144delinsTGG (p.Arg48Trp)).
  _**NOTE:**_ this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
