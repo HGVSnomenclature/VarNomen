@@ -18,6 +18,7 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. g.123\_1
 *	**prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 *	the "position" description should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
 *	an insertion can not be described using one nucleotide position, like g.123insG
+*	the **"inserted_sequence"** can be given as the nucleotides inserted (e.g. insAGC) or, for larger insert sequences, by referring to the sequence in the reference sequence (e.g. c.849_850ins858_895) or another reference (see Examples).
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 *	tandem duplications are described as a duplication (g.123\_456**dup**), not an insertion (g.456\_457ins123\_456)
