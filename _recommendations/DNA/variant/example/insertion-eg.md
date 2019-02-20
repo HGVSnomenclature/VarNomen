@@ -4,12 +4,15 @@ title: insertion
 category: example
 ---
 
-*	NC\_000023.10:g.32867861\_32867862insT  (NM\_004006.2:c.169\_170insA)
+*	simple insertions
+	*	NC\_000023.10:g.32867861\_32867862insT  (NM\_004006.2:c.169\_170insA)
 	:	the insertion of an T nucleotide between nucleotides g.32867861 and g.32867862 
-*	NC\_000023.10:g.32862923\_32862924insCCT (LRG\_199t1:c.240\_241insAGG)
+	*	NC\_000023.10:g.32862923\_32862924insCCT (LRG\_199t1:c.240\_241insAGG)
 	:	the insertion of nucleotides CCT between nucleotides g.32862923 and g.32862924
-*	NC\_000023.10:g.32867907\_32867908insL37425.1:23\_361
-	: 	the insertion of nucleotides 23 to 361 as described in GenBank file L37425.1 between nucleotides g.32867907 and g.32867908
+	*	NM\_004006.2:c.849\_850ins858\_895
+	:	the insertion of a copy of nucleotids c.858 to c.895 between nuclotides c.849 and c.850
+	*	NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
+	:	the insertion of nucleotides g.35788169 and g.35788352 as found in NC\_000022.10 between nucloetides g.47643464 and g.47643465
 *	complex insertions
 	*	NM\_004006.2:c.419\_420ins[T;401\_419]
 	:	the insertion of T followed by a copy of the sequence from c.401 to c.419 (a duplication not directly flanking the original sequence)
