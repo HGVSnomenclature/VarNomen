@@ -12,7 +12,7 @@ category: example
 	*	NM\_004006.2:c.20\_23dup (NC\_000023.10:g.33229407\_33229410dup)
 	:	a duplication from position c.20 to c.23 in the sequence AGAAGTAGAGG to AGAAGTAGA**<font color="red">TAGA</font>**GG
 	:	_**NOTE**_: it is allowed to describe the variant as c.20\_23dupTAGA
-	*	LRG\_199t:c.260\_264+48dup (NC\_000023.10:g.32862852\_32862904dup)
+	*	LRG\_199t1:c.260\_264+48dup (NC\_000023.10:g.32862852\_32862904dup)
 	:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron/exon
 	*	exon/exon
