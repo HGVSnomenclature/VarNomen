@@ -24,7 +24,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 	*	the 3'rule ("C-terminal rule") also applies for changes in single amino acid stretches and tandem repeats
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser728insTrpCys).
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level.
-	*	insertions **containing a translation stop codon** in the inserted DNA sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence
-	*	insertions encoding an open reading frame but after the inserted DNA sequence shifting to another reading are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
+	*	insertions **containing a translation stop codon** in the inserted sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence
+	*	insertions encoding an open reading frame but after the inserted sequence shifting to another reading are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
 	*	insertions from intron sequences which maintain the normal open reading are described as insertion or [_Deletion-insertion_](/recommendations/protein/variant/insdel/), intronic insertions which give premature translation termination are described as [_frame shift_](/recommendations/protein/variant/frameshift/)
 	*	insertions extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension)
