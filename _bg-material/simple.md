@@ -74,7 +74,7 @@ A standard variant description has the format **"prefix\_position(s)\_change"**.
 
 ### Types of variants
 
-All variants given are in the DMD gene and reported in relation to coding DNA reference sequence NM\_004006.2.
+All variants given are in the DMD gene and reported in relation to coding DNA reference sequence LRG\_199t1 (NM\_004006.2).
 
 *	substitution
 	:	one letter (nucleotide) of the DNA code is replaced (substituted) by one other letter. A substitution is indicated using **">"**.
@@ -83,17 +83,17 @@ All variants given are in the DMD gene and reported in relation to coding DNA re
 *	deletion
 	:	one or more letters of the DNA code are missing (deleted). A deletion is indicated using **"del"**.
 	*	c.4375\_4379del
-		:	the nucleotides from position c.4375 to c.4379 (GATT) are missing (deleted). Also reported as c.4375\_4379delGATT.
+		:	the nucleotides from position c.4375 to c.4379 (CGATT) are missing (deleted). Often reported as c.4375\_4379delCGATT.
 *	duplication
 	:	one or more letters of the DNA code are present twice (doubled, duplicated). A duplication is indicated using **"dup"**.
 	*	c.4375\_4385dup
-		:	the nucleotides from position c.4375 to c.4385 (GATTATTCCA) are present twice (duplicated). Also reported as c.4375\_4385dupGATTATTCCA or c.4385\_4386insGATTATTCCA (not a correct HGVS description).
+		:	the nucleotides from position c.4375 to c.4385 (CGATTATTCCA) are present twice (duplicated). Often reported as c.4375\_4385dupCGATTATTCCA or c.4385\_4386insCGATTATTCCA (not a correct HGVS description).
 *	insertion
 	:	one or more letters in the DNA code are new (inserted). An insertion is indicated using **"ins"**.
 	*	c.4375\_4376insACCT
 		:	the new sequence "ACCT" was found inserted between positions c.4375 and c.4376.
 *	deletion/insertion (indel)
-	:	one or more letters in the DNA code are missing and replaced by several new letters. An deletion/insertion is indicated using **"delins"**.
+	:	one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
 	*	c.4375\_4376delinsAGTT
 		:	the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375\_4376delCGinsAGTT
 	
