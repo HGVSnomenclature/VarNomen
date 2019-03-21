@@ -9,8 +9,9 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. r.123\_1
 **"prefix"**  =  reference sequence used  =  r.<br>
 **"positions_flanking"**  =  position two nucleotides flanking insertion site  =  123\_124<br>
 **"ins"**  =  type of change is an insertion  =  ins<br> 
-**"inserted_sequence"**  =  inserted sequence  =  auc
+**"inserted_sequence"**  =  inserted sequence  =  auc <sup>1</sup>
 
+[_1_ see Uncertain](http://www.ncbi.nlm.nih.gov/genbank/submit/)
 ---
 
 ### Note
