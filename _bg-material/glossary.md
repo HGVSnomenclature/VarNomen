@@ -16,7 +16,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   3'rule
     :    for all descriptions the most 3’ position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3) 
 *   allele
-    :   variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"})
+    :   variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele){:target="\_blank"})
     :   **HGVS**: a series of variants on one chromosome.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/alleles/), [_RNA_](/recommendations/RNA/variant/alleles/) or [_protein_](/recommendations/protein/variant/alleles/).
 
@@ -80,13 +80,13 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](/recommendations/protein/variant/frameshift/))
 
 *   hemizygous
-    :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
+    :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=hemizygous){:target="\_blank"}).
     
 *   heterozygous
-    :   an individual in which both alleles at a given locus are **not identical** (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
+    :   an individual in which both alleles at a given locus are **not identical** (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=heterozygous){:target="\_blank"}).
     
 *   homozygous
-    :   an individual in which both alleles at a given locus are **identical** ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}).
+    :   an individual in which both alleles at a given locus are **identical** ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=homozygous){:target="\_blank"}).
     
 *   indel
     :   **HGVS**: confusing term, not used
