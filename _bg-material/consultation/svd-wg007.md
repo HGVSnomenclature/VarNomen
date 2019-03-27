@@ -25,3 +25,9 @@ The proposal suggests to extend the HGVS recommendations with a format to decrib
 *	deletion fusion
 	:	NM\_002354.2:r.-358_555::NM\_000251.2:r.212\_\*279
 	:	EPCAM-MSH2 fusion transcript where nucleotides r.-358 to r.555 (reference transcrip NM\_002354.2, EPCAM gene) are coupled to nucleotides r.212 to r.\*279 (reference transcript NM\_000251.2, MSH2 gene)
+
+* * *
+
+#### NOTE
+
+All fusion transcripts are described using the same format irrepsective of whether they derive from inter-chromosomal or intra chromosomal rearrangements (translocation, deletion, inversion)
