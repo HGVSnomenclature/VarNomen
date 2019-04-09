@@ -78,6 +78,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   frame shift
     :   a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](/recommendations/protein/variant/frameshift/))
+    
+*   fusion transcript
+    :   a transcript (RNA molecule) which consist of parts of transcripts from two or more genes
 
 *   hemizygous
     :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=hemizygous){:target="\_blank"}).
