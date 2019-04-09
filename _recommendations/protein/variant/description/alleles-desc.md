@@ -32,5 +32,4 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)
 *	when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]".
 *	when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant**<font color="red">(;)</font>**variant2", i.e. without using "[ ]".<br>
 _**NOTE:**_ it is recommended to determine whether the changes are in the same protein or not.
-*	parentheses enclosing **predicted** protein variants are listed **around each** variant and **inside** the square brackets of the allele; p.[<font color="red">(</font>variant1<font color="red">)</font>;<font color="red">(</font>variant2<font color="red">)</font>]
 *	when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<font color="red">,</font>"; p.[variant1<font color="red">,</font>variant2]".
