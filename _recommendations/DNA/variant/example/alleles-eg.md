@@ -9,6 +9,10 @@ category: example
 	:	one allele (chromosome) of a gene contains two different changes, c.2376G>C and c.3103del. The variants are found **in cis**.
 	*	NC\_000023.10:g.[30683643A>G;33038273T>G]
 	:	one allele (X-chromosome) contains two different variants in two different genes, g.30683643A>G in the GK gene and g.33038273T>G in the DMD gene.
+	*	NC\_000003.12:g.63912687AGC[(50\_60)]
+	:	one allele (chromosome 3) contains a repeated AGC tri-nucleotide sequence, starting at position g.6391268, containing 50 to 60 AGC copies
+	*	NC\_000003.12:g.63912687AGC[(60_?)]
+	:	one allele (chromosome 3) contains a repeated AGC tri-nucleotide sequence, starting at position g.6391268, containing 60 or more AGC copies
 *	**variants on two alleles**
 	*	LRG\_199t1:c.[2376G>C];[3103del]
 	:	the two alleles (chromosomes) of a gene each contain a different change, c.2376G>C and c.3103del. The variants are found **in trans**. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease).
