@@ -37,6 +37,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	*	**PCR**
 		*	size
 		:	when a fragment containing a deletion has been amplified but only its size was determined (and not its sequence), the variant should be reported as **g.(position-fragment-start\_position-fragment-end)del(#)** with "#" indicating the size (or estimated size) of the deletion in nucleotides. Example NM\_002111.6:c.(-12\_262)del(6).
+		:	For examples see [_see Repeated sequences_](/recommendations/DNA/variant/repeated/), [_see Alleles_](/recommendations/DNA/variant/alleles/).
 		* present/absent
 		:	when a deletion based was detected based on the presence/absence of specific sequences tested it is described as **(position-last-normal-PCR\_position-first-altered-PCR)\_(position-last-altered-PCR\_position-first-normal-PCR)**. The description of the uncertain part (the range of uncertainty) should be as precise as possible. When for a specific probe/primer/sequence tested it is difficult to give an exact nucleotide position, the rule of thumb is to **use the central nucleotide**.
 		:	In PCR a pair of oligonucleotides (the primers) is used to detect the presence (amplification) of a specific sequence (target). Amplification will fail when one or both primers did not hybridize to the target sequence either because the target sequence is absent (deleted) **or** by differences between the target and primer sequence.
