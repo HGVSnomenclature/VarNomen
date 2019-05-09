@@ -34,9 +34,9 @@ Since references to web sites are not yet acknowledged as citations, please ment
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 	*	**exception**: deletion/duplication around exon/exon junctions using **c.**, **r.** or **n.** reference sequences ([_see Numbering_](/bg-material/numbering/#DNAc))
 *	descriptions at DNA, RNA and protein level are clearly different:
-	*	**DNA-level** 123456A>T ([_see Details_](/recommendations/DNA)): number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using [_IUPAC-IUBMB assigned nucleotide symbols_](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}
-	*	**RNA-level** 76a>u ([_see Details_](/recommendations/RNA)): number(s) referring to the nucleotide(s) affected, nucleotides in lower case using [IUPAC-IUBMB assigned nucleotide symbols](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}
-	*	**protein level** Lys76Asn ([_see Details_](/recommendations/protein)): the amino acid(s) affected in 3- or 1-letter followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html#500){:target="\_blank"}
+	*	**DNA-level** 123456A>T ([_see Details_](/recommendations/DNA)): number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using [_IUPAC-IUBMB assigned nucleotide symbols_](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500){:target="\_blank"}
+	*	**RNA-level** 76a>u ([_see Details_](/recommendations/RNA)): number(s) referring to the nucleotide(s) affected, nucleotides in lower case using [IUPAC-IUBMB assigned nucleotide symbols](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500){:target="\_blank"}
+	*	**protein level** Lys76Asn ([_see Details_](/recommendations/protein)): the amino acid(s) affected in 3- or 1-letter followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf){:target="\_blank"}
 			*	**three-letter** amino acid code is preferred ([_see Standards_](/bg-material/standards/#aacode))
 *	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) deletion, (2) inversion, (3) duplication, (4) conversion, (5) insertion
 	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
