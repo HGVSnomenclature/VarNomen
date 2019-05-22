@@ -32,6 +32,10 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 #### DNA
 
+*	genomic position
+	:	When a variant has been identified but it can not be mapped to a unique location, possible descriptions should be given separated by a "**<font color="red">^</font>**" (caret)
+	*	NM\_000517.4:c.427T>C^NM_000558.3:c.427T>C
+	:	describes variant c.427T>C which is either in the HBA2 (NM\_000517.4) or the HBA1 (NM\_000558.3) gene
 *	deletion
 	:	The basic format to describe deletions that have not been fully characterised (sequenced) depends on the method used.
 	*	**PCR**
