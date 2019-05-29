@@ -36,9 +36,11 @@ category: example
 	:	_**NOTE**_ : previously, the suggestion was made to describe such deletions using the format NG\_012232.1(NM\_004006.1):c.4072-?\_5154+?del. However, since c.4072-? indicates "**to an unknown postion 5' of c.4072**" and c.5154+? "**to an unknown postion 3' of c.5154**" this description is not correct when it is known that exons 29 and 37 are present. See also [_SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
 	*	LRG\_199t1:c.720\_991del
 	:	a deletion of nucleotides c.720 to c.991 starting in exon 8 (position c.720) and ending in exon 10 (position c.991) of the DMD-gene.
-	:	_**NOTE**_ : the description NM_\004006.2:c.720_991del is not correct, the reference sequence NM_\004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
-	*	NG\_012232.1(NM\_004006.1):c.(?\_-245)\_(31+1\_32-1)del
-	:	a deletion starting somewhere upstream of a gene, last postion tested postive c.-244, and ending in the intron between nucleotides c.31+1 and c.32-1 (intron 1).
+	:	_**NOTE**_ : the description NM\_004006.2:c.720\_991del is not correct, the reference sequence NM\_004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
+	*	NC\_000023.11(NM\_004006.2):c.(?\_-245)\_(31+1\_32-1)del
+	:	a deletion starting somewhere **upstream** of a gene, last postion tested postive c.-244, and ending in the intron between nucleotides c.31+1 and c.32-1 (intron 1).
+	*	NC\_000023.11(NM\_004006.2):c.(10086+1\_10087-1)\_(\*2691\_?)del
+	:	a deletion starting in the intron between nucleotides c.10086+1 and c.10087-1 (intron 69) and ending somewhere **downstream** of a gene, last position tested positive c.\*2691.
 *	gene
 	*	NC\_000023.11:g.(31060227\_31100351)\_(33274278\_33417151)del
 	:	a deletion of the entire DMD gene based on a SNP-array analysis where the maximum size of the deletion lies between SNPs rs396303 and rs7887548 (nucleotides 31060227 and 33417151) and the minimum size between SNPs rs808178 and rs7887103 (nucleotides 31100351 and 33274278). Based on a coding DNA reference sequence the deletion can be best described as c.0 (using NC\_000023.11(NM\_004006.2):c.(-205839\_-62966)\_(\*21568\_\*61692)del makes no sense).
