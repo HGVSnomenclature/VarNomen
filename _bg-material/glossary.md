@@ -82,6 +82,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   fusion transcript
     :   a transcript (RNA molecule) which consist of parts of transcripts from two or more genes
 
+*   haplotype
+    :   contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent
+
 *   hemizygous
     :   an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=hemizygous){:target="\_blank"}).
     
@@ -143,7 +146,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     *   **HGVS**: a variant in a protein sequence where compared to the reference sequence an amino acid is replaced by a translational stop codon (termination codon).
 
 *   nucleotide
-    :   a letter fron the DNA code, either A, C, G, or T ([_see Standards_](/bg-material/standards/))
+    :   a letter from the DNA code, e.g. A, C, G, or T ([_see Standards_](/bg-material/standards/))
 
 *   polyA addition site
     :   the 3' end of a precursor messenger RNA (pre-mRNA) transcript that is cleaved and to which subsequently a tail of A nucleotides is added (the polyA-tail)
@@ -196,17 +199,23 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   trans
     :   two variants are **"in trans"** when they are on different alleles (DNA molecules, chromosomes).
     
+*   transition
+    :   a nucleotide variant changing a purine nucleotide to another purine nucleotide (A < > G), or a pyrimidine nucleotide to another pyrimidine nucleotide (C < > T)
+    
 *   translocation
     *   a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation){:target="\_blank"})
     *   **HGVS**: a sequence change where, compared to a reference sequence, from a specific nucleotide position (the break point) all nucleotides upstream derive from another chromosome then those down stream
     :   _**NOTE**:_ a translocation occurs when two chromosomes break and the fragments rejoin with the non-homologous chromosome. A full description of a (reciprocal) translocation consists of 2 parts, one describing the first junction, the second describing the other junction (e.g. the chromosome 4;X junction and the chromosome X;4 junction)
     *   translocation, balanced
         :   a translocation with an even exchange of DNA sequences and no segments deleted or duplicated
-    *   translocation, un balanced
+    *   translocation, unbalanced
         :   a translocation with an uneven exchange of DNA sequences and segments being deleted or duplicated
 
 *   transposition
     :   a sequence change where compared to a reference sequence a range of nucleotides moves from one position to another position, i.e. a deletion at one postion combined with the insertion of the deleted sequence at another position.
+
+*   transversion
+    :   a nucleotide variant changing a purine nucleotide to a pyrimidine nucleotide (A or G > T or C), or a pyrimidine nucleotide to a purine nucleotide (C or T > A or G)
 
 *   triplication
     :   a sequence change where, compared to a reference sequence, two copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/)).
