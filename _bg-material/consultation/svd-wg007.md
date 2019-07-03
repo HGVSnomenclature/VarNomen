@@ -8,8 +8,8 @@ category: SVD-WG
 
 ### Proposal SVD-WG007 (RNA fusion)
 
-*	Status: <font color="red">open</font>
-	:	proposal SVD-WG007 opened for **Community Consultation** on April 10 (2019), will close June 30 (2019). 
+*	Status: <font color="red">under review by SVD-WG</font>
+	:	proposal SVD-WG007 opened for **Community Consultation** on April 10 (2019), and closed June 30 (2019). 
 
 The proposal suggests to extend the HGVS recommendations with a format to decribe RNA fusion transcripts
 
