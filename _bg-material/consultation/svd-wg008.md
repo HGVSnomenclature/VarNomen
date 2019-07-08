@@ -43,7 +43,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 
 ### Supported Reference sequences types are:
 
-*	RefSeq sequences with the prefixes NC\_, NG\_, NM\_, NR\_ or NP\_
+*	RefSeq sequences with the prefixes NC\_, NT\_, NW\_,NG\_, NM\_, NR\_ or NP\_
 	*	chromosome - NC\_000023.11
 	*	genomic contigs or scaffolds - NT\_010718.17, NW\_003315950.2
 	*	gene/genomic region - NG\_012232.1
