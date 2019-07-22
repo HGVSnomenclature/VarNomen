@@ -21,10 +21,10 @@ A sequence variant is defined in the context of a **reference sequence** which m
 
 *	reference sequences **must** come from data sources that provide stable and permanent identifiers, e.g. RefSeq (NCBI) and Ensembl (EBI). A source that permits updating of sequence records associated with an existing sequence identifier **must not** be used, i.e. a change in the reference sequence **must** trigger a change in the sequence identifier.
 	*	Rationale: violating this requirement means that interpretation of a variant might change over time
-*	reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [_IUPAC residues_](http://http://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences) 
+*	reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [_IUPAC residues_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences) 
 *	reference sequence **must** be contiguous, undefined sequence is not permissible.
 	*	this requirement applies within a **single** sequence. Alignments **between** sequences may contain gaps. For example, a coding sequence will contain intron gaps when aligned to a genomic sequence
-	*	[_IUPAC symbols_](http://http://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} for any base (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
+	*	[_IUPAC symbols_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} for any base (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
 *	a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
 	*	sequence identifiers are opaque(1). That is, the structure and meaning of an identifier is determined by the source reference sequence database
 	*	versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences
