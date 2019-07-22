@@ -9,7 +9,7 @@ category: SVD-WG
 ### Proposal SVD-WG008 (RefSeq)
 
 *	Status: <font color="red">open</font>
-	:	proposal SVD-WG008 opens for **Community Consultation** on July 15 (2019), will close September 30 (2019). 
+	:	proposal SVD-WG008 opened for **Community Consultation** on July 20 (2019), will close September 30 (2019). 
 
 The proposal suggests to specify the HGVS recommendations for acceptable [_Reference Sequences_](http://varnomen.hgvs.org/bg-material/refseq/){:target="\_blank"}.
 
