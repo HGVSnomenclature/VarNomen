@@ -17,7 +17,7 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 ### Open
 
-*   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (reqseq)
+*   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (RefSeq)
     :   suggests to specify the HGVS recommendations for acceptable Reference Sequences
     :   **Status**: <font color="red">open</font>. Opened Jul.20 (2019), closes Sep.30 (2019).
 
