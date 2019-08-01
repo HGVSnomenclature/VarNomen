@@ -30,8 +30,8 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 		*	NP\_003997.1:p.[(Ser68Arg)];[?]
 		:	one protein allele contains a variant, with predicted consequence p.(Ser68Arg), while a variant for the other protein allele is expected but not yet identified (p.(?)) (e.g. in individuals affected by a recessive disease).
 		*	NP\_003997.1:p.[Ser68Arg];[Ser68=]
-		:	one protein allele contains a variant, p.Ser68Arg, the other allele contains the reference sequence, Ser68= (is **wild-type**).
-		:	_**NOTE**_: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. For more examples see [_Proposal SVD-WG001_](http://varnomen.hgvs.org/bg-material/consultation/svd-wg001/).
+		:	one protein allele contains a variant, p.Ser68Arg, the other allele contains at this position the reference sequence, Ser68= (is **wild-type**).
+		:	_**NOTE**_: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. (based on [_Proposal SVD-WG001_](http://varnomen.hgvs.org/bg-material/consultation/svd-wg001/)).
 		:	_**NOTE**_: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
 	*	**one allele encoding two proteins**
 		*	NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]
