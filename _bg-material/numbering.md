@@ -11,15 +11,13 @@ permalink: /bg-material/numbering/
 
 ### genomic reference sequences
 
-nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
-
-* * * 
-
-### mitochondrial DNA reference sequences
-
-nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
-
-*	the preferred human mtDNA reference sequence is the _Homo sapiens_ [mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
+*	genomic reference sequence
+	nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
+*	circular reference sequence
+	nucleotide numbering is o.1, o.2, o.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a circualr reference sequence **do not include** "+", "-", "*" or other prefixes.
+*	mitochondrial DNA reference sequence
+	a mitochnodrial reference sequence is a special **circular** genomic reference sequence. Nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
+	*	the preferred human mtDNA reference sequence is the _Homo sapiens_ [mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}.
 
 * * * 
 
