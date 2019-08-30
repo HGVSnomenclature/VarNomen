@@ -50,7 +50,7 @@ Going through publications one can easily see where people give variant descript
 	*	predicted "**silent**" protein level variants are described as **p.(Leu54=)** (not as p.Leu54Leu or p.(54L/L)).
 	*	the description p.(Met1Val) is not allowed ([_see Protein_](/recommendations/protein/variant/substitution))
 10.	**Mutation / polymorphism**  
-	Do not use the terms mutation or polymorphism ([_see General recommendations_](/recommendations/general))
+	Do not use the terms mutation or polymorphism ([_see General recommendations_](/bg-material/basics))
 	*	"polymorphic" variants should not be described using the "/" (slash), describe them as "non-polymorhic" variants like c.127A>G and p.(Ile43Val).
 11.	**Recessive diseases** - do you clearly describe which changes are found in which combination?  
 	A publication describing variants in patients suffering from a recessive phenotype should, for each individual, explicitly mention **which variants were found and in which combination (per allele)**.
