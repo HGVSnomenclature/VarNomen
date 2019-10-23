@@ -70,7 +70,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#DNAo}
 
-### DNA - Cicular genomic reference sequence (o.)
+### DNA - circular genomic reference sequence (o.)
 
 *	circular genomic reference sequences are indicated using a **o.** prefix
 	:	circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.
@@ -79,7 +79,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#DNAm}
 
-### DNA - Mitochondrial reference sequence (m.)
+### DNA - mitochondrial reference sequence (m.)
 
 *	mitochondrial genomic reference sequences are indicated using a **m.** prefix
 	:	a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
@@ -144,7 +144,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 {:#proteinp}
 
-### Protein reference sequence (p.)
+### protein reference sequence (p.)
 
 *	protein reference sequences are indicated using a **p.** prefix
 *	the preferred protein reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
