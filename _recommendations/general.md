@@ -39,7 +39,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 	*	**protein level** Lys76Asn ([_see Details_](/recommendations/protein)): the amino acid(s) affected in three- or one-letter code followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf){:target="\_blank"} 
 		*	**three-letter** amino acid code is preferred ([_see Standards_](/bg-material/standards/#aacode))
 		*	the **"*"** can be used to indicate the translation stop codon in both one- and three-letter amino acid code descriptions
-*	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) deletion, (2) inversion, (3) duplication, (4) conversion, (5) insertion
+*	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) substitution, (2) deletion, (3) inversion, (4) duplication, (5) conversion, (6) insertion
 	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
 	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
@@ -67,6 +67,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 *	"**<font color="red">=</font>**" (equals) is used to indicate a sequence was tested but found unchanged; p.(Arg234=)
 *	"**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
 *	"**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
+*	"**<font color="red">|</font>**" (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). ([_see Example methylation_](/recommendations/DNA/variant/other/))
 
 * * *
 <a name="abbreviation"></a>
@@ -95,7 +96,8 @@ Specific abbreviations are used to describe different variant types.
 
 *	changes of state (modifications)
 	*	"**<font color="red">gom</font>**" indicates a **gain of methylation**; g.12345678_12345901**<font color="red">|gom</font>**
-	*	"**<font color="red">lom</font>**" indicates a **loss of methylation**; g.12345678_12345901**<font color="red">|lom</font>**	
+	*	"**<font color="red">lom</font>**" indicates a **loss of methylation**; g.12345678_12345901**<font color="red">|lom</font>**
+	*	"**<font color="red">met</font>**" indicates a **methylation**; g.12345678_12345901**<font color="red">|met=</font>**
 
 * * *
 
