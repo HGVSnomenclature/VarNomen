@@ -20,12 +20,12 @@ category: example
       :  a screen was performed showing nucleotides c.123, c.456 and c.789 (all on the same allele) were identical to the coding DNA reference (the nucleotides were not changed)
 
 * methylation
-   *  NC_000011.10::g.1999904_1999946|gom
-   :  the sequence from position g.1999904 to g.1999946 showed a gain of methylation ("|gom")
-   *  NC_000011.10::g.1999904_1999946|lom
-   :  the sequence from position g.1999904 to g.1999946 showed a loss of methylation ("|lom")
-   *  NC_000011.10::g.1999904_1999946|met=
-   :  the sequence from position g.1999904 to g.1999946 showed normal methylation ("|met=")
+   *  NC\_000011.10::g.1999904\_1999946\|gom
+   :  the sequence from position g.1999904 to g.1999946 showed a gain of methylation ("\|gom")
+   *  NC\_000011.10::g.1999904\_1999946\|lom
+   :  the sequence from position g.1999904 to g.1999946 showed a loss of methylation ("\|lom")
+   *  NC\_000011.10::g.1999904\_1999946\|met=
+   :  the sequence from position g.1999904 to g.1999946 showed normal methylation ("\|met=")
 
 * mosaicism
 * chimerism
