@@ -4,7 +4,7 @@ title: complex (HGVS/ISCN)
 category: example
 ---
 
-The basis of the examples is from Community Consultation proposal [_SVD-WG004_](/bg-material/consultation/svd-wg004/). To simplify descriptions genomic reference sequences may be indicated as "chrX" (representing NC\_000023.11 (hg38)). Note that in ISCN it is allowed to describe positions using the format "108,111,982", in HGVS only "108111982" is allowed. For the HGVS descriptions we only use full reference sequence identifiers.
+The basis of the examples is from Community Consultation proposal [_SVD-WG004_](/bg-material/consultation/svd-wg004/). To simplify descriptions genomic reference sequences may be indicated as "chrX" (representing NC\_000023.11 (hg38)). For the HGVS descriptions we only use full reference sequence identifiers. Note that in HGVS the variant detected is described, while ISCN describes more the structure of the resulting chromosome(s).
 
 *	**translocations**
 	*	**balanced**
