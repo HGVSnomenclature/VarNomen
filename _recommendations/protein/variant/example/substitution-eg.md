@@ -21,8 +21,9 @@ category: example
 	:	description depends on the consequences of the change on the translation product (protein);
 	*	LRG_199p1:p.0
 	:	as a consequence of a variant no protein is produced
-	*	LRG_199p1:p.? (p.Met1?)
+	*	LRG_199p1:p.?
     	:	the consequence of a variant at the protein level are not known (can not be predicted)
+	:	_**NOTE:**_ do not use descriptions like "p.Met1Thr", this is for sure **not** the consequence of the effect on protein translation
 *	**new translation initiation site**
 	*	**<u>upstream</u>**  -  [_see Extension_](/recommendations/protein/variant/extension)
 	*	**<u>downstream</u>**  -  NP_003997.1:p.Leu2\_Met124del 
