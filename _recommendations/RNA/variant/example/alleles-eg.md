@@ -9,6 +9,8 @@ For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 *	**variants on one allele**
 	*	LRG\_199t1:r.[76a>u;103del]
 	:	one transcript contains two different changes, r.76a>u and r.103del. The variants are found **in cis**.
+	*	LRG\_199t1:r.[(578c>u;1339a>g;1680del)]
+	:	one transcript contains three different predicted changes, r.(578c>u), r.(1339a>g) and r.(1680del). The variants are found **in cis**.
 *	**variants on two alleles**
 	*	LRG\_199t1:r.[76a>u];[103del]
 	:	the two transcript alleles each contain a different change, r.76a>u and r.103del. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
