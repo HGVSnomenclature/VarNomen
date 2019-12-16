@@ -6,7 +6,7 @@ category: SVD-WG
 
 ## Community Consultation
 
-### Proposal SVD-WG008 (RefSeq)
+### Proposal SVD-WG008 (Reference Sequences)
 
 *	Status: <font color="red">to be decided</font>
 	:	proposal SVD-WG008 opened for **Community Consultation** on July 20 (2019), closed September 30 (2019). 
@@ -28,7 +28,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 *	a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
 	*	sequence identifiers are opaque(1). That is, the structure and meaning of an identifier is determined by the source reference sequence database
 	*	versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences
-        	*	RefSeq and Ensembl reference sequence identifiers use version numbers to distinguish between sequences. In the context of these reference sequences, variant descriptions lacking a version number are **not** valid. 
+		*	RefSeq and Ensembl reference sequence identifiers use version numbers to distinguish between sequences. In the context of these reference sequences, variant descriptions lacking a version number are **not** valid. 
 		*	LRG provides equivalent uniqueness but does not use version numbers
 		*	the sequence identifier **must** be included in **all** representations of a reference sequence, i.e. annotated records and downloadable formats such as fasta
 *	only reference sequences considered to be **“complete”** (as defined in the bullet points below) are suitable for defining sequence variation. The reference sequence database **must** provide a mechanism which allows simple and definitive identification of **“complete”** sequences
@@ -39,7 +39,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 	*	predicted or inferred sequences **should not** be used for variant reporting
 	*	if a reference sequence becomes unsupported or refuted by evidence, it should no longer be used
 *	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
-	*	intronic sequences are considered to be within the boundaries of a transcript reference sequence but a valid gene or genomic reference sequence identifier **must** also be provided, NG\_012232.1(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC\_000023.11(NM\_004006.2):c.93+1G>T (intronic nucloetides defined in the context of a chromosomal reference sequence)
+	*	intronic sequences are considered to be within the boundaries of a transcript reference sequence but a valid gene or genomic reference sequence identifier **must** also be provided, NG\_012232.1(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC\_000023.11(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a chromosomal reference sequence)
 	*	where possible, users should report sequence variation at the genome or gene level as well as the transcript level to enable accurate mapping between transcript reference sequences via the genomic or gene position(s)
 
 ### Recommended Reference Sequences types are:
@@ -66,5 +66,5 @@ A sequence variant is defined in the context of a **reference sequence** which m
 (1) an [opaque identifier](https://indieweb.org/opaque){:target="\_blank"} is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
 
 Why not? Two reasons:
-*	because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identfiers?
+*	because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
 *	because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other ids (perhaps ids not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
