@@ -16,13 +16,14 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 ### Note
 
 * **prefix** reference sequence accepted is "p." (protein).
-* by definition, when **one** amino acid is replaced with **one** other amino acid, the change is a [_substitution_](/recommendations/protein/variant/substitution/).
-* for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
-* predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123_Lys127delinsSerAsp).
-* when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Arg456_Leu488delins(54)).
-* two variants separated by one or more amino acids should preferably be described individually and not as a “delins”<br>
-* variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level. 
-  *	deletion-insertion variants encoding an open reading frame but after the DNA insertion shifting to another reading are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
-  * deletion-insertion variants containing a translation stop codon in the inserted DNA sequence are described as **deletion-insertion of this sequence**, not as a frame shift or deletion-insertion removing the entire C-terminal amino acid sequence
-  * deletion-insertion variants on DNA/RNA level starting **starting 5' of and including** the translation termination (stop) codon are described as [_**frame shift**_](/recommendations/protein/variant/frameshift).
-  * deletion/insertion variants extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension).
+*	by definition, when **one** amino acid is replaced with **one** other amino acid, the change is a [_substitution_](/recommendations/protein/variant/substitution/), not a deletion-insertion.
+*	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123_Lys127delinsSerAsp).
+*	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Arg456_Leu488delins(54)).
+*	two variants separated by one or more amino acids should preferably be described individually and not as a “delins”
+*	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level.
+	*	deletion-insertion variants **containing a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence
+	*	deletion-insertion variants encoding an open reading frame which after the inserted sequence shift to another reading frame are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
+	*	deletion-insertion variants **starting N-terminal (5') of and including** the translation termination (stop) codon are described as [_**frame shift**_](/recommendations/protein/variant/frameshift).
+ 	*	deletion/insertion variants extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension).
+  
