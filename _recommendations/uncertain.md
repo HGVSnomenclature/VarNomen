@@ -39,7 +39,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	*	NC\_000023.10:g.33038277C>T^33038278C>T  (LRG\_199t1:c.71G>A^72G>A) 
 	:	describes the variant Trp24* in the DMD gene reported on protein level only
 *	deletion
-	:	The basic format to describe deletions that have not been fully characterised (sequenced) depends on the method used.
+	:	The standard format to describe a deletion for which the break point has not been sequenced is (A\_B)\_(C\_D)del, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the deletion/duplication.
 	*	**PCR**
 	:	In PCR a pair of oligonucleotides (the primers) is used to detect the presence (amplification) of a specific sequence (target). Amplification will fail when one or both primers do not hybridise to the target sequence either because the target sequence is absent (deleted) or because there are differences between the sequence of the target and the primer.
 		*	size
@@ -93,7 +93,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 		:	the insertion of sequences from chromosome 22, nucleotides g.35788169 to g.35788352 (of the HMOX1 gene) at an unknown position in chromosome 2.
 
 *	**duplication**
-	:	the format to describe duplications that have not been fully characterised (sequenced) depends on the method used. The same recommendations apply as described above for deletions and insertions.
+	:	the standard format to describe a duplicaion for which the break point has not been sequenced is (A\_B)\_(C\_D)dup, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the duplication.
 	:	_**NOTE**_: many assay detect the presence of an **additional copy** of specific sequences, not the location of the extra copy. When there is **no evidence** the additional copy is **in tandem** with the original copy but might be anywhere in a genome, the variant should be described as an **insertion** (see above). 
 		*	the format to describe duplications that have not been fully characterised, i.e. the duplication break point has not been sequenced, is: **g.(last-normal\_first-duplicated)\_(last-duplicated\_first-normal)dup**.
 	
