@@ -31,8 +31,8 @@ category: example
 			*	NM\_002024.5:c.-128\_-69GGC[10]GGA[1]GGC[9]GGA[1]GGC[10]
 			:	a sequenced GGC tri-nucleotide repeat from position c.-128 to c.-69 contains 10 GGC, 1 GGA, 9 GGC, 1 GGA and 10 GGC units (31 repeat units)
 			*	NM\_002024.5:c.-129CGG[79]
-			:	a repeated CGG tri-nucleotide sequence starting at position c.-129 with 79 CAG copies
-			:	_**NOTE**_:	by definition, since the reference sequence contains a mixed repeat (CGG and AGG units), the variant description only covers the sequence up to the first AGG interruption (position c.-99). A better description is NM\_002024.5:c.-128\_-69GGC[79]GGA[1]GGC[10], i.e. assuming indeed the length of only the first CGG segment was meant and not the total length of the CGG-AGG-CGG repeat.
+			:	a repeated CGG tri-nucleotide sequence starting at position c.-129 with 79 CGG copies
+			:	_**NOTE**_:	by definition, since the reference sequence contains a mixed repeat (CGG and AGG units), the variant description only covers the sequence up to the first AGG interruption (position c.-99). A better description, giving less confusion, is NM\_002024.5:c.-128\_-69GGC[78]GGA[1]GGC[10] (i.e. assuming only the length of the first CGG segment was meant and not the total length of the CGG-AGG-CGG repeat).
 			*	NM\_002024.5:c.-128GGM[108]
 			:	a repeated mixed tri-nucleotide sequence starting at position c.-129 with 108 GGC/GGA copies
 			*	NM\_002024.5:c.(-231\_-20)ins(1800\_2400)
