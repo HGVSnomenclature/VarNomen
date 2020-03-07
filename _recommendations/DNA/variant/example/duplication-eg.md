@@ -42,14 +42,14 @@ category: example
 	*	NC\_000023.10:g.(32381076\_32382698)\_(32430031\_32456357)[3]  (LRG\_199t1:c.(4071+1\_4072-1)\_(5154+1\_5155-1)[3])
 		:	a triplication of the sequence from exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene (break points not sequenced).
 		:	_**NOTE**_ : this description should only be used when the two additional copies are in tandem with the original copy. There is no specific recommendation yet how to describe such a change but following current recommendations the format would be something like g.?\_?ins(32381076\_32382698)\_(32430031\_32456357)[2] ([2] since **2** additional copies have been inserted somewhere in the genome).
-	*	LRG\_199t1:c.(?\_-127)\_(31+1\_32-1)dup
-		:	a duplication starting somewhere upstream of the DMD gene, last postion tested duplicated c.-127, and ending in the intron between nucleotides c.31+1 and c.32-1 (intron 1).
+	*	duplications extending beyond the transcribed region
+	:	following current recommendations (see [_Numbering_](bg-material/numbering/) it is not allowed to describe variants in nucleotides beyond the boundaries of a reference sequence. Consequently, duplications extending 5' of a transcript **can not** be described like NC\_000023.11(NM\_004006.2):c.(?\_-244\_(31+1\_32-1)dup (c.-244 is the first nucleotide of NM\_004006.2) and duplications extending 3' of a transcript **can not** be described like NC\_000023.11(NM\_004006.2):c.(10086+1\_10087-1)\_(\*2691\_?)dup (c.\*2691 is the last nucleotide of NM\_004006.2). Such duplications can only be described using genomic coordinates. The HGVS nomenclature committee (SVD-WG) is discussing whether a c. based format should be proposed.
 *	gene
 	*	NC\_000023.11:g.(31060227\_31100351)\_(33274278\_33417151)dup
 	:	a duplication of the entire DMD gene based on a SNP-array analysis where the maximum size of the duplication lies between SNPs rs396303 and rs7887548 (nucleotides 31060227 and 33417151) and the minimum size between SNPs rs808178 and rs7887103 (nucleotides 31100351 and 33274278). Describing the duplication based on a coding DNA reference sequence using NC\_000023.11(NM\_004006.2):c.(-205839\_-62966)\_(\*21568\_\*61692)dup makes no sense.
 	:	_**NOTE**_: the array analysis detects an extra copy of the sequences and it has to be determined whether it is a duplication. When it is not sure the variant is a duplication the variant should be described as an insertion, g.?\_?insNC\_000023.11:(31060227\_31100351)\_(33274278\_33417151)
 	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)dup
-	:	a duplication of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons. Based on a coding DNA reference sequence the duplication can be described as NC\_000023.11(NM\_000109.3):c.(?\_-212)\_(\*1423\_?)dup.
+	:	a duplication of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons.
 	:	_**NOTE**_: the MLPA analysis detects an extra copy of the sequences and it has to be determined whether it is a duplication. When it is not sure the variant is a duplication the variant should be described as an insertion, g.?\_?insNC\_000023.11:(?\_31120496)\_(33339477\_?)
 *	NG\_012232.1:g.19\_21=/dup
 :	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a duplication of this sequence
