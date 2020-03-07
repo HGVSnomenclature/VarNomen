@@ -32,20 +32,19 @@ category: example
 	:	_**NOTE**_ : c.4072-1234\_5155-246delXXXXX, the size of the deletion (XXXXX) **should not** be described
 	*	NG\_012232.1(NM\_004006.1):c.(4071+1\_4072-1)\_(5154+1\_5155-1)del
 	:	a deletion of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene. The deletion break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5155) have been tested an shown to be **not deleted**. The deletion therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5154+1 to c.5155-1).
-	:	_**NOTE**_ : as mentioned ([_Uncertain_](/recommendations/uncertain/)) the description can also be **probe-based**. For a deletion of exons 30 to 36, detected using MLPA, the description would be NG\_012232.1(NM\_004006.1):c.(3996\_4196)\_(5090\_5284)del, i.e. following the suggestion to use the central position (3’ nucleotide) of the probe ligation site. E.g. the MLPA exon 29 probes hybdrize from position c.3963 to c.4030 giving c.3996 as the position to use in the description.
 	:	_**NOTE**_ : previously, the suggestion was made to describe such deletions using the format NG\_012232.1(NM\_004006.1):c.4072-?\_5154+?del. However, since c.4072-? indicates "**to an unknown postion 5' of c.4072**" and c.5154+? "**to an unknown postion 3' of c.5154**" this description is not correct when it is known that exons 29 and 37 are present. See also [_SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
+	*	NG\_012232.1(NM\_004006.1):c.(3996\_4196)\_(5090\_5284)del
+	:	**probe-based** description of a deletion, identified by MLPA, of exon 30 (deleted position tested c.4196) to exon 36 (deleted position tested c.5090) of the DMD-gene. The deletion break point has **not been sequenced**. Exons 29 (position tested c.3996) and 37 (position tested c.5284) are **not deleted**.
 	*	LRG\_199t1:c.720\_991del
 	:	a deletion of nucleotides c.720 to c.991 starting in exon 8 (position c.720) and ending in exon 10 (position c.991) of the DMD-gene.
 	:	_**NOTE**_ : the description NM\_004006.2:c.720\_991del is not correct, the reference sequence NM\_004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
-	*	NC\_000023.11(NM\_004006.2):c.(?\_-245)\_(31+1\_32-1)del
-	:	a deletion starting somewhere **upstream** of a gene, last postion tested postive c.-244, and ending in the intron between nucleotides c.31+1 and c.32-1 (intron 1).
-	*	NC\_000023.11(NM\_004006.2):c.(10086+1\_10087-1)\_(\*2691\_?)del
-	:	a deletion starting in the intron between nucleotides c.10086+1 and c.10087-1 (intron 69) and ending somewhere **downstream** of a gene, last position tested positive c.\*2691.
+	*	deletions extending beyond the transcribed region
+	:	following current recommendations (see [_Numbering_](bg-material/numbering/) it is not allowed to describe variants in nucleotides beyond the boundaries of a reference sequence. Consequently, deletions extending 5' of a transcript **can not** be described like NC\_000023.11(NM\_004006.2):c.(?\_-244\_(31+1\_32-1)del (c.-244 is the first nucleotide of NM\_004006.2) and deletions extending 3' of a transcript **can not** be described like NC\_000023.11(NM\_004006.2):c.(10086+1\_10087-1)\_(\*2691\_?)del (c.\*2691 is the last nucleotide of NM\_004006.2). Such deletions can only be described using genomic coordiantes. The HGVS nomenclature committeee (SVD-WG) is discussing whether a c. based format should be proposed.
 *	gene
 	*	NC\_000023.11:g.(31060227\_31100351)\_(33274278\_33417151)del
-	:	a deletion of the entire DMD gene based on a SNP-array analysis where the maximum size of the deletion lies between SNPs rs396303 and rs7887548 (nucleotides 31060227 and 33417151) and the minimum size between SNPs rs808178 and rs7887103 (nucleotides 31100351 and 33274278). Based on a coding DNA reference sequence the deletion can be best described as c.0 (using NC\_000023.11(NM\_004006.2):c.(-205839\_-62966)\_(\*21568\_\*61692)del makes no sense).
+	:	a deletion of the entire DMD gene based on a SNP-array analysis where the maximum size of the deletion lies between SNPs rs396303 and rs7887548 (nucleotides 31060227 and 33417151) and the minimum size between SNPs rs808178 and rs7887103 (nucleotides 31100351 and 33274278).
 	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)del
-	:	a deletion of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons. Based on a coding DNA reference sequence the deletion can be described as c.0 or NC\_000023.11(NM\_000109.3):c.(?\_-212)\_(\*1423\_?)del.
+	:	a deletion of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons.
 *	NG\_012232.1:g.19\_21=/del
 :	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a deletion of this sequence
 *	NG\_012232.1:g.19\_21=//del
