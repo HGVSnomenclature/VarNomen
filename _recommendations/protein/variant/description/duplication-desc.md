@@ -23,5 +23,5 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
 	*	the 3'rule ("C-terminal rule") also applies for changes in single amino acid stretches and tandem repeats
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783dup).
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
+	*	duplications **starting N-terminal of and including** the translation termination (stop) codon usually have no effect on the protein sequence
 	*	duplications extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension)
-	*	duplications **starting N-terminal of and including** the translation termination (stop) codon may have no effect or are described as [_Frame shift_](/recommendations/protein/variant/frameshift).
