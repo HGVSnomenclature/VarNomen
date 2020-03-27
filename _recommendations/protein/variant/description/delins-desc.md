@@ -23,7 +23,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 *	two variants separated by one or more amino acids should preferably be described individually and not as a “delins”
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level.
 	*	deletion-insertion variants **containing a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence
-	*	deletion-insertion variants encoding an open reading frame which after the inserted sequence shift to another reading frame are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
+	*	deletion-insertion variants encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
 	*	deletion-insertion variants **starting N-terminal (5') of and including** the translation termination (stop) codon are described as [_**frame shift**_](/recommendations/protein/variant/frameshift).
  	*	deletion/insertion variants extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension).
   
