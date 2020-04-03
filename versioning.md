@@ -23,6 +23,13 @@ For issues currently discussed see [_Open for Community Consultation_](/bg-mater
 
 {:#version-list}
 
+*	_**Version xx.xx**_
+	:	Accepted proposals include [_SVD-WG007_](/bg-material/consultation/svd-wg007/) and [_SVD-WG008_](/bg-material/consultation/svd-wg008/):
+	*	SVD-WG008 (_Reference Sequences_)
+		:	specifies requirements for acceptable Reference Sequences  
+	*	SVD-WG008 (_RNA fusion_)
+		:	specifies how to describe RNA fusion transcripts   
+
 *	_**Version 19.01**_
 	:	Accepted proposals include [_SVD-WG005_](/bg-material/consultation/svd-wg005/) and [_SVD-WG006_](/bg-material/consultation/svd-wg006/):
 	*	SVD-WG006 (_circular DNA_)
