@@ -21,7 +21,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 	*	this requirement applies within a **single** sequence. Alignments **between** sequences may contain gaps. For example, a coding sequence will contain intron gaps when aligned to a genomic sequence
 	*	[_IUPAC codes_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} for any nucleotide (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
 *	a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
-	*	sequence identifiers are opaque ([_note 1_](https://http://varnomen.hgvs.org/bg-material/refseq/#note1)), i.e. the structure and meaning of an identifier is determined by the source reference sequence database
+	*	sequence identifiers are opaque ([_note 1_](#note1)), i.e. the structure and meaning of an identifier is determined by the source reference sequence database
 	*	versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences
 		*	RefSeq and Ensembl reference sequence identifiers use version numbers to distinguish between sequences. In the context of these reference sequences, variant descriptions lacking a version number are **not** valid. NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 is not correct (lacks the essential version number)
 		*	LRG's provide equivalent uniqueness but does not use version numbers
