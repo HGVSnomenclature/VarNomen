@@ -12,6 +12,8 @@ order: 2
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
+This section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/bg-material/consultation/svd-wg008/).
+
 A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/bg-material/numbering/){:target="\_blank"} and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its corresponding identifier are unchangeable.
 
 *	reference sequences **must** come from data sources that provide stable and permanent identifiers, e.g. RefSeq (NCBI) and Ensembl (EBI). A source that permits updating of sequence records associated with an existing sequence identifier **must not** be used, i.e. a change in the reference sequence **must** trigger a change in the sequence identifier
@@ -195,11 +197,9 @@ Depending on the variants to be reported, different reference sequence files are
 
 * * *
 
-{:#notes}
+{:#notes}{:#note1}
 
 ## Notes
-
-{:#note1}
 
 (1) an [opaque identifier](https://indieweb.org/opaque){:target="\_blank"} is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
 
@@ -209,9 +209,7 @@ Why not? Two reasons:
 
 {:#note2}
 
-(2) the [MANE (Matched Annotation between NCBI and EBI) project](https://www.ensembl.org/info/genome/genebuild/mane.html){:target="\blank"} is a joint initiative between EMBL-EBI’s Ensembl project and NCBI’s RefSeq project to release a genome-wide transcript set that contains one well-supported transcript per protein-coding locus. All transcripts in the MANE set will perfectly align to GRCh38 and will represent 100% identity (5’ UTR, coding sequence, 3’ UTR) between the RefSeq (NM\_) and the corresponding Ensembl (ENST) transcript.
-
-The matched transcript files are standard RefSeq and Ensembl reference sequence types as defined above and **do not represent additional files**. The standard NM\_ and ENST identifers are used for these transcipts: there are no separate project-specific identifiers.
+(2) the [MANE (Matched Annotation between NCBI and EBI) project](https://www.ensembl.org/info/genome/genebuild/mane.html){:target="\blank"} is a joint initiative between EMBL-EBI’s Ensembl project and NCBI’s RefSeq project to release a genome-wide transcript set that contains one well-supported transcript per protein-coding locus. All transcripts in the MANE set will perfectly align to GRCh38 and will represent 100% identity (5’ UTR, coding sequence, 3’ UTR) between the RefSeq (NM\_) and the corresponding Ensembl (ENST) transcript. The matched transcript files are standard RefSeq and Ensembl reference sequence types as defined above and **do not represent additional files**. The standard NM\_ and ENST identifers are used for these transcipts: there are no separate project-specific identifiers.
 
 * * *
 
