@@ -209,7 +209,7 @@ Why not? Two reasons:
 
 {:#note2}
 
-(2) the [MANE (Matched Annotation between NCBI and EBI) project](https://www.ensembl.org/info/genome/genebuild/mane.html) {:target="\blank"} is a joint initiative between EMBL-EBI’s Ensembl project and NCBI’s RefSeq project to release a genome-wide transcript set that contains one well-supported transcript per protein-coding locus. All transcripts in the MANE set will perfectly align to GRCh38 and will represent 100% identity (5’ UTR, coding sequence, 3’ UTR) between the RefSeq (NM\_) and the corresponding Ensembl (ENST) transcript.
+(2) the [MANE (Matched Annotation between NCBI and EBI) project](https://www.ensembl.org/info/genome/genebuild/mane.html){:target="\blank"} is a joint initiative between EMBL-EBI’s Ensembl project and NCBI’s RefSeq project to release a genome-wide transcript set that contains one well-supported transcript per protein-coding locus. All transcripts in the MANE set will perfectly align to GRCh38 and will represent 100% identity (5’ UTR, coding sequence, 3’ UTR) between the RefSeq (NM\_) and the corresponding Ensembl (ENST) transcript.
 
 The matched transcript files are standard RefSeq and Ensembl reference sequence types as defined above and **do not represent additional files**. The standard NM\_ and ENST identifers are used for these transcipts: there are no separate project-specific identifiers.
 
