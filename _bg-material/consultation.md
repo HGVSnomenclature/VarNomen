@@ -17,17 +17,19 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 ### Open
 
-*   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (RefSeq)
-    :   suggests to specify the HGVS recommendations for acceptable Reference Sequences
-    :   **Status**: <font color="red">to be decided</font>. Opened Jul.20 (2019), closed Sep.30 (2019).
+*   there are currently no open proposals.
 
 * * *
 
 ### Closed
 
+*   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (Reference Sequences)
+    :   suggests to specify the HGVS recommendations for acceptable Reference Sequences
+    :   **Status**: <font color="red">accepted</font>. Opened Jul.20 (2019), closed Sep.30 (2019).
+
 *   [SVD-WG007]({{site.baseurl}}/bg-material/consultation/svd-wg007/) (RNA fusion)
     :   suggests to extend the HGVS recommendations with a format to decribe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using ”::”
-    :   **Status**: <font color="red">under review SVD-WG</font>. Opened Apr.10 (2019), closed Jun.30 (2019).
+    :   **Status**: <font color="red">accepted</font>. Opened Apr.10 (2019), closed Jun.30 (2019).
 
 *   [SVD-WG006]({{site.baseurl}}/bg-material/consultation/svd-wg006/) (circular DNA)
     :   suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.
