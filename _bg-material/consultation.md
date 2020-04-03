@@ -28,7 +28,7 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
     :   **Status**: <font color="red">accepted</font>. Opened Jul.20 (2019), closed Sep.30 (2019).
 
 *   [SVD-WG007]({{site.baseurl}}/bg-material/consultation/svd-wg007/) (RNA fusion)
-    :   suggests to extend the HGVS recommendations with a format to decribe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using ”::”
+    :   suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using ”::”
     :   **Status**: <font color="red">accepted</font>. Opened Apr.10 (2019), closed Jun.30 (2019).
 
 *   [SVD-WG006]({{site.baseurl}}/bg-material/consultation/svd-wg006/) (circular DNA)
