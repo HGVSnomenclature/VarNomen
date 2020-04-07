@@ -25,16 +25,16 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 *   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (Reference Sequences)
     :   suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [_Reference Sequences_](/bg-material/refseq/) page)
-    :   **Status**: <font color="red">accepted</font>. Opened Jul.20 (2019), closed Sep.30 (2019).
+    :   **Status**: <font color="red">accepted</font>. Closed Sep.30 (2019). Opened Jul.20 (2019).
 
 *   [SVD-WG007]({{site.baseurl}}/bg-material/consultation/svd-wg007/) (RNA fusion)
     :   suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using ”::”
-    :   **Status**: <font color="red">accepted</font>. Opened Apr.10 (2019), closed Jun.30 (2019).
+    :   **Status**: <font color="red">accepted</font>. Closed Jun.30 (2019). Opened Apr.10 (2019).
 
 *   [SVD-WG006]({{site.baseurl}}/bg-material/consultation/svd-wg006/) (circular DNA)
     :   suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.
     :   suggests to add the exception for circular genomic reference sequences ("m." and "o." prefix) to allow NC_012920.1:m.16563_13del
-    :   **Status**: <font color="red">accepted</font>. Closed Oct.30 (2018), opened Aug.1 (2018).
+    :   **Status**: <font color="red">accepted</font>. Closed Oct.30 (2018). Opened Aug.1 (2018).
 
 *   [SVD-WG005]({{site.baseurl}}/bg-material/consultation/svd-wg005/) (gom/lom)
     :   suggests to extend the HGVS recommendations to allow description of changes in general methylation status.
