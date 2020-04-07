@@ -12,24 +12,61 @@ order: 2
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
-*	only public files from NCBI or EBI are accepted as reference sequence files
-	*	approved reference sequence formats include; NC\_# (e.g. NC\_000023.10), LRG\_# (e.g. LRG\_199, LRG\_199t1), NG\_# (e.g. NG\_012232.1), NM\_# (e.g. NM\_004006.2), NR\_# (e.g. NR\_002196.1) and NP\_# (e.g. NP\_003997.1)
-	*	_**NOTE:**_	the SVD-WG is currently considering the recommendation whether Ensembl reference sequences (e.g. , ENSG00000182533.6, ENST00000357033.8, ENSP00000354923.3) can be used or not. An important issue is that version numbers are not included in downloaded Ensembl sequence files.
-*	a reference sequence file identifier should contain both the **accession** and **version number**
-	*	NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 not (lacks the essential version number)
-	*	LRG reference sequences do not contain a version number (e.g. LRG\_199)
+This section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/bg-material/consultation/svd-wg008/).
+
+A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/bg-material/numbering/){:target="\_blank"} and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its corresponding identifier are unchangeable.
+
+*	reference sequences **must** come from data sources that provide stable and permanent identifiers, e.g. RefSeq (NCBI) and Ensembl (EBI). A source that permits updating of sequence records associated with an existing sequence identifier **must not** be used, i.e. a change in the reference sequence **must** trigger a change in the sequence identifier
+	*	rationale: violating this requirement means that interpretation of a variant might change over time
+*	reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [_IUPAC codes_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences) 
+*	reference sequence **must** be contiguous; undefined sequence is not permissible
+	*	this requirement applies within a **single** sequence. Alignments **between** sequences may contain gaps. For example, a coding sequence will contain intron gaps when aligned to a genomic sequence
+	*	[_IUPAC codes_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} for any nucleotide (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
+*	a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
+	*	sequence identifiers are opaque ([_note 1_](#note1)), i.e. the structure and meaning of an identifier is determined by the source reference sequence database
+	*	versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences
+		*	RefSeq and Ensembl reference sequence identifiers use version numbers to distinguish between sequences. In the context of these reference sequences, variant descriptions lacking a version number are **not** valid. NG\_012232**<font color="red">.1</font>** is correct, NG\_012232 is not correct (lacks the essential version number)
+		*	LRG's provide equivalent uniqueness but do not use version numbers
+		*	the sequence identifier **must** be included in **all** representations of a reference sequence, i.e. annotated records and downloadable formats such as fasta files
+*	only reference sequences considered to be **“complete”** (as defined in the bullet points below) are suitable for defining sequence variation. The reference sequence database **must** provide a mechanism which allows simple and definitive identification of **"complete"** sequences
+	*	the mechanism that identifies a complete record may be embedded in the sequence identifier or may be defined within the reference sequence record
+	*	a reference sequence representing a protein-coding transcript **must** contain a complete CDS, otherwise it should be considered that the supporting evidence is insufficient to support the use of the transcript
+		*	the first three nucleotides of the CDS must be clearly annotated within the reference sequence record
+		*	the translation termination codon must be clearly annotated within the reference sequence record
+	*	predicted or inferred sequences **should not** be used for variant reporting
+	*	if a reference sequence becomes unsupported or refuted by evidence, it should no longer be used
+*	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version-number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
+*	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.11 (for _Homo sapiens_ chromosome X, build GRCh38/hg38)
 *	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
 	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
-	*	accepted specifications include transcripts (NM\_004006.2, DMD\_v001, MT-TL1) or proteins (NP\_003997.1, DMD\_i001, YP\_003024028.1)
-		*	(DMD\_v001) indicates the first DMD transcript (CDS) **<font color="red">v</font>**ariant annotated; can be used when transcript reference sequence records are not available
-		*	(DMD\_i001) indicates the first DMD protein **<font color="red">i</font>**soform annotated; can be used when protein reference sequence records are not available
-		*	(DMD) indicates the gene as annotated in the file; only approved HGNC gene symbols are allowed
-*	a "**<font color="red">:</font>**" (colon) is used as a separator between the reference sequence file identifier (_accession.version-number_) and the actual description of a variant; NC\_000011.9**<font color="red">:</font>**g.12345611G>A
-*	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.10 (for _Homo sapiens_ chromosome X, build GRCh37/hg19)
-*	the reference sequence used **must contain** the variant residue described
-	*	a coding DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
-		*	<u>not correct:</u> NM\_004006.2:c.357+1G>A, LRG\_199:c.357+1G>A
-		*	<u>correct:</u> NG\_012232.1(NM\_004006.2):c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A, LRG\_199t1:c.357+1G>A
+	*	accepted specifications include transcripts (NM\_004006.2), proteins (NP\_003997.1) or genes (DMD)
+		*	for genes only approved HGNC gene symbols are allowed
+*	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
+	*	the reference sequence used **must contain** the variant residue that is described as being changed
+	*	a **coding** or **non-coding** DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
+	*	intronic sequences are considered to be within the boundaries of a transcript reference sequence but a valid gene or genomic reference sequence identifier **must** also be provided, e.g. NG\_012232.1(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC\_000023.11(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a chromosomal reference sequence)
+		*	**not correct:** NM\_004006.2:c.357+1G>A, LRG\_199:c.357+1G>A
+		*	**correct:** NG\_012232.1(NM\_004006.2):c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A, LRG\_199t1:c.357+1G>A
+	*	where possible, users should report sequence variation at the genome or gene level as well as the transcript level to enable accurate mapping between transcript reference sequences via the genome or gene position(s)
+
+### Recommended Reference Sequences types are:
+
+*	RefSeq sequences with the prefixes NC\_, NT\_, NW\_,NG\_, NM\_, NR\_ or NP\_
+	*	chromosome - NC\_000023.11
+	*	genomic contigs or scaffolds - NT\_010718.17, NW\_003315950.2
+	*	gene/genomic region - NG\_012232.1
+	*	coding transcript - NM\_004006.2
+	*	non-coding transcript - NR\_004430.2
+	*	protein - NP\_003997.1
+*	LRG sequences with the prefixes LRG\_#, LRG\_#t#, LRG\_#p# (see examples below)
+	*	gene/genomic region - LRG\_199
+	*	coding transcript (or non-coding transcript) - LRG\_199t1
+	*	protein - LRG\_199p1
+*	Ensembl transcript (ENST) and protein (ENSP) which are not identified by Ensembl as being incomplete, e.g. CDS 5' incomplete (cds_start_NF), CDS 3' incomplete (cds_end_NF)
+	*	gene/genomic region - ENSG00000198947.15
+	*	coding transcript - ENST00000357033.8
+	*	non-coding transcript - ENST00000383925.1
+	*	protein - ENSP00000354923.3
 
 * * *
 
@@ -97,6 +134,7 @@ Depending on the variants to be reported, different reference sequence files are
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants and protein isoforms can be annotated
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NM\_004006.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
+	*	the [MANE (Matched Annotation between NCBI and EBI) project](https://www.ensembl.org/info/genome/genebuild/mane.html){:target="\blank"} is a joint initiative between EMBL-EBI’s Ensembl project and NCBI’s RefSeq project to release a genome-wide transcript set that contains one well-supported transcript per protein-coding locus. All transcripts in the MANE set will perfectly align to GRCh38 and will represent 100% identity (5’ UTR, coding sequence, 3’ UTR) between the RefSeq (NM\_) and the corresponding Ensembl (ENST) transcript. The matched transcript files are standard RefSeq and Ensembl reference sequence types as defined above and **do not represent additional files**. The standard NM\_ and ENST identifers are used for these transcipts: there are no separate project-specific identifiers.	
 *	a coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
 *	when, based on a genomic reference sequence, variants are reported using a "**c.**" prefix, the transcript variant used should be indicated
 	*	for LRG\_'s an annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:c.11T>G
@@ -156,6 +194,17 @@ Depending on the variants to be reported, different reference sequence files are
 	*	for LRG\_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG\_199**<font color="red">p1</font>**:p.(Val25Gly)
 *	a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
+* * *
+
+{:#notes}{:#note1}
+
+## Notes
+
+(1) an [opaque identifier](https://indieweb.org/opaque){:target="\_blank"} is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
+
+Why not? Two reasons:
+*	because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
+*	because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
 
 * * *
 
@@ -208,3 +257,4 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants?  Do I number it in relation to the EST or the genomic sequence?  Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?
 	:	Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants.
+	
