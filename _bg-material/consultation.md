@@ -24,7 +24,7 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 ### Closed
 
 *   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (Reference Sequences)
-    :   suggests to specify the HGVS recommendations for acceptable Reference Sequences
+    :   suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [_Reference Sequences_](/bg-material/refseq/) page)
     :   **Status**: <font color="red">accepted</font>. Opened Jul.20 (2019), closed Sep.30 (2019).
 
 *   [SVD-WG007]({{site.baseurl}}/bg-material/consultation/svd-wg007/) (RNA fusion)
