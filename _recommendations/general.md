@@ -55,9 +55,11 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 *	"**<font color="red">-</font>**" (minus) is used in [_nucleotide numbering_](/bg-material/numbering); c.124-56C>T
 *	"**<font color="red">*</font>**" (asterisk) is used in [_nucleotide numbering_](/bg-material/numbering) and to indicate a translation termination (stop) codon ([_see Standards_](/bg-material/standards#RNAcode)); c.\*32G>A and P.Trp41\* 
 *	"**<font color="red">_</font>**" (underscore) is used to indicate a range; g.12345\_12678del
-*	"**<font color="red">[ ]</font>**" (square brackets) are used for alleles (see [_DNA_](/recommendations/DNA/variant/alleles), [_RNA_](/recommendations/RNA/variant/alleles), [_protein_](/recommendations/protein/variant/alleles))
+*	"**<font color="red">[ ]</font>**" (square brackets) are used for alleles (see [_DNA_](/recommendations/DNA/variant/alleles), [_RNA_](/recommendations/RNA/variant/alleles), [_protein_](/recommendations/protein/variant/alleles)), which includes multiple inserted sequences at one position and insertions from an additional reference sequence including 
 	*	"**<font color="red">;</font>**" (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
 	*	"**<font color="red">,</font>**" (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>t, 122\_154del]
+	*	NC\_000002.11:g.48031621\_48031622ins[TAT;48026961\_48027223;GGC]
+	*	NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
 *	"**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
 *	"**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)<br>
 	_**NOTE**_: the range of the uncertainty should be described as precisely as possible ([_see below_](#uncertain1))
