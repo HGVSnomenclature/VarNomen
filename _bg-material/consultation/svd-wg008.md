@@ -13,7 +13,9 @@ category: SVD-WG
 
 The proposal suggested to specify the HGVS recommendations for acceptable Reference Sequences. Based on the proposal the  [_Reference Sequences_](https://varnomen.hgvs.org/bg-material/refseq/){:target="\_blank"} page has been updated (April 2020).
 
-### Backgound
+* * *
+
+### Background
 
 A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/bg-material/numbering/){:target="\_blank"} and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its reference sequence identifier are unchangeable.
 
