@@ -11,7 +11,7 @@ The current HGVS version number is shown in the top right corner of this web sit
 
 ### The current version is HGVS nomenclature v19.01.
 
-**<font color="red">NOTE:</font>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature will be released soon, most probably on May 1.
+**<font color="red">NOTE:</font>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature will be released May 1.
 
 For issues currently discussed see [_Open for Community Consultation_](/bg-material/consultation/) or [_Open Issues_](/recommendations/open-issues/).
 
@@ -23,7 +23,7 @@ For issues currently discussed see [_Open for Community Consultation_](/bg-mater
 
 {:#version-list}
 
-*	_**Version xx.xx**_
+*	_**Version 20.05**_
 	:	Accepted proposals include [_SVD-WG007_](/bg-material/consultation/svd-wg007/) and [_SVD-WG008_](/bg-material/consultation/svd-wg008/):
 	*	SVD-WG008 (_Reference Sequences_)
 		:	specifies requirements for acceptable Reference Sequences  
