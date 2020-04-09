@@ -39,8 +39,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 *	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.11 (for _Homo sapiens_ chromosome X, build GRCh38/hg38)
 *	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
 	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
-	*	accepted specifications include transcripts (NM\_004006.2), proteins (NP\_003997.1) or genes (DMD)
-		*	for genes only approved HGNC gene symbols are allowed
+	*	accepted specifications include transcripts (NM\_004006.2) and proteins (NP\_003997.1). Gene symbols should **not** be used as specification.
 *	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
 	*	the reference sequence used **must contain** the variant residue that is described as being changed
 	*	a **coding** or **non-coding** DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
