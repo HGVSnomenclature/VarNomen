@@ -114,6 +114,9 @@ Specific abbreviations are used to describe different variant types.
 *	When I want to report a variant on DNA, RNA and protein level do I need to use a specific separator?
 	:	No, best is to report the variant using the format NM\_004006.2:c.124A>G r.(?) p.(Ser42Gly). **_NOTE:_** needless to say, always mention the reference sequence file used
 
+*	I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frame shift at #rotein level. How should I list this variant, as substitution, as splice variant, as insertion or as frame shift?
+	: When listing variant types, HGVS recommends listing them separately for each level, i.e. DNA, RNA and protein. On DNA level you identified a substitution, on RNA level an insertion and on protein level a frameshift.
+
 *	What do you mean by "descriptions at protein level should describe the changes observed on that level and not try to incorporate any knowledge regarding the change at DNA-level"?
 	:	To describe a variant at the protein level you simply compare the reference and variant protein sequence. You forget what happened at the DNA level. When the sequence ...ATG AGC TCG AGC CTT... (encoding MetSerSerSerLeu) changes to ...TGG AGC AGC CTT... (encoding MetSerSerLeu) this is described as p.(Ser4del) and **not as** p.(Ser3del) because from DNA level the codon for Ser3 is deleted.
 	
