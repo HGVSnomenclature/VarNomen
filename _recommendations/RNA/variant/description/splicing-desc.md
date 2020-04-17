@@ -10,4 +10,4 @@ Variants affecting RNA splicing result in either a [_deletion_](/recommendations
 
 ### Note
 
-* a "," (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122_154del]
+* a "," (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u,122_154del]
