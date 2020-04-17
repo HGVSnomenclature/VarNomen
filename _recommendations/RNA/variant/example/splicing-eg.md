@@ -4,6 +4,9 @@ title: splicing
 category: example
 ---
 
+*	**one variant, several transcripts**
+	*	LRG\_199t1:r.[897u>g,832_960del]
+	:	two different transcripts, r.897u>g and r.832_960del, derive from one variant (LRG\_199t1:c.897T>G at the DNA level)
 *	**splice acceptor site** (c.650-1G>C)
 	*	r.650\_831del
 	:	as a consequence of a variant destroying the exon 8 splice acceptor site, the sequence from nucleotide r.650 to r.831 (exon 8) is deleted from the transcript
