@@ -25,7 +25,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   cap site
     :   first nucleotide of a transcript (5' end) to which a specially altered nucleotide is added.
-    
+
+*   break point
+    :   the site where two sequences which are in different positions in the reference sequence are joined as a consequence of genomic rearrangement (Structural Variant)
+
 *   cDNA
     :   cDNA, "copy DNA" or "complementary DNA", is the DNA copy of a single stranded RNA molecule synthesized using the enzyme reverse transcriptase ([Wikipedia](https://en.wikipedia.org/wiki/Complementary_DNA){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68018076){:target="\_blank"}).
     :   _**NOTE:**_ cDNA is not the same as "coding DNA" (see below).
@@ -41,7 +44,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   two variants are **"in cis"** when they are on the same allele (DNA molecule, chromosome).
     
 *   CNV
-    :   copy number variant (CNV), a variant where a large stretch of DNA is missing (copy deleted) or present more then once (copy duplicated or amplified).
+    :   copy number variant (CNV), a variant in a genome where the number of copies of a large stretch of DNA differs from that in the reference genome; a copy can be missing (deleted) or be present more then once (duplicated, triplicated, ...,  or amplified).
     :   _**NOTE:**_  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
     :   alias CNP (copy number polymorphism)
     
@@ -58,6 +61,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   conversion
     :   **HGVS**-DNA: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/conversion/) or  [_RNA_](/recommendations/RNA/variant/conversion/).
+
+*	Crick strand
+	:	see plus (+) strand.
 
 *   deletion
     *   one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
@@ -79,7 +85,12 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   any nucleotide sequence within a gene which, during maturation of the RNA transcript, is not removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Exon){:target="\_blank"}, [MESH](https://www.ncbi.nlm.nih.gov/mesh/68005091){:target="\_blank"}). Every exon, except the first and lat exon, is flanked by two **introns**.
     
 *   extension
-    :   a sequence change extending the normal amino acid sequence at the N- or C-terminal end with one or more amino acids ([_protein_](/recommendations/protein/variant/extension/))
+    :   a sequence change extending the normal amino acid sequence at the N- or C-terminal end with one or more amino acids ([_protein_](/recommendations/protein/variant/extension/)).
+
+*	frame (reading frame)
+	:	**frame 1** is the normal reading frame, using the first nucleotide of each coding triplet of the annotated amino acid reference sequence for translation, starting at the A of the ATG translation initiation codon (nucleotide c.1)
+	:	**frame 2** is the reading frame using the second nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame
+	:	**frame 3** is the reading frame using the third nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame.
 
 *   frame shift
     :   a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](/recommendations/protein/variant/frameshift/))
@@ -137,7 +148,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   _**NOTE**:_ the term LOH should thus **not** be used to indicate a **homozygous** region, i.e. a region where both chromosomes have the same sequence.
 
 *   loss of heterozygosity
-    :   see LOH. 
+    :   see LOH.
+
+*	minus (-) strand
+	:	the bottom strand of the reference genome. Alias negative strand, Watson strand.
 
 *   missense
     *   a variant in which a codon is changed to one directing the incorporation of a different amino acid (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=missense){:target="\_blank"}).
@@ -151,14 +165,20 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   _**NOTE**:_ please do not use this term, [_see Terminology_](bg-material/basics/).
     *   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
     *   _**biology**_: a change in the sequence
-    *   _**medicine**_: a sequence variant **associated** with a disease phenotype
+    *   _**medicine**_: a sequence variant **associated** with a disease phenotype.
+
+*	negative (-) strand
+	:	see minus (-) strand.
 
 *   nonsense
     *   a variant that changed an amino acid-specifying codon to a stop codon (termination codon, based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=nonsense){:target="\_blank"}).
     *   **HGVS**: a variant in a protein sequence where compared to the reference sequence an amino acid is replaced by a translational stop codon (termination codon).
 
 *   nucleotide
-    :   a letter from the DNA code, e.g. A, C, G, or T ([_see Standards_](/bg-material/standards/))
+    :   a letter from the DNA code, e.g. A, C, G, or T ([_see Standards_](/bg-material/standards/)).
+
+*	plus (+) strand
+	:	the top strand of the reference genome. Alias positive strand, Crick strand.
 
 *   polyA addition site
     :   the 3' end of a precursor messenger RNA (pre-mRNA) transcript that is cleaved and to which subsequently a tail of A nucleotides is added (the polyA-tail)
@@ -173,24 +193,31 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     *   _**biology**_: a sequence variant present in the population at a frequency of 1% or higher
     *   _**medicine**_: a sequence variant **not associated** with a disease phenotype
 
+*	positive (+) strand
+	:	see plus (+) strand.
+
 *   quadruplication
     :   a sequence change where, compared to a reference sequence, three copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/)).
 
 *   quintuplication
     :   a sequence change where, compared to a reference sequence, four copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/)).
 
+*	reading frame
+ 	:	one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein)
+    :   see also **frame**
+
 *   repeated sequence
-    :   **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other
+    :   **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
 
 *   silent
     *   a variant in a DNA sequence that does not change the amino acid sequence of the encoded protein (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=silent){:target="\_blank"}).
     *   **HGVS**: an amino acid residue in a protein sequence where compared to the reference sequence the DNA sequence changed but not the encoded amino acid.
     
 *   SNP
-    :   Single Nucleotide Polymorphism (SNP). Note the preferred term is SNV (Single Nucleotide Variant), [_see polymorphism_](#polymorphism)
+    :   Single Nucleotide Polymorphism (SNP). The preferred term is SNV (Single Nucleotide Variant), [_see polymorphism_](#polymorphism).
 
 *   SNV
-    :   Single Nucleotide Variant (SNV). Term preferred over SNP.
+    :   Single Nucleotide Variant (SNV), a variant involving one nucleotide (e.g. A>C, A>T, A>G, delA, dupA, insA).
 
 *   splice acceptor site (SA)
     :   the 3' splice site, at the end of the intron/start of the exon
@@ -204,20 +231,26 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   splicing
     :   the process removing specific segments (the inrons) of a precursor messenger RNA (pre-mRNA) transcript. When an intron is removed the flanking RNA segments (the exons) are joined together (ligated)
     
+*	strand
+	:	one of the two strands of a DNA molecule (double stranded).
+
+*   Structural Variant (SV)
+    :   a variant in a genome where compared to the reference sequence the structure of a large stretch of DNA is changed. SVs include deletions/duplications (CNVs), inversions, insertions, deletion-insertions, conversions, transpositions, translocations, etc.
+    :   _**NOTE:**_  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
+
 *   substitution
     *   one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 
     *   **HGVS**-DNA: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.
     :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/substitution/), [_RNA_](/recommendations/RNA/variant/substitution/) or [_protein_](/recommendations/protein/variant/substitution/).
    
 *   SV
-    :   Structural Variant (SV), a variant where the normal structure of a large stretch of DNA is altered, including copy number variants (CNV, deletions/duplications), inversions, insertions, translocations, transpositions, etc.
-    :   _**NOTE:**_  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
+    :   see Structural Variant.
 
 *   trans
     :   two variants are **"in trans"** when they are on different alleles (DNA molecules, chromosomes).
     
 *   transition
-    :   a nucleotide variant changing a purine nucleotide to another purine nucleotide (A < > G), or a pyrimidine nucleotide to another pyrimidine nucleotide (C < > T)
+    :   a nucleotide variant changing a purine nucleotide to another purine nucleotide (A < > G), or a pyrimidine nucleotide to another pyrimidine nucleotide (C < > T).
     
 *   translocation
     *   a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation){:target="\_blank"})
@@ -229,7 +262,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
         :   a translocation with an uneven exchange of DNA sequences and segments being deleted or duplicated
 
 *   transposition
-    :   a sequence change where compared to a reference sequence a range of nucleotides moves from one position to another position, i.e. a deletion at one postion combined with the insertion of the deleted sequence at another position.
+    :   a sequence change where, compared to a reference sequence, a large stretch of DNA moves from one position in the genome to another position, i.e. a deletion at one postion combined with the insertion of the deleted sequence at another position. The variant is described as a deletion at the original location and an insertion at the new location.
 
 *   transversion
     :   a nucleotide variant changing a purine nucleotide to a pyrimidine nucleotide (A or G > T or C), or a pyrimidine nucleotide to a purine nucleotide (C or T > A or G)
@@ -246,4 +279,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   3'UTR = UTR 3' of the translation termination codon
     
 *   variant
-    :   a difference between the reference sequence and the sample sequence
+    :   a difference between a reference sequence and a sample sequence
+
+*   VNTR
+    :   Variable Number of Tandem Repeats, a nucleotide sequence consisting of units of a specific short sequence which is repeated in tandem copies and where the number of units is variable in the population.
+
+*	Watson strand
+	:	see minus (-) strand.
