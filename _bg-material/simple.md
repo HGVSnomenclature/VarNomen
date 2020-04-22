@@ -6,22 +6,28 @@ order: 5
 
 # HGVS simple
 
-**Changes** in DNA, RNA and protein sequences, also called **variants**, mutations or polymorphisms, are described using a specific language. To prevent confusion regarding its meaning a **standard** has been developed for this language, the so called **HGVS nomenclature**. The standard is used world-wide, especially in human health and diagnostics. This page will try to explain the standard, briefly and in simple terms. After reading you should understand the basics of the HGVS nomenclature and be able to use the internet to find more information on specific variants. In addition, while searching, you should be able to prevent making mistakes leading to misinterpretation of the variant description and its possible consequences. More details, on all subjects, are availble elsewhere on the HGVS nomenclature pages.
+**Changes** in DNA, RNA and protein sequences, also called **variants** (or mutations or polymorphisms), are described using a specific language. To prevent confusion regarding its meaning a **standard** has been developed for this language, the so called **HGVS nomenclature**. The standard is used world-wide, especially in human health and clinical diagnosis. This page will try to explain the standard, **briefly and in simple terms**. After reading you should understand the basics of the HGVS nomenclature and be able to use the internet to find more information on specific variants. In addition, while searching, you should be able to prevent making mistakes leading to misinterpretation of the variant and its possible consequences. More details, on all subjects, are availble elsewhere on the HGVS nomenclature pages.
 
 * * *
 
 ## The format
 
-The format of a complete variant description is **reference:description**, e.g.;
+The format of a complete variant description is **"reference : description"** (spaces added for clarity only), e.g.;
 
 	*	NM_004006.2:c.4375C>T
 	*	NC_000023.11:g.32389644G>A
 
-All variants are described in relation to a reference, the so called **reference sequence**, in the examples **NM\_004006.2** and **NC\_000023.11**. After the reference a description of the variant is given, in the examples **c.4375C>T** and **g.32389644G>A**.
+All variants are described in relation to a reference, the so called **reference sequence**, in the examples **NM\_004006.2** [from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NM_001399.4){:target="\_blank"}) **NC\_000023.11** [from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NC_000023.1){:target="\_blank"}). After the reference a description of the variant is given, in the examples **c.4375C>T** and **g.32389644G>A**.
 
-A description without a reference sequence is near useless, additional information will then be required to **guess** what reference may have been used, e.g. the name of the gene containing the variant, the associated phenotype studied (disease), the chromosome number and possibly predicted consequences of the variant on the RNA and/or protein) level. Furthermore, since reference sequences usually change over time, the date of the report can give useful information as well.
+A description without a reference sequence is near useless. Additional information will then be required to **guess** what reference sequence may have been used. When the guess made is wrong you of course end up with incorrect information. Additional information to make a guess may come from the **name of the gene** containing the variant, the associated phenotype studied (disease), the chromosome number and from possibly predicted consequences of the variant on the RNA and/or protein) level. Since reference sequences usually change over time, the date of the report describing the variant can give useful information as well.
 
-Variants are usually detected by reading the DNA sequence (sequencing). A proper report **always** contains the variant described on the DNA level. Often the predicted consequences on the protein level are given as well. In rare cases, not following current standards, only the predicted consequences at the protein level are reported.
+### DNA > RNA > protein
+
+In nature the DNA code is transcribed in to a **RNA** molecule ([see Wikipedia](https://en.wikipedia.org/wiki/RNA){:target="\_blank"})) and the RNA molecule is translated in to a **protein**. The protein is the final product of a gene. Proteins perform a vast array of functions, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells, and organisms, and transporting molecules from one location to another ([see Wikipedia](https://en.wikipedia.org/wiki/Protein){:target="\_blank"})). 
+
+Variants are usually detected by reading the DNA code, a method called DNA **sequencing**. A proper report **always** contains the variant described on the DNA level. In addition, a report usually contains a description of the consequence of the variant on the protein, rarely the consequence on RNA. In rare cases, not following current standards, only the consequences at the protein level are reported.
+
+Some variants have an effect on how the transcript (RNA) is generated and consequently on its translation (protein). When only DNA has been analysed, the consequences of the variant at the RNA and the protein level can only be predicted. The HGVS standard demands predicted consequences have to be **reported in parenthesis**. The predicted consequence of NM\_004006.2:c.4375C>T at the protein level is therefore described as p.(Arg1459*). The "()" warn the variant described is a predicted consequence only.
 
 * * *
 
