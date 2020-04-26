@@ -16,4 +16,3 @@ category: example
 	:	a variant in the stop codon (Ter/\*) at position 315, changing it to a Tyr-codon (a no-stop variant) and adding a tail of new amino acids to the protein's C-terminus, ending at a new stop codon (Ter5/\*5)
 *	p.Ter327Argext\*? (alternatively p.\*327Argext\*?)
 	:	a variant in the stop codon (Ter/\*) at position 327, changing it to an Arg-codon and adding a tail of new amino acids of unknown length (position \*?) since the shifted frame does not contain a new stop codon.
-	:	_**NOTE**_: added on **<font color="red">2012-11-01</font>**
