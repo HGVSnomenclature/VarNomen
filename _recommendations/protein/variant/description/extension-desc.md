@@ -11,13 +11,14 @@ Format (**<font color="red">N-terminal</font>**):  **"prefix""Met1""ext""positio
 **"ext"**  =  type of change is an extension =  ext<br>
 **"position_new_initiation_site"**  =  position new upstream translation initiation site =  -5
 
-Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_amino_acid""ext""position_new_termination_site"**,  e.g. p.Ter110Glnext\*17
+Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_amino_acid""ext""Ter""position_new_termination_site"**,  e.g. p.Ter110Glnext\*17
 
 **"prefix"**  =  reference sequence used  =  p.<br>
 **"Ter_position"**  =  normal translation termination site  =  Ter110<br>
 **"new_amino_acid"**  =  amino acid encoded by variant termination codon  =  Gln<br>
 **"ext"**  =  type of change is an extension =  ext<br>
-**"position_new_termination_site"**  =  position new downstream translation termination site =  \*17
+**"Ter"**  =  termination codon = Ter / \*<br>
+**"position_new_termination_site"**  =  position new downstream translation initiation site =  17
 
 ---
 
