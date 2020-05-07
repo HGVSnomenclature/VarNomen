@@ -24,6 +24,7 @@ Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * **prefix** reference sequence accepted is "p." (protein).
 * **extension** variants have been accepted on <font color="red">2012-08-31</font>.
 * **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110Glnext\*17).
