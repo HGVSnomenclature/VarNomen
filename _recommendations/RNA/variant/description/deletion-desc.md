@@ -14,6 +14,7 @@ Format:  **"prefix""position(s)_deleted""del"**,  e.g. r.123\_127del
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequences accepted are r. (coding and non-coding RNA).
 *	the "position(s)\_deleted" should contain **two different positions**, e.g. 123\_126 but not 123\_123.
 *	the "position(s)\_deleted" should be listed from **5' to 3'**, e.g. 123\_126 but not 126\_123.
