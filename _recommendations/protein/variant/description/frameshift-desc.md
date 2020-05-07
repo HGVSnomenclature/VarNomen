@@ -18,6 +18,7 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequence accepted is "p." (protein).
 *	frame shifts are a special type of amino acid **deletion/insertion**, but the description does not include the deletion from the site of the change to the C-terminal end of the protein (stop codon), like "Arg123\_Leu833del", nor the amino acid sequence inserted.
 	*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
@@ -34,4 +35,3 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 	*	deletions starting 5’ of and including the translation termination (stop) codon are described as [_**frame shift**_](/recommendations/protein/variant/frameshift/)
 	*	insertions from intron sequences which give premature translation termination are described as frame shifts, intron insertions maintaining the normal open reading are described as [_Insertion_](/recommendations/protein/variant/insertion/) or [_Deletion-insertion_](/recommendations/protein/variant/delins/)
 	*	insertions extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension/)
-	
