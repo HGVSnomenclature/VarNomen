@@ -8,6 +8,14 @@ order: 3
 
 * * * 
 
+* [nucleotide - DNA](#DNAcode)
+* [nucleotide - RNA](#RNAcode)
+* [genetic code](#geneticcode)
+* [amino acid code](#aacode)
+* [cytogenetic band > nucleotide position ](#ISCN)
+
+* * *
+
 <a name ="DNAcode"></a>
 
 ## Nucleotides (DNA / RNA)
@@ -44,6 +52,8 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 * * * 
 
+<a name ="RNAcode"></a>
+
 ### **RNA**
 
 {:.table .table-bordered}
@@ -67,7 +77,7 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 * * * 
 
-<a name ="RNAcode"></a>
+<a name ="geneticcode"></a>
 
 ## Genetic Code
 
