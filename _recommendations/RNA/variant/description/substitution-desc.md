@@ -16,7 +16,8 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 ### Note
 
-*	**prefix** reference sequences accepted are r. (coding and non-coding RNA).
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
+* **prefix** reference sequences accepted are r. (coding and non-coding RNA).
 *	changes involving two or more consecutive nucleotides are described as deletion/insertions (indels) ([_see Deletion/insertion (delins)_](/recommendations/RNA/variant/delins/)).
 * two variants separated by one or more nucleotides should preferably be described individually and not as a “delins”
  * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a “delins” (e.g. r.142\_144delinsugg (p.Arg48Trp)).
