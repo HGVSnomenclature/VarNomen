@@ -15,6 +15,7 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequence accepted is "p." (protein).
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727Ser).
 *	changes involving two or more consecutive amino acids are described as deletion/insertions (indels) ([_see Deletion/insertion (delins)_](/recommendations/protein/variant/delins/)).<br>
