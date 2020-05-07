@@ -26,6 +26,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	humans are diploid organisms and have **two alleles** at each genetic locus, with one allele inherited from each parent
 *	when two variants are identified in a transcript that derive from **one chromosome** (in cis) this should be described as "r.[variant1**<font color="red">;</font>**variant2]".
 *	when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1]**<font color="red">;</font>**[variant2]".
