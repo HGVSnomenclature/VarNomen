@@ -14,6 +14,7 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequence accepted is "p." (protein).
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783del).
 *	the "amino\_acids+positions\_deleted" should contain **two different** positions, i.e. Cys76\_Glu79, not Cys76\_Cys76.
