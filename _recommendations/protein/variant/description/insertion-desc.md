@@ -15,6 +15,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequence accepted is "p." (protein).
 *	the "amino\_acids+positions\_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25)
 	*	an insertion can not be described using **one** amino acid position, like p.Lys23insAsp
