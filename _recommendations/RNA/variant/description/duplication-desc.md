@@ -14,6 +14,7 @@ Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequences accepted are r. (coding and non-coding RNA).
 *	“positions_duplicated” should contain two different positions, e.g. 123_126 not 123_123.
 *	the “positions_duplicated” should be listed from 5’ to 3’, e.g. 123_126 not 126_123.
