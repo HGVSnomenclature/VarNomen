@@ -64,8 +64,6 @@ The committees propose that as soon as nucleotide positions are used in the desc
 *	"**::**" (double colon)
 :	"::" (double colon) is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome
 :	_**NOTE:**_	non-template sequences ("inserts") at these imperfect break points are described using the format "**::sequence::**" (e.g. ::AAGTAC:: )
-	*	the "**::**" (double colon) is also used to designate the junction of fusion transcripts from genes on different chromosomes
-	:	_**NOTE:**_	fusion transcripts from genes on the same chromosome are described as "delins"
 
 * * *
 
