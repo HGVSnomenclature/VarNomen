@@ -11,27 +11,24 @@ In the original proposal (SVD-WG004) **one identical derivative chromosome** wou
 	*	**balanced**
 		*	t(2;11)(p25.1;p15.2)
 		:	_(involving short arms chromosomes 2 and 11)_
+			*	NC\_000002.12:g.pter\_8247756delins[NC\_000011.10:g.pter\_15825272]
+			:	**NC\_000011.10:g.pter\_5825272delins[NC\_000002.12:g.pter\_8247756]**
+			:	_**NOTE:**_	corrected for NC\_000002.12::g.pter\_8247756::NC\_000011.10:g.15825273\_cen\_qter and NC\_000011.10:g.pter\_15825272::NC\_000002.12:g.8247757\_cen\_qter in ISCN2016
 			*	ISCN
 			:	chr2:g.pter\_8,247,756::chr11:g.15,825,273\_cen\_qter (der11) and chr11:g.pter\_15,825,272::chr2:g.8,247,757\_cen\_qter (der2)
-			*	HGVS
-			:	NC\_000002.12:g.pter\_8247756delins[NC\_000011.10:g.pter\_15825272]
-			:	NC\_000011.10:g.pter\_5825272delins[NC\_000002.12:g.pter\_8247756]
-			:	_**NOTE:**_	corrected for NC\_000002.12::g.pter\_8247756::NC\_000011.10:g.15825273\_cen\_qter and NC\_000011.10:g.pter\_15825272::NC\_000002.12:g.8247757\_cen\_qter in ISCN2016
 		*	t(2;11)(q31.1;q22.3)
 		:	_(involving long arms chromosomes 2 and 11, with 5 bp deletion of chr11 sequence)_
+			*	NC\_000002.12:g.17450009\_qterdelins[NC\_000011.10:g.108111987\_qter]
+			:	**NC\_000011.10:g.108111982\_qterdelins[NC\_000002.12:g.17450009\_qter**
 			*	ISCN
 			:	chr2:g.pter\_cen\_174500098::chr11:g.108111987\_qter (der2) and chr11:g.pter\_cen\_108111981::chr2:g.174500099\_qter (der11)
 			:	_**NOTE:**_	coupling chr11:108111981 to 108111987 implies nucleotides 108111982\_108111986 are deleted
-			*	HGVS
-			:	NC\_000002.12:g.17450009\_qterdelins[NC\_000011.10:g.108111987\_qter]
-			:	NC\_000011.10:g.108111982\_qterdelins[NC\_000002.12:g.17450009\_qter
 		*	t(3;14)(14qter->14q12::3p22.2->3qter;14pter->14q12::3p22.2->3pter)
 		:	_(between short arm chromosome 3 and long arm chromosomes 14, with an inserted sequence at the break point on the derivative chromosome 3)_
+			*	NC\_000003.12:g.pter\_36969141delins[CATTTGTTCAAATTTAGTTCAAATGA;NC\_000014.9:g.29745314\_qterinv]
+			:	**NC\_000014.9:g.29745314\_qterdelins[NC\_000003.12:g.36969141\_pterinv]**
 			*	ISCN
 			:	chr14:g.pter\_cen\_29,745,313::chr3:g.pter\_36,969,141inv (der14) and chr14:g.29,745,314\_qterinv::CATTTGTTCAAATTTAGTTCAAATGA::chr3:g.36,969,142\_cen\_qter (der3)
-			*	HGVS
-			:	NC\_000003.12:g.pter\_36969141delins[CATTTGTTCAAATTTAGTTCAAATGA;NC\_000014.9:g.29745314\_qterinv]
-			:	NC\_000014.9:g.29745314\_qterdelins[NC\_000003.12:g.36969141\_pterinv] 
 		*	NC\_000009.12:g.pter\_26393001delins102425452\_qterinv
 		:	**NC\_000009.12:g.102425452\_qterdelinspter\_26393001inv**
 		:	for ISCN t(9;9)(9qter->9q22.33::9p21.2->9qter;9pter->9q22.33::9p21.2->9pter)
