@@ -61,6 +61,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 	*	NC\_000002.11:g.48031621\_48031622ins[TAT;48026961\_48027223;GGC]
 	*	NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
 *	"**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
+*	"**<font color="red">::</font>**" (double colon) is used to describe RNA fusion transcripts ([RNA Deletion-insertion](/recommendations/RNA/variant/delins/)) and to designate break point junctions creating a ring chromosome ([_DNA Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
 *	"**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)<br>
 	_**NOTE**_: the range of the uncertainty should be described as precisely as possible ([_see below_](#uncertain1))
 *	"**<font color="red">?</font>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
@@ -90,11 +91,11 @@ Specific abbreviations are used to describe different variant types.
 *	"**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Frame shifts_](/recommendations/protein/variant/extension))
 
 *	HGVS/ISCN ([_see Community Consultation_](http://www.hgvs.org/mutnomen/comments004.html))
-	*	"**<font color="red">add</font>**" indicates an **additional** chromosome (marker chromosome)
 	*	"**<font color="red">cen</font>**" indicates the **centromere** of a chromosome
-	*	"**<font color="red">chr</font>**" indicates a **chromosome**; chr11:g.12345611G>A (NC_000011.9)
+	*	"**<font color="red">chr</font>**" indicates a **chromosome**; chr11:g.12345611G>A (NC\_000011.9)
 	*	"**<font color="red">pter</font>** indicates the **first nucleotide** of a chromosome
 	*	"**<font color="red">qter</font>**" indicates the **last nucleotide** of a chromosome
+	*	"**<font color="red">sup</font>**" indicates an **supernumary** chromosome (marker chromosome)
 
 *	changes of state (modifications)
 	*	"**<font color="red">gom</font>**" indicates a **gain of methylation**; g.12345678_12345901**<font color="red">|gom</font>**
