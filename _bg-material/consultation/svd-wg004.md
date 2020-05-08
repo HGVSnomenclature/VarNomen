@@ -6,10 +6,13 @@ category: SVD-WG
 
 ## Community Consultation
 
+* * *
+
 ### NOTE
 
-The proposal below is the original proposal as published first on November 10, 2015. The proposal is **not updated** and does not include changes made after acceptance of the proposal. To see the current recommendations please check [Complex HGVS/ISCN](/recommendations/DNA/variant/complex/). 
+The proposal below is the original proposal as published first on November 10, 2015. The proposal is **not updated** and does not include changes made after acceptance of the proposal. To see the current recommendations please check [_Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/). 
 
+* * *
 
 ### Proposal SVD-WG004 (ISCN<>HGVS)
 
