@@ -16,8 +16,8 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
 *	specific symbols
 	*	pter, cen, qter
 		:	the start of the chromosome is described as "**pter**", the end as "**qter**", the centromere as "**cen**"
-		*	(pter)_# and #_(qter)
-			:	for deletions extending from a known nucleotide position (#) to an unknown position in the direction of the telomere the format “(pter)_#” or “#_(qter)” is used.
+		*	(pter)\_# and #\_(qter)
+			:	for deletions extending from a known nucleotide position (#) to an unknown position in the direction of the telomere the format “(pter)\_#” or “#\_(qter)” is used.
 		:	_**NOTE:**_	added in ISCN2020
 	*	sup
 		:	the presence of an additional sequence which is not attached to other chromosomal material (i.e. trisomy, marker or ring chromosome) is indicated by "**sup**" (supernumerary chromosome)
