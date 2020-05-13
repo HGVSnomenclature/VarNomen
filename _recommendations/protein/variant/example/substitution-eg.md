@@ -17,19 +17,19 @@ category: example
 	* 	NP\_003997.1:p.Cys188=
 	:	amino acid Cys188 is not changed (DNA level change ..TGC.. to ..TGT..)
 	:	_**NOTE:**_	the description p.= means the **entire** protein coding region was analysed and no variant was found that changes (or is predicted to change) the protein sequence.
-* 	translation initiation codon  
+* 	**translation initiation codon**  
 	*	no protein
 	:	LRG\_199p1:p.0
-	:	as a consequence of a variant no protein is produced
+	:	as a consequence of a variant in the translation initiation codon no protein is produced
 	*	unknown
 	:	LRG\_199p1:p.?
-    	:	the consequence of a variant at the protein level are not known (can not be predicted)
+    	:	the consequence, at the protein level, of a variant in the translation initiation codon are not known (can not be predicted)
 	:	_**NOTE:**_	do not use descriptions like "p.Met1Thr", this is for sure **not** the consequence of the effect on protein translation
 	*	**new translation initiation site**
 		*	**<u>upstream</u>**  -  [_see Extension_](/recommendations/protein/variant/extension)
-		:	a variant causes the activation of an upstream translation initiation site (Met) resulting in an N-terminal extension of the protein
+		:	a variant in the translation initiation codon causes the activation of an upstream translation initiation site (Met) resulting in an N-terminal extension of the protein
 		*	**<u>downstream</u>**  -  NP\_003997.1:p.Leu2\_Met124del 
-		:	a variant causes the inactivation of the normal and activation of a downstream translation initiation site (Met) resulting in deletion of the first 123 amino acids (Met-1 to Val-123) of the protein.<br>
+		:	a variant in the translation initiation codon causes the activation of a downstream translation initiation site (Met) resulting in deletion of the first 123 amino acids (Met-1 to Val-123) of the protein.<br>
         	:	_**NOTE:**_	the 3' rule applies.
 *	translation termination codon _(stop codon, **no-stop change**)_
 	:	[_see Extension_](/recommendations/protein/variant/extension)
