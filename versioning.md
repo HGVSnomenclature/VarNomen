@@ -9,9 +9,9 @@ permalink: /versioning/
 The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note the version does not change when a typing error is corrected, an example added, an explanation clarified or a question answered. Outside the core HGVS recommendations, covered by the version number, the recommendations have "**named extensions**", i.e optional extensions for a specific use. Supporting named extensions is optional. A proper reference to the version of the HGVS nomenclature should mention the version number and the named extensions supported.
 
 
-### The current version is HGVS nomenclature v19.01.
+### The current version is HGVS nomenclature v20.05.
 
-**<font color="red">NOTE:</font>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature will be released May 1.
+**<font color="red">NOTE:</font>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
 
 For issues currently discussed see [_Open for Community Consultation_](/bg-material/consultation/) or [_Open Issues_](/recommendations/open-issues/).
 
@@ -27,7 +27,7 @@ For issues currently discussed see [_Open for Community Consultation_](/bg-mater
 	:	Accepted proposals include [_SVD-WG007_](/bg-material/consultation/svd-wg007/) and [_SVD-WG008_](/bg-material/consultation/svd-wg008/):
 	*	SVD-WG008 (_Reference Sequences_)
 		:	specifies requirements for acceptable Reference Sequences  
-	*	SVD-WG008 (_RNA fusion_)
+	*	SVD-WG007 (_RNA fusion_)
 		:	specifies how to describe RNA fusion transcripts   
 
 *	_**Version 19.01**_
