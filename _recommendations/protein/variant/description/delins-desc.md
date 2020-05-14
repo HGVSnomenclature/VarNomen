@@ -16,7 +16,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 ### Note
 
 *	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-* **prefix** reference sequence accepted is "p." (protein).
+*	**prefix** reference sequence accepted is "p." (protein).
 *	by definition, when **one** amino acid is replaced with **one** other amino acid, the change is a [_substitution_](/recommendations/protein/variant/substitution/), not a deletion-insertion.
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123_Lys127delinsSerAsp).
