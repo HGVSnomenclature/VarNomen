@@ -6,21 +6,21 @@ category: description
 
 Format (one allele):   **"prefix"["variant1";"variant2"]**,  e.g. p.[(Ser73Arg;Asn103del)]
 
-*	**"prefix"**  =  reference sequence used  =  p.<br>
-*	**[**  =  opening symbol for allele  =  [<br>
-*	**"variant1"**  =  description first variant  =  Ser73Arg<br>
-*	**;**  =  separator symbol two changes  =  ;<br>
-*	**"variant2"**  =  description second variant  =  Asn103del<br>
-*	**]**  =  closing symbol for allele  =  ]
+**"prefix"**  =  reference sequence used  =  p.<br>
+**[**  =  opening symbol for allele  =  [<br>
+**"variant1"**  =  description first variant  =  Ser73Arg<br>
+**;**  =  separator symbol two changes  =  ;<br>
+**"variant2"**  =  description second variant  =  Asn103del<br>
+**]**  =  closing symbol for allele  =  ]<br>
  
 Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)];[(Asn103del)]
 
-*	**"prefix"**  =  reference sequence used  =  p.<br>
-*	**[**  =  opening symbol for allele-1  =  [<br>
-*	**"variant"**  =  description variant  =  Ser73Arg<br>
-*	**];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
-*	**"variant"**  =  description variant  =  Asn103del<br>
-*	**]**  =  closing symbol for allele-2  =  ]
+**"prefix"**  =  reference sequence used  =  p.<br>
+**[**  =  opening symbol for allele-1  =  [<br>
+**"variant"**  =  description variant  =  Ser73Arg<br>
+**];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
+**"variant"**  =  description variant  =  Asn103del<br>
+**]**  =  closing symbol for allele-2  =  ]<br>
  
 ---
 
