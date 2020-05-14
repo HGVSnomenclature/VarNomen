@@ -24,8 +24,8 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 	*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
 *	the description of a frame shift starts with the **first new** amino acid, this might not be first codon affected by the variant at the DNA level
 	*	the position of the translation termination (stop) codon in the new reading frame is calculated **starting** at the first amino acid changed by the frame shift (codon 1), and **ending** at the first stop codon encountered (Ter# or \*#)<br>
-	*	_**NOTE**_: the number of amino acids in the new C-terminal sequence is "#-1" amino acids<br>
-	*	_**NOTE**_: the shortest frame shift variant possible contains "fsTer2"; "fsTer1" variants are by definition nonsense variants ([_see Substitution_](/recommendations/protein/variant/substitution/)).
+		*	_**NOTE**_: the number of amino acids in the new C-terminal sequence is "#-1" amino acids<br>
+		*	_**NOTE**_: the shortest frame shift variant possible contains "fsTer2"; "fsTer1" variants are by definition nonsense variants ([_see Substitution_](/recommendations/protein/variant/substitution/)).
 	*	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
 	*	the (predicted) amino acid changes of additional variants on the same allele (in cis) downstream of the frame shift are not described unless they change the length of the shifted reading frame (i.e. introduce an earlier translational termination codon or affect the termination codon of the shifted frame). 	
 	*	frame shifts can also be described using a **short format**; p.Arg123fs i.e. indicating the first amino acid changed, its position and "fs" without further detail.
