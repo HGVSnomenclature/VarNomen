@@ -20,5 +20,5 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
 *	changes involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants
 *	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
 	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
-	:	**_NOTE:_**	this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
+	:	**_NOTE:_**	this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position (e.g. c.225\_227delinsTAT (p.Lys79Tyr) versus c.[225A>T;227G>T] (p.[Lys79*;Lys79Asn]).
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
