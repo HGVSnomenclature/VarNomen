@@ -22,6 +22,8 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123_Lys127delinsSerAsp).
 *	when the inserted protein sequence is large and it is possible to derive the inserted amino acid sequence from the description given at DNA or RNA level, the insertion may be described by its length only (e.g. p.Arg456_Leu488delins(54)).
 *	two variants separated by one or more amino acids should preferably be described individually and not as a “delins”
+*	changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins)
+	*	_**NOTE**_:	this does not mean that at the DNA level the variant is described as a "delins" variant as well; on DNA level other rules may apply
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level.
 	*	deletion-insertion variants **containing a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence
 	*	deletion-insertion variants encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/)
