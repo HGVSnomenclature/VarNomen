@@ -128,6 +128,7 @@ Depending on the variants to be reported, different reference sequence files are
 ### DNA - coding DNA reference sequence (c.)
 
 *	coding DNA reference sequences are indicated using a **c.** prefix
+*	a coding DNA reference sequence is a DNA reference sequence, based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the  **c.** prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.
 *	the preferred coding DNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants and protein isoforms can be annotated
