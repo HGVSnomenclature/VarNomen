@@ -34,7 +34,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   _**NOTE:**_ cDNA is not the same as "coding DNA" (see below).
 
 *   CDS
-    :   coding DNA sequence.
+    :   coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
 
 *   chimerism
     :   the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism){:target="\_blank"}). Opposite of mosaicism.
@@ -48,12 +48,15 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   _**NOTE:**_  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
     :   alias CNP (copy number polymorphism)
     
-*   coding DNA
-    :   the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
-    :   _**NOTE:**_ a [_coding DNA reference sequence_](/bg-material/refseq/#DNAc) is **not** a cDNA sequence (see above)
+*	coding DNA
+	:	the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
 
-*   complex
-    :   **HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
+*	coding DNA reference sequence
+	:	a DNA reference sequence ([_see Reference Sequence_](/bg-material/refseq/#DNAc)), based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the "c." prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.
+	:	_**NOTE:**_ a coding DNA reference sequence is **not** a cDNA sequence (see above)
+
+*	complex
+	:	**HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
 
 *   compound heterozygote
     :   used in cases of _autosomal recessive_ disease where the disease-causing variants on both alleles at a given locus are **not identical** (opposite of _homozygous_)
