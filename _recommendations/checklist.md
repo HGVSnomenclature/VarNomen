@@ -16,17 +16,17 @@ Going through publications one can easily see where people give variant descript
 
 ## Checklist
 
-1.  **Reference Sequence** - do you clearly mention the reference sequence used for numbering (nucleotides/amino acids)?  
-    A publication should mention, preferably in the Materials & Methods section and/or Figure or Table legend, which reference sequence file was used for numbering of the residues (DNA, RNA and protein) and to describe the variants ([see_Reference Sequences_](/bg-material/refseq)).
-	*	do you mention a _GenBank_ (not Gen**<u>e</u>**Bank) RefSeq-file with accession  _**and version number**_?; do not forget the underscore in the accession number (correct is NM\_004006**.2**, not NM004006.2).
+1.	**Reference Sequence** - do you clearly mention the reference sequence used for numbering (nucleotides/amino acids) ?
+	:	A publication should mention, preferably in the Materials & Methods section and/or Figure or Table legend, which reference sequence file was used to describe variants and for numbering of the residues (DNA, RNA and protein ([_see_Reference Sequences_](/bg-material/refseq)).
+	*	do you mention a _GenBank_ (not Gen**<u>e</u>**Bank) RefSeq-file with accession  _**and version number**_ ?; do not forget the underscore in the accession number (correct is NM\_004006**.2**, not NM004006.2).
 	*	genomic (**g.**) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a +, - or *.
-	*	for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as _**nucleotide 1**_?
+	*	for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as _**nucleotide 1**_ ?
 	*	legacy numbering is only allowed _**in addition to**_ approved numbering
-	*	does your reference sequence contain the residue that you describe as changed?
-	_**NOTE**_:	**NM\_** reference sequences cover mature transcripts, do _**not contain**_ intron and gene flanking sequences and can thus not be used to describe variants in those regions ([_see Reference Sequences_](/bg-material/refseq/#DNAc)).
-2.  **Intronic variants** - are descriptions of intron variants correct and complete?
-	*	variants in introns_ are described using the format "**c.89-2A>G**", descriptions like "_c.IVS4-2A>G_" are not allowed.
-	*	do you properly describe ranges in the introns?  The format c.123-65\_123-50 is correct, the format c.123-65**\_-50** is not, it is **incomplete**.
+	*	does your reference sequence contain the residue that you describe as changed ?
+	:	_**NOTE**_: **NM\_** reference sequences cover mature transcripts, do _**not contain**_ intron and gene flanking sequences and can thus not be used to describe variants in those regions ([_see Reference Sequences_](/bg-material/refseq/#DNAc)).
+2.  **Intronic variants** - are descriptions of intron variants correct and complete ?
+	*	variants in introns can be described using a coding DNA reference sequence using the format "LRG\_199t1:c.94-2A>G" or "NC\_000023.10(NM\_004006.2):c.94-2A>G", descriptions like "_c.IVS4-2A>G_" are not allowed.
+	*	do you properly describe ranges in the introns ?  The format c.123-65\_123-50 is correct, the format c.123-65**\_-50** is not, it is **incomplete**.
 3.  **Insertions** - are descriptions of insertions correct and complete ([_see Insertion_](/recommendations/DNA/variant/insertion))?
 	*	insertions should be reported using the format c.51\_52insT. The format c.52insT is incomplete and not allowed.
 	*	do you give the inserted sequence?  Describing a variant as c.5439\_5430**ins6** is not allowed, the inserted sequence (ins6, e.g. TGCCAT) should be specified.
