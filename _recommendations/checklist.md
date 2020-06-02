@@ -25,7 +25,8 @@ Going through publications one can easily see where people give variant descript
 	*	does your reference sequence contain the residue that you describe as changed ?
 	:	_**NOTE**_: **NM\_** reference sequences cover mature transcripts, do _**not contain**_ intron and gene flanking sequences and can thus not be used to describe variants in those regions ([_see Reference Sequences_](/bg-material/refseq/#DNAc)).
 2.  **Intronic variants** - are descriptions of intron variants correct and complete ?
-	*	variants in introns can be described using a coding DNA reference sequence using the format "LRG\_199t1:c.94-2A>G" or "NC\_000023.10(NM\_004006.2):c.94-2A>G", descriptions like "_c.IVS4-2A>G_" are not allowed.
+	*	variants in introns can only be described using a "c." prefix when a genomic reference sequence is given on which the coding DNA reference sequence is annotated, e.g. "NC\_000023.10(NM\_004006.2):c.94-2A>G" or "LRG\_199t1:c.94-2A>G"
+	*	descriptions referring to exon or intron numbers in strad of nucleotide positions, e.g."_c.IVS4-2A>G_" are **not allowed**.
 	*	do you properly describe ranges in the introns ?  The format c.123-65\_123-50 is correct, the format c.123-65**\_-50** is not, it is **incomplete**.
 3.  **Insertions** - are descriptions of insertions correct and complete ([_see Insertion_](/recommendations/DNA/variant/insertion))?
 	*	insertions should be reported using the format c.51\_52insT. The format c.52insT is incomplete and not allowed.
