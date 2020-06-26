@@ -6,8 +6,10 @@ category: example
 
 *	NC\_000023.11:g.32386323delinsGA
 	:	a deletion of nucleotide g.32386323 (a T, not described), replaced by nucleotides GA, changing ..CAGC<font color="red">T</font>CTTT.. to ..CAGC<font color="red">GA</font>CTTT.. The variant corresponds to LRG\_199t1:c.4661delinsTC based on a coding DNA reference sequence.
+	:	_**NOTE**_: the recommendation is not to describe the variant as NC\_000023.11:g.32386323delTinsGA, i.e. describe the deleted nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increase (e.g. NC\_000023.11:g.32386323delCinsGA).
 *	NM\_004006.2:c.6775\_6777delinsC 
 	:	a deletion of nucleotides c.6775 to c.6777 (GAG, not described), replaced by a C nucleotide, changing ..GGAA<font color="red">GAG</font>TTGC.. to ..GGAA<font color="red">C</font>TTGC..
+	:	_**NOTE**_: the recommendation is not to describe the variant as NM\_004006.2:c.6775\_6777delGAGinsC, i.e. describe the deleted nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increase (e.g. NM\_004006.2:c.6775\_6777delGTGinsC ).
 *	LRG\_199t1:c.145\_147delinsTGG (p.Arg49Trp)
 	:	a deletion replacing nucleotides c.145 to c.147 (CGC, not described) with TGG
 *	LRG\_199t1:c.9002\_9009delinsTTT
