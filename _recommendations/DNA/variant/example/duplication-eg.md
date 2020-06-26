@@ -6,12 +6,12 @@ category: example
 
 *	one nucleotide - NM\_004006.2:c.20dup (NC\_000023.10:g.33229410dup)
 :	the duplication of a T at position c.20 in the sequence AGAAGTAGAGG to AGAAGT**<font color="red">T</font>**AGAGG
-:	_**NOTE**_: it is allowed to describe the variant as c.20dupT
-:	_**NOTE**_: it is **not** allowed to describe the variant as g.19\_20insT ([_see prioritisation_](/recommendations/general/))
+:	_**NOTE**_: it is **not** allowed to describe the variant as c.19\_20insT ([_see prioritisation_](/recommendations/general/))
+:	_**NOTE**_: the recommendation is not to describe the variant as NM\_004006.2:c.20dupT, i.e. describe the duplicated nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increases (e.g. NM\_004006.2:c.20dupG).
 *	several nucleotides
 	*	NM\_004006.2:c.20\_23dup (NC\_000023.10:g.33229407\_33229410dup)
 	:	a duplication from position c.20 to c.23 in the sequence AGAAGTAGAGG to AGAAGTAGA**<font color="red">TAGA</font>**GG
-	:	_**NOTE**_: it is allowed to describe the variant as c.20\_23dupTAGA
+	:	_**NOTE**_: the recommendation is not to describe the variant as c.20\_23dupTAGA, i.e. describe the duplicated nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increases (e.g. c.20\_23dupTGGA).
 	*	LRG\_199t1:c.260\_264+48dup (NC\_000023.10:g.32862852\_32862904dup)
 	:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron/exon
