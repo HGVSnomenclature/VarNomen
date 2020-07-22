@@ -17,9 +17,9 @@ The proposal suggests to simplify HGVS nomenclature by stopping to use the forma
 
 According to the HGVS definition: conversion = a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
 
-*	the HGVS recommendations do not need the "con" format since such variants can be described using the exisitng "delins" format (simply replace "con" by "delins" in the description).
+*	the HGVS recommendations do not need the "con" format since such variants can be described using the existing "delins" format (simply replace "con" by "delins" in the description).
 *	the format is rarely used so the change should not cause any problems
-*	stopping its use will simplify the HGVS recommendation (a bit)
+*	stopping its use will simplify the HGVS recommendations (a bit)
 
 * * *
 
