@@ -6,7 +6,7 @@ category: SVD-WG
 
 ## Community Consultation
 
-### Proposal SVD-WG007 (conversion)
+### Proposal SVD-WG009 (conversion)
 
 *	Status: <font color="red">open</font>
 	:	proposal SVD-WG009 opened for **Community Consultation** on August 1 (2020) and will be closed October 31 (2020). 
