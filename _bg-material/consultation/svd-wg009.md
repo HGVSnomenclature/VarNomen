@@ -13,13 +13,13 @@ category: SVD-WG
 
 * * *
 
-The proposal suggests to simplify HGVS nomenclature by stopping to use the format "con" to describe conversions (see [<i>Converion</i>]((http://varnomen.hgvs.org/recommendations/RNA/variant/delins/)).
+The proposal suggests simplification of the HGVS nomenclature by discontinuing the use of the variant type “con” to describe conversions (see [<i>Converion</i>]((/recommendations/RNA/variant/delins/)).
 
 According to the HGVS definition: conversion = a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
 
 *	the HGVS recommendations do not need the "con" format since such variants can be described using the existing "delins" format (simply replace "con" by "delins" in the description).
-*	the format is rarely used so the change should not cause any problems
-*	stopping its use will simplify the HGVS recommendations (a bit)
+*	the format is rarely used so the change should not cause many problems
+*	stopping its use will help simplify the HGVS recommendations
 
 * * *
 
