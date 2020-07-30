@@ -63,7 +63,7 @@ Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi
 
 ### RNA reference sequences
 
-nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
+nucleotide numbering for a RNA reference sequence follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
 
 *	in a non-coding RNA reference sequences nucleotide numbering is r.1, r.2, r.3, ..., etc. from the first to the last nucleotide of the reference sequence.
 *	in a coding RNA reference sequences nucleotide numbering is based on the annotated protein isoform, the major translation product, following that of a coding DNA reference sequence [_see coding DNA reference sequence_](#DNAc).
