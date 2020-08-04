@@ -13,7 +13,7 @@ category: SVD-WG
 
 * * *
 
-The proposal suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con” to describe conversions** (see [<i>Conversion</i>](/recommendations/DNA/variant/conversion/)).
+The proposal suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con” to describe conversions** (see [<i>Conversion</i>](/recommendations/DNA/variant/conversion/)). Comments to the proposal, positive or negative, should be addressed to “Varnomen @ variome.org” (remove the spaces), Subject: SVD-WG009.
 
 According to the HGVS definitiona **conversion** is a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
 
