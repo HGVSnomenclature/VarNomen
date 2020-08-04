@@ -13,7 +13,7 @@ category: SVD-WG
 
 * * *
 
-The proposal suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con” to describe conversions** (see [<i>Converion</i>](/recommendations/DNA/variant/conversion/)).
+The proposal suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con” to describe conversions** (see [<i>Conversion</i>](/recommendations/DNA/variant/conversion/)).
 
 According to the HGVS definitiona **conversion** is a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
 
@@ -31,4 +31,3 @@ According to the HGVS definitiona **conversion** is a sequence change where, com
 *	NC\_000012.12:g.6128479\_6128749delins[NC\_000022.11:g.17178616\_17178886]
 	:	previously NC\_000012.12:g.6128479\_6128749con[NC\_000022.11:g.17178616\_17178886], a gene conversion in the VWF gene converting the chromosome 12 sequence (NC\_000012.12) from position g.6128479 to g.6128749 with the sequence from chromosome 22 (NC\_000022.11) from position g.17178616 to g.17178886.
 	:	_**NOTE:**_ for inserted sequences derived from another reference sequence the prefix of the reference sequence type ("g." in the example) needs to be provided.
-	
