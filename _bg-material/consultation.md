@@ -17,7 +17,9 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 ### Open
 
-*   there are currently no open proposals.
+*   [SVD-WG009]({{site.baseurl}}/bg-material/consultation/svd-wg009/) (conversion)
+    :   suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con”** to describe conversions
+    :   **Status**: <font color="red">open</font>. Opened on August 4 (2020), to be closed on October 31 (2020).
 
 * * *
 
