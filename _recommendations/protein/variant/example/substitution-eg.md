@@ -21,10 +21,10 @@ category: example
 	*	no protein
 	:	LRG\_199p1:p.0
 	:	as a consequence of a variant in the translation initiation codon no protein is produced
+	:	_**NOTE:**_	LRG\_199p1:p.0? can be used when you predict that no protein is produced. Do not use descriptions like "p.Met1Thr", this is for sure **not** the consequence of the effect on protein translation
 	*	unknown
 	:	LRG\_199p1:p.?
-    	:	the consequence, at the protein level, of a variant in the translation initiation codon are not known (can not be predicted)
-	:	_**NOTE:**_	do not use descriptions like "p.Met1Thr", this is for sure **not** the consequence of the effect on protein translation
+    	:	the consequence, at the protein level, of a variant can not be predicted (i.e. is unknown)
 	*	**new translation initiation site**
 		*	**<u>upstream</u>**  -  [_see Extension_](/recommendations/protein/variant/extension)
 		:	a variant in the translation initiation codon causes the activation of an upstream translation initiation site (Met) resulting in an N-terminal extension of the protein
@@ -36,7 +36,7 @@ category: example
 *	splicing
 	*	NP\_003997.1:p.?
 	:	the predicted consequence of variant NM\_004006.2c.2622G>C is a silent change (p.(Lys874=)). Since it affects the last nucleotide of the exon it can not be excluded the variant affects splicing, having unknown consequences.
-	:	_**NOTE:**_	when others have reported the same variant, and were able to analyse RNA, you could consider to give the consequences they observed as the predicted consequences for the variant, e.g. r.[2603\_2622del,2622g>c] p.[Ser868Argfs\*2,Ser868=]
+	:	_**NOTE:**_	when others have reported the same variant, and were able to analyse RNA, you could consider to give the consequences they observed as the predicted consequences for the variant, e.g. r.[(2603\_2622del,2622g>c)] p.[(Ser868Argfs\*2,Ser868=)]
 *	uncertain
 	*	NP\_003997.1:p.(Gly56Ala^Ser^Cys)
 	:	amino acid Gly56 is changed to an Ala, Ser or Cys ([_see Uncertain_](/recommendations/uncertain/))
