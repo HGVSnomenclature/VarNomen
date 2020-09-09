@@ -105,13 +105,13 @@ HGVS recommendations also contain suggestions to describe variants for which not
 		*	NC\_000002.11:g.?\_?ins[NC\_000022.10:35788169\_35788352]
 		:	the insertion of sequences from chromosome 22, nucleotides g.35788169 to g.35788352 (of the HMOX1 gene) at an unknown position in chromosome 2.
 *	**duplication**
-:	the standard format to describe a duplicaion for which the break point has not been sequenced is (A\_B)\_(C\_D)dup, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the duplication, i.e. **g.(last-normal\_first-duplicated)\_(last-duplicated\_first-normal)dup**.
+:	the standard format to describe a duplication for which the break point has not been sequenced is (A\_B)\_(C\_D)dup, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the duplication, i.e. **g.(last-normal\_first-duplicated)\_(last-duplicated\_first-normal)dup**.
 	:	_**NOTE**_: many assay detect the presence of an **additional copy** of specific sequences, not the location of the extra copy. When there is **no evidence** the additional copy is **in tandem** with the original copy but might be anywhere in a genome, the variant should be described as an **insertion** (see above). 
 	*	PCR
 		*	NC\_000023.11:g.(31729716\_31773911)\_(32217064\_32287541)dup (LRG\_199t61:c.(6278\_6291-1)\_(7542+49\_7575)dup)
 		:	a duplication of exons 44 to 51 in the DMD gene as detected by a multiplex PCR assay. The variant is described based on the last amplified nucleotide of exon 43 (g.32287541/c.6278), the first duplicate amplified nucleotide of exon 44 (g.32216847/c.6291-1), the last duplicate amplified nucleotide of exon 51 (g.31774235/c.7542+49) and the first amplified nucleotide of exon 52 (g.31729716/c.7575).	
 	*	MLPA
-		*	NC\_000023.11:g.(31729662\_31774079)\_(32216972\_32287623)del (LRG\_199t1:c.(6196\_6382)\_(7423\_7629)del)
+		*	NC\_000023.11:g.(31729662\_31774079)\_(32216972\_32287623)dup (LRG\_199t1:c.(6196\_6382)\_(7423\_7629)dup)
 		:	a duplication of exons 44 to 51 in the DMD gene as detected by an MLPA assay. The duplication is described based on the last normal signal (exon 43 position g.32287623/c.6196), the first duplicated signal (exon 44 position g.32216972/c.6382), the last duplicated signal (exon 51 position g.31774079/c.7423) and the first normal signal (exon 52 position g.31729662/c.7629).
 	*	Southern blotting
 		*	NC_000023.11:g.(31775822\_31817965)\_(32218461\_32278336)dup (LRG\_199t1:c.(6290+9193\_6291-1398)\_(7309+2010\_7310-1630)dup)
