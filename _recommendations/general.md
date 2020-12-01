@@ -12,7 +12,7 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 
 * * *
 
-### General recommendations
+## General recommendations
 
 *	all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
 	*	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
@@ -41,7 +41,7 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 	*	**protein level** Lys76Asn ([_see Details_](/recommendations/protein)): the amino acid(s) affected in three- or one-letter code followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf){:target="\_blank"} 
 		*	**three-letter** amino acid code is preferred ([_see Standards_](/bg-material/standards/#aacode))
 		*	the **"*"** can be used to indicate the translation stop codon in both one- and three-letter amino acid code descriptions
-*	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) substitution, (2) deletion, (3) inversion, (4) duplication, (5) conversion, (6) insertion
+*	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) substitution, (2) deletion, (3) inversion, (4) duplication, (5) insertion
 	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
 	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
@@ -49,7 +49,7 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 * * *
 <a name="characters"></a>
 
-#### Characters used
+### Characters used
 
 In HGVS nomenclature some **characters** have a **specific meaning**
 
@@ -77,7 +77,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 * * *
 <a name="abbreviation"></a>
 
-#### Abbreviations in variant descriptions
+### Abbreviations in variant descriptions
 
 Specific abbreviations are used to describe different variant types.
 
@@ -88,7 +88,6 @@ Specific abbreviations are used to describe different variant types.
 *	"**<font color="red">ins</font>**" indicates an **insertion**; c.76\_77insG (see [_DNA_](/recommendations/DNA/variant/insertion), [_RNA_](/recommendations/RNA/variant/insertion), [_protein_](/recommendations/protein/variant/insertion))
 	*	duplicating insertions are described as duplications, not as insertions	
 *	"**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion)). Not used at protein level, usually described as [_"delins"_](/recommendations/protein/variant/delins/)
-*	"**<font color="red">con</font>**" indicates a **conversion**; NC\_000022.10:g.42522624\_42522669con42536337\_42536382 (see [_DNA_](/recommendations/DNA/variant/conversion), [_RNA_](/recommendations/RNA/variant/conversion), _protein_)
 *	"**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, [_see Frame shifts_](/recommendations/protein/variant/frameshift))
 *	"**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Extension_](/recommendations/protein/variant/extension))
 
@@ -106,7 +105,7 @@ Specific abbreviations are used to describe different variant types.
 
 * * *
 
-### Questions
+## Questions
 
 *	Some papers and web sites use a "-" (minus) to indicate a range, is this correct?
 :	The sign used to indicate a range is "_" (underscore) and not a "-" (minus). The minus sign should only be used as a minus in the description of variants based on a coding DNA reference sequence. c.12-14del describes a deletion of nucleotide -14 in the intron directly preceding coding DNA nucleotide 12, **not** a deletion of nucleotides c.12 to c.14.
