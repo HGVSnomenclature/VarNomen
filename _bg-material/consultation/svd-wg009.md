@@ -8,14 +8,16 @@ category: SVD-WG
 
 ### Proposal SVD-WG009 (conversion)
 
-*	Status: <font color="red">open</font>
-	:	proposal SVD-WG009 opened for **Community Consultation** on August 1 (2020) and will be closed October 31 (2020). 
+*	Status: <font color="red">accepted</font>
+	:	proposal SVD-WG009 opened for **Community Consultation** on August 1 (2020), closed October 31 (2020). 
+
+Based on the proposal the HGVS nomenclature pages have been updated (November 2020); the specific conversion pages were removed, information was merged with the Deletion-Insertion pages
 
 * * *
 
-The proposal suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con” to describe conversions** (see [<i>Conversion</i>](/recommendations/DNA/variant/conversion/)). Comments to the proposal, positive or negative, should be addressed to “Varnomen @ variome.org” (remove the spaces), Subject: SVD-WG009.
+The proposal suggested to simplify the HGVS nomenclature by **discontinuing the use of the variant type “con” to describe conversions** (see [<i>Conversion</i>](/recommendations/DNA/variant/conversion/)).
 
-According to the HGVS definitiona **conversion** is a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
+According to the HGVS definition a **conversion** is a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
 
 *	the HGVS recommendations do not need the "con" format since such variants can be described using the existing "delins" format (simply replace "con" by "delins" in the description).
 *	the format is rarely used, so the change should not cause significant problems
