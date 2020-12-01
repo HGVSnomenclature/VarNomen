@@ -63,7 +63,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 *   conversion
     :   **HGVS**-DNA: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
-    :   descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/conversion/) or  [_RNA_](/recommendations/RNA/variant/conversion/).
+    :   conversion variants are described as a Deletion-Insertion (see [_DNA_](/recommendations/DNA/variant/delins/) or [_RNA_](/recommendations/RNA/variant/delins/)).
 
 *	Crick strand
 	:	see plus (+) strand.
