@@ -27,7 +27,6 @@ variant-priority:   # used when generating order of variants in site structure a
     - duplication
     - insertion
     - inversion
-    - conversion
     - deletion-insertion
     - alleles
     - repeated sequences
