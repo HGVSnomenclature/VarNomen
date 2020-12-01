@@ -17,13 +17,15 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 ### Open
 
-*   [SVD-WG009]({{site.baseurl}}/bg-material/consultation/svd-wg009/) (conversion)
-    :   suggests simplification of the HGVS nomenclature by **discontinuing the use of the variant type “con”** to describe conversions
-    :   **Status**: <font color="red">open</font>. Opened on August 4 (2020), to be closed on October 31 (2020).
+There are currently no open issues.
 
 * * *
 
 ### Closed
+
+*   [SVD-WG009]({{site.baseurl}}/bg-material/consultation/svd-wg009/) (conversion)
+    :   suggested to simplify the HGVS nomenclature by **discontinuing the use of the variant type “con”** to describe conversions
+    :   **Status**: <font color="red">accepted</font>. Closed Oct.31 (2020). Opened Aug,4 (2020).
 
 *   [SVD-WG008]({{site.baseurl}}/bg-material/consultation/svd-wg008/) (Reference Sequences)
     :   suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [_Reference Sequences_](/bg-material/refseq/) page)
