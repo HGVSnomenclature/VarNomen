@@ -32,11 +32,11 @@ category: example
 			:	a sequenced GGC tri-nucleotide repeat from position c.-128 to c.-69 contains 10 GGC, 1 GGA, 9 GGC, 1 GGA and 10 GGC units (31 repeat units)
 			*	NM\_002024.5:c.-129CGG[79]
 			:	a repeated CGG tri-nucleotide sequence starting at position c.-129 with 79 CGG copies
-			:	_**NOTE**_:	by definition, since the reference sequence contains a mixed repeat (CGG and AGG units), the variant description only covers the sequence up to the first AGG interruption (position c.-99). A better description, giving less confusion, is NM\_002024.5:c.-128\_-69GGC[78]GGA[1]GGC[10] (i.e. assuming only the length of the first CGG segment was meant and not the total length of the CGG-AGG-CGG repeat).
+			:	_**NOTE**_:	by definition, since the reference sequence contains a mixed repeat (CGG and AGG units), the variant description only covers the sequence up to the first AGG interruption (position c.-99). A better description, giving less confusion, is NM\_002024.5:c.-128\_-69GGC[78]GGA[1]GGC[10] (i.e. assuming only the length of the first CGG segment was meant and not the total length of the GGC-GGA-GGC repeat).
 			*	NM\_002024.5:c.-128GGM[108]
 			:	a repeated mixed tri-nucleotide sequence starting at position c.-129 with 108 GGC/GGA copies
-			*	NM\_002024.5:c.(-231\_-20)ins(1800\_2400)
-			:	the amplified region containing the FMR1 repeat region (between nucleotides c.-231 and c.-20) contains an insertion of 1800 to 2400 nucleotides (600 to 800 GGC/GGA units)
+			*	NM\_002024.5:c.(-144\_-16)ins(1800\_2400)
+			:	the amplified region containing the FMR1 repeat region (between nucleotides c.-144 and c.-16) contains an insertion of 1800 to 2400 nucleotides (600 to 800 GGC/GGA units)
 		*	**HTT repeat**  (reference sequence LRG\_763t1:52\_153CAG[21]CAA[1]CAG[1]CCG[1]CCA[1]CCG[7]CCT[2])
 			:	in literature the Huntington's Disease tri-nucleotide repeat, encoding a variable poly-Gln followed by a variable poly-Pro repeat on protein level, is known as the CAG repeat. Based on the HTT (huntingtin) coding DNA reference sequence (GenBank LRG\_763t1 or NM\_002111.8) and applying the **3'rule**, the Poly-Gln encoding repeat has to be described as an AGC-AAC-AGC repeat.
 			*	LRG\_763t1:c.53AGC[23]
