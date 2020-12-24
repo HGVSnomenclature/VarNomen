@@ -4,7 +4,7 @@ title: repeated sequences
 category: description
 ---
 
-<font color="#FF0000">_**NOTE:**_</font> a Community Consultation is prepared which will suggest to allow **only one format** where the entire range of the repeated sequence must be indicated, e.g. g.123\_191CAG[23] not g.123CAG[23]
+_**<font color="#FF0000">NOTE:</font>**_ a Community Consultation is prepared which will suggest to allow **only one format** where the entire range of the repeated sequence must be indicated, e.g. g.123\_191CAG[23] not g.123CAG[23]
 
 Format (unique repeat):   **"prefix""position_first_nucleotide_first_repeat_unit""repeat_sequence"["copy_number"]**,  e.g. g.123CAG[23]
 
