@@ -171,7 +171,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   descriptions [_see General/Characters used_](/recommendations/general#characters).
     
 *   mutation
-    :   _**NOTE**:_ please do not use this term, [_see Terminology_](bg-material/basics/).
+    :   _**NOTE**:_ please do not use this term, [_see Terminology_](/bg-material/basics/).
     *   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/bg-material/basics/))
     *   _**biology**_: a change in the sequence
     *   _**medicine**_: a sequence variant **associated** with a disease phenotype.
