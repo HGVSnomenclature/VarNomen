@@ -128,9 +128,10 @@ Depending on the variants to be reported, different reference sequence files are
 ### DNA - coding DNA reference sequence (c.)
 
 *	coding DNA reference sequences are indicated using a **c.** prefix
+*	(human) the recommended transcript to be used to describe variants in a gene is the transcript recommended by the [**MANE consortium]**(https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"}.
 *	a coding DNA reference sequence is a DNA reference sequence, based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the  **c.** prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.
 *	the preferred coding DNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
-	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
+	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/documentation/lrg-request/){:target="\_blank"}.
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants and protein isoforms can be annotated
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NM\_004006.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
@@ -149,8 +150,9 @@ Depending on the variants to be reported, different reference sequence files are
 ### DNA - non-coding DNA reference sequence (n.)
 
 *	non-coding DNA reference sequences are indicated using a **n.** prefix
+*	(human) the recommended transcript to be used to describe variants in a gene is the transcript recommended by the [**MANE consortium]**(https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"}.
 *	the preferred non-coding DNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
-	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
+	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/documentation/lrg-request/){:target="\_blank"}.
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants can be annotated
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NR\_002196.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
@@ -166,6 +168,7 @@ Depending on the variants to be reported, different reference sequence files are
 ### RNA reference sequence (r.)
 
 *	RNA reference sequences are indicated using a **r.** prefix
+*	(human) the recommended transcript to be used to describe variants in a gene is the transcript recommended by the [**MANE consortium]**(https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"}.
 *	the preferred RNA reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
 	*	"**pending**” LRGs should not be used, they might change before being approved
@@ -185,6 +188,7 @@ Depending on the variants to be reported, different reference sequence files are
 ### protein reference sequence (p.)
 
 *	protein reference sequences are indicated using a **p.** prefix
+*	(human) the recommended transcript to be used to describe variants in a gene is the transcript recommended by the [**MANE consortium]**(https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"}.
 *	the preferred protein reference sequence is a [**Locus Reference Genomic sequence (LRG)**](http://www.lrg-sequence.org){:target="\_blank"}.
 	*	when no LRG is available, [one should be requested](http://www.lrg-sequence.org/lrg-request){:target="\_blank"}.
 	*	"**pending**” LRGs should not be used, they might change before being approved
