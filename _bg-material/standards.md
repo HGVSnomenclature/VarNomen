@@ -237,7 +237,7 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 | E               | Glu               | Glutamic acid               | GAA, GAG                                | 2-Aminopentanedioic acid                    | HOOC-[CH2]2-CH(NH2)-COOH          |
 | F               | Phe               | Phenylalanine               | TTC, TTT                                | 2-Amino-3-phenylpropanoic acid              | C6H5-CH2-CH(NH2)-COOH             |
 | G               | Gly               | Glycine                     | GGA, GGC, GGG, GGT                      | Aminoethanoic acid                          | CH2(NH2)-COOH                     |
-| H               | His               | Histidine                   | CAC, CAT                                | 2-Amino-3-(1H-imidazol-4-yl)-propanoic acid | ![Histidine]({{site.baseurl}}/assets/AA/histidine.gif)|
+| H               | His               | Histidine                   | CAC, CAT                                | 2-Amino-3-(1H-imidazol-4-yl)-propanoic acid | ![Histidine]({{site.baseurl}}/assets/AA/histidine.GIF)|
 | I               | Ile               | Isoleucine                  | ATA, ATC, ATT                           | 2-Amino-3-methylpentanoic acid              | C2H5-CH(CH3)-CH(NH2)-COOH         |
 | K               | Lys               | Lysine                      | AAA, AAG                                | 2,6-Diaminohexanoic acid                    | H2N-[CH2]4-CH(NH2)-COOH           |
 | L               | Leu               | Leucine                     | CTA, CTC, CTG, CTT, TTA, TTG            | 2-Amino-4-methylpentanoic acid              | (CH3)2CH-CH2-CH(NH2)-COOH         |
