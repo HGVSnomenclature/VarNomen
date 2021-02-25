@@ -243,16 +243,16 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 | L               | Leu               | Leucine                     | CTA, CTC, CTG, CTT, TTA, TTG            | 2-Amino-4-methylpentanoic acid              | (CH3)2CH-CH2-CH(NH2)-COOH         |
 | M               | Met               | Methionine                  | ATG (translation initiation)            | 2-Amino-4-(methylthio)butanoic acid         | CH3-S-[CH2]2-CH(NH2)-COOH         |
 | N               | Asn               | Asparagine                  | AAC, AAT                                | 2-Amino-3-carbamoylpropanoic acid           | H2N-CO-CH2-CH(NH2)-COOH           |
-| P               | Pro               | Proline                     | CCA, CCC, CCG, CCT                      | Pyrrolidine-2-carboxylic acid               | ![Proline]({{site.baseurl}}/assets/AA/proline.gif)|
+| P               | Pro               | Proline                     | CCA, CCC, CCG, CCT                      | Pyrrolidine-2-carboxylic acid               | ![Proline]({{site.baseurl}}/assets/AA/proline.GIF)|
 | Q               | Gln               | Glutamine                   | CAA, CAG                                | 2-Amino-4-carbamoylbutanoic acid            | H2N-CO-[CH2]2-CH(NH2)-COOH        |
 | R               | Arg               | Arginine                    | AGA, AGG, CGA, CGC, CGG, CGT            | 2-Amino-5-guanidinopentanoic acid           | H2N-C(=NH)-NH-[CH2]3-CH(NH2)-COOH |
 | S               | Ser               | Serine                      | AGC, AGT, TCA, TCC, TCG, TCT            | 2-Amino-3-hydroxypropanoic acid             | HO-CH2-CH(NH2)-COOH               |
 | T               | Thr               | Threonine                   | ACA, ACC, ACG, ACT                      | 2-Amino-3-hydroxybutanoic acid              | CH3-CH(OH)-CH(NH2)-COOH           |
 | U               | Sec               | Selenocysteine              | TGA                                     |                                             | H2N-CH(COOH)--CH2-SeH             |
 | V               | Val               | Valine                      | GTA, GTC, GTG, GTT                      | 2-Amino-3-methylbutanoic acid               | (CH3)2CH-CH(NH2)-COOH             |
-| W               | Trp               | Tryptophan                  | TGG                                     | 2-Amino-3-(lH-indol-3-yl)-propanoic acid    | ![Tryptophan]({{site.baseurl}}/assets/AA/tryptophan.gif)|
+| W               | Trp               | Tryptophan                  | TGG                                     | 2-Amino-3-(lH-indol-3-yl)-propanoic acid    | ![Tryptophan]({{site.baseurl}}/assets/AA/tryptophan.GIF)|
 | X<sup>a</sup>   | Xaa               | unknown or 'other'          | NNN                                     |                                             |                                   |
-| Y               | Tyr               | Tyrosine                    | TAC, TAT                                | 2-Amino-3-(4-hydroxyphenyl)-propanoic acid  | ![Tyrosine]({{site.baseurl}}/assets/AA/tyrosine.gif)|
+| Y               | Tyr               | Tyrosine                    | TAC, TAT                                | 2-Amino-3-(4-hydroxyphenyl)-propanoic acid  | ![Tyrosine]({{site.baseurl}}/assets/AA/tyrosine.GIF)|
 | Z               | Glx               | Glutamic acid or Glutamine  |                                         |                                             |                                   |
 | *               | Ter or *        | Termination                 | TAA, TAG, TGA (translation termination) | HGVS addition (V2.0)                        |                                   |
 
