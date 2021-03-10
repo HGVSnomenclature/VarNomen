@@ -28,6 +28,9 @@ category: example
 	:	as a consequence of an intron 8 variant (c.831+64A>T) a new stronger exon 8 splice donor site is created (position 831+62 / 831+63) and the intron 8 sequence from positions 831+1 to 831+62 is inserted in the transcript
 	*	r.649\_650ins650-1400\_650-1268
 	:	as a consequence of an intron 7 variant (c.650-1401T>G) a new exon is created and its sequence (positions 650-1400 to 650-1268) is inserted in the transcript
+*	**fusion transcript** (based on [_SVD-WG007_](/bg-material/consultation/svd-wg007/)) 
+	*	NM\_002354.2:r.-358\_555::NM\_000251.2:r.212\_\*279
+	:	describes an EPCAM::MSH2 fusion transcript where nucleotides r.-358 to r.555 (EPCAM gene, reference transcript NM\_002354.2) are spliced to nucleotides r.212 to r.\*279 (MSH2 gene, reference transcript NM\_000251.2)
 *	**uncertain** (RNA not analysed)
 	*	NM\_004006.1:r.(76a>c)
 	:	RNA was not anaysed but a substitution of the “a” nucleotide at r.76 by a “c” is predicted
@@ -35,4 +38,3 @@ category: example
 	:	an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
 	*	LRG\_199t1:r.spl
 	:	RNA has not been analysed but it is very likely that splicing is affected
-	
