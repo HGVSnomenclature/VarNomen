@@ -22,9 +22,9 @@ category: example
 	:	conversion in exon 9 of the CYP2D6 gene replacing exon 9 nucleotides r.1401 to r.1446 with those of the 3' flanking CYP2D7P1 gene, nucleotides r.1513 to r.1558
 *	RNA fusion transcripts (based on [_SVD-WG007_](/bg-material/consultation/svd-wg007/))
 	*	translocation fusion
-	:	 NM\_152263.2:r.-115\_775::NM_002609.3:r.1580\_\*1924 describes a TPM3-PDGFRB fusion transcript where nucleotides r.-115 to r.775 (reference transcript NM\_152263.2, TPM3 gene) are coupled to nucleotides r.1580 to r.\*1924 (reference transcript NM\_002609.3, PDGFRB gene)
+	:	 NM\_152263.2:r.-115\_775::NM_002609.3:r.1580\_\*1924 describes a TPM3::PDGFRB fusion transcript where nucleotides r.-115 to r.775 (reference transcript NM\_152263.2, TPM3 gene) are coupled to nucleotides r.1580 to r.\*1924 (reference transcript NM\_002609.3, PDGFRB gene)
 	*	deletion fusion
 		*	NM\_002354.2:r.-358\_555::NM\_000251.2:r.212\_\*279
-		:	describes a EPCAM-MSH2 fusion transcript where nucleotides r.-358 to r.555 (reference transcript NM\_002354.2, EPCAM gene) are coupled to nucleotides r.212 to r.\*279 (reference transcript NM\_000251.2, MSH2 gene)
+		:	describes an EPCAM::MSH2 fusion transcript where nucleotides r.-358 to r.555 (reference transcript NM\_002354.2, EPCAM gene) are coupled to nucleotides r.212 to r.\*279 (reference transcript NM\_000251.2, MSH2 gene)
 		*	NM\_002354.2:r.?\_555::guaugauuuuuuaataa::NM\_000251.2:r.212\_?
-		:	describes a EPCAM-MSH2 fusion transcript where only the fusion break point has been characterised, showing the insertion of a 17 nucletoide sequence (guaugauuuuuuaataa) between two fusion transcripts
+		:	describes an EPCAM::MSH2 fusion transcript where only the fusion break point has been characterised, showing the insertion of a 17 nucletoide sequence (guaugauuuuuuaataa) between two fusion transcripts
