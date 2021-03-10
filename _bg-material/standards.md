@@ -270,7 +270,7 @@ To facilitate translating variant descriptions based on [_ISCN_](/bg-material/co
 
 
 {:.table .table-bordered}
-|  Chromosome |   Band    |        Position (hg19)            |        Position (hg38)            |
+|  Chromosome |   Band    |      Position (hg19/GRCh37)      |      Position (GRCh38)      |
 |:-----------:|:---------:|:---------------------------------:|:---------------------------------:|
 | chr1 |  p36.33 | NC_000001.10: pter  (1) – 2300000 | NC_000001.11: pter  (1) – 2300000 |
 | chr1 |  p36.32 | NC_000001.10: 2300001 – 5400000 | NC_000001.11: 2300001 – 5300000 |
