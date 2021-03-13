@@ -7,8 +7,8 @@ category: description
 Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 
 **"prefix"**  =  reference sequence used  =  g.<br>
-**"position(s)_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123_345<br>
-**"dup"**  =  type of change is a duplication  =  dup
+**"position(s)\_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123_345<br>
+**"dup"**  =  type of change is a duplication  =  dup <sup>1</sup>
 
 ---
 
@@ -26,3 +26,4 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 	*	**exception**
 	:	duplications around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc)); 
 		:	when ..GAT gta..//..cag TCA.. changes to ..GATT gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921dup (NC\_000023.10:g.32459297dup) and **not as** c.3922dup (which would translate to g.32456507dup)
+*	<sup>1</sup> = [_see Uncertain_](/recommendations/uncertain/); when the postion and/or the sequence of a duplication has not been defined
