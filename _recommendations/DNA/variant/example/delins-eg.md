@@ -15,6 +15,9 @@ category: example
 *	LRG\_199t1:c.9002\_9009delinsTTT
 	:	a deletion of nucleotides c.9002 to c.9009, replaced by nucleotides TTT
 	:	_**NOTE**_:	two variants separated by one nucleotide, together affecting one amino acid, should be described as a “delins”, so the description c.[145C>T;147C>G] is not correct
+*	LRG\_199t1:c.850\_901delinsTTCCTCGATGCCTG
+	:	a deletion of nuceotides c.850 to c.901, replaced by TTCCTCGATGCCTG
+	:	_**NOTE**_:	parts of the inserted sequence "align" with the reference sequence, giving an alternative description like c.[850\_869del;874\_881del;887\_897del;901\_902insG]. The **"delins" format is recommended**: it is simpler and prevents software tools making incorrect predictions for the consequences at protein level. 
 *	NC\_000002.12:g.pter\_8247756delins\[NC\_000011.10:g.pter\_15825266\]
 	:	nucleotides g.pter to g.8247756 of chromosome 2 are deleted and replaced by nucleotides g.pter to g.1582566 of chromosome 11: the derivative chromosome 2 from an unbalanced translocation between the short arms of chromosomes 2 and 11 (ISCN der(2)t(2;11)(p25.1;p15.2)). Example copied from [_Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/).
 	:	_**NOTE**_:	balanced translocations ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)) are described as two complementary "delins" variants.
