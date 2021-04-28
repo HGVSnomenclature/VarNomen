@@ -33,7 +33,7 @@ _**NOTE:**_ the current recommendation is:
 
 *	LRG\_199t1:c.235\_237delinsTAT 
 	:	variants c.235A>T and c.237G>T are separated by less then two nucleotides and described as a "delins" variant (both affect the same amino acid residue)
-	:	_**NOTE:**_	when the method used does not allow to determine whether the variants are on te same allele or not the variant should be described as LRG\_199t1:c.235A>T(;)237G>T ([see Alleles](/recommendations/DNA/variant/alleles/)
+	:	_**NOTE:**_	when the method used does not allow to determine whether the variants are on te same allele or not the variant should be described as LRG\_199t1:c.235A>T(;)237G>T ([_see Alleles_](/recommendations/DNA/variant/alleles/)
 *	NC\_000023.10:g.32862927\_32862929delinsATA 
 	:	variants g.32862927C>A and g.32862929T>A are separated by less then two nucleotides and described as a "delins" variant
 *	LRG\_199t1:c.992\_1004delinsAC 
