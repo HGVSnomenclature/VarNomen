@@ -22,6 +22,9 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 	*	when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking the original copy), the change can not be described as a duplication, it should be described as **an insertion** (see [_Insertion_](/recommendations/DNA/variant/insertion/) and [_proposal SVD-WG003_](/bg-material/consultation/svd-wg003/)).
 	*	**inverted duplications** are described as insertion (g.234\_235ins123\_234inv), not as a duplication ([_see Inversion_](/recommendations/DNA/variant/inversion))
 *	when more then one additional copies are inserted directly 3' of the original copy the change is indicated using the format for [_Repeated sequences_](/recommendations/DNA/variant/repeated/), like [3] (triplication), [4] (quadruplication), etc.
+*	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
+	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
+:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a “delins”**
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	**exception**
 	:	duplications around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc)); 
