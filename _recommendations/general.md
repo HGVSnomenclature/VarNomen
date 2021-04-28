@@ -31,6 +31,9 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 		*	"**p.**" for a protein reference sequence
 		*	"**r.**" for an RNA reference sequence (transcript)
 	*	numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** ([_see Numbering_](/bg-material/numbering))
+*	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
+	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
+	:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a “delins”**
 *	**3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
