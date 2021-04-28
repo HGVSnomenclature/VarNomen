@@ -19,4 +19,7 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 *	**inverted duplications** are described as an insertion using the format g.234\_235ins123\_234inv, not as g.123\_456dupinv ([_see Q&A_](#dupinv))
+*	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
+	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
+:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a “delins”**
 *	inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
