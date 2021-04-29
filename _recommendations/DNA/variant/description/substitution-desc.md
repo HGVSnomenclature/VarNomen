@@ -20,7 +20,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 *	substitutions involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants ([_see Deletion/insertion (delins)_](/recommendations/DNA/variant/delins/)).
 *	two variants separated by one or more nucleotides should be described individually and not as a “delins” of the sequence affected
 	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a “delins”
-	:	_**NOTE:**_ this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g. c.225\_227delinsTAT (p.Lys79Tyr) versus c.[225A>T;227G>T] (p.[Lys79*;Lys79Asn])
+	:	_**NOTE:**_ this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g. c.235\_237delinsTAT (p.Lys79Tyr) versus c.[235A>T;237G>T] (p.[Lys79*;Lys79Asn])
 	:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a “delins”**
 *	nucleotides that have been tested and found **not changed** are described as c.123=, g.4567_4569= ([_see SVD-WG001 (no change)_](/bg-material/consultation/svd-wg001/)).
 *	it is not correct to describe "_polymorphisms_" as c.76A/G ([_see Discussions_](/recommendations/DNA/variant/substitution/#polymorphism)).
