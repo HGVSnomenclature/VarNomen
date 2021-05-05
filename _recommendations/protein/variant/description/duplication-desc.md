@@ -25,4 +25,6 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783dup).
 *	variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA level
 	*	duplications **starting N-terminal of and including** the translation termination (stop) codon usually have no effect on the protein sequence
+	*	duplications **containing a translation stop codon** in the duplicated sequence are described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence
+	*	duplications encoding an open reading frame which **after** the duplicated sequence shift to another reading frame are described as a frame shift
 	*	duplications extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension)
