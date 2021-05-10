@@ -17,7 +17,7 @@ The proposal suggests to simplify the HGVS nomenclature recommendations for the 
 
 *	two variants separated by fewer than three nucleotides should be described as a “delins”
 	:	_**NOTE:**_ to determine the distance between two variants both their most 5' and 3' positions should be considered, where 'fewer than three' is the shortest distance: the variant AGCGTTTAGC to AG<font color="red">G</font>GTTT<font color="red">T</font>AGC is described as g.3_4delinsGGT, not als g.[3C>G;7dup]
-	:	_**NOTE:**_ the rule applies on DNA, RNA and protein level
+	:	_**NOTE:**_ the recommendation applies on DNA, RNA and protein level
 
 According to the current recommendations, the description of two variants which are close to eachother depends on whether they are in a protein coding sequence or not.
 
