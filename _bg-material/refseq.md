@@ -42,10 +42,11 @@ A sequence variant is defined in the context of a **reference sequence** which m
 	*	accepted specifications include transcripts (NM\_004006.2) and proteins (NP\_003997.1). Gene symbols should **not** be used as specification.
 *	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
 	*	the reference sequence used **must contain** the variant residue that is described as being changed
-	*	a **coding** or **non-coding** DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
-	*	intronic sequences are considered to be within the boundaries of a transcript reference sequence but a valid gene or genomic reference sequence identifier **must** also be provided, e.g. NG\_012232.1(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC\_000023.11(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a chromosomal reference sequence)
-		*	**not correct:** NM\_004006.2:c.357+1G>A, LRG\_199:c.357+1G>A
-		*	**correct:** NG\_012232.1(NM\_004006.2):c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A, LRG\_199t1:c.357+1G>A
+	*	a **coding** or **non-coding** DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and **can not be used** to describe variants in introns and up/down-stream of the gene
+		*	5' and 3' flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants
+		*	intronic sequences are considered to be **within the boundaries** of a transcript reference sequence and may be used to describe a variant when a genomic reference sequence identifier is provided, e.g. NG\_012232.1(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC\_000023.11(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a chromosomal reference sequence)
+			*	**not correct:** NM\_004006.2:c.357+1G>A, LRG\_199:c.357+1G>A
+			*	**correct:** NG\_012232.1(NM\_004006.2):c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A, LRG\_199t1:c.357+1G>A
 	*	where possible, users should report sequence variation at the genome or gene level as well as the transcript level to enable accurate mapping between transcript reference sequences via the genome or gene position(s)
 
 ### Recommended Reference Sequences types are:
@@ -136,7 +137,7 @@ Depending on the variants to be reported, different reference sequence files are
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NM\_004006.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
 	*	the [MANE (Matched Annotation between NCBI and EBI) project](https://www.ensembl.org/info/genome/genebuild/mane.html){:target="\blank"} is a joint initiative between EMBL-EBI’s Ensembl project and NCBI’s RefSeq project to release a genome-wide transcript set that contains one well-supported transcript per protein-coding locus. All transcripts in the MANE set will perfectly align to GRCh38 and will represent 100% identity (5’ UTR, coding sequence, 3’ UTR) between the RefSeq (NM\_) and the corresponding Ensembl (ENST) transcript. The matched transcript files are standard RefSeq and Ensembl reference sequence types as defined above and **do not represent additional files**. The standard NM\_ and ENST identifers are used for these transcipts: there are no separate project-specific identifiers.	
-*	a coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used** to describe variants in introns and up/down-stream of the gene
+*	a coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can **not be used** to describe variants in introns and up/down-stream of the gene. Intronic sequences are considered to be **within the boundaries** of a transcript reference sequence and may be used to describe a variant when a genomic reference sequence identifier is provided.
 *	when, based on a genomic reference sequence, variants are reported using a "**c.**" prefix, the transcript variant used should be indicated
 	*	for LRG\_'s an annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_199**<font color="red">t1</font>**:c.11T>G
 	*	for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A
@@ -156,6 +157,7 @@ Depending on the variants to be reported, different reference sequence files are
 		*	note that **LRG's are stable** (never change), established after consulting different experts and that all known transcript variants can be annotated
 	*	"**pending**” LRGs should not be used, they might change before being approved
 	*	while a LRG is requested, the use of a RefSeq sequence is recommended, e.g. NR\_002196.2 ([see O'Leary 2016](http://nar.oxfordjournals.org/content/44/D1/D733.full.pdf){:target="\_blank"})
+*	a non-coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can **not be used** to describe variants in introns and up/down-stream of the gene. Intronic sequences are considered to be **within the boundaries** of a transcript reference sequence and may be used to describe a variant when a genomic reference sequence identifier is provided.
 *	when, based on a genomic reference sequence, variants are reported using a "**n.**" prefix, the transcript variant used should be indicated
 	*	for LRG\_'s the annotated "**transcript variant 1**" is described as "**<font color="red">t1</font>**", e.g. LRG\_163**<font color="red">t1</font>**:n.5C>T
 *	the non-coding DNA reference sequence should be complete, cover the major and largest transcript known and include as many exons as possible, even when this transcript has not been proven to actually exist in nature
