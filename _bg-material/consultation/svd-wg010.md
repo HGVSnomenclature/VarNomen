@@ -13,7 +13,7 @@ category: SVD-WG
 
 * * *
 
-The proposal suggests to simplify the HGVS nomenclature recommendations for the description of two variants which are close to eachother
+The proposal suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other.
 
 *	two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single “delins” variant
 	*	the recommendation applies on DNA, RNA and protein level
