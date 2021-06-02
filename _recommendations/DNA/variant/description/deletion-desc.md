@@ -21,7 +21,7 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 	:	when a circular genomic reference sequnce is used ("o." and "m." prefix) nucleotide positions may be listed from 3’ to 5’ when the deletion includes both the last and first nucleotides of the reference sequence
 *	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
 	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
-:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a “delins”**
+:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG has prepared a proposal to modify this recommendation ([_see SVD-WG010_](/bg-material/consultation/svd-wg010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single “delins” variant**
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	**exception**
 	:	deletions around exon/exon junctions when identical nucleotides flank the junction ([_see Numbering_](/bg-material/numbering/#DNAc));  
