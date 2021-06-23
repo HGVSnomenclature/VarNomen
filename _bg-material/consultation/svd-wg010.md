@@ -25,7 +25,7 @@ The proposal suggests to specify the HGVS nomenclature recommendations for the d
 
 According to the current recommendations, the description of two variants which are close to each other depends on whether they are in a protein coding sequence or not.
 *	making a discrimination between variants in protein-coding and non-coding sequences **is undesired** and makes application of the recommendations unnecessarily complex.
-*	the proposal **does ensure** that tools predicting the consequences of a variant at the protein level do not make conflicting and incorrect predictions (e.g. c.235\_237delinsTAT (p.Lys79Tyr) versus c.[235A>T;237G>T] (p.[Lys79*;Lys79Asn])
+*	the proposal **does ensure** that tools predicting the consequences of a variant at the protein level do not make conflicting and incorrect predictions (e.g. c.235\_237delinsTAT p.(Lys79Tyr) versus c.[235A>T;237G>T] (p.[(Lys79*;Lys79Asn)])
 
 _**NOTE:**_ the current recommendation is:
 *	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
