@@ -10,10 +10,20 @@ order: 6
 
 A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters ([_see History_](/history/)).
 
-The basics of the current recommendations are explained in a [slide presentation](http://www.hgvs.org/varnomen/HGVS-basics2017.pdf){:target="blank"} from **Johan den Dunnen** (last updated Apr.2017).
+*	Basics
+:	the basics of the current recommendations are explained in a [slide presentation](http://www.hgvs.org/varnomen/HGVS-basics2017.pdf){:target="blank"} from **Johan den Dunnen** (last updated Apr.2017).
 
-Topics of interest are regularly discussed on the [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen){:target="blank"}. The HGVS nomenclature facebook agenda can be used to see where the recommendations are presented/discussed.
+*	Facebook
+:	topics of interest are regularly discussed on the [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen){:target="blank"}. The HGVS nomenclature facebook agenda can be used to see where the recommendations are presented/discussed.
 
-Testing your knowledge of the current recommendations can be done using a **Question & Answer** test that we have generated using the [Socrative platform](http://www.socrative.com){:target="blank"}. To join, either download the [Socrative Student App](http://www.socrative.com/apps.php){:target="blank"} or use the Socrative web site and [Login as a Student](https://b.socrative.com/login/student/){:target="blank"}. When asked, go to the class room **HGVSmutnomen** and give it a try.
+*	Online sessions
+:	On Monday June 22 we started a series of online HGVS nomenclature Q&A sessions. The meetings will be bi-monthly, on the 4th Tuesday of every 2nd month (even months). The time of the meeting will be alternated to allow people from either Asia+Australia, Europe+Africa or North+South America to participate during the day. For questions to be answered we use the [DirectPoll](https://www.DirectPoll.com){:target="blank"} online polling system. The idea is you train yourself and learn HGVS nomenclature by applying the recommendations. For those not able to participate, the questions will be available using a [Socrative classroom](https://www.Socrative.com{:target="blank"} (see below). Each event will be listed on the [Human Genome Organisation’s (HUGO) Facebook page](https://www.facebook.com/humangenomeorg).
+
+*	Test your knowledge
+:	testing your knowledge of the current recommendations can be done using **Question & Answer** tests we make available through the [Socrative platform](http://www.socrative.com){:target="blank"}. To try, either download the [Socrative Student App](https://www.socrative.com/apps.php){:target="blank"} or use the Socrative web site and [Login as a Student](https://b.socrative.com/login/student/){:target="blank"}. When asked, go to a **specific classroom** and give it a try.
+	*	HGVSonline
+	:	in the **[HGVSonline](https://api.socrative.com/rc/ibPQGW){:target="blank"}** classroom you find the Q&A of the last HGVS online session
+	*	HGVSmutnomen
+	:	in the **[HGVSmutnomen](https://api.socrative.com/rc/NqSXWP){:target="blank"}** classroom you find a series of older HGVS nomenclature questions
 
 When you have made educational or training material or know of others who did so, **please let us know!!**
