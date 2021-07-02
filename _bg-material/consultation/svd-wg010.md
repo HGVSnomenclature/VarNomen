@@ -36,16 +36,16 @@ _**NOTE:**_ the current recommendation is:
 #### Examples
 
 *	LRG\_199t1:c.235\_236delinsTT 
-	:	variants c.235A>T and c.236A>T are separated by fewer then two nucleotides and described as a "delins" variant (both affect the same amino acid residue)
+	:	variants c.235A>T and c.236A>T are separated by fewer than two nucleotides and described as a "delins" variant (both affect the same amino acid residue)
 	:	_**NOTE:**_	when the method used does not allow to determine whether the variants are on the same allele or not the variant should be described as LRG\_199t1:c.235A>T(;)237G>T ([_see Alleles_](/recommendations/DNA/variant/alleles/))
 *	LRG\_199t1:c.235\_237delinsTAT 
-	:	variants c.235A>T and c.237G>T are separated by fewer then two nucleotides and described as a "delins" variant (both affect the same amino acid residue)
+	:	variants c.235A>T and c.237G>T are separated by fewer than two nucleotides and described as a "delins" variant (both affect the same amino acid residue)
 *	LRG\_199t1:c.[235A>T;238G>T]
-	:	variants c.235A>T and c.238G>T are separated by two nucleotides and described as separate variants, not as "delins" (c.235_235delinsTAGT)
+	:	variants c.235A>T and c.238G>T are separated by two nucleotides and described as separate variants, not as "delins" (c.235_238delinsTAGT)
 *	NC\_000023.10:g.32862927\_32862929delinsATA 
-	:	variants g.32862927C>A and g.32862929T>A are separated by fewer then two nucleotides and described as a "delins" variant
+	:	variants g.32862927C>A and g.32862929T>A are separated by fewer than two nucleotides and described as a "delins" variant
 *	LRG\_199t1:c.992\_1004delinsAC 
-	:	variants c.992\_1002del and c.1004T>C are separated by fewer then two nucleotides and described as a "delins" variant
+	:	variants c.992\_1002del and c.1004T>C are separated by fewer than two nucleotides and described as a "delins" variant
 	
 *	NP\_003997.1:p.Ser988\_Gln900delinsAlaLeuHis
-	:	variants p.Ser988 and p.Gln900 (LRG\_199t1:c.[2962T>G;2970A>T]) are separated by fewer then two amino acids and described as a "delins" variant, not as p.[Ser988Ala;Gln900His]
+	:	variants p.Ser988 and p.Gln900 (LRG\_199t1:c.[2962T>G;2970A>T]) are separated by fewer than two amino acids and described as a "delins" variant, not as p.[Ser988Ala;Gln900His]
