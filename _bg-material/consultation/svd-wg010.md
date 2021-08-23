@@ -9,7 +9,7 @@ category: SVD-WG
 ### Proposal SVD-WG010 (var distance)
 
 *	Status: <font color="red">open</font>
-	:	proposal SVD-WG010 opened for **Community Consultation** on June 1 (2021), will close on July 31 (2021). 
+	:	proposal SVD-WG010, **Community Consultation** closed on July 31 (2021); decision pending. 
 
 * * *
 
