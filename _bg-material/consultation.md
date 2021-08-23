@@ -19,7 +19,7 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 *   [SVD-WG010]({{site.baseurl}}/bg-material/consultation/svd-wg010/) (var distance)
     :   suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other
-    :   **Status**: <font color="red">open June 1, 2021</font>. To be closed July 31 (2021).
+    :   **Status**: <font color="red">closed July 31, 2021</font> (decision pending).
 
 * * *
 
