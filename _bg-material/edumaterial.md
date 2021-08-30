@@ -21,8 +21,10 @@ A detailed explanation of HGVS nomenclature can be found on this website. Summar
 
 *	Test your knowledge
 :	testing your knowledge of the current recommendations can be done using **Question & Answer** tests we make available through the [Socrative platform](http://www.socrative.com){:target="blank"}. To try, either download the [Socrative Student App](https://www.socrative.com/apps/){:target="blank"} or use the Socrative web site and [Login as a Student](https://b.socrative.com/login/student/){:target="blank"}. When asked, go to a **specific classroom** and give it a try.
-	*	HGVSonline
-	:	in the **[HGVSonline](https://api.socrative.com/rc/ibPQGW){:target="blank"}** classroom you find the Q&A of the last HGVS online session
+	*	HGVSonline - Q&A form our past bi-monthly online sessions
+		*	HGVS online session 1 (June 22):  **[HGVSonline](https://api.socrative.com/rc/ibPQGW){:target="blank"}**
+		*	HGVS online session 2 (Aug.24):  **[HGVSonline2](https://api.socrative.com/rc/vKH4rQ{:target="blank"}**
+		*	HGVS online session 3 (Oct.26):  _upcoming_
 	*	HGVSmutnomen
 	:	in the **[HGVSmutnomen](https://api.socrative.com/rc/NqSXWP){:target="blank"}** classroom you find a series of older HGVS nomenclature questions
 
