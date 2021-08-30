@@ -11,6 +11,9 @@ category: example
 *	p.(Met3\_His4insGlyTer)
 	:	the predicted consequence at the protein level of an insertion at the DNA level (c.9\_10insGGGTAG) is the insertion of GlyTer (alternatively Gly\*)
 	:	_**NOTE**_: this is not described as p.(Met3\_Ile3418delinsGly), a deletion-insertion replacing the entire C-terminal protein coding sequence downstream of Met3 with a Gly)
+*	NP\_004371.2:p.(Pro46_Asn47insSerSerTer)
+	:	the predicted change at the protein level resulting from DNA variant NM\_004380.2:c.138\_139insTCATCATGAGCTCCC is te insertion of "SerSerTer" between amino acids Pro46 and Asn47 (alternatively SerSer\*).
+	:	_**NOTE:**_ the insertion is not described as "insSerSerTerAlaPro", amino acids after the translation termination codon are not listed
 *   p.Arg78\_Gly79ins23
 	:	the in-frame insertion of a 23 amino acid sequence between amino acids Arg78 and Gly79
 	:	_**NOTE:**_ it must be possible to deduce the 23 inserted amino acids from the description given at DNA or RNA level
