@@ -52,6 +52,6 @@ category: example
 	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)del
 	:	a deletion of the entire DMD gene based on a MLPA assay where the nucleotide positions g.31120496 and g.33339477 are defined by the first nucleotide of the probe 3’ of the ligation site for the resp. the last and first exons tested.
 *	NC\_000023.11:g.33344590\_33344592=/del
-:	a mosaic case where from position g.19 to g.21 besides the normal sequence also chromosomes are found containing a deletion of this sequence
+:	a mosaic case where from position g.33344590 to g.33344592 besides the normal sequence also chromosomes are found containing a deletion of this sequence
 *	NC\_000023.11:g.33344590\_33344592=//del
-:	a chimeric case, i.e. the sample is a mix of cells containing g.19\_21= and g.19\_21del
+:	a chimeric case, i.e. the sample is a mix of cells containing g.33344590\_33344592= and g.33344590\_33344592del
