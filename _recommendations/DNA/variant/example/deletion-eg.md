@@ -12,7 +12,7 @@ category: example
 	:	a deletion of the A at position c.5697 in the sequence ATTG**<font color="red">AAAAAAAA</font>**TTAG to ATTG**<font color="red">AAAA_AAA</font>**TTAG, i.e. the last A of the 8 nucleotide A-stretch running from position c.5690 to c.5697.
 	:	_**NOTE**_: the 3'rule has been applied here stating that _**"for all descriptions the most 3’ position possible is arbitrarily assigned to have been changed"**_ ([_see General_Recommendations_](/general/).
 	*	NC\_000023.11:g.32343183del (3'rule)
-	:	a deletion of the T at position g.32343183del in the sequence CTAA**<font color="red">TTTTTTTT</font>**CAAT to CTAA**<font color="red">TTTT_TTT</font>**CAAT, i.e. the last T of the 8 nucleotide T-stretch running from position g.32343176 to g.32343183.
+	:	a deletion of the T at position g.32343183 in the sequence CTAA**<font color="red">TTTTTTTT</font>**CAAT to CTAA**<font color="red">TTTT_TTT</font>**CAAT, i.e. the last T of the 8 nucleotide T-stretch running from position g.32343176 to g.32343183.
 	:	_**NOTE**_: the T nucleotide in NC\_000023.11:g.32343183 corresponds to the A nucleotide in NM\_004006.2:c.5690, a transcript annotated on the minus strand of the X-chromosome. However, applying the 3'rule, the deletion of this nucleotide based on a coding DNA reference sequence (transcript level) should be described as NM\_004006.2:c.5697del (not as NM\_004006.2:c.5690del).
 *	several nucleotides
 	*	NC\_000023.11:g.33344590\_33344592del
