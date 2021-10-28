@@ -18,10 +18,13 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 	*	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
 	*	descriptions at RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change at DNA-level (see Questions below)	
 *	all variants should be described in relation to an accepted **reference sequence** ([_see Reference Sequences_](/bg-material/refseq)).
-	*	the reference sequence file used should be **public and clearly described**, e.g. NC\_000023.10, LRG\_199, NG\_012232.1, NM\_004006.2, LRG\-199t1, NR\_002196.1, NP\_003997.1, etc. ([_see Reference Sequences_](/bg-material/refseq))
-		*	when variants are not reported in relation to a genomic reference sequence from a recent genome build, the preferred reference sequence is a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"}
-		*	when no LRG is available, one should be requested ([_see Reference Sequences_](/bg-material/refseq)).
-		*	the reference sequence used must contain the residue(s) described to be changed. 
+	*	the reference sequence file used should be **public and clearly described**, e.g. NC\_000023.10, LRG\_199, NG\_012232.1, NM\_004006.2, LRG\_199t1, NR\_002196.1, NP\_003997.1, etc. ([_see Reference Sequences_](/bg-material/refseq))
+	*	the reference sequence used must contain the residue(s) described to be changed.
+	*	the recommended reference is a genomic reference sequence based on a recent genome build
+		*	for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
+		*	when variants are reported in relation to a transcript, the reference sequence suggested by the MANE project is preferred (see [Ensembl](http://tark.ensembl.org/web/mane_project/){:target="\_blank"} or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"})
+		:	**_NOTE:_**	since new LRG's are no longer generated, the recommendation to use a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"} has been retracted.
+	*	the reference sequence used must contain the residue(s) described to be changed. 
 	*	a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
 		*	"**c.**" for a coding DNA reference sequence	
 		*	"**g.**" for a linear genomic reference sequence
