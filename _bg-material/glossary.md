@@ -105,7 +105,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](/recommendations/protein/variant/frameshift/))
     
 *   fusion transcript
-    :   a transcript (RNA molecule) which consist of parts of transcripts from two or more genes
+    :   a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
 
 *   haplotype
     :   contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent
@@ -214,6 +214,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *	reading frame
  	:	one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein)
     :   see also **frame**
+
+*	readthrough transcript
+	:	a transcript (RNA molecule) formed via the splicing of exons from more than one distinct gene. The two (or more) genes involved are found on the same chromosomal region, on the same strand, and are typically adjacent to one another.
 
 *   repeated sequence
     :   **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
