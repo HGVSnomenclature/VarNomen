@@ -22,7 +22,7 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 	*	the reference sequence used must contain the residue(s) described to be changed.
 	*	the recommended reference is a genomic reference sequence based on a recent genome build
 		*	for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
-		*	when variants are reported in relation to a transcript, the reference sequence suggested by the MANE project is preferred (see [Ensembl](http://tark.ensembl.org/web/mane_project/){:target="\_blank"} or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"})
+		*	when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/){:target="\_blank"} or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/){:target="\_blank"})
 		:	**_NOTE:_**	since new LRG's are no longer generated, the recommendation to use a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org){:target="\_blank"} has been retracted.
 	*	the reference sequence used must contain the residue(s) described to be changed. 
 	*	a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
