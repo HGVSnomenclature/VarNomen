@@ -7,7 +7,6 @@ category: example
 *	one nucleotide
 	*	LRG\_199t1:r.10del
 	:	a deletion of the U at position r.10 in the reference sequence LRG\_199t1
-	:	_**NOTE**_: it is allowed to describe the variant as r.10delu 
 *	several nucleotides
 	*	NM\_004006.2:r.6\_8del
 	:	a deletion of nucleotides r.6 to r.8 in the reference sequence NM\_004006.2
