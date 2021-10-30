@@ -23,7 +23,6 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
 	*	when the extra copy is, at the protein level, not in tandem (directly C-terminal), the change should be described as **insertion** ([_see Insertion_](/recommendations/protein/variant/insertion/)).
 	*	duplications extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension)
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_)
-	*	the 3'rule ("C-terminal rule") also applies for changes in single amino acid stretches and tandem repeats
 *	duplications at the DNA or RNA level, **starting N-terminal of and including** the translation termination (stop) codon usually have no (predicted) effect on the protein level.
 *	duplications at DNA or RNA level
 	*	which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
