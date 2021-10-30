@@ -22,6 +22,6 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (_**3'rule**_).
 	*	the 3'rule ("C-terminal rule") also applies for changes in single amino acid stretches and tandem repeats.
 *	in theory, a **nonsense** variant can be considered as a deletion removing the C-terminal end of the protein (e.g. p.Trp26\_Arg1623del). By definition, nonsense variants are described as an amino acid substitution (p.Trp26Ter or p.Trp26* [_see Substitution_](/recommendations/protein/variant/substitution)) replacing the first amino acid affected by a translation termination (stop) codon.
-*	deletions which introduce an **immediate** translation termination (stop) codon are described as nonsense variant.
-*	deletions at DNA or RNA level, **starting N-terminal of and including** the translation termination (stop) codon, are described as [_Frame shift_](/recommendations/protein/variant/frameshift).	
-*	deletions extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as [_Extension_](/recommendations/protein/variant/extension)
+*	deletions at the DNA or RNA level which introduce an **immediate** translation termination (stop) codon are described as nonsense variant.
+*	deletions at DNA or RNA level **starting N-terminal of and including** the translation termination (stop) codon are described as [_Frame shift_](/recommendations/protein/variant/frameshift).	
+*	deletions at the DNA or protein extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as [_Extension_](/recommendations/protein/variant/extension)
