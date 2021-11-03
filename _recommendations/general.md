@@ -51,7 +51,8 @@ Make sure you have also seen the ([_Basics_](bg-material/basics/), explaining th
 	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
 	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
-	:	**_NOTE:_**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} to describe products of gene translocations or fusions (format GENESYMBOL1/GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
+	:	**_NOTE:_**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2).
+	:	**_NOTE:_**	for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/){:target="\_blank"}, written with the involvement of the HGNC
 
 * * *
 <a name="characters"></a>
