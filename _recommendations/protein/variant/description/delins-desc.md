@@ -32,3 +32,5 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 	*	**encoding a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
 	*	encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [_**frame shift**_](/recommendations/protein/variant/frameshift/).
 	*	**starting N-terminal (5') of and including** the translation termination (stop) codon are described as [_**frame shift**_](/recommendations/protein/variant/frameshift).
+*	fusion proteins represent a special case of deletion-insertion variant. The fusion break point is described using **"::"**
+	:	**_NOTE:_**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
