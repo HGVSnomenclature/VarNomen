@@ -144,7 +144,7 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
 ## Examples
 
-The basic recommendation is that the _**reference sequence**_ used represents the _**major and largest transcript**_ of the gene. Variants present in alternative transcripts, not covered by the selected reference transcript, can be described based on annoted alternative transcript variants (e.g. LRG\_199**t3**) or protein isoforms (e.g. LRG\_199**p3**). However, alternatively spliced exons (5'-first, internal or 3'-terminal) derived from **within the gene** can be also numbered as for intronic sequences and variants in transcripts initiating or terminating **outside this region** can be described as upstream or downstream sequences. 
+The basic recommendation is that the _**reference sequence**_ used represents the _**major and largest transcript**_ of the gene. The MANE Select transcript available from the MANE project (see Ensembl or NCBI) is preferred if it is a suitable reference for describing the variant. Variants present in alternative transcripts, not covered by the selected reference transcript, can be described based on annotated alternative transcript variants (e.g. NM\_001099404.2, LRG\_199**t3**) or protein isoforms (e.g. NP\_001092874.1, LRG\_199**p3**), preferring MANE Plus Clinical transcripts if specified by the MANE project. Contact the MANE project (MANE-help@ncbi.nlm.nih.gov or mane-help@ebi.ac.uk) if any pathogenic variants cannot be adequately described using available MANE transcripts.
 
 *   **alternative promoter**
     *   5' of the major transcript, e.g. [Dp427c brain-specific transcript 5' of the DMD gene](http://www.dmd.nl/seqs/murefDMD_intron_00.html#Dp427c){:target="\_blank"}
