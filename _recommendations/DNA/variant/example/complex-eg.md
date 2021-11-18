@@ -81,7 +81,8 @@ In the original proposal (SVD-WG004) **one identical derivative chromosome** wou
 			:	_(balanced intrachromosomal, inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
 		*	**unbalanced**  (copy inserted elsewhere)
 		:	describe as insertion
-*	**additional chromosome**
-	*	NC\_000022.11:g.[pter\_(12200001\_14700000)del::(37600001\_410000000)\_qterdel]add
+*	**supernumerary chromosome**
+	*	NC\_000022.11:g.[pter\_(12200001\_14700000)del::(37600001\_410000000)\_qterdel]sup
 	:	for ISCN +r(22)(p11.1q13.1)
 	:	_(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_
+	:	_**NOTE:**_	changed in ISCN2020. ISCN2016 had: “add” for additional sequence
