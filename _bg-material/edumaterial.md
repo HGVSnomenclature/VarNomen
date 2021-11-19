@@ -24,7 +24,8 @@ A detailed explanation of HGVS nomenclature can be found on this website. Summar
 	*	**HGVSonline** - Q&A from our past bi-monthly online sessions
 		*	HGVS online session 1 (June 22):  **[HGVSonline](https://api.socrative.com/rc/ibPQGW){:target="blank"}**
 		*	HGVS online session 2 (Aug.24):  **[HGVSonline2](https://api.socrative.com/rc/vKH4rQ){:target="blank"}**
-		*	HGVS online session 3 (Oct.26):  _upcoming_
+		*	HGVS online session 3 (Nov. 9):  **[HGVSonline3](https://api.socrative.com/rc/iLc982){:target="blank"}**
+		*	HGVS online session 4 (Jan.11):  _upcoming_ [Register](https://us02web.zoom.us/meeting/register/tZ0qdO6qpj4pG9GG-tSSG9cyzL3qBNR9b177){:target="blank"}
 	*	HGVSmutnomen
 	:	in the **[HGVSmutnomen](https://api.socrative.com/rc/NqSXWP){:target="blank"}** classroom you find a series of older HGVS nomenclature questions
 
