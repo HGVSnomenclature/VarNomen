@@ -30,21 +30,21 @@ category: example
 	*	NM\_004006.2:c.940\_941ins[903\_940inv;851\_885inv]
 	:	an inverted copy of nucleotides c.851 to c.940, with a deletion from nucleotides c.886 to c.902, is inserted directly 3' of the original sequence
 *	incomplete descriptions, preferably use exact descriptions only
-	*	NM\_004006.2:c.(222\_226)insG (p.Asn75fs)
+	*	NM\_004006.2:c.(222\_226)insG
 	:	the insertion of a G at an unknown position in the sequence encoding amino acid 75
-	*	NC\_000004.11:g.(3076562\_3076732)ins(12)
+	*	NC\_000004.11:g.(3076562\_3076732)insN[12]
 	:	the insertion of 12 nucleotides (not specified) at an unknown position between nucleotides g.3076562 and g.3076732 (exon 1 of the HTT gene containing the Gln/Pro repeat region)
 	*	NC\_000023.10:g.32717298\_32717299insN  (NM\_004006.2:c.761\_762insN) 
 	:	the insertion of one not specified nucleotide (N) between position g.32717298 and g.32717299
-	*	NM\_004006.2:c.761\_762insNNNNN (alternatively NM\_004006.1:c.761\_762ins(5))
+	*	NM\_004006.2:c.761\_762insNNNNN (alternatively NM\_004006.1:c.761\_762insN[5])
 	:	the insertion of 5 not specified nucleotides (NNNNN) between position c.761 and c.762
-	*	NC\_000023.10:g.32717298\_32717299ins(100)
+	*	NC\_000023.10:g.32717298\_32717299insN[100]
 	:	the insertion of 100 nucleotides (not specified) between position g.32717298 and g.32717299
-	*	NC\_000023.10:g.32717298\_32717299ins(80_120)
+	*	NC\_000023.10:g.32717298\_32717299insN[(80_120)]
 	:	the insertion of 80 to 120 nucleotides between position g.32717298 and g.32717299
-	*	NC\_000023.10:g.32717298\_32717299ins(?)
+	*	NC\_000023.10:g.32717298\_32717299insN[?]
 	:	the insertion of an unknown number of nucleotides between position g.32717298 and g.32717299
-	*	NC\_000006.11:g.8897754\_8897755ins[(543);8897743\_8897754]
-	:	the insertion of an undefined sequence of 543 nucleotides, and a 12 nucleotide target site duplication (g.8897743 to g.8897754), between nucleotides g.8897754 and g.8897755 on chromosome 6. 
+	*	NC\_000006.11:g.8897754\_8897755ins[N[543];8897743\_8897754]
+	:	the insertion of an undefined sequence of 543 nucleotides (N[543]), and a 12 nucleotide target site duplication (g.8897743 to g.8897754), between nucleotides g.8897754 and g.8897755 on chromosome 6. 
 *	g.?\_?insNC\_000023.10:(12345\_23456)\_(34567\_45678)
 	:	the insertion of a sequence from the X-chromosome (NC\_000023.10), maximally involving nucleotides 12345\_45678 but certainly nucleotides 23456\_34567, at an unknown position (g.?\_?) in the genome ([_see Uncertain_](/recommendations/uncertain))
