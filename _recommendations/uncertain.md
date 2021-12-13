@@ -96,8 +96,8 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	**insertion**
 :	the format to describe insertions that have not been fully characterised (sequenced) depends on the method used. The same recommendations apply as described above for deletions.
 	*	size
-	:	when a fragment containing an insertion has been amplified but only its size was determined (and not its sequence), the variant should be reported as g.(position-fragment-start\_position-fragment-end)ins(#).
-		:	NC\_000003.12:g.(63912602\_63912844)ins(15) or NM\_000333.3:c.(4\_246)ins(15) where compared to the reference the amplified fragment is nine nucleotides larger giving an estimated 13-unit CAG/Gln repeat in the ATXN7 gene
+	:	when a fragment containing an insertion has been amplified but only its size was determined (and not its sequence), the variant should be reported as g.(position-fragment-start\_position-fragment-end)insN[#].
+		:	NC\_000003.12:g.(63912602\_63912844)insN[15] or NM\_000333.3:c.(4\_246)insN[15] where compared to the reference the amplified fragment is fifteen nucleotides larger giving an estimated 13-unit CAG/Gln repeat in the ATXN7 gene
 	*	present/absent
 	:	the format to describe insertions that have not been fully characterised, i.e. the inserted sequence and/or the insertion break point has not been sequenced, is **g.(left-ins-position\_right-ins-position)ins(last-normal\_first-inserted)\_(last-inserted\_first-normal)**
 	:	_**NOTE**_: the description of the insertion, "ins(last-normal\_first-inserted)\_(last-inserted\_first-normal)", is based on the uncertainty of the extent of the inserted sequence. To describe the inserted sequence, follow the standard recommendations, i.e. try to describe it as precise as possible.
@@ -146,8 +146,9 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	:	used to describe that at an unknown position between amino acids Ala123 and Pro131 an amino acid is substituted for a translation termination (stop) codon
 *	p.(Ala123\_Pro131)fs
 	:	used to describe there is a frame shift variant starting at an unknown position between amino acids Ala123 and Pro131
-*	p.(Ala123\_Pro131)ins(4)
-	:	used to describe there is an insertion of four unknown amino acids at an unknown position between amino acids Ala123 and Pro131
+*	p.(Ala123\_Pro131)insX[4]
+	:	used to describe there is an insertion of four unknown amino acids (X) at an unknown position between amino acids Ala123 and Pro131
+	:	_**NOTE**_: X is the IUPAC symbol for an unnown amino acid, _**NOT**_ to indicate a translation termination (stop) codon
 *	p.Gly719(Ala^Ser)fs\*23
 	:	used to describe there is a frame shift variant starting in the codon for amino acid Gly719, changing it to either Ala or Ser and ending at a termination codon at position 23 (fs\*23).
 *	p.(Gly23Glufs\*7^Gly23Cysfs\*26)
