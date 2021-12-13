@@ -12,9 +12,9 @@ category: example
 	:	the insertion of a "g" at an unknown position in the sequence encoding amino acid 75
 *	NM\_004006.2:r.549\_550insn 
 	:	the insertion of one not specified nucleotide (n) between position r.549 and r.550
-*	NM\_004006.2:r.761\_762insnnnnn (alternatively r.761\_762ins(5))
+*	NM\_004006.2:r.761\_762insnnnnn (alternatively r.761\_762insn[5])
 	: the insertion of 5 not specified nucleotides (nnnnn) between position r.761 and r.762
-*	LRG\_199t1:r.1149\_1150ins(100)
+*	LRG\_199t1:r.1149\_1150insn[100]
 	:	the insertion of 100 not specified nucleotides between position r.1149 and r.1150
 *	NG\_012232.1(NM\_004006.2):r.2949\_2950ins[2950-30\_2950-12;2950-4\_2950-1]
 	: 	the insertion of intronic nucleotides r.2950-30 to r.2950-12 and r.1993-4 to r.1993-1 between nucleotides r.1992 and r.1993 (caused by the deletion NC\_000023.10(NM\_004006.2):c.2950-11\_2950-5del]. Alternative description r.2949\_2950ins[2950-30\_2950-12;uuag]
