@@ -27,3 +27,5 @@ category: example
 	:	conversion replacing nucleotides g.6128892 to g.6128954 of the VWF gene (NM\_000552.3:c.3675-45\_3692) on chromosome 12 with nucleotides g.17179029 to g.17179091 of the VWFP1 pseudogene on chromosome 22
 *	NM\_000797.3:c.812\_829delins908\_925
 	:	conversion replacing nucleotides c.812 to c.829 of the DRD4 gene with nucleotides c.908 to c.925 from the same reference sequence
+*	NM\_004006.2:c.812\_829delinsN[12]
+	:	nucleotides c.812 to c.829 have been deleted and replaced by 12 unknown nucleotides (N[12])
