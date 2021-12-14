@@ -46,5 +46,5 @@ category: example
 	:	the insertion of an unknown number of nucleotides between position g.32717298 and g.32717299
 	*	NC\_000006.11:g.8897754\_8897755ins[N[543];8897743\_8897754]
 	:	the insertion of an undefined sequence of 543 nucleotides (N[543]), and a 12 nucleotide target site duplication (g.8897743 to g.8897754), between nucleotides g.8897754 and g.8897755 on chromosome 6. 
-*	g.?\_?insNC\_000023.10:(12345\_23456)\_(34567\_45678)
+*	g.?\_?ins[NC\_000023.10:(12345\_23456)\_(34567\_45678)]
 	:	the insertion of a sequence from the X-chromosome (NC\_000023.10), maximally involving nucleotides 12345\_45678 but certainly nucleotides 23456\_34567, at an unknown position (g.?\_?) in the genome ([_see Uncertain_](/recommendations/uncertain))
