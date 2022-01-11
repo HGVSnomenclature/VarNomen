@@ -11,7 +11,7 @@ category: example
 	:	the insertion of nucleotides CCT between nucleotides g.32862923 and g.32862924
 	*	NM\_004006.2:c.849\_850ins858\_895
 	:	the insertion of a copy of nucleotids c.858 to c.895 between nuclotides c.849 and c.850
-	*	NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
+	*	NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:g.35788169\_35788352]
 	:	the insertion of nucleotides g.35788169 and g.35788352 as found in NC\_000022.10 between nucloetides g.47643464 and g.47643465
 *	complex insertions
 	*	NM\_004006.2:c.419\_420ins[T;401\_419]
