@@ -25,9 +25,11 @@ The HVNC is looking for new members. Interested in the HVNC work, willing to spe
 
 ### **HVNC members**
 
+The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Project (HVP).
+
 *	<b>Chair:</b> Johan den Dunnen  (Nederland)
 
-*	<b>[ISCN representative:](/consultation/ISCN/)</b> Ros Hastings  (United Kingdom)
+*	<b>[ISCN representative:](/bg-material/consultation/ISCN/)</b> Ros Hastings  (United Kingdom)
 
 	:	Oleg Agafonov  (Norway)
 	:	Raymond Dalgleish  (United Kingdom)
@@ -37,6 +39,15 @@ The HVNC is looking for new members. Interested in the HVNC work, willing to spe
 	:	Anne-Francois Roux  (France)
 	:	Peter Taschner  (Nederland)
 
-*       past HVNC members
+### **past HVNC members**
 
-	:	until 2021  -  Donna Maglott (United States)
+*	until 2021 
+	:	Donna Maglott (United States)
+	:	ISCN representative - Jean McGowan-Jordan  (United States)
+	:	HUGO representative - Stylianos Antonarakis (Switzerland)
+	:	HGVS representative -  Marc Greenblatt  (United States)
+	:	HVP / GV representative - Amy McAllister (United Kingdom)
+	
+*	until 2018 
+	:	HVP / GV representative - Tim Smith (Australia)
+	
