@@ -14,6 +14,10 @@ Questions/suggestions regarding the ISCN recommendations should be addressed to 
 
 ### ISCN committees
 
+* current ISCN committee
+  : _Chair:_   Rosalind J. Hastings (Oxford, UK)
+  : _Members:_  Laura K. Conlin (Philadelphia, USA), Johan T den Dunnen (Leiden, Nederland), Jin-Yeong Han (Busan, South Korea), Nils Mandahl (Lund, Sweden), Jean McGowan-Jordan (Ottawa, Canada), Sarah Moore (Adelaide, Australia), Cynthia C. Morton (Cambridge, USA)
+
 * ISCN2020 committee
   : _Chair:_  Jean McGowan-Jordan (Ottawa, Canada)
   : _Members:_  Laura K. Conlin (Philadelphia, USA), Johan T den Dunnen (Leiden, Nederland), Rosalind J. Hastings (Oxford, UK), Jin-Yeong Han (Busan, South Korea), Nils Mandahl (Lund, Sweden), Sarah Moore (Adelaide, Australia), Cynthia C. Morton (Cambridge, USA)
