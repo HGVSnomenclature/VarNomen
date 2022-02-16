@@ -31,6 +31,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 
 *	<b>[ISCN representative:](/bg-material/consultation/ISCN/)</b> Ros Hastings  (United Kingdom)
 
+*	members
 	:	Oleg Agafonov  (Norway)
 	:	Raymond Dalgleish  (United Kingdom)
 	:	Peter Causey-Freeman  (United Kingdom)
@@ -38,6 +39,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 	:	Terence Murphy  (United States)
 	:	Anne-Francois Roux  (France)
 	:	Peter Taschner  (Nederland)
+
 
 ### **past HVNC members**
 
