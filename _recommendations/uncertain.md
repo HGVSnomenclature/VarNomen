@@ -141,7 +141,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	p.?
 	:	used to indicate that an effect on the protein level is expected but that it is not possible to give a reliable prediction of the consequences
 *	p.(=)
-	:	used to indicate that no changes on the protein level are expected (RNA not nalysed)
+	:	used to indicate that no changes on the protein level are expected (RNA not analysed)
 *	p.(Ala123\_Pro131)\*
 	:	used to describe that at an unknown position between amino acids Ala123 and Pro131 an amino acid is substituted for a translation termination (stop) codon
 *	p.(Ala123\_Pro131)fs
