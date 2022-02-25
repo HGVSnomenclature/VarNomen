@@ -28,12 +28,12 @@ Current HGVS recommendations state ([_see Reference Sequences_](/bg-material/ref
 
 The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](/recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD){:target="\_blank"} currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
 
-	*	NM\_004006.2:c.-244\_\*2691{0}
-		:	describes a deletion of the entire coding DNA reference sequence of the DMD gene
-	*	NM\_004006.2:c.-244\_187{0}
-		:		describes a deletion including the transcription start site (cap site) of the DMD gene
-	*	NM\_004006.2:c.\*1162\_\*2691{2}
-		:	describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
+*	NM\_004006.2:c.-244\_\*2691{0}
+	: describes a deletion of the entire coding DNA reference sequence of the DMD gene
+*	NM\_004006.2:c.-244\_187{0}
+	: describes a deletion including the transcription start site (cap site) of the DMD gene
+*	NM\_004006.2:c.\*1162\_\*2691{2}
+	: describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
 
 The description is always given _**in addition**_ to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
 
