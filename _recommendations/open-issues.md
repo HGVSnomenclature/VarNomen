@@ -10,7 +10,7 @@ order: 8
 
 ## Community Consultation
 
-Proposal [_SVD-WG006 (circular DNA)_](/bg-material/consultation/svd-wg006/) suggesting to extend the HGVS recommendations to allowing a “o.” prefix for circular genomic reference sequences is currently open for Community Consulation (**Closing:** Oct.30 (2018).
+There are currently no proposals open for Community Consulation.
 
 * * *
 
@@ -20,20 +20,31 @@ Proposal [_SVD-WG006 (circular DNA)_](/bg-material/consultation/svd-wg006/) sugg
 
 For closed topics [see below](/recommendations/open-issues#closedtopics).
 
+<a name ="beyond"></a>
+
+### Beyond transcripts
+
+Current HGVS recommendations state [_Reference Sequences_](/bg-material/refseq/):  "5’ and 3’ flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
+
+The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far the committee has the opinion such a format is not required, these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](/recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD){:target= "_blank"} currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
+
+	*	NM\_004006.2:c.-244\_\*2691{0}
+	:	describes a deletion of the entire coding DNA reference sequence of the DMD gene
+	*	NM\_004006.2:c.-244\_187{0}
+	:	describes a deletion including the transcription start site (cap site) of the DMD gene
+	*	NM\_004006.2:c.\*1162\_\*2691{2}
+	:	describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
+
+The description is always given _**in addition**_ to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
+
+
 <a name ="extensions"></a>
 
 ### Protein Extensions
 
 Would you consider a small change in the suggested nomenclature for the [_description of extensions_](/recommendations/protein/variant/extension/) from p.\*110Glnext\*17 to p.\*110Glnext17? (_Yael Shinar, Tel Hashomer, Israel_)
 
-The description of extensions can probably indeed be simplified. While for **extensions** we currently give the position of the new translation initiation (start) codon as "-5" or of the termination (stop) codon as "\*17" this is strictly speaking not necessary. By defenition the extension goes upstream for an N-terminal change and downstream for a C-terminal change. Using p.Met1ext5 (now p.Met1ext-5) and p.\*110Glnext17 (now p.\*110Glnext\*17) therefore seems sufficient.
-
-<a name ="circular"></a>
-
-### Circular molecules
-
-July 19 (2016) - JT den Dunnen
-HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y\_Xdel X should be smaller then Y). Do you have a suggestion??
+The description of extensions can probably indeed be simplified. While for **extensions** we currently give the position of the new translation initiation (start) codon as "5" or of the termination (stop) codon as "\*17" this is strictly speaking not necessary. By defenition the extension goes upstream for an N-terminal change and downstream for a C-terminal change. Using p.Met1ext5 (now p.Met1ext5) and p.\*110Glnext17 (now p.\*110Glnext\*17) therefore seems sufficient.
 
 <a name ="modifications"></a>
 
@@ -41,6 +52,14 @@ HGVS nomenclature assumes reference sequences are linear. However, the mitochond
 
 Aug.24 (2011) - JT den Dunnen
 HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
+
+<a name ="amount"></a>
+
+#### Amount
+
+Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the “|” character (“pipe”) these consequences could be described as r.=|red or r.=|inc (p.=|red, p.=\inc).
+
+<a name ="RNAedit"></a>
 
 #### RNA editing
 
@@ -76,6 +95,13 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 <a name ="closedtopics"></a>
 
 ## Closed topics
+
+<a name ="circular"></a>
+
+### Circular molecules
+
+<font color="#FF0000">The proposal has been ACCEPCTED for circular reference sequences</font>
+HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y\_Xdel X should be smaller then Y). Do you have a suggestion??
 
 <a name ="imperfectcopy"></a>
 
