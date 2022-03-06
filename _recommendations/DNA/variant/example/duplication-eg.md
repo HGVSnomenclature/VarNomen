@@ -20,7 +20,7 @@ category: example
 	:	a duplication from position c.20 to c.23 in the sequence AGAAGTAGAGG to AGAAGTAGA**<font color="red">TAGA</font>**GG
 	:	_**NOTE**_: the recommendation is not to describe the variant as c.20\_23dupTAGA, i.e. describe the duplicated nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increases (e.g. c.20\_23dupTGGA).
 	*	LRG\_199t1:c.260\_264+48dup (NC\_000023.11:g.32844735\_32844787dup)
-	:	a duplication of nucleotides c.160 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
+	:	a duplication of nucleotides c.260 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron/exon
 	*	exon/exon
 		*	LRG\_199t1:c.3921dup
