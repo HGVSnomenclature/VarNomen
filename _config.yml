@@ -7,7 +7,7 @@
 
 # Site settings
 title: Sequence Variant Nomenclature
-email: VarNomen @ HGVS.org
+email: VarNomen @ HUGO-int.org
 description: >  # this means to ignore newlines until "baseurl:"
     These pages summarise HGVS-nomenclature: the recommendations for the description of sequence variants. HGVS-nomenclature is used to report and exchange information regarding variants found in DNA, RNA and protein sequences and serves as an international standard in DNA diagnostics. HGVS-nomenclature is authorised by the Human Genome Variation Society (HGVS), the Human Variome Project (HVP) and the HUman Genome Organization (HUGO).
 baseurl: ""  # the subpath of your site, e.g. /blog
