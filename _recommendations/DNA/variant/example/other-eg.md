@@ -21,11 +21,11 @@ category: example
 
 * methylation
 :	descriptions based on Community Consultation [_proposal SVD-WG005_](/bg-material/consultation/svd-wg005/)
-	*	NC\_000011.10::g.1999904\_1999946\|gom
+	*	NC\_000011.10:g.1999904\_1999946\|gom
 	:	the sequence from position g.1999904 to g.1999946 showed a gain of methylation ("\|gom")
-	*	NC\_000011.10::g.1999904\_1999946\|lom
+	*	NC\_000011.10:g.1999904\_1999946\|lom
 	:	the sequence from position g.1999904 to g.1999946 showed a loss of methylation ("\|lom")
-	*	NC\_000011.10::g.1999904\_1999946\|met=
+	*	NC\_000011.10:g.1999904\_1999946\|met=
 	:	the sequence from position g.1999904 to g.1999946 showed normal methylation ("\|met=")
 
 * mosaicism
