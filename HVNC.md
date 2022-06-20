@@ -10,7 +10,7 @@ permalink: /HVNC/
 
 ## HGVS Variant Nomenclature Committee (HVNC)
 
-The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org){:target="\_blank"}, a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards){:target="\_blank"}, with administrative support of the HUGO office. Activities of the HVNC follow the committee's Terms of Reference with new members being appointed every two years for a four-year term. HVNC members should together represent all interested communities, including gene/disease specific database curators, central repositories, clinical geneticists, commercial diagnostic laboratories, bioinformaticians, scientific journals, etc.
+The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org){:target="\_blank"}, a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards){:target="\_blank"}, with administrative support of the HUGO office. Activities of the HVNC follow the committee's Terms of Reference with new members being appointed every two years for a four-year term. HVNC members should together represent all interested communities, including gene/disease specific database curators, central repositories, clinical geneticists, commercial diagnostic laboratories, bioinformaticians, scientific journals, etc.  The HVNC is the successor of the HGVS nomenclature Sequence Variant Description Working Group (SVD-WG), initiated by the [Human Variome Project](https://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html){:target="\_blank"}.
 
 
 ### **Task**
@@ -28,15 +28,6 @@ A new call for HVNC members will open early 2024. The current committee lacks me
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Project (HVP).
 
 *	**current members**
-
-<style>
-table th:first-of-type {
-    width: 25%;
-}
-table th:nth-of-type(2) {
-    width: 10%;
-}
-</style>
 
 {:.table .table-bordered}
 | Name                                   |  Term         |
