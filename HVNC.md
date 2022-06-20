@@ -27,19 +27,22 @@ A new call for HVNC members will open early 2024. The current committee lacks me
 
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Project (HVP).
 
-*	<b>Chair:</b> Johan den Dunnen  (Nederland, since 2013)
-
-*	<b>[ISCN representative:](/bg-material/consultation/ISCN/)</b> Ros Hastings  (United Kingdom, since 2021)
-
 *	current members
-	:	Raymond Dalgleish  (United Kingdom, 2013-....)
-	:	Reece Hart  (United States, 2014-....)
-	:	Peter Causey-Freeman  (United Kingdom, 2018-....)
-	:	Terence Murphy  (United State, 2021-2026)
-	:	Marina DiStefano (USA,  2022-2026)
-	:	Rachel Taylor (UK,  2022-2026)
-	:	Jeroen Laros (Nederland,  2022-2026)
-	:	Alex Wagner (USA,  2022-2026)
+{:.table .table-bordered}
+| Name                                   |  Term         |
+|:--------------------------------------:|:-------------:|
+| **chair:** Johan den Dunnen  (Nederland)         |  2013 - ....  |
+|                                        |               |
+| Ros Hastings  (United Kingdom)         |  2021 - ....  |  <b>[ISCN representative:](/bg-material/consultation/ISCN/)</b>
+| Raymond Dalgleish  (United Kingdom)    |  2013 - ....  |
+| Reece Hart  (United States)            |  2014 - ....  |
+| Peter Causey-Freeman  (United Kingdom) |  2018 - ....  |
+| Terence Murphy  (United States)        |  2021 - 2026  |
+| Marina DiStefano  (United States)      |  2022 - 2026  |
+| Rachel Taylor  (United Kingdom)        |  2022 - 2026  |
+| Jeroen Laros  (Nederland)              |  2022 - 2026  |
+| Alex Wagner  (United States)           |  2022 - 2026  |
+
 
 ### **past HVNC members**
 
