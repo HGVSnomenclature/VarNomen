@@ -30,7 +30,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 *	**current members**
 	
 {:.table .table-bordered}
-| Name                                   |  Term         |
+| `Name                                   `|`  Term         `|
 |:--------------------------------------:|:-------------:|
 | **chair:** Johan den Dunnen  (Nederland)         |  2013 - ....  |
 |                                        |               |
