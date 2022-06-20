@@ -34,7 +34,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 |:--------------------------------------:|:-------------:|
 | **chair:** Johan den Dunnen  (Nederland)         |  2013 - ....  |
 |                                        |               |
-| <sup>1</sup> Ros Hastings  (United Kingdom)       |  2021 - ....  |
+| Ros Hastings <sup>1</sup>  (United Kingdom)       |  2021 - ....  |
 | Raymond Dalgleish  (United Kingdom)    |  2013 - ....  |
 | Reece Hart  (United States)            |  2014 - ....  |
 | Peter Causey-Freeman  (United Kingdom) |  2018 - ....  |
