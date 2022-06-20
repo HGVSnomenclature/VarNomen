@@ -28,7 +28,7 @@ A new call for HVNC members will open early 2024. The current committee lacks me
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Project (HVP).
 
 *	current members
-*	
+	
 {:.table .table-bordered}
 | Name                                   |  Term         |
 |:--------------------------------------:|:-------------:|
