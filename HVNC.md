@@ -28,9 +28,18 @@ A new call for HVNC members will open early 2024. The current committee lacks me
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Project (HVP).
 
 *	**current members**
-	
+
+<style>
+table th:first-of-type {
+    width: 25%;
+}
+table th:nth-of-type(2) {
+    width: 10%;
+}
+</style>
+
 {:.table .table-bordered}
-| `Name                                   `|`  Term         `|
+| Name                                   |  Term         |
 |:--------------------------------------:|:-------------:|
 | **chair:** Johan den Dunnen  (Nederland)         |  2013 - ....  |
 |                                        |               |
