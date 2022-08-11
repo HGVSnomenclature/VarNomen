@@ -56,7 +56,7 @@ Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** i
 	*	NM\_ a reference sequence based on a protein coding RNA (mRNA)
 		*	NM\_004006.2:c.4375C>T
 	*	NR\_ a reference sequence based on a non-protein coding RNA
-		*	NR_002196.1:c.601G>T
+		*	NR_002196.1:n.601G>T
 *	protein (amino acid)
 	*	NP\_ a reference sequence based on a protein (amino acid) sequence
 		*	NP\_003997.1:p.Arg1459* (p.Arg1459Ter)
