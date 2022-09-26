@@ -38,7 +38,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	:	When a variant has been identified but it can not be mapped to a unique location, possible descriptions should be given separated by a "**<font color="red">^</font>**" (caret)
 	*	NM\_000517.4:c.424C>T^NM\_000558.3:c.424C>T
 	:	describes variant c.427T>C which is either in the HBA2 (NM\_000517.4) or the HBA1 (NM\_000558.3) gene
-	*	NC\_000023.10:g.33038277C>T^33038278C>T  (LRG\_199t1:c.71G>A^72G>A) 
+	*	NC\_000023.10:g.(33038277_33038278)C>T  (LRG\_199t1:c.(71_72)G>A) 
 	:	describes the variant Trp24* in the DMD gene reported on protein level only
 *	deletion
 	:	The standard format to describe a deletion for which the break point has not been sequenced is (A\_B)\_(C\_D)del, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the deletion/duplication.
