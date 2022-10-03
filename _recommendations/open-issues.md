@@ -37,6 +37,13 @@ The HGVS nomenclature committe received several requests to suggest a format to 
 
 The description is always given _**in addition**_ to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
 
+<a name ="frameshift"></a>
+
+### Frame shifts
+
+The HGVS recommended format to describe frame shift variants gives the length of the shifted reading frame, it does not indicate the length of the reference protein sequence that has been deleted. Both the length of the shifted open reading frame, as well as the length of the deleted reference protein sequence will be important to predict the possible deleterious consequence of the variant: the larger the new/deleted sequence the more likely it will be deleterious. The question has been raised whether the description of a **frame shift** variant should also **include the length of the protein sequence deleted**.
+
+The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [_In HGVS_](/recommendations/protein/variant/frameshift/), the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
 
 <a name ="extensions"></a>
 
