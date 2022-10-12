@@ -12,7 +12,5 @@ category: example
 	:	_**NOTE**_:	this variant is **not** described as an extension (p.Met1Valext-4) since Met1, part of the normal amino acid sequence, is changed
 *	p.Ter110GlnextTer17  (alternatively p.\*110Glnext\*17)
 	:	a variant in the stop codon (Ter/\*) at position 110, changing it to a Gln-codon (a no-stop variant) and adding a tail of new amino acids to the protein's C-terminus, ending at a new stop codon (Ter/\*) at position 17
-*	p.(Ter315TyrextAsnLysGlyThrTer)  (alternatively p.\*315TyrextAsnLysGlyThr\*)
-	:	a variant in the stop codon (Ter/\*) at position 315, changing it to a Tyr-codon (a no-stop variant) and adding a tail of new amino acids to the protein's C-terminus, ending at a new stop codon (Ter5/\*5)
 *	p.Ter327Argext\*? (alternatively p.\*327Argext\*?)
 	:	a variant in the stop codon (Ter/\*) at position 327, changing it to an Arg-codon and adding a tail of new amino acids of unknown length (position \*?) since the shifted frame does not contain a new stop codon.
