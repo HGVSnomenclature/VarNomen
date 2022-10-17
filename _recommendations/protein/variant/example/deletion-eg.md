@@ -33,12 +33,11 @@ category: example
 	:	the predicted consequences of a deletion of exons 74 to 79 of the DMD gene, deleting the translation termination codon
 	:	_**NOTE:**_ since the last exon (exon 79) is deleted, it is not known what sequences after exon 73 are added to the transcript and no reliable predictions can be made
 *   p.Gly2\_Met46del
-	:	a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation ate Met1 but activating a new downstream translation initiation site (at Met46)<br>
+	:	a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation at Met1 but activating a new downstream translation initiation site (at Met46)<br>
 	_**NOTE:**_ the 3' rule has been applied.
 *	p.Trp26Ter (p.Trp26\*)
 	:	amino acid Trp26 is changed to a stop codon (Ter, \*)<br>
-	:	_**NOTE:**_ this change is **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
+	:	_**NOTE:**_ this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
 *	NP\_003997.1:p.Val7=/del
 	:	a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as “Val7=”) also protein is found containing a deletion (Val7del)
 	:	_**NOTE:**_ for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/del)
-	
