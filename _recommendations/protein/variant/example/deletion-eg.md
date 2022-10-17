@@ -25,7 +25,7 @@ category: example
 	:	the predicted consequences of a deletion of exon 5 of the DMD gene, deleting amino acids Asp90 to Val120 in reference sequence NP\_003997.2
 	:	_**NOTE:**_ since the 3'rule needs to be applied the description p.(Val89\_Gln119del) is not correct
 	*	NP\_003997.2:p.(His321Leufs\*3)
-	:	the predicted consequences of a deletion of exons 10 to 11 of the DMD gene, creating a frame shift after amino acids His321, starting with Leu in the shifted frame and terminating after three codons.
+	:	the predicted consequences of a deletion of exons 10 to 11 of the DMD gene, creating a frame shift starting at amino acids His321, replacing it with Leu in the shifted frame and terminating after three codons.
 	*	NP\_003997.2:p.?
 	:	the predicted consequences of a deletion of exons 1 to 2 of the DMD gene, deleting the translation initiation codon
 	:	_**NOTE:**_ since exon 1 and the translation initiation codon are deleted no reliable predictions can be made. Possibly no transcript is generated and no protein (p.0?)
