@@ -45,6 +45,14 @@ The HGVS recommended format to describe frame shift variants gives the length of
 
 The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [_In HGVS_](/recommendations/protein/variant/frameshift/), the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
 
+<a name ="inshow"></a>
+
+### Insertions
+
+The format for the description of insertions needs specification. Following current recommendations, insertions can be described either by giving the inserted sequence, or by giving the nucleotide positions of a copy of the inserted sequence.
+
+For example, the insertion of "GAAGTACTG" between nucleotides NM\_004006.3:c.299 and c.300 can be described as NM\_004006.3:c.299\_300insGAAGTACTG or as NM\_004006.3:c.299\_300ins284\_293. A third format, meant for large insertions is to refer to a reference sequence file containing the inserted sequence, e.g. NM\_000553.4:c.3050\_3051ins\[NM\_004006.3:c.284\_293\]. Since the current recommendations do not specify when to use which of these formats, one variant can be described using different format, which is undesired.
+
 <a name ="extensions"></a>
 
 ### Protein Extensions
