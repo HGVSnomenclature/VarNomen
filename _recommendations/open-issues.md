@@ -20,6 +20,16 @@ There are currently no proposals open for Community Consulation.
 
 For closed topics [see below](/recommendations/open-issues#closedtopics).
 
+* * *
+
+## Introduction
+
+At the time the first HGVS recommendations for the description of variants were made “history” had a large impact. History meaning the format proposed was heavily influenced by the formats already in use to describe variants. Would HGVS be designed from scratch, it might well be we would only use deletion (del), insertion (ins) and deletion-insertion (delins) because using these three any variant can be described. Substitution (>) might be added because of its simplicity and long history, although “delins” can be used to describe substitutions as well. Variant types like “inversion” (inv) and “duplication” (dup) might well be left out, they can be described as a “delins”. The same holds true for “conversions” (con), a variant type that was discontinued from HGVS recommendations a few years ago (see SVD-WG009).
+
+Basically, these variant types refer to the (expected) biological process generating the variant, e.g. inserting a copy of segment of DNA (duplication), turning around a segment of DNA (inversion) or replacing a segment of DNA with a copy of a segment from elsewhere (conversion). The number of nucleotides involved in such cases is usually large, i.e. several hundred nucleotides or more. However, for overall consistency within the recommendations, the formats for description are general, irrespective of the length of the variant. Duplications can be as short as one nucleotide and inversions as small as two (prioritisation determines one-nucleotide inversions are described as substitution), although for these variants a link with the biological process generating them is unlikely. It should be noted that some of the problems described below are associated with these historic choices.
+
+* * *
+
 <a name ="beyond"></a>
 
 ### Beyond transcripts
@@ -52,6 +62,18 @@ The format to describe frame shift variants has a **historic** background, it ha
 The format for the description of insertions needs specification. Following current recommendations, insertions can be described either by giving the inserted sequence, or by giving the nucleotide positions of a copy of the inserted sequence.
 
 For example, the insertion of "GAAGTACTG" between nucleotides NM\_004006.3:c.299 and c.300 can be described as NM\_004006.3:c.299\_300insGAAGTACTG or as NM\_004006.3:c.299\_300ins284\_293. A third format, meant for large insertions is to refer to a reference sequence file containing the inserted sequence, e.g. NM\_000553.4:c.3050\_3051ins\[NM\_004006.3:c.284\_293\]. Since the current recommendations do not specify when to use which of these formats, one variant can be described using different format, which is undesired.
+
+<a name ="repseqs"></a>
+
+### Repeated sequences
+
+The repeated sequence format is part of the HGVS recommendations to describe variants in the number of units of a repeated sequence. The format is especially used to describe variants in so called tri-nucleotide repeat expansion disorders, like Huntingtons' disease, Fragile-X syndrome, etc. The format recommended was based on the format used before the HGVS recommendations were first proposed. The basic format is: g.123\_191CAG[25], i.e. describing the range of the segment in the reference sequence containing the repeat sequence (g.123 to g.191), describing the repeat unit ("CAG") and the number of repeat unit identified in the sample analysed ("[25]").
+
+The format overlaps with the format to describe deletions and duplications/insertions. This means that e.g. both g.186_191del and g.123\_191CAG[21] are correct following current HGVS recommendations. HGVS recommendations therefore require further specifications to indicate when to use which format.
+
+Discontinuing the use of the repeated sequence format will not solve all problems. E.g. how to describe a repeat expansion which is larger than the length of the repeat in the reference sequence. While g.123\_191dup equals g.123\_191CAG[46], how to describe g.123\_191CAG[47]. Another problem emerges when the repeat unit in not perfect but interrupted with another unit, e.g. an occasional CAA in the CGA unit (frequent in Fragile-X syndrome). The repeated sequence format has clear advantages here.
+
+A new user group of the repeated sequence format is the forensics community. Originally this group described variants using the length of the fragment analysed. However, it is nowadays more common to use a sequence-based analysis. Sequencing revealed an additional level of complexity where alleles with the same length turn out to have a different sequence. In general, using the repeated sequence format, it is rather simple to describe the alleles observed. However, the repeated sequences analysed are often extensive and may contain a mix of different repeat units. The problem then emerges how to describe the reference format of the repeat. Is it CAG[4]CAA[1]CAG[2]CAA[1]CAG[2]CAA[1]CAG[2] or CAG[4][CAA[1]CAG[2]][3] or ....
 
 <a name ="extensions"></a>
 
