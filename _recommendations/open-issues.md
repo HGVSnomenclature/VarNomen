@@ -94,7 +94,9 @@ HGVS nomenclature does currently not have recommendations for the descriptions o
 
 #### Amount
 
-Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the “|” character (“pipe”) these consequences could be described as r.=|red or r.=|inc (p.=|red, p.=\inc).
+Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the “\|” character (“pipe”) these consequences could be described as r.=\|red or r.=\|inc (p.=\|red, p.=\|inc) or more spcifically like r.=\|0.40 (reduced to 0.40) or r.=\|3.10 (increased to 3.10).
+
+The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646\_792del|0.73,792\_793ins[792+1\_792+38|0.27].
 
 <a name ="RNAedit"></a>
 
