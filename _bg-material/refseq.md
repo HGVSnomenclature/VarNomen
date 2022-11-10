@@ -25,7 +25,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 	*	this requirement applies within a **single** sequence. Alignments **between** sequences may contain gaps. For example, a coding sequence will contain intron gaps when aligned to a genomic sequence
 	*	[_IUPAC codes_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} for any nucleotide (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
 *	a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
-	*	sequence identifiers are opaque ([_note 1_](#note1)), i.e. the structure and meaning of an identifier is determined by the source reference sequence database
+	*	sequence identifiers are opaque ([_note 1_](#note)), i.e. the structure and meaning of an identifier is determined by the source reference sequence database
 	*	versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences
 		*	RefSeq and Ensembl reference sequence identifiers use version numbers to distinguish between sequences. In the context of these reference sequences, variant descriptions lacking a version number are **not** valid. NM\_004006**<font color="red">.3</font>** is correct, NM\_004006 is not correct (lacks the essential version number)
 		*	the sequence identifier **must** be included in **all** representations of a reference sequence, i.e. annotated records and downloadable formats such as fasta files
@@ -40,7 +40,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 *	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.11 (for _Homo sapiens_ chromosome X, build GRCh38/hg38)
 *	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
 	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
-	*	accepted specifications include transcripts (NM\_004006.2) and proteins (NP\_003997.1). Gene symbols should **not** be used as specification. **Exception:** genes annotated on a genomic reference for which no transcript reference sequence is available, e.g. the Homo sapiens mitochondrio complete genome (GenBank NC\_012920.1).
+	*	accepted specifications include transcripts (NM\_004006.2) and proteins (NP\_003997.1). Gene symbols should **not** be used as specification. **Exception:** genes annotated on a genomic reference for which no transcript reference sequence is available, e.g. the Homo sapiens mitochondrion complete genome (GenBank NC\_012920.1).
 *	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
 	*	the reference sequence used **must contain** the variant residue that is described as being changed
 	*	a **coding** or **non-coding** DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and **can not be used** to describe variants in introns and up/down-stream of the gene
@@ -181,7 +181,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 * * *
 
-{:#notes}{:#note1}
+{:#note}
 
 ## Notes
 
