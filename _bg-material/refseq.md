@@ -40,7 +40,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 *	the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC\_000023.11 (for _Homo sapiens_ chromosome X, build GRCh38/hg38)
 *	specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
 	*	NG\_012232.1(NM\_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM\_004006.2 as annotated in NG\_012232.1
-	*	accepted specifications include transcripts (NM\_004006.2) and proteins (NP\_003997.1). Gene symbols should **not** be used as specification.
+	*	accepted specifications include transcripts (NM\_004006.2) and proteins (NP\_003997.1). Gene symbols should **not** be used as specification. **Exception:** genes annotated on a genomic reference for which no transcript reference sequence is available, e.g. the Homo sapiens mitochondrio complete genome (GenBank NC\_012920.1).
 *	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
 	*	the reference sequence used **must contain** the variant residue that is described as being changed
 	*	a **coding** or **non-coding** DNA reference sequence does not contain intron or 5' and 3' gene flanking sequences and **can not be used** to describe variants in introns and up/down-stream of the gene
@@ -110,7 +110,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	circular genomic reference sequences are indicated using a **o.** prefix
 	:	circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.
-	:	_**EXCEPTION:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
+	:	_**Exception:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
 
 {:#DNAm}
@@ -229,17 +229,17 @@ Why not? Two reasons:
 
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC\_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1){:target="\_blank"}. The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP\_003024031.1:p.Leu156Pro.
-	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/){:target="\_blank"}.
+	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/){:target="\_blank"}
+	:	_**NOTE**_:	by exception, it is for this mitochondrial reference sequence allowed to specify the gene affected
 	*	NC\_012920.1:m.3243A>G describes variant 3243A>G based on the mitochondrial reference sequence NC\_012920.1
 	*	NC\_012920.1(MT-TL1):m.3243A>G describes variant 3243A>G in the MT-LT1 gene based on the mitochondrial reference sequence NC\_012920.1
 	*	NC\_012920.1(MT-TL1):n.14A>G describes variant 14A>G based on the annotated MT-TL1 non-coding DNA reference sequence of the MT-TL1 gene in NC\_012920.1
 <br>
 *	For mitochondrial variants we use the format MT-ND1{NC\_012920.1}: m.[3460G>A], i.e. the gene in front of the reference sequence in curly brackets, a colon, an m and full stop and then the variant in square brackets, and a change in the protein as MT-ND1{YP\_003024026.1}: p.[(Ala52Thr)]. To be clear, is it not longer required to report/state the gene in front of the reference sequence?
-	:	The format your give does not (nor did ever) follow HGVS recommendations. Correct HGVS formats are NC\_012920.1:m.3460G>A and YP\_003024026.1:p.(Ala52Thr). It is allowed, but not mandatory, to mention the gene affected (e.g. NC\_012920.1(MT-ND1):m.3460G>A). Since there are several different proteins annotated on the mtDNA reference sequence, a protein variant based on the mtDNA sequence can only be described when the gene affected is given; NC\_012920.1(MT-ND1):p.(Ala52Thr).
+	:	The format your give does not (nor did ever) follow HGVS recommendations. Correct HGVS formats are NC\_012920.1:m.3460G>A and YP\_003024026.1:p.(Ala52Thr). By exception, it is for this mitochondrial reference sequence allowed, to specify the gene affected (e.g. NC\_012920.1(MT-ND1):m.3460G>A) and give the description NC\_012920.1(MT-ND1):m.3460G>A p.(Ala52Thr).
 
 *	How should variants be described in genes that produce only RNA (so no protein), e.g. ncRNA, miRNA, and others?
 	:	To describe variants in genes that produce an RNA molecule but no protein a genomic reference sequence can be used ("**g.**" description). When a non-coding DNA reference sequence is available, e.g. a LRG (NR\_002196.1 for the H19 transcript) or a RefSeq transcript (NR\_000020.1 for the small nucleolar RNA, C/D box 33 (SNORD33) gene), variants can be described using the prefix "**n.**" see [_Community Consultation SVD-WG002_](/bg-material/community/SVD-WG002) and [_Nucleotide numbering_](/bg-material/numbering)).
 
 *	We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants?  Do I number it in relation to the EST or the genomic sequence?  Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?
 	:	Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants.
-	
