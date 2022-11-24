@@ -57,6 +57,10 @@ category: example
 	*	NC\_000023.11:g.(?\_31120496)\_(33339477\_?)dup
 	:	a duplication of the entire DMD gene based on a MLPA assay where nucleotides g.31120496 and g.33339477 are the center of the probes for the resp. last and first (brain promoter) exons.
 	:	_**NOTE**_: the MLPA analysis detects an extra copy of the sequences and it has to be determined whether it is a duplication. When it is not sure the variant is a duplication the variant should be described as an insertion, g.?\_?insNC\_000023.11:(?\_31120496)\_(33339477\_?)
+*	chromosome
+	*	NC\_000023.11:g.pter\_qtersup
+	:	a duplication of the entire X-chromosome ("sup" = [_supernumary chromosome_](/recommendations/DNA/variant/complex/))
+	:	_**NOTE**_: when, e.g. based on next-generation sequencing, only "an additional copy of all X-chromosome sequences" are detected the variant should be described as NC\_000023.11:g.pter\_qter[2]
 *	NC\_000023.11:g.33344590\_33344592=/dup
 :	a mosaic case where from position g.33344590 to g.33344592 besides the normal sequence also chromosomes are found containing a duplication of this sequence
 *	NC\_000023.11:g.33344590\_33344592=//dup
