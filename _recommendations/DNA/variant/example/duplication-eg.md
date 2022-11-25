@@ -19,35 +19,37 @@ category: example
 	*	NM\_004006.2:c.20\_23dup (NC\_000023.11:g.33211290\_33211293dup)
 	:	a duplication from position c.20 to c.23 in the sequence AGAAGTAGAGG to AGAAGTAGA**<font color="red">TAGA</font>**GG
 	:	_**NOTE**_: the recommendation is not to describe the variant as c.20\_23dupTAGA, i.e. describe the duplicated nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increases (e.g. c.20\_23dupTGGA).
-	*	LRG\_199t1:c.260\_264+48dup (NC\_000023.11:g.32844735\_32844787dup)
+	*	NC\_000023.11(NM\_004006.2):c.260\_264+48dup (NC\_000023.11:g.32844735\_32844787dup)
 	:	a duplication of nucleotides c.260 to c.264+48 (coding DNA reference sequence), crossing an exon/intron border
 *	exon/intron/exon
 	*	exon/exon
-		*	LRG\_199t1:c.3921dup
+		*	NC\_000023.11(NM\_004006.2):c.3921dup
 		:	the duplication of the T nucleotide at the exon/exon border in the sequence ..GA**<font color="red">T</font>** gta..//..cag TCA.. changing to ..GA**<font color="red">TT</font>** gta..//..cag TCA..
 		:	_**NOTE**_ : according to an exception of the 3'rule the variant (NC\_000023.11:g.32441180dup) is **not described** as c.3922dup since this would shift the position of the variant to the next exon (c. 3922 linking to g.32441180) ([_see exception in Numbering_](/bg-material/numbering/#DNAc) and [_see Q&A_](/recommendations/DNA/variant/deletion/#6del))
 	*	exon/intron
-		*	LRG\_199t1:c.1704+1dup
+		*	NC\_000023.11(NM\_004006.2):c.1704+1dup
 		:	the duplication of the G nucleotide at the exon/intron border in the sequence GAACAG**<font color="red">g</font>**t.../..agTGCCTT changing to GAACAG**<font color="red">gg</font>**t.../..agTGCCTT (not c.1704dup)
 		:	_**NOTE**_: this description does not depend on the effect observed on RNA level, giving either altered splicing or r.1704dup
 	*	intron/exon
-		*	LRG\_199t1:c.1813dup
+		*	NC\_000023.11(NM\_004006.2):c.1813dup
 		:	the duplication of the G nucleotide at the intron/exon border in the sequence CTGGCCgt.../..ag**<font color="red">G</font>**TTTTA changing to CTGGCCgt.../..ag**<font color="red">GG</font>**TTTTA (not c.1813-1dup)
 		:	_**NOTE**_: this description does not depend on the effect observed on RNA level, giving either altered splicing or r.1813dup
 *	exons
-	*	LRG\_199t1:c.4072-1234\_5155-246dup
+	*	NC\_000023.11(NM\_004006.2):c.4072-1234\_5155-246dup
 		:	a duplication of nucleotides c.4072-1234 to c.5155-246 duplicating exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene.
 		: 	_**NOTE**_ : the format c.4072-1234\_5155-246dupXXXXX, with XXXXX indicating the size of the duplication, **should not** be used
 		: 	_**NOTE**_ : the description NM\_004006.2:c.4072-1234\_5155-246dup is not correct, the reference sequence NM\_004006.2 is a coding DNA reference sequence which **does not include** the intron sequences involved
-	*	LRG\_199t1:c.720\_991dup
+	*	NC\_000023.11(NM\_004006.2):c.720\_991dup
 		:	a duplication of nucleotides c.720 to c.991 starting in exon 8 (position c.720) and ending in exon 10 (position c.991) of the DMD-gene.
 	*	NC\_000023.11(NM\_004006.2):c.(4071+1\_4072-1)\_(5154+1\_5155-1)dup
 		:	a duplication of exon 30 (starting at position c.4072) to exon 36 (ending at position c.5145) of the human DMD-gene. The duplication break point has **not been sequenced**. Exons 29 (ending at c.4071) and 37 (starting at nucleotide c.5146) have been tested an shown to be **not duplicated**. The duplication therefore starts in intron 29 (position c.4071+1 to c.4072-1) and ends in intron 36 (position c.5145+1 to c.5156-1).
 		:	_**NOTE**_ : this description is part of [_proposal SVD-WG003 (undecided)_](/bg-material/consultation/svd-wg003).
 		:	_**NOTE**_ : previously, the suggestion was made to describe such duplications using the format c.4072-?\_5154+?dup. However, since c.4072-? indicates "**to an unknown postion 5' of c.4072**" and c.5154+? "**to an unknown postion 3' of c.5154**" this description is not correct when it is known that exons 29 and 37 are involved.
-	*	NC\_000023.11:g.(32381076\_32382698)\_(32430031\_32456357)[3]  (LRG\_199t1:c.(4071+1\_4072-1)\_(5154+1\_5155-1)[3])
-		:	a triplication of the sequence from exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene (break points not sequenced).
-		:	_**NOTE**_ : this description should only be used when the two additional copies are in tandem with the original copy. There is no specific recommendation yet how to describe such a change but following current recommendations the format would be something like g.?\_?ins(32381076\_32382698)\_(32430031\_32456357)[2] ([2] since **2** additional copies have been inserted somewhere in the genome).
+	*	NC\_000001.11(NM\_206933.2):c.[675-542\_1211-703dup;1211-703\_1211-704insGTAAA]
+		:	a duplication of the sequence from nucleotide position c.75-542 to 1211-703, followed by the insertion of the sequence "GTAAA".
+		:	_**NOTE**_ : the variant is not described using "dupins", a format not used in HGVS nomenclature 
+	*	NC\_000023.11:g.(32381076\_32382698)\_(32430031\_32456357)[3]  (NC\_000023.11(NM\_004006.2)c.(4071+1\_4072-1)\_(5154+1\_5155-1)[3])
+		:	three copies of the sequence from exon 30 (starting at position c.4072) to exon 36 (ending at position c.5154) of the DMD-gene were detected (break points not sequenced).
 	*	duplications extending beyond the transcribed region
 	:	following current recommendations (see [_Numbering_](/bg-material/numbering)) it is not allowed to describe variants in nucleotides beyond the boundaries of a reference sequence. Consequently, duplications extending 5' of a transcript **can not** be described like NC\_000023.11(NM\_004006.2):c.(?\_-244)\_(31+1\_32-1)dup (c.-244 is the first nucleotide of NM\_004006.2). Duplications extending 3' of a transcript **can not** be described like NC\_000023.11(NM\_004006.2):c.(10086+1\_10087-1)\_(\*2691\_?)dup (c.\*2691 is the last nucleotide of NM\_004006.2). Such duplications can only be described using **genomic coordinates**. The HGVS nomenclature committee (SVD-WG) is discussing whether a c. based format should be proposed.
 *	gene
