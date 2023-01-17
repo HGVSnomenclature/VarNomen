@@ -18,11 +18,11 @@ category: example
 			:	a repeated AGC tri-nucleotide sequence in the ATXN7 gene on chromosome 3, starting at position g.63912687/c.89, with 13 AGC copies  (the reference sequence has 10 copies)
 			:	_**NOTE**_:	in literature the tri-nucleotide repeat, encoding a poly-Gln repeat on protein level, is known as the CAG repeat. However, based on the ATXN7 coding DNA reference sequence (GenBank LRG_866t1 or NM\_000333.3) and applying the **3'rule**, the repeat has to be described as an AGC repeat
 		*	**not sequenced**
-			*	NC\_000003.12:g.(63912602\_63912844)ins(9) | NM\_000333.3:c.(4\_246)ins(9)
-			:	a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 9 nucleotides larger ( "ins(9)" ) then that of the reference sequence.
+			*	NC\_000003.12:g.(63912602\_63912844)insN[9] | NM\_000333.3:c.(4\_246)insN[9]
+			:	a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 9 nucleotides larger ( "insN[9]" ) then that of the reference sequence.
 			:	_**NOTE**_:	since the fragment was not sequenced the variant can not be described as g.63912687AGC[13] / c.89AGC[13].
-			*	NC\_000003.12:g.(63912602\_63912844)del(15) | NM\_000333.3:c.(4\_246)del(15)
-			:	a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 15 nucleotides smaller ( "del(15)" ) then that of the reference sequence.
+			*	NC\_000003.12:g.(63912602\_63912844)delN[15] | NM\_000333.3:c.(4\_246)delN[15]
+			:	a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 15 nucleotides smaller ( "delN[15]" ) then that of the reference sequence.
 	
 *	**mixed repeat reference sequence**
 	*	**repeat expansion disorders**
@@ -35,7 +35,7 @@ category: example
 			:	_**NOTE**_:	by definition, since the reference sequence contains a mixed repeat (CGG and AGG units), the variant description only covers the sequence up to the first AGG interruption (position c.-99). A better description, giving less confusion, is NM\_002024.5:c.-128\_-69GGC[78]GGA[1]GGC[10] (i.e. assuming only the length of the first CGG segment was meant and not the total length of the GGC-GGA-GGC repeat).
 			*	NM\_002024.5:c.-128GGM[108]
 			:	a repeated mixed tri-nucleotide sequence starting at position c.-129 with 108 GGC/GGA copies
-			*	NM\_002024.5:c.(-144\_-16)ins(1800\_2400)
+			*	NM\_002024.5:c.(-144\_-16)insN[(1800\_2400)]
 			:	the amplified region containing the FMR1 repeat region (between nucleotides c.-144 and c.-16) contains an insertion of 1800 to 2400 nucleotides (600 to 800 GGC/GGA units)
 		*	**HTT repeat**  (reference sequence LRG\_763t1:52\_153CAG[21]CAA[1]CAG[1]CCG[1]CCA[1]CCG[7]CCT[2])
 			:	in literature the Huntington's Disease tri-nucleotide repeat, encoding a variable poly-Gln followed by a variable poly-Pro repeat on protein level, is known as the CAG repeat. Based on the HTT (huntingtin) coding DNA reference sequence (GenBank LRG\_763t1 or NM\_002111.8) and applying the **3'rule**, the Poly-Gln encoding repeat has to be described as an AGC-AAC-AGC repeat.
