@@ -35,19 +35,22 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 | **chair:** Johan den Dunnen  (Nederland)         |  2013 - ....  |
 |                                        |               |
 | Ros Hastings <sup>1</sup>  (United Kingdom)       |  2021 - ....  |
-| Raymond Dalgleish  (United Kingdom)    |  2013 - ....  |
 | Reece Hart  (United States)            |  2014 - ....  |
 | Peter Causey-Freeman  (United Kingdom) |  2018 - ....  |
-| Terence Murphy  (United States)        |  2021 - 2026  |
-| Marina DiStefano  (United States)      |  2022 - 2026  |
-| Rachel Taylor  (United Kingdom)        |  2022 - 2026  |
-| Jeroen Laros  (Nederland)              |  2022 - 2026  |
-| Alex Wagner  (United States)           |  2022 - 2026  |
+| Terence Murphy  (United States)        |  2021 - 2025  |
+| Marina DiStefano  (United States)      |  2022 - 2025  |
+| Rachel Taylor  (United Kingdom)        |  2022 - 2025  |
+| Jeroen Laros  (Nederland)              |  2022 - 2025  |
+| Alex Wagner  (United States)           |  2022 - 2025  |
+| Ivo Fokkema  (Netherlands  )           |  2023 - 2026  |
 
 > <sup>1</sup> [ISCN representative](/bg-material/consultation/ISCN/)
 
 
 ### **past HVNC members**
+
+*	2013 - 2022 
+	:	Raymond Dalgleish  (United Kingdom)
 
 *	2013 - 2022 
 	:	Peter Taschner  (Nederland)
