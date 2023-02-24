@@ -53,7 +53,8 @@ Make sure you have also seen the ([_Basics_](/bg-material/basics/), explaining t
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
 	:	**_NOTE:_**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} to use _**italics**_ to denote genes
 	:	**_NOTE:_**	for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/){:target="\_blank"}, written with the involvement of the HGNC
-* for the description of gene fusions, see the [_VICC Gene Fusion Nomenclature_](https://fusions.cancervariants.org/en/latest){:target="\_blank"}, which incorporates the recommendations of the HGNC, ISCN, and HVNC for gene fusion designations.
+**_NOTE:_**	to avoid confusion, HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} to use _**italics**_ to denote genes 
+* HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} and the [_VICC Gene Fusion Nomenclature_](https://fusions.cancervariants.org/en/latest){:target="\_blank"} to describe products of gene fusions
 
 * * *
 <a name="characters"></a>
