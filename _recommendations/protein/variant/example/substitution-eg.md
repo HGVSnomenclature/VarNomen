@@ -23,7 +23,7 @@ category: example
 	:	as a consequence of a variant in the translation initiation codon no protein is produced
 	:	_**NOTE:**_	LRG\_199p1:p.0? can be used when you predict that no protein is produced. Do not use descriptions like "p.Met1Thr", this is for sure **not** the consequence of the effect on protein translation
 	*	unknown
-	:	LRG\_199p1:p.Met1?
+	:	LRG\_199p1:p.(Met1?)
     	:	the consequence, at the protein level, of a variant affecting the translation initiation codon can not be predicted (i.e. is unknown)
 	*	**new translation initiation site**
 		*	**<u>downstream</u>**  -  NP\_003997.1:p.Leu2\_Met124del (deletion)
