@@ -53,10 +53,10 @@ Make sure you have also seen the ([_Basics_](/bg-material/basics/), explaining t
 *	only **approved** [HGNC gene symbols](http://www.genenames.org){:target="\_blank"} should be used to describe genes
 	:	**_NOTE:_**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} to use _**italics**_ to denote genes
 	:	**_NOTE:_**	for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/){:target="\_blank"}, written with the involvement of the HGNC
-* HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} and the [_VICC Gene Fusion Nomenclature_](https://fusions.cancervariants.org/en/latest){:target="\_blank"} to describe products of gene fusions
+* HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/){:target="\_blank"} and the [VICC Gene Fusion Nomenclature](https://fusions.cancervariants.org/en/latest){:target="\_blank"} to describe products of gene fusions
     *   The HGNC recommendations include using a GENESYMBOL1::GENESYMBOL2 syntax for gene-level fusion descriptions, and GENESYMBOL1-GENESYMBOL2 syntax for read-through transcripts
     *   The VICC nomenclature extends the HGNC recommendations to include a terminology, information model, and nomenclature for gene-level and exon-level representation, with components for disambiguating regulatory fusions from chimeric transcript fusions
-  	*   HGVS also recommends the use of [adjoined transcript segments](RNA/variant/splicing.html) for precise and unambiguous characterization of chimeric transcripts at the sequence level
+    *   HGVS also recommends the use of [adjoined transcript segments](../RNA/variant/splicing/) for precise and unambiguous characterization of chimeric transcripts at the sequence level
 
 * * *
 <a name="characters"></a>
