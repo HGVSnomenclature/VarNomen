@@ -4,6 +4,8 @@ title: SVD-WG007
 category: SVD-WG
 ---
 
+**NOTE:** We have updated our glossary and nomenclature to align with the [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest){:target="\_blank"} terminology, and clarify the distinction between chimeric transcript fusions (the biological concept) and adjoined transcript segments (a nomenclature structure). The "fusion transcript" concept adopted in this consultation was relabeled to "adjoined transcript segments" accordingly.
+
 ## Community Consultation
 
 ### Proposal SVD-WG007 (RNA fusion)
