@@ -8,7 +8,7 @@ category: example
 	*	**sequenced**
 		*	NC\_000014.8:g.101179660TG[14]
 		:	a repeated TG di-nucleotide sequence starting at position g.101179660 on human chromosome 14, with 14 TG copies
-		*	NC\_000014.8:g.101179660TG[14];[18]
+		*	NC\_000014.8:g.[101179660TG[14]];[101179660TG[18]]
 		:	a repeated TG di-nucleotide sequence starting at position g.101179660 on human chromosome 14, is present with 14 TG copies on one allele and 18 TG copies on the other allele
 	*	**repeat expansion disorders**
 		*	**sequenced**
