@@ -222,7 +222,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     :   see also **frame**
 
 *	readthrough transcript
-	:	a chimeric transcript where the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
+	:	a chimeric transcript in which the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
 
 *   regulatory fusion
     :   the novel interaction of a regulatory element brought into proximity of a partner gene by a genomic rearrangement, modulating gene product expression of the partner gene.
