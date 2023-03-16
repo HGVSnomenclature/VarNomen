@@ -1,3 +1,7 @@
+# This repo is now archived. Content was converted to markdown and mkdocs in the [HGVSnomenclature/hgvs-nomenclature](https://github.com/HGVSnomenclature/hgvs-nomenclature) repo.
+
+---
+
 ##URL
 http://hgvsnomenclature.github.io/VarNomen/
 http://varnomen.hgvs.org/
