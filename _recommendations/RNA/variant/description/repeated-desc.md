@@ -25,6 +25,7 @@ Format (sequence):   **"prefix""position_repeat_start""repeat_sequence""[""copy_
 
 ### Note
 
+*	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	reference sequences accepted are r. (coding and non-coding RNA).
 *	repeated sequences include both small (mono-, di-, tri-, etc., nucleotide) and larger (kilobase-sized) repeats. 
 *	the format based on **repeat position** is preferred, descriptions of the repeat sequence quickly become too lengthy.

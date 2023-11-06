@@ -6,33 +6,36 @@ category: example
 
 For more examples [_see DNA alleles_](/recommendations/DNA/variant/alleles/).
 
-*	p.[Ser73Arg;Asn603del]
-	: a protein allele contains two different variants, p.Ser73Arg and p.Asn603del. The variants are found **in cis**.
-*	p.[(Ser73Arg;Asn603del)]
-	: a protein allele contains two different predicted variants, p.Ser73Arg and p.Asn603del. The predicted variants are found **in cis**.
-	: _**NOTE**_: the parentheses are placed **inside** of the allele brackets
-	: _**NOTE**_: the description p.([Ser73Arg;Asn103del]) is not correct
-*	p.[Ser73Arg;(Asn603del)]
-	: a protein allele contains two different variants, p.Ser73Arg and predicted variant p.Asn103del. The variants are found **in cis**.
-*	p.[Ser73Arg];[Asn603del]
-	: the two protein alleles each contain a different variant, p.Ser73Arg and p.Asn603del. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
-*	p.[Ser73Arg];[Asn603del]
-	: the two protein alleles each contain a different predicted variant, p.Ser73Arg and p.Asn603del. A **heterozygous** case (compound heterozygote, e.g. in a recessive disease). The variants are found **in trans**.
-	: _**NOTE**_: the parentheses are placed inside of the allele brackets
-	: _**NOTE**_: the description p.([Ser73Arg];[Asn603del]) is not correct
-*	p.[Ser73Arg];[Ser73Arg]
-	: both protein alleles contain the same variant, p.Ser73Arg. A **homozygous** case (e.g. in a recessive disease).
-*	p.[Ser73Arg(;)Asn603del]
-	: two protein variants are found, p.Ser73Arg and p.Asn603del, but it is not known whether they derive from the same or from different alleles (chromosomes).
-*	p.[Ser73Arg(;)Ser73Arg]
-	: analysis detects one variant (p.Ser73Arg), suggesting both protein alleles contain this variants but it can not be excluded the other allele is deleted or not expressed.
-*	p.[Ser73Arg];[Ser73=]
-	: one protein allele contains a variant, p.Ser73Arg, the other protein allele contains the reference sequence, Ser73= (is **wild-type**).
-*	p.[Ser73Arg];[(?)]
-	: one protein allele contains a variant, p.Ser73Arg, while a variant for the other protein allele is expected but not yet identified (p.(?)) (e.g. in individuals affected by a recessive disease).
-*	p.[Asn26His,Ala25\_Gly29del]
-	: two different proteins, p.Asn26His and p.Ala25\_Gly29del, derived from a variant on one chromosome (c.76A>T at the DNA level and r.[76a>c,73_88del] at the RNA level)
-*	p.[Arg83=/Arg83Ser]
-	: a somatic case where a protein allele in some cells contains a normal sequence (Arg83=), while other cells contain a Ser at this position (Arg83Ser)  
-*	p.[Arg83=//Arg83Ser]
-	: a chimeric organism where a protein allele in some cells contain a normal sequence (Arg83=), while other cells contain a protein allele with Ser at this position (Arg83Ser).
+*	**variants on one allele**
+	*	NP\_003997.1:p.[Ser68Arg;Asn594del]
+	:	a protein allele contains two different variants, p.Ser68Arg and p.Asn594del (the variants are found **in cis**)
+	*	NP\_003997.1:p.[(Ser68Arg;Asn594del)]
+	:	a protein allele contains two different **predicted** variants, p.(Ser68Arg) and p.(Asn594del) (the variants are found **in cis**)
+	:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets, the description p.([Ser68Arg;Asn594del]) is not correct
+*	**variants on different alleles**
+	*	**homozygous**
+		*	NP\_003997.1:p.[Ser68Arg];[Ser68Arg]
+		:	two protein alleles contain the same variant, p.Ser68Arg (the variants are found **in trans**, e.g. in a recessive disease)
+		*	NP\_003997.1:p.[(Ser68Arg)];[(Ser68Arg)]
+		:	two protein alleles contain the same variant with a **predicted** consequence p.(Ser68Arg)
+		:	_**NOTE**_: the parentheses are placed **inside** of the allele brackets, the description p.([Ser68Arg];[Ser68Arg]) is not correct
+		*	NP\_003997.1:p.(Ser68Arg)(;)(Ser68Arg)
+		:	a possible homozygous case where one protein allele contains predicted variant p.(Ser68Arg), but where it can not be excluded the other allele is deleted
+	*	**heterozygous**
+		*	NP\_003997.1:p.[Ser68Arg];[Asn594del]
+		:	two protein alleles each contain a different variant, p.Ser68Arg and p.Asn594del (compound heterozygote, e.g. in a recessive disease, the variants are found **in trans**)
+		*	NP\_003997.1:p.[(Ser68Arg)];[?]
+		:	one protein allele contains a variant, with predicted consequence p.(Ser68Arg), while a variant for the other protein allele is expected but not yet identified (p.(?)) (e.g. in individuals affected by a recessive disease).
+		*	NP\_003997.1:p.[Ser68Arg];[Ser68=]
+		:	one protein allele contains a variant, p.Ser68Arg, the other allele contains at this position the reference sequence, Ser68= (is **wild-type**).
+		:	_**NOTE**_: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. (based on [_Proposal SVD-WG001_](http://varnomen.hgvs.org/bg-material/consultation/svd-wg001/)).
+		:	_**NOTE**_: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
+	*	**allele unknown**
+		*	NP\_003997.1:p.(Ser68Arg)(;)(Asn594del)
+		:	two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they are on the same or on different alleles (chromosomes).
+		:	_**NOTE**_: when it is not known on which allele a variant is, allele brackets are not used
+		*	NP\_003997.2:p.[(Asn158Asp)(;)(Asn158Ile)]^[(Asn158Val)]
+		:	for the variants NM\_004006.3:c.472A>G and c.473A>T it is not known whether they are on the same or on different alleles (chromosomes). The predicted consequence when the variants are on different alleles is p.(Asn158Asp)(;)(Asn158Ile), when the variants are on the same allele (i.e. c.472_473delinsGT) the predicted consequence is p.(Asn158Val). To discriminate between the two possibilities square brackets need to be used.
+*	**one allele encoding two proteins**
+	*	NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]
+		:	two different proteins, p.Lys31Asn and p.Val25\_Lys31del, derive from a variant on one allele (c.93G>T at the DNA level with r.[83g>u,73\_93del] at the RNA level).
