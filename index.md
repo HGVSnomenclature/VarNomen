@@ -45,7 +45,7 @@ main: true
 
 <div class="container">
     <div class="row">
-        <h2>Current Recommendation.</h2>
+        <h2>Current Recommendation</h2>
         {% include recs/recs-panel.html %}
     </div>
 
