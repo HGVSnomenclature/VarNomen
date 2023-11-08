@@ -2,6 +2,7 @@
 layout: default
 title: Versioning
 permalink: /versioning/
+redirect_to: https://hgvs-nomenclature.org/en/latest/background/versioning/
 ---
 
 # {{ page.title }}
