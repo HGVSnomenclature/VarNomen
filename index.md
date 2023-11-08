@@ -36,7 +36,7 @@ main: true
             <div>
                 <h2>Contact Us</h2>
                 <p>
-                Discussions regarding HGVS nomenclature are necessary in order to further improve them. What is listed on these pages represents the current consensus of the recommendations. We invite everybody to send us question, comments or examples of cases that are not yet covered, with a suggestion of how to describe these (<span class="glyphicon glyphicon-envelope"></span> <u>E-mail:</u> VarNomen @ HUGO-int.org (remove spaces). For questions regarding the description of variants, do not forget to mention the <b>reference sequence</b> used!!
+                Discussions regarding HGVS nomenclature are necessary in order to further improve them. What is listed on these pages represents the current consensus of the recommendations. We invite everybody to send us question, comments or examples of cases that are not yet covered, with a suggestion of how to describe these (<span class="glyphicon glyphicon-envelope"></span> <u>E-mail:</u> VarNomen @ HUGO-int.org (remove spaces). For questions regarding the description of variants, do not forget to mention the <b>reference sequence</b> used.
                 </p>
             </div>
         </div>
@@ -45,7 +45,7 @@ main: true
 
 <div class="container">
     <div class="row">
-        <h2>Current Recommendations</h2>
+        <h2>Current Recommendation.</h2>
         {% include recs/recs-panel.html %}
     </div>
 
