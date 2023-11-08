@@ -81,3 +81,5 @@ For issues currently discussed see [_Open for Community Consultation_](/bg-mater
 	:	to clarify a variant described at the protein level is a prediction, without experimental evidence, the recommendation was added to describe the predicted consequence in parentheses, like p.(Arg12Gly). 
 *   _**Repeated sequences**_
 	:	recommendations were made to describe variability in repeated sequences (mono-, di-, tri- residue stretches, etc. [_see Repeated sequences_](/recommendations/DNA/variant/repeated)).
+
+†
