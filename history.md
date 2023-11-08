@@ -2,6 +2,7 @@
 layout: default-md
 title: History
 permalink: /history/
+redirect_to: https://hgvs-nomenclature.org/en/latest/background/history/
 ---
 
 # {{ page.title }}
