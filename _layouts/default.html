@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-    {% include head.html %}
+{% include head.html %}
 
-    <body>
+<body>
 
-        {% include header.html %}
-            
-            {% if page.main %}
-                {{ content }}
-            {% else %}
-                <div class="container">
-                {% if page.last-modified %}
-                    <div class="last-modified pull-right">
-                        Last modified: {{ page.last-modified }}
-                    </div>
-                {% endif %}
-                    {{ content }}
-                </div>
-            {% endif %}
+    {% include header.html %}
 
-        {% include footer.html %}
+    <div class="banner">
+        <span style="font-size: larger; font-weight: bold">We're Moving!</span>
+        <br/>
+        The HGVS Nomenclature has been updated and will be moving to <a
+        href="https://hgvs-nomenclature.org/">https://hgvs-nomenclature.org/</a>
+        on January 1, 2024.
+    </div>
 
-    </body>
+    {% if page.main %}
+    {{ content }}
+    {% else %}
+    <div class="container">
+        {% if page.last-modified %}
+        <div class="last-modified pull-right">
+            Last modified: {{ page.last-modified }}
+        </div>
+        {% endif %}
+        {{ content }}
+    </div>
+    {% endif %}
+
+    {% include footer.html %}
+
+</body>
 
 </html>
