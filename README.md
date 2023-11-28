@@ -2,18 +2,21 @@
 
 ---
 
-##URL
+## URL
+
 http://hgvsnomenclature.github.io/VarNomen/
 http://varnomen.hgvs.org/
 
-##To run:
+## To run
 
 1. Install [jekyll](http://jekyllrb.com/docs/installation/)
-2. Start cmd with Ruby and navigate to folder dir
+2. `gem install --user-install jekyll-redirect-from`
+    - On Ubuntu, you'll need to `apt install ruby-dev`
 3. Run command `jekyll serve --baseurl "" --watch`
 4. Browser URL: localhost:4000
 
-##_config.yml
+## config.yml
+
 Contains important global site attributes
 
 |Attribute          |Description
@@ -27,14 +30,18 @@ Contains important global site attributes
 |collections        |File directories that contain pages for Jekyll to markup
 |variant-priority   |Used when generating order of variants in site structure and display <br> Case-sensitive - use lowercase
 
-##All pages
-###Front matter
+## All pages
+
+### Front matter
+
 last-modified: `date`
 Date the page was last modifed. Marked up as "Last modifed: `date`"
 
 
-##Recommendation pages
-###Folder Structure
+## Recommendation pages
+
+### Folder Structure
+
 |Folder                                                                                 |Contents
 |---                                                                                    |---
 |/_recommendations                                                                      |Root
@@ -54,7 +61,8 @@ Date the page was last modifed. Marked up as "Last modifed: `date`"
 
 >NOTE: variant YAML attributes must be listed in _config.yml under the "variant-priority" list (case-sensitive).
 
-##Background Material pages
+## Background Material pages
+
 Root: /_bg-material/
 
 All files maintained as markdown files
