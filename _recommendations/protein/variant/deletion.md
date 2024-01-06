@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/protein/deletion/
 layout: recommendation
 parent: Protein
 title: deletion

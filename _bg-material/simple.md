@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/simple/
 layout: default-md
 title: HGVS Simple
 order: 5

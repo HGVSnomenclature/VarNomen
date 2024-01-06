@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/protein/repeated/
 layout: recommendation
 parent: Protein
 title: repeated sequences

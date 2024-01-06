@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/checklist/
 layout: default-md
 title: Checklist
 order: 7

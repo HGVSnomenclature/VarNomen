@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/uncertain/
 layout: default-md
 title: Uncertain
 order: 6

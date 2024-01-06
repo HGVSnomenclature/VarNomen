@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/consultation/ISCN/
 layout: default-md
 title: ISCN
 category: SVD-WG

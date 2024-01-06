@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/DNA/other/
 layout: recommendation
 parent: DNA
 title: other

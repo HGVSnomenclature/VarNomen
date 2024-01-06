@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/consultation/open-issues/
 layout: default-md
 title: Open Issues
 order: 8

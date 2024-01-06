@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/history/
 layout: default-md
 title: History
 permalink: /history/

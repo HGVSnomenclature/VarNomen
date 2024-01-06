@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/consultation/SVD-WG007/
 layout: default-md
 title: SVD-WG007
 category: SVD-WG

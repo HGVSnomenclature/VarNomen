@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/RNA/delins/
 layout: recommendation
 parent: RNA
 title: deletion-insertion

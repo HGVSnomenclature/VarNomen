@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/versioning/
 layout: default
 title: Versioning
 permalink: /versioning/

@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org
 layout: recommendation
 parent: protein
 title: conversion

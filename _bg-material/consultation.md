@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/consultation/
 layout: default-md
 title: Community Consultation
 order: 5

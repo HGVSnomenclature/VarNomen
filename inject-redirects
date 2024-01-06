@@ -1,0 +1,74 @@
+#!/bin/bash
+# inject redirects into all markdown files
+# for migration from varnomen.hgvs.org to hgvs-nomenclature.org
+# requires jekyll-redirect-from in _config.yml (otherwise ignored)
+
+base_url=https://hgvs-nomenclature.org
+
+(
+IFS=$'\t'
+while read f r; do
+    sed -i -e "2iredirect_to: $base_url${r?-/}" "$f"
+done
+) <<EOF 
+_bg-material/basics.md	/background/basics/
+_bg-material/consultation.md	/consultation/
+_bg-material/consultation/ISCN.md	/consultation/ISCN/
+_bg-material/consultation/svd-wg001.md	/consultation/SVD-WG001/
+_bg-material/consultation/svd-wg002.md	/consultation/SVD-WG002/
+_bg-material/consultation/svd-wg003.md	/consultation/SVD-WG003/
+_bg-material/consultation/svd-wg004.md	/consultation/SVD-WG004/
+_bg-material/consultation/svd-wg005.md	/consultation/SVD-WG005/
+_bg-material/consultation/svd-wg006.md	/consultation/SVD-WG006/
+_bg-material/consultation/svd-wg007.md	/consultation/SVD-WG007/
+_bg-material/consultation/svd-wg008.md	/consultation/SVD-WG008/
+_bg-material/consultation/svd-wg009.md	/consultation/SVD-WG009/
+_bg-material/consultation/svd-wg010.md	/consultation/SVD-WG010/
+_bg-material/edumaterial.md	/background/edumaterial/
+_bg-material/glossary.md	/background/glossary/
+_bg-material/numbering.md	/background/numbering/
+_bg-material/refseq.md	/background/refseq/
+_bg-material/simple.md	/background/simple/
+_bg-material/standards.md	/background/standards/
+_recommendations/checklist.md	/recommendations/checklist/
+_recommendations/DNA/index.md	
+_recommendations/DNA/variant/alleles.md	/recommendations/DNA/alleles/
+_recommendations/DNA/variant/complex.md	/recommendations/DNA/complex/
+_recommendations/DNA/variant/conversion.md	
+_recommendations/DNA/variant/deletion.md	/recommendations/DNA/deletion/
+_recommendations/DNA/variant/delins.md	/recommendations/DNA/delins/
+_recommendations/DNA/variant/duplication.md	/recommendations/DNA/duplication/
+_recommendations/DNA/variant/insertion.md	/recommendations/DNA/insertion/
+_recommendations/DNA/variant/inversion.md	/recommendations/DNA/inversion/
+_recommendations/DNA/variant/other.md	/recommendations/DNA/other/
+_recommendations/DNA/variant/repeated.md	/recommendations/DNA/repeated/
+_recommendations/DNA/variant/substitution.md	/recommendations/DNA/substitution/
+_recommendations/general.md	/recommendations/general/
+_recommendations/open-issues.md	/consultation/open-issues/
+_recommendations/protein/variant/alleles.md	/recommendations/protein/alleles/
+_recommendations/protein/variant/conversion.md	
+_recommendations/protein/variant/deletion.md	/recommendations/protein/deletion/
+_recommendations/protein/variant/delins.md	/recommendations/protein/delins/
+_recommendations/protein/variant/duplication.md	/recommendations/protein/duplication/
+_recommendations/protein/variant/extension.md	/recommendations/protein/extension/
+_recommendations/protein/variant/frameshift.md	/recommendations/protein/frameshift/
+_recommendations/protein/variant/insertion.md	/recommendations/protein/insertion/
+_recommendations/protein/variant/repeated.md	/recommendations/protein/repeated/
+_recommendations/protein/variant/substitution.md	/recommendations/protein/substitution/
+_recommendations/RNA/variant/alleles.md	/recommendations/RNA/alleles/
+_recommendations/RNA/variant/conversion.md	
+_recommendations/RNA/variant/deletion.md	/recommendations/RNA/deletion/
+_recommendations/RNA/variant/delins.md	/recommendations/RNA/delins/
+_recommendations/RNA/variant/duplication.md	/recommendations/RNA/duplication/
+_recommendations/RNA/variant/insertion.md	/recommendations/RNA/insertion/
+_recommendations/RNA/variant/inversion.md	/recommendations/RNA/inversion/
+_recommendations/RNA/variant/repeated.md	/recommendations/RNA/repeated/
+_recommendations/RNA/variant/splicing.md	/recommendations/RNA/splicing/
+_recommendations/RNA/variant/substitution.md	/recommendations/RNA/substitution/
+_recommendations/uncertain.md	/recommendations/uncertain/
+history.md	/background/history/
+HVNC.md	/hvnc/
+index.md	/
+recent.md	/versions/
+versioning.md	/background/versioning/
+EOF

@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/glossary/
 layout: default
 title: Glossary
 order: 7

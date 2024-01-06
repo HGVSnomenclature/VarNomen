@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/edumaterial/
 layout: default-md
 title: Educational Material
 order: 6

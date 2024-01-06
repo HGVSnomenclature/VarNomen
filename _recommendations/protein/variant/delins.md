@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/protein/delins/
 layout: recommendation
 parent: Protein
 title: deletion-insertion

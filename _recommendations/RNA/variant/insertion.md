@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/RNA/insertion/
 layout: recommendation
 parent: RNA
 title: insertion

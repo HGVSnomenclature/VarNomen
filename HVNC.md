@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/hvnc/
 layout: default-md
 title: HVNC
 permalink: /HVNC/

@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/general/
 layout: default-md
 title: General
 order: 1
