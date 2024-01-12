@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-    {% include head.html %}
+{% include head.html %}
 
-    <body>
+<body>
 
-        {% include header.html %}
-            
-            {% if page.main %}
-                {{ content | markdownify }}
-            {% else %}
-                <div class="container">
-                    {% if page.last-modified %}
-                    <div class="last-modified pull-right">
-                        Last modified: {{ page.last-modified }}
-                    </div>
-                    {% endif %}
-                    {{ content | markdownify }}
-                </div>
-            {% endif %}
+    {% include header.html %}
 
-        {% include footer.html %}
+    <div class="banner">
+        <span style="font-size: larger; font-weight: bold">We've moved!
+            The HGVS Nomenclature is now at <a
+                href="https://hgvs-nomenclature.org/">https://hgvs-nomenclature.org/</a>.</span>
+        <br />
+        This site contains an archive of varnomen.hgvs.org and is no longer maintained.
+    </div>
 
-    </body>
+
+    {% if page.main %}
+    {{ content | markdownify }}
+    {% else %}
+    <div class="container">
+        {% if page.last-modified %}
+        <div class="last-modified pull-right">
+            Last modified: {{ page.last-modified }}
+        </div>
+        {% endif %}
+        {{ content | markdownify }}
+    </div>
+    {% endif %}
+
+    {% include footer.html %}
+
+</body>
 
 </html>
