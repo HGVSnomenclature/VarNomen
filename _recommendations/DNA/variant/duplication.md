@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/DNA/duplication/
 layout: recommendation
 parent: DNA
 title: duplication

@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/DNA/repeated/
 layout: recommendation
 parent: DNA
 title: repeated sequences

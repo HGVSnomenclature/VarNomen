@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/consultation/SVD-WG010/
 layout: default-md
 title: SVD-WG010
 category: SVD-WG

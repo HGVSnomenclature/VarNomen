@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/RNA/alleles/
 layout: recommendation
 parent: RNA
 title: alleles

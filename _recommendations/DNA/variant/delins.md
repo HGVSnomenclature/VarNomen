@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/DNA/delins/
 layout: recommendation
 parent: DNA
 title: deletion-insertion

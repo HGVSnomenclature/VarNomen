@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/RNA/substitution/
 layout: recommendation
 parent: RNA
 title: substitution

@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/protein/frameshift/
 layout: recommendation
 parent: Protein
 title: frame shift

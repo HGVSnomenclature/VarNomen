@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/refseq/
 layout: default-md
 title: Reference Sequences
 order: 2

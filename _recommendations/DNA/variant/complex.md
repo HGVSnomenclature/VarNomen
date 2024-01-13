@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/DNA/complex/
 layout: recommendation
 parent: DNA
 title: complex (HGVS/ISCN)

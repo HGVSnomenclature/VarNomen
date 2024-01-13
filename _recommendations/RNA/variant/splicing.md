@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/recommendations/RNA/splicing/
 layout: recommendation
 parent: RNA
 title: splicing

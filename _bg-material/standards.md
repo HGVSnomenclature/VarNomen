@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/standards/
 layout: default
 title: Standards
 order: 3

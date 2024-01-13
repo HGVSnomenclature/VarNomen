@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/basics/
 layout: default-md
 title: Basics
 order: 1

@@ -1,4 +1,5 @@
 ---
+redirect_to: https://hgvs-nomenclature.org/background/numbering/
 layout: default-md
 title: Numbering
 order: 4
